@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# change max file opened for ingress controller
+
+if [[ `cat /etc/security/limits.conf | grep 65535 | wc -l` -gt 0 ]]; then
+    sed -i "57,58d" /etc/security/limits.conf
+fi
+
+# change network performance settings
+
+if [[ `cat /etc/sysctl.conf | grep 16777216 | wc -l` -gt 0 ]]; then
+    sed -i "61,74d" /etc/sysctl.conf
+    sysctl -p
+fi

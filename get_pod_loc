@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for n in `ku get pod | grep Running | awk '{print $1}'`; do
+    host=`ku describe pod $n | grep "^Node:" | awk '{print $2}'`
+    echo $host $n
+done

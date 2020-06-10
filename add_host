@@ -1,0 +1,10 @@
+#!/bin/bash
+
+yoj-ingress-svc.zihchdomains.com
+
+sed -i "/yoj-ingress-svc.zihchdomains.com/d" /etc/hosts
+echo 10.0.51.65 yoj-ingress-svc.zihchdomains.com >> /etc/hosts
+
+sed -i "/yoj-lb-ingress-svc.zihchdomains.com/d" /etc/hosts
+echo 10.12.0.6 yoj-lb-ingress-svc.zihchdomains.com >> /etc/hosts
+
