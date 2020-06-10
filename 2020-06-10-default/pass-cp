@@ -1,0 +1,3 @@
+#!/bin/bash
+
+scp -oStrictHostKeyChecking=no -oCheckHostIP=no $1 azureuser@${2}:/tmp/cmd
