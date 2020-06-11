@@ -1,18 +1,17 @@
-n.sh#!/bin/bash
+#!/bin/bash
 
 set -o xtrace
 pre="2020-06-10-default"
 
-# 这里主要是测试没有任何更改的情况下，app.svc和ingress.svc的性能
+# 这里主要是测试没有任何更改的情况下，app.svc在不同的客户端情况下的性能
 
-for pod in 400 380 340 300 280 240 200 160 120 80 40 20 10; do
+for pod in 400 200 100 10 10; do
     # remove logs files on disk
     # sync cache on the os memory
     ku scale --replicas=${pod} deployment/test-default-4
     sleep 60
-
-    for ((i=0;i<4;i++)); do
-
+    for ((i=1;i<=50;i+=3)); do
+        cat box | head -${i} > ips
         date
         echo ${pod} ${i} in this round
 
@@ -23,7 +22,7 @@ for pod in 400 380 340 300 280 240 200 160 120 80 40 20 10; do
         for ((j=0;j<100;j++)); do
            file=${j}
            ku top pod > ${dir}/${file}
-           ku top node > ${dir}/${file}.pod
+           ku top node > ${dir}/${file}.node
            sleep 6
         done
         wait
