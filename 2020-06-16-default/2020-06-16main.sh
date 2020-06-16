@@ -19,16 +19,17 @@ for pod in 400 200 100 10 10; do
         echo ${pod} ${i} in this round
 
         # 只调用pod svc, 由于pod在客户端增加到一定程度之后不再增长，所以以这里不需要要再做这个实验
-        dir="${pre}.pod-svc.${i}.${pod}"
-        ./2020-06-16-main.pod.svc.sh ${dir}
-        sleep 30
-        for ((j=0;j<100;j++)); do
-           file=${j}
-           ku top pod > ${dir}/${file}
-           ku top node > ${dir}/${file}.node
-           sleep 6
-        done
-        wait
+        #dir="${pre}.pod-svc.${i}.${pod}"
+        #./2020-06-16-main.pod.svc.sh ${dir}
+        #sleep 30
+        #for ((j=0;j<100;j++)); do
+        #   file=${j}
+        #   ku top pod > ${dir}/${file}
+        #   ku top node > ${dir}/${file}.node
+        #   sleep 6
+        #done
+        #wait
+
         /root/init_app_box.sh
 
         # 只调用ingress svc, 采用default configmap的配置
@@ -36,6 +37,7 @@ for pod in 400 200 100 10 10; do
         dir="${pre}.ingress.svc.${i}.${pod}"
         ./2020-06-16-main.just.ingress.svc.sh ${dir}
         sleep 30
+
         for ((j=0;j<100;j++)); do
            file=${j}
            ku top pod > ${dir}/${file}
