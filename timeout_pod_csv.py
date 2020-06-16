@@ -38,7 +38,7 @@ for clients in k:
 
     for appPods in t:
         ts = '%s' % appPods
-        v = cd[ts]
-        print('%s,' % v),
+        v = int(cd[ts])
+        print('%s,' % (v / 600.0)),
     print('')
 

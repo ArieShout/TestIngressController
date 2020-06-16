@@ -6,13 +6,13 @@ D = {
 with open(sys.argv[1], 'r') as f:
     lines = f.readlines()
     for line in lines:
-        if line.find('pod-svc') != -1:
+        if line.find('ingress.svc') != -1:
             line = line.strip()
             words = line.split()
             ws = words[0].split('.')
             val = words[1]
-            client = ws[2]
-            pod = ws[3]
+            client = ws[3]
+            pod = ws[4]
 
             cd = D.get(client, {})
             cd[pod] = val
