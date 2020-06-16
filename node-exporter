@@ -21,6 +21,7 @@ WantedBy=multi-user.target
 EOF
     systemctl daemon-reload
     systemctl start node-exporter
+    systemctl enable node-exporter
     ps aux | grep node-exporter
 fi
 
