@@ -1,0 +1,2 @@
+nohup ulimit -n 200000 && wrk -t 15 -c 4500 -d 600s --latency http://10.0.63.193:1025 > tee /tmp/wrk.client.log 2>&1 &
+
