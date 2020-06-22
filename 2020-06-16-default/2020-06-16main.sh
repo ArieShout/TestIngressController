@@ -7,13 +7,13 @@ pre="2020-06-16-default"
 # 做这个测试的原因是，在1-50个节点的情况下，发现ingress.svc的性能在随着node数量增加的情况下
 # 看一下性能是不是还会涨?
 
-for pod in 400 200 100 10 10; do
+for pod in 400 200 100 10; do
     # remove logs files on disk
     # sync cache on the os memory
     /root/init_app_box.sh
     ku scale --replicas=${pod} deployment/test-default-4
     sleep 60
-    for ((i=48;i<=80;i+=2)); do
+    for ((i=2;i<=80;i+=2)); do
         cat box | head -${i} > ips
         date
         echo ${pod} ${i} in this round
