@@ -48,12 +48,10 @@ for i in id_list:
     with open(file_name, 'r') as f:
         lines = f.readlines()
         for line in lines:
-            if line.find('nginx') == -1 and line.find('test-default-4') == -1:
-                continue
-            # 把句子分成三个部分
-            words = line.split()
-            pod_name = words[0]
-            pod_name_list.add(pod_name)
+            if line.find('nginx') != -1:
+                words = line.split()
+                pod_name = words[0]
+                pod_name_list.add(pod_name)
 
 
 # 给列表排个序
@@ -68,15 +66,14 @@ for i in id_list:
     with open(file_name, 'r') as f:
         lines = f.readlines()
         for line in lines:
-            if line.find('nginx') == -1 and line.find('test-default-4') == -1:
-                continue
-            # 把句子分成三个部分
-            words = line.split()
-            pod_name = words[0]
-            cpu = words[1].replace('m', '')
-            # 内存的暂时不要
-            # mem = words[2].replace('Mi', '')
-            D[pod_name] = cpu
+            if line.find('nginx') != -1:
+                # 把句子分成三个部分
+                words = line.split()
+                pod_name = words[0]
+                cpu = words[1].replace('m', '')
+                # 内存的暂时不要
+                # mem = words[2].replace('Mi', '')
+                D[pod_name] = cpu
 
     # 输出是第几次采样
     print  "%s," % i,
