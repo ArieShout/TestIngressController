@@ -1,0 +1,14 @@
+Running 10m test @ http://yoj-ingress-svc.zihchdomains.com
+  1 threads and 300 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   254.34ms  324.90ms   2.00s    81.61%
+    Req/Sec     1.52k   331.31     2.37k    71.49%
+  Latency Distribution
+     50%   84.77ms
+     75%  417.53ms
+     90%  839.14ms
+     99%    1.11s 
+  905184 requests in 10.00m, 2.26GB read
+  Socket errors: connect 0, read 1, write 0, timeout 12941
+Requests/sec:   1508.51
+Transfer/sec:      3.85MB

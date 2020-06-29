@@ -17,7 +17,7 @@ for pod in 400; do
 
     # 这里调整 ingress controller的pod的数量
     for ((i=180;i >= 10;i-=4)); do
-        cat box | head -i > ips
+        cat box | head -${i} > ips
         date
         /root/init_app_box.sh
 
