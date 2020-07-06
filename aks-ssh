@@ -1,0 +1,7 @@
+ #!/bin/bash
+ 
+ # 给定的node打上标签
+  ku label nodes aks-nodepool1-23923939-vmss000000 group=ssh
+ 
+ # 创建pod到指定的aks node上面。
+ ku run --generator=run-pod/v1 -it aks-ssh --image=debian --overrides='{"apiVersion": "v1", "spec": {"nodeSelector": { "group": "ssh" }}}'
