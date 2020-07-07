@@ -1,0 +1,4 @@
+cd /var/log/
+truncate -s 0 ./kern.log* ./messages*  ./syslog* ./warn
+sync; echo 3 > /proc/sys/vm/drop_caches
+systemctl start node-exporter
