@@ -3,7 +3,7 @@
 set -e
 
 
-for n in `ls | grep ^2020-06| grep -v 16pod`; do
+for n in `ls | grep ^cons| grep -v 16pod`; do
     if [[ -d ${n} ]]; then
         cd ${n}
         ret=`cat *.log | grep Request | awk '{print $2}' | paste -s -d+ | bc`
