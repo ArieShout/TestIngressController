@@ -33,11 +33,7 @@ int main(int argc, char **argv){
 	inet_pton(AF_INET, ip, &addr.sin_addr);
 
 	char tmp_data[10];
-	int index = 0;
 	while(1){
-		if(++index >= MAX_PORTS){
-			index = 0;
-		}
 		int port = base_port;
 
 		addr.sin_port = htons((short)port);
