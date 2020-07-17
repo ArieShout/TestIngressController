@@ -9,7 +9,7 @@ pre="cons-32-sys"
 # 这里测试一下 sys ingress controller + user ingress controller + user app pod
 # 能够得到的性能
 
-for pod in 700 600 500 400 200 100 50 25 12; do
+for pod in 600 500 400 200 100 50 25 12; do
     # remove logs files on disk
     # sync cache on the os memory
     /root/init_app_box.sh
