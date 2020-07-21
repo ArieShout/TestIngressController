@@ -6781,3 +6781,29543 @@ Transfer/sec:      0.87MB
 + ku top pod
 + ku top node
 + ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=99
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ wait
++ for pod in 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
++ scs nginx-ingress-controller 13
+deployment.apps/nginx-ingress-controller scaled
++ cp -rf box ips
++ date
+Mon Jul 20 09:30:50 UTC 2020
++ dir=https.ingress.svc..13
++ ./2020-06-28-main.just.ingress.svc.sh https.ingress.svc..13
+Warning: Permanently added '10.1.0.56' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.111' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.23' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.34' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.22' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.25' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.28' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.89' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.78' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.45' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.32' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.35' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.41' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.30' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.31' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.29' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.27' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.33' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.67' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.26' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.42' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.37' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.39' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.44' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.38' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.36' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.24' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.43' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.40' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.47' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.60' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.48' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.49' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.59' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.53' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.57' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.52' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.51' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.46' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.54' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.50' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.58' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.63' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.64' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.72' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.73' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.62' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.79' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.80' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.55' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.71' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.61' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.76' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.65' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.70' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.83' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.74' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.66' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.84' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.69' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.68' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.92' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.82' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.97' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.75' (ECDSA) to the list of known hosts.
++ sleep 30
+sh: 1: wrk: not found
+Warning: Permanently added '10.1.0.77' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.81' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.107' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.99' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.95' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.94' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.104' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.91' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.93' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.85' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.88' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.106' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.87' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.103' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.86' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.102' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+Warning: Permanently added '10.1.0.98' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.101' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.105' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.110' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.117' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.109' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.114' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.132' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.108' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.113' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.115' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.118' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.112' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.116' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.133' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.119' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+sh: 1: wrk: not found
++ (( j=0 ))
++ (( j<100 ))
++ file=0
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=1
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=2
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=3
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=4
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=5
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=6
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=7
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=8
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=9
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=10
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=11
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=12
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=13
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=14
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=15
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=16
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=17
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=18
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=19
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=20
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=21
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=22
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=23
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=24
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=25
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=26
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=27
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=28
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=29
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=30
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=31
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=32
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=33
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=34
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=35
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=36
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=37
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=38
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=39
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=40
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=41
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=42
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=43
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=44
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=45
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=46
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=47
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=48
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=49
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=50
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=51
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=52
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=53
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=54
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=55
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=56
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=57
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=58
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=59
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=60
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=61
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=62
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=63
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=64
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=65
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=66
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=67
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=68
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=69
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=70
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=71
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=72
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=73
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=74
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=75
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=76
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=77
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=78
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=79
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=80
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=81
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=82
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.11ms   68.00ms   1.11s    84.67%
+    Req/Sec   306.88    170.96     2.29k    71.55%
+  Latency Distribution
+     50%   51.03ms
+     75%   97.13ms
+     90%  162.64ms
+     99%  265.55ms
+  183281 requests in 10.00m, 479.44MB read
+  Socket errors: connect 0, read 38, write 0, timeout 0
+Requests/sec:    305.47
+Transfer/sec:    818.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    62.56ms   67.21ms   1.13s    84.99%
+    Req/Sec   316.00    184.35     2.35k    71.01%
+  Latency Distribution
+     50%   49.48ms
+     75%   94.25ms
+     90%  158.62ms
+     99%  263.09ms
+  188778 requests in 10.00m, 493.82MB read
+  Socket errors: connect 0, read 45, write 0, timeout 0
+Requests/sec:    314.58
+Transfer/sec:    842.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    60.60ms   66.46ms   1.18s    85.08%
+    Req/Sec   334.58    181.54     1.79k    69.06%
+  Latency Distribution
+     50%   46.55ms
+     75%   91.72ms
+     90%  155.77ms
+     99%  262.38ms
+  199880 requests in 10.00m, 522.86MB read
+  Socket errors: connect 0, read 38, write 0, timeout 0
+Requests/sec:    333.09
+Transfer/sec:      0.87MB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.97ms   68.51ms   1.16s    85.07%
+    Req/Sec   307.19    183.17     1.79k    74.16%
+  Latency Distribution
+     50%   50.83ms
+     75%   95.83ms
+     90%  161.45ms
+     99%  267.77ms
+  183496 requests in 10.00m, 480.00MB read
+  Socket errors: connect 0, read 41, write 0, timeout 0
+Requests/sec:    305.83
+Transfer/sec:    819.20KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    62.54ms   67.53ms   1.13s    84.57%
+    Req/Sec   321.29    174.21     1.27k    70.24%
+  Latency Distribution
+     50%   48.35ms
+     75%   95.57ms
+     90%  160.60ms
+     99%  262.27ms
+  191911 requests in 10.00m, 502.02MB read
+  Socket errors: connect 0, read 37, write 0, timeout 0
+Requests/sec:    319.83
+Transfer/sec:    856.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.76ms   67.98ms   1.17s    84.81%
+    Req/Sec   308.32    170.99     1.19k    72.44%
+  Latency Distribution
+     50%   50.43ms
+     75%   96.68ms
+     90%  160.72ms
+     99%  264.75ms
+  184175 requests in 10.00m, 481.78MB read
+  Socket errors: connect 0, read 39, write 0, timeout 0
+Requests/sec:    306.96
+Transfer/sec:    822.23KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    62.35ms   67.61ms   1.16s    84.70%
+    Req/Sec   323.21    179.65     1.38k    69.49%
+  Latency Distribution
+     50%   48.04ms
+     75%   94.59ms
+     90%  160.20ms
+     99%  264.06ms
+  193078 requests in 10.00m, 505.07MB read
+  Socket errors: connect 0, read 43, write 0, timeout 0
+Requests/sec:    321.78
+Transfer/sec:    861.94KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.09ms   67.75ms 892.96ms   84.47%
+    Req/Sec   307.55    171.66     1.23k    70.57%
+  Latency Distribution
+     50%   50.84ms
+     75%   97.42ms
+     90%  163.13ms
+     99%  265.51ms
+  183724 requests in 10.00m, 480.60MB read
+  Socket errors: connect 0, read 37, write 0, timeout 0
+Requests/sec:    306.18
+Transfer/sec:    820.16KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.36ms   67.43ms   1.13s    84.68%
+    Req/Sec   311.41    176.43     1.23k    71.22%
+  Latency Distribution
+     50%   50.03ms
+     75%   96.08ms
+     90%  160.73ms
+     99%  263.31ms
+  186019 requests in 10.00m, 486.60MB read
+  Socket errors: connect 0, read 36, write 0, timeout 0
+Requests/sec:    310.01
+Transfer/sec:    830.42KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    62.32ms   66.92ms   1.01s    84.91%
+    Req/Sec   318.16    174.53     1.21k    69.97%
+  Latency Distribution
+     50%   49.37ms
+     75%   94.06ms
+     90%  158.46ms
+     99%  262.11ms
+  190062 requests in 10.00m, 497.18MB read
+  Socket errors: connect 0, read 35, write 0, timeout 0
+Requests/sec:    316.74
+Transfer/sec:    848.44KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.36ms   69.30ms   1.12s    84.68%
+    Req/Sec   309.07    173.79     1.11k    69.60%
+  Latency Distribution
+     50%   50.65ms
+     75%   98.05ms
+     90%  164.09ms
+     99%  267.97ms
+  184633 requests in 10.00m, 482.98MB read
+  Socket errors: connect 0, read 40, write 0, timeout 0
+Requests/sec:    307.70
+Transfer/sec:    824.24KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.47ms   68.34ms   1.13s    84.76%
+    Req/Sec   313.57    173.14     1.22k    72.04%
+  Latency Distribution
+     50%   49.61ms
+     75%   95.95ms
+     90%  162.00ms
+     99%  266.64ms
+  187319 requests in 10.00m, 490.00MB read
+  Socket errors: connect 0, read 42, write 0, timeout 0
+Requests/sec:    312.17
+Transfer/sec:    836.19KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    61.88ms   66.66ms 892.74ms   84.56%
+    Req/Sec   325.71    182.32     1.55k    69.80%
+  Latency Distribution
+     50%   47.70ms
+     75%   94.63ms
+     90%  159.23ms
+     99%  263.12ms
+  194540 requests in 10.00m, 508.89MB read
+  Socket errors: connect 0, read 34, write 0, timeout 0
+Requests/sec:    324.22
+Transfer/sec:    868.49KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    62.96ms   67.82ms 984.26ms   84.69%
+    Req/Sec   317.93    170.59     1.28k    68.82%
+  Latency Distribution
+     50%   48.51ms
+     75%   95.06ms
+     90%  161.48ms
+     99%  266.69ms
+  189946 requests in 10.00m, 496.88MB read
+  Socket errors: connect 0, read 40, write 0, timeout 0
+Requests/sec:    316.53
+Transfer/sec:    847.88KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.57ms   69.84ms   1.03s    84.80%
+    Req/Sec   309.24    168.62     1.16k    66.48%
+  Latency Distribution
+     50%   50.26ms
+     75%   97.29ms
+     90%  164.97ms
+     99%  271.59ms
+  184708 requests in 10.00m, 483.17MB read
+  Socket errors: connect 0, read 36, write 0, timeout 0
+Requests/sec:    307.82
+Transfer/sec:    824.55KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    60.57ms   65.35ms   1.09s    85.13%
+    Req/Sec   329.14    182.22     1.22k    68.89%
+  Latency Distribution
+     50%   47.21ms
+     75%   91.44ms
+     90%  153.88ms
+     99%  260.71ms
+  196632 requests in 10.00m, 514.37MB read
+  Socket errors: connect 0, read 39, write 0, timeout 0
+Requests/sec:    327.67
+Transfer/sec:      0.86MB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.22ms   67.56ms   1.13s    85.01%
+    Req/Sec   311.44    174.19     1.09k    70.82%
+  Latency Distribution
+     50%   50.34ms
+     75%   95.58ms
+     90%  159.35ms
+     99%  265.61ms
+  186031 requests in 10.00m, 486.64MB read
+  Socket errors: connect 0, read 37, write 0, timeout 0
+Requests/sec:    310.05
+Transfer/sec:    830.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.19ms   68.54ms   1.11s    84.88%
+    Req/Sec   317.25    174.88     1.38k    69.79%
+  Latency Distribution
+     50%   49.24ms
+     75%   95.30ms
+     90%  162.13ms
+     99%  265.32ms
+  189534 requests in 10.00m, 495.80MB read
+  Socket errors: connect 0, read 32, write 0, timeout 0
+Requests/sec:    315.86
+Transfer/sec:    846.07KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.95ms   69.33ms   1.16s    84.57%
+    Req/Sec   303.72    180.41     1.37k    72.83%
+  Latency Distribution
+     50%   51.88ms
+     75%   98.73ms
+     90%  165.52ms
+     99%  266.86ms
+  181437 requests in 10.00m, 474.62MB read
+  Socket errors: connect 0, read 40, write 0, timeout 0
+Requests/sec:    302.37
+Transfer/sec:    809.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.33ms   69.16ms   1.17s    84.93%
+    Req/Sec   317.40    178.13     1.23k    70.65%
+  Latency Distribution
+     50%   49.22ms
+     75%   95.80ms
+     90%  162.27ms
+     99%  267.47ms
+  189591 requests in 10.00m, 495.95MB read
+  Socket errors: connect 0, read 28, write 0, timeout 0
+Requests/sec:    315.94
+Transfer/sec:    846.30KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    62.74ms   67.77ms   1.01s    85.27%
+    Req/Sec   314.99    172.99     1.06k    69.72%
+  Latency Distribution
+     50%   49.90ms
+     75%   94.72ms
+     90%  158.33ms
+     99%  265.55ms
+  188157 requests in 10.00m, 492.20MB read
+  Socket errors: connect 0, read 40, write 0, timeout 0
+Requests/sec:    313.59
+Transfer/sec:    839.99KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.15ms   68.25ms   1.11s    84.94%
+    Req/Sec   305.35    163.21     1.16k    68.88%
+  Latency Distribution
+     50%   50.83ms
+     75%   96.21ms
+     90%  162.06ms
+     99%  266.82ms
+  182423 requests in 10.00m, 477.20MB read
+  Socket errors: connect 0, read 39, write 0, timeout 0
+Requests/sec:    303.99
+Transfer/sec:    814.29KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.50ms   69.14ms   1.17s    85.07%
+    Req/Sec   313.65    178.10     1.30k    70.49%
+  Latency Distribution
+     50%   49.70ms
+     75%   96.23ms
+     90%  161.26ms
+     99%  267.13ms
+  187369 requests in 10.00m, 490.14MB read
+  Socket errors: connect 0, read 37, write 0, timeout 0
+Requests/sec:    312.24
+Transfer/sec:    836.37KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.60ms   68.30ms   1.00s    84.99%
+    Req/Sec   310.64    177.63     1.16k    70.29%
+  Latency Distribution
+     50%   50.43ms
+     75%   95.88ms
+     90%  160.96ms
+     99%  266.76ms
+  185580 requests in 10.00m, 485.46MB read
+  Socket errors: connect 0, read 39, write 0, timeout 0
+Requests/sec:    309.28
+Transfer/sec:    828.47KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.30ms   68.21ms   1.17s    84.49%
+    Req/Sec   306.59    171.40     1.33k    71.99%
+  Latency Distribution
+     50%   51.12ms
+     75%   97.26ms
+     90%  163.79ms
+     99%  265.92ms
+  183165 requests in 10.00m, 479.14MB read
+  Socket errors: connect 0, read 43, write 0, timeout 0
+Requests/sec:    305.23
+Transfer/sec:    817.61KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.36ms   68.77ms   1.16s    85.39%
+    Req/Sec   311.25    171.97     1.26k    72.59%
+  Latency Distribution
+     50%   50.20ms
+     75%   94.78ms
+     90%  159.09ms
+     99%  268.67ms
+  185967 requests in 10.00m, 486.47MB read
+  Socket errors: connect 0, read 38, write 0, timeout 0
+Requests/sec:    309.90
+Transfer/sec:    830.12KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    65.64ms   70.53ms   1.17s    84.27%
+    Req/Sec   304.23    179.21     1.11k    71.09%
+  Latency Distribution
+     50%   50.78ms
+     75%   99.73ms
+     90%  168.91ms
+     99%  269.46ms
+  181717 requests in 10.00m, 475.35MB read
+  Socket errors: connect 0, read 41, write 0, timeout 0
+Requests/sec:    302.86
+Transfer/sec:    811.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    65.55ms   69.83ms   1.16s    84.57%
+    Req/Sec   300.42    171.60     1.43k    72.54%
+  Latency Distribution
+     50%   51.87ms
+     75%   99.16ms
+     90%  167.00ms
+     99%  269.20ms
+  179455 requests in 10.00m, 469.43MB read
+  Socket errors: connect 0, read 34, write 0, timeout 0
+Requests/sec:    299.07
+Transfer/sec:    801.12KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.26ms   68.58ms   1.13s    84.99%
+    Req/Sec   315.63    180.41     1.39k    69.19%
+  Latency Distribution
+     50%   49.34ms
+     75%   95.39ms
+     90%  160.99ms
+     99%  267.50ms
+  188561 requests in 10.00m, 493.25MB read
+  Socket errors: connect 0, read 36, write 0, timeout 0
+Requests/sec:    314.22
+Transfer/sec:    841.70KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.94ms   68.52ms   1.12s    84.71%
+    Req/Sec   310.44    173.23     1.22k    71.49%
+  Latency Distribution
+     50%   50.11ms
+     75%   96.85ms
+     90%  163.28ms
+     99%  266.87ms
+  185446 requests in 10.00m, 485.10MB read
+  Socket errors: connect 0, read 35, write 0, timeout 0
+Requests/sec:    309.06
+Transfer/sec:    827.87KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.51ms   67.20ms   1.17s    84.58%
+    Req/Sec   309.98    174.45     1.31k    72.57%
+  Latency Distribution
+     50%   50.19ms
+     75%   96.27ms
+     90%  161.52ms
+     99%  264.11ms
+  185190 requests in 10.00m, 484.44MB read
+  Socket errors: connect 0, read 40, write 0, timeout 0
+Requests/sec:    308.64
+Transfer/sec:    826.74KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.79ms   69.18ms   1.11s    84.48%
+    Req/Sec   306.48    173.62     1.53k    72.59%
+  Latency Distribution
+     50%   50.58ms
+     75%   97.64ms
+     90%  166.72ms
+     99%  268.63ms
+  183102 requests in 10.00m, 478.97MB read
+  Socket errors: connect 0, read 39, write 0, timeout 0
+Requests/sec:    305.16
+Transfer/sec:    817.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    65.43ms   69.87ms   1.13s    84.88%
+    Req/Sec   298.78    162.32     1.10k    69.90%
+  Latency Distribution
+     50%   52.42ms
+     75%   98.57ms
+     90%  164.73ms
+     99%  269.04ms
+  178476 requests in 10.00m, 466.87MB read
+  Socket errors: connect 0, read 34, write 0, timeout 0
+Requests/sec:    297.46
+Transfer/sec:    796.79KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.21ms   67.56ms   1.11s    84.84%
+    Req/Sec   312.76    179.44     1.41k    73.06%
+  Latency Distribution
+     50%   49.90ms
+     75%   95.78ms
+     90%  160.40ms
+     99%  264.68ms
+  186832 requests in 10.00m, 488.73MB read
+  Socket errors: connect 0, read 39, write 0, timeout 0
+Requests/sec:    311.38
+Transfer/sec:    834.09KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.44ms   68.88ms   1.16s    84.80%
+    Req/Sec   315.75    185.07     1.51k    74.13%
+  Latency Distribution
+     50%   49.30ms
+     75%   96.72ms
+     90%  161.39ms
+     99%  268.26ms
+  188636 requests in 10.00m, 493.45MB read
+  Socket errors: connect 0, read 40, write 0, timeout 0
+Requests/sec:    314.35
+Transfer/sec:    842.04KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    66.84ms   69.50ms 985.10ms   84.29%
+    Req/Sec   289.97    168.79     1.21k    70.96%
+  Latency Distribution
+     50%   54.00ms
+     75%  100.34ms
+     90%  169.89ms
+     99%  269.54ms
+  173250 requests in 10.00m, 453.20MB read
+  Socket errors: connect 0, read 40, write 0, timeout 0
+Requests/sec:    288.70
+Transfer/sec:    773.34KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.47ms   68.15ms   1.09s    84.69%
+    Req/Sec   303.49    172.34     1.30k    71.54%
+  Latency Distribution
+     50%   51.81ms
+     75%   97.35ms
+     90%  162.48ms
+     99%  266.55ms
+  181318 requests in 10.00m, 474.31MB read
+  Socket errors: connect 0, read 37, write 0, timeout 0
+Requests/sec:    302.15
+Transfer/sec:    809.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.23ms   69.45ms   1.17s    84.80%
+    Req/Sec   310.01    179.76     1.42k    71.13%
+  Latency Distribution
+     50%   50.11ms
+     75%   97.59ms
+     90%  164.39ms
+     99%  266.54ms
+  185195 requests in 10.00m, 484.45MB read
+  Socket errors: connect 0, read 38, write 0, timeout 0
+Requests/sec:    308.64
+Transfer/sec:    826.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.00ms   67.96ms   1.12s    84.68%
+    Req/Sec   317.75    186.00     1.21k    70.17%
+  Latency Distribution
+     50%   49.65ms
+     75%   95.46ms
+     90%  161.67ms
+     99%  265.25ms
+  189804 requests in 10.00m, 496.50MB read
+  Socket errors: connect 0, read 36, write 0, timeout 0
+Requests/sec:    316.32
+Transfer/sec:    847.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.06ms   68.50ms   1.16s    84.87%
+    Req/Sec   317.75    178.41     1.23k    71.99%
+  Latency Distribution
+     50%   49.30ms
+     75%   95.29ms
+     90%  161.69ms
+     99%  265.17ms
+  189831 requests in 10.00m, 496.58MB read
+  Socket errors: connect 0, read 38, write 0, timeout 0
+Requests/sec:    316.36
+Transfer/sec:    847.42KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.59ms   68.43ms   1.16s    85.16%
+    Req/Sec   309.78    172.19     1.12k    71.86%
+  Latency Distribution
+     50%   51.17ms
+     75%   95.47ms
+     90%  160.60ms
+     99%  266.35ms
+  185062 requests in 10.00m, 484.10MB read
+  Socket errors: connect 0, read 37, write 0, timeout 0
+Requests/sec:    308.42
+Transfer/sec:    826.16KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.09ms   68.43ms   1.11s    84.74%
+    Req/Sec   318.37    168.20     1.12k    66.50%
+  Latency Distribution
+     50%   48.91ms
+     75%   95.62ms
+     90%  161.69ms
+     99%  266.71ms
+  190207 requests in 10.00m, 497.56MB read
+  Socket errors: connect 0, read 34, write 0, timeout 0
+Requests/sec:    316.98
+Transfer/sec:    849.09KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.69ms   69.55ms   1.13s    84.67%
+    Req/Sec   307.09    179.97     1.37k    73.12%
+  Latency Distribution
+     50%   50.81ms
+     75%   98.47ms
+     90%  164.74ms
+     99%  270.44ms
+  183417 requests in 10.00m, 479.80MB read
+  Socket errors: connect 0, read 42, write 0, timeout 0
+Requests/sec:    305.68
+Transfer/sec:    818.82KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    62.44ms   68.29ms   1.08s    85.19%
+    Req/Sec   320.79    180.04     1.17k    70.65%
+  Latency Distribution
+     50%   48.72ms
+     75%   93.78ms
+     90%  159.27ms
+     99%  266.01ms
+  191618 requests in 10.00m, 501.25MB read
+  Socket errors: connect 0, read 42, write 0, timeout 0
+Requests/sec:    319.32
+Transfer/sec:    855.35KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    62.86ms   68.36ms   1.16s    85.10%
+    Req/Sec   317.97    178.42     1.21k    73.33%
+  Latency Distribution
+     50%   48.76ms
+     75%   94.75ms
+     90%  160.11ms
+     99%  266.84ms
+  189948 requests in 10.00m, 496.88MB read
+  Socket errors: connect 0, read 40, write 0, timeout 0
+Requests/sec:    316.53
+Transfer/sec:    847.88KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.79ms   69.13ms   1.12s    84.33%
+    Req/Sec   318.40    176.22     1.28k    69.27%
+  Latency Distribution
+     50%   49.28ms
+     75%   97.65ms
+     90%  166.35ms
+     99%  267.25ms
+  190218 requests in 10.00m, 497.59MB read
+  Socket errors: connect 0, read 37, write 0, timeout 0
+Requests/sec:    316.99
+Transfer/sec:    849.10KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.82ms   67.50ms   1.16s    84.96%
+    Req/Sec   305.22    166.65     1.22k    70.55%
+  Latency Distribution
+     50%   51.12ms
+     75%   95.73ms
+     90%  160.41ms
+     99%  266.97ms
+  182325 requests in 10.00m, 476.94MB read
+  Socket errors: connect 0, read 38, write 0, timeout 0
+Requests/sec:    303.87
+Transfer/sec:    813.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.47ms   67.82ms 999.92ms   84.75%
+    Req/Sec   301.92    170.13     1.14k    70.46%
+  Latency Distribution
+     50%   52.20ms
+     75%   97.72ms
+     90%  162.44ms
+     99%  265.55ms
+  180358 requests in 10.00m, 471.80MB read
+  Socket errors: connect 0, read 45, write 0, timeout 0
+Requests/sec:    300.58
+Transfer/sec:    805.16KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.87ms   68.64ms   1.16s    84.84%
+    Req/Sec   310.87    177.94     1.48k    69.14%
+  Latency Distribution
+     50%   50.36ms
+     75%   96.95ms
+     90%  162.66ms
+     99%  269.72ms
+  185712 requests in 10.00m, 485.80MB read
+  Socket errors: connect 0, read 39, write 0, timeout 0
+Requests/sec:    309.49
+Transfer/sec:    829.02KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.72ms   69.15ms   1.16s    84.71%
+    Req/Sec   304.40    173.27     1.46k    70.82%
+  Latency Distribution
+     50%   51.53ms
+     75%   97.78ms
+     90%  164.11ms
+     99%  266.93ms
+  181830 requests in 10.00m, 475.65MB read
+  Socket errors: connect 0, read 29, write 0, timeout 0
+Requests/sec:    303.04
+Transfer/sec:    811.75KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    65.56ms   68.90ms   1.00s    84.23%
+    Req/Sec   299.21    172.65     1.24k    72.57%
+  Latency Distribution
+     50%   52.00ms
+     75%   99.53ms
+     90%  167.11ms
+     99%  266.81ms
+  178747 requests in 10.00m, 467.58MB read
+  Socket errors: connect 0, read 39, write 0, timeout 0
+Requests/sec:    297.89
+Transfer/sec:    797.94KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.60ms   68.02ms 891.33ms   84.49%
+    Req/Sec   303.34    169.08     1.33k    72.17%
+  Latency Distribution
+     50%   51.20ms
+     75%   97.66ms
+     90%  164.29ms
+     99%  266.06ms
+  181213 requests in 10.00m, 474.03MB read
+  Socket errors: connect 0, read 36, write 0, timeout 0
+Requests/sec:    301.99
+Transfer/sec:    808.93KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    65.73ms   69.64ms 985.67ms   84.49%
+    Req/Sec   298.30    173.27     1.13k    73.07%
+  Latency Distribution
+     50%   52.70ms
+     75%   99.89ms
+     90%  166.56ms
+     99%  270.14ms
+  178205 requests in 10.00m, 466.16MB read
+  Socket errors: connect 0, read 36, write 0, timeout 0
+Requests/sec:    296.96
+Transfer/sec:    795.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.25ms   69.02ms   1.16s    84.86%
+    Req/Sec   307.42    171.92     1.10k    71.49%
+  Latency Distribution
+     50%   51.00ms
+     75%   97.33ms
+     90%  162.81ms
+     99%  267.40ms
+  183656 requests in 10.00m, 480.42MB read
+  Socket errors: connect 0, read 38, write 0, timeout 0
+Requests/sec:    306.05
+Transfer/sec:    819.81KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.09ms   70.79ms   1.13s    84.62%
+    Req/Sec   319.53    179.63     1.26k    71.09%
+  Latency Distribution
+     50%   48.17ms
+     75%   97.44ms
+     90%  166.87ms
+     99%  270.15ms
+  190877 requests in 10.00m, 499.31MB read
+  Socket errors: connect 0, read 40, write 0, timeout 0
+Requests/sec:    318.08
+Transfer/sec:    852.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.47ms   68.40ms 890.45ms   84.44%
+    Req/Sec   306.24    174.06     1.22k    70.52%
+  Latency Distribution
+     50%   50.84ms
+     75%   98.16ms
+     90%  164.26ms
+     99%  265.94ms
+  182930 requests in 10.00m, 478.52MB read
+  Socket errors: connect 0, read 41, write 0, timeout 0
+Requests/sec:    304.86
+Transfer/sec:    816.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.33ms   67.94ms   1.11s    84.81%
+    Req/Sec   313.74    176.81     1.42k    71.67%
+  Latency Distribution
+     50%   49.62ms
+     75%   95.93ms
+     90%  161.46ms
+     99%  265.74ms
+  187422 requests in 10.00m, 490.27MB read
+  Socket errors: connect 0, read 38, write 0, timeout 0
+Requests/sec:    312.36
+Transfer/sec:    836.71KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.67ms   68.99ms   1.11s    84.72%
+    Req/Sec   305.08    173.73     1.17k    71.30%
+  Latency Distribution
+     50%   51.20ms
+     75%   97.33ms
+     90%  164.69ms
+     99%  266.97ms
+  182239 requests in 10.00m, 476.72MB read
+  Socket errors: connect 0, read 36, write 0, timeout 0
+Requests/sec:    303.73
+Transfer/sec:    813.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    66.45ms   71.05ms   1.11s    84.17%
+    Req/Sec   300.01    182.17     1.31k    74.56%
+  Latency Distribution
+     50%   52.13ms
+     75%  101.49ms
+     90%  170.94ms
+     99%  272.60ms
+  179212 requests in 10.00m, 468.80MB read
+  Socket errors: connect 0, read 35, write 0, timeout 0
+Requests/sec:    298.68
+Transfer/sec:    800.06KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.91ms   68.83ms   1.16s    84.70%
+    Req/Sec   301.42    163.22     1.03k    72.29%
+  Latency Distribution
+     50%   52.06ms
+     75%   98.61ms
+     90%  163.79ms
+     99%  266.75ms
+  180074 requests in 10.00m, 471.05MB read
+  Socket errors: connect 0, read 31, write 0, timeout 0
+Requests/sec:    300.08
+Transfer/sec:    803.82KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.53ms   69.07ms   1.16s    84.91%
+    Req/Sec   304.27    173.50     1.28k    73.00%
+  Latency Distribution
+     50%   51.46ms
+     75%   97.73ms
+     90%  162.45ms
+     99%  266.49ms
+  181716 requests in 10.00m, 475.35MB read
+  Socket errors: connect 0, read 38, write 0, timeout 0
+Requests/sec:    302.86
+Transfer/sec:    811.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.97ms   68.86ms   1.11s    84.31%
+    Req/Sec   304.27    175.32     1.22k    72.41%
+  Latency Distribution
+     50%   51.38ms
+     75%   98.78ms
+     90%  166.33ms
+     99%  266.09ms
+  181762 requests in 10.00m, 475.47MB read
+  Socket errors: connect 0, read 36, write 0, timeout 0
+Requests/sec:    302.91
+Transfer/sec:    811.40KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.49ms   70.24ms   1.16s    84.94%
+    Req/Sec   309.05    181.18     1.29k    73.09%
+  Latency Distribution
+     50%   50.84ms
+     75%   97.67ms
+     90%  164.04ms
+     99%  269.78ms
+  184624 requests in 10.00m, 482.95MB read
+  Socket errors: connect 0, read 43, write 0, timeout 0
+Requests/sec:    307.68
+Transfer/sec:    824.18KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    60.07ms   65.35ms   1.13s    85.21%
+    Req/Sec   335.07    179.19     1.33k    68.19%
+  Latency Distribution
+     50%   46.43ms
+     75%   90.57ms
+     90%  153.61ms
+     99%  261.70ms
+  200166 requests in 10.00m, 523.61MB read
+  Socket errors: connect 0, read 40, write 0, timeout 0
+Requests/sec:    333.57
+Transfer/sec:      0.87MB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.40ms   67.14ms   1.16s    84.82%
+    Req/Sec   308.83    171.04     1.21k    71.79%
+  Latency Distribution
+     50%   50.59ms
+     75%   95.32ms
+     90%  159.74ms
+     99%  263.31ms
+  184485 requests in 10.00m, 482.59MB read
+  Socket errors: connect 0, read 36, write 0, timeout 0
+Requests/sec:    307.46
+Transfer/sec:    823.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.04ms   70.20ms   1.17s    84.95%
+    Req/Sec   314.00    172.05     1.19k    67.60%
+  Latency Distribution
+     50%   49.31ms
+     75%   96.24ms
+     90%  164.42ms
+     99%  270.60ms
+  187564 requests in 10.00m, 490.65MB read
+  Socket errors: connect 0, read 39, write 0, timeout 0
+Requests/sec:    312.58
+Transfer/sec:    837.29KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.25ms   69.05ms   1.16s    84.74%
+    Req/Sec   308.27    173.55     1.30k    71.15%
+  Latency Distribution
+     50%   50.70ms
+     75%   97.29ms
+     90%  163.08ms
+     99%  266.67ms
+  184134 requests in 10.00m, 481.67MB read
+  Socket errors: connect 0, read 35, write 0, timeout 0
+Requests/sec:    306.88
+Transfer/sec:    822.02KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.32ms   69.08ms   1.16s    84.92%
+    Req/Sec   307.65    170.04     1.25k    72.34%
+  Latency Distribution
+     50%   50.77ms
+     75%   96.53ms
+     90%  163.85ms
+     99%  270.07ms
+  183797 requests in 10.00m, 480.79MB read
+  Socket errors: connect 0, read 32, write 0, timeout 0
+Requests/sec:    306.32
+Transfer/sec:    820.52KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    65.56ms   69.60ms   1.11s    84.50%
+    Req/Sec   300.10    175.78     1.27k    71.88%
+  Latency Distribution
+     50%   52.22ms
+     75%   98.91ms
+     90%  166.94ms
+     99%  269.30ms
+  179286 requests in 10.00m, 468.99MB read
+  Socket errors: connect 0, read 36, write 0, timeout 0
+Requests/sec:    298.76
+Transfer/sec:    800.29KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.81ms   68.21ms   1.03s    84.55%
+    Req/Sec   312.16    173.01     1.24k    71.57%
+  Latency Distribution
+     50%   50.20ms
+     75%   96.40ms
+     90%  163.94ms
+     99%  267.56ms
+  186445 requests in 10.00m, 487.72MB read
+  Socket errors: connect 0, read 36, write 0, timeout 0
+Requests/sec:    310.74
+Transfer/sec:    832.37KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.24ms   68.13ms 897.58ms   84.51%
+    Req/Sec   317.91    181.00     1.31k    71.29%
+  Latency Distribution
+     50%   49.05ms
+     75%   96.29ms
+     90%  163.28ms
+     99%  265.93ms
+  189907 requests in 10.00m, 496.77MB read
+  Socket errors: connect 0, read 40, write 0, timeout 0
+Requests/sec:    316.51
+Transfer/sec:    847.83KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.49ms   67.07ms 913.74ms   84.76%
+    Req/Sec   308.09    173.92     1.30k    72.51%
+  Latency Distribution
+     50%   50.76ms
+     75%   95.89ms
+     90%  160.31ms
+     99%  263.65ms
+  184049 requests in 10.00m, 481.45MB read
+  Socket errors: connect 0, read 41, write 0, timeout 0
+Requests/sec:    306.74
+Transfer/sec:    821.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.48ms   67.88ms   1.10s    84.64%
+    Req/Sec   313.11    179.46     1.14k    70.65%
+  Latency Distribution
+     50%   49.72ms
+     75%   96.18ms
+     90%  162.61ms
+     99%  264.59ms
+  187050 requests in 10.00m, 489.30MB read
+  Socket errors: connect 0, read 41, write 0, timeout 0
+Requests/sec:    311.74
+Transfer/sec:    835.04KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.06ms   69.65ms   1.17s    84.86%
+    Req/Sec   312.09    174.99     1.30k    70.59%
+  Latency Distribution
+     50%   50.10ms
+     75%   96.14ms
+     90%  163.66ms
+     99%  269.40ms
+  186433 requests in 10.00m, 487.69MB read
+  Socket errors: connect 0, read 39, write 0, timeout 0
+Requests/sec:    310.70
+Transfer/sec:    832.27KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    62.10ms   67.42ms   1.03s    85.28%
+    Req/Sec   321.06    182.25     1.48k    72.22%
+  Latency Distribution
+     50%   49.27ms
+     75%   92.71ms
+     90%  158.18ms
+     99%  264.85ms
+  191754 requests in 10.00m, 501.61MB read
+  Socket errors: connect 0, read 37, write 0, timeout 0
+Requests/sec:    319.59
+Transfer/sec:    856.06KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.20ms   67.38ms   1.16s    84.75%
+    Req/Sec   311.80    177.79     1.44k    71.20%
+  Latency Distribution
+     50%   49.87ms
+     75%   95.76ms
+     90%  159.74ms
+     99%  262.88ms
+  186266 requests in 10.00m, 487.25MB read
+  Socket errors: connect 0, read 44, write 0, timeout 0
+Requests/sec:    310.42
+Transfer/sec:    831.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.02ms   68.79ms   1.16s    84.84%
+    Req/Sec   319.70    188.22     1.24k    70.67%
+  Latency Distribution
+     50%   48.59ms
+     75%   96.20ms
+     90%  161.26ms
+     99%  267.01ms
+  190967 requests in 10.00m, 499.55MB read
+  Socket errors: connect 0, read 39, write 0, timeout 0
+Requests/sec:    318.24
+Transfer/sec:    852.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.70ms   68.46ms   1.16s    84.71%
+    Req/Sec   311.80    170.65     1.26k    68.44%
+  Latency Distribution
+     50%   50.55ms
+     75%   96.36ms
+     90%  162.68ms
+     99%  266.33ms
+  186238 requests in 10.00m, 487.18MB read
+  Socket errors: connect 0, read 40, write 0, timeout 0
+Requests/sec:    310.39
+Transfer/sec:    831.44KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    66.57ms   70.21ms   1.16s    84.13%
+    Req/Sec   294.39    169.61     1.23k    70.94%
+  Latency Distribution
+     50%   52.90ms
+     75%  101.89ms
+     90%  169.30ms
+     99%  269.07ms
+  175861 requests in 10.00m, 460.03MB read
+  Socket errors: connect 0, read 41, write 0, timeout 0
+Requests/sec:    293.09
+Transfer/sec:    785.08KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    60.77ms   67.21ms   1.11s    85.36%
+    Req/Sec   333.80    192.69     1.27k    67.43%
+  Latency Distribution
+     50%   46.92ms
+     75%   91.88ms
+     90%  155.35ms
+     99%  264.23ms
+  199421 requests in 10.00m, 521.66MB read
+  Socket errors: connect 0, read 41, write 0, timeout 0
+Requests/sec:    332.32
+Transfer/sec:      0.87MB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    65.98ms   69.02ms   1.16s    84.40%
+    Req/Sec   294.40    161.78     1.12k    70.54%
+  Latency Distribution
+     50%   53.19ms
+     75%   99.68ms
+     90%  166.93ms
+     99%  267.40ms
+  175872 requests in 10.00m, 460.06MB read
+  Socket errors: connect 0, read 35, write 0, timeout 0
+Requests/sec:    293.08
+Transfer/sec:    785.05KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    62.48ms   68.21ms   1.17s    84.59%
+    Req/Sec   324.69    179.03     1.38k    70.09%
+  Latency Distribution
+     50%   47.72ms
+     75%   95.29ms
+     90%  161.22ms
+     99%  265.10ms
+  193962 requests in 10.00m, 507.38MB read
+  Socket errors: connect 0, read 47, write 0, timeout 0
+Requests/sec:    323.24
+Transfer/sec:    865.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    65.42ms   70.09ms   1.10s    84.60%
+    Req/Sec   301.60    165.46     1.16k    69.77%
+  Latency Distribution
+     50%   52.35ms
+     75%   99.11ms
+     90%  166.99ms
+     99%  268.34ms
+  180174 requests in 10.00m, 471.31MB read
+  Socket errors: connect 0, read 36, write 0, timeout 0
+Requests/sec:    300.27
+Transfer/sec:    804.33KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    65.08ms   70.36ms   1.16s    84.33%
+    Req/Sec   309.33    171.91     1.14k    70.15%
+  Latency Distribution
+     50%   50.22ms
+     75%   98.97ms
+     90%  168.53ms
+     99%  269.84ms
+  184756 requests in 10.00m, 483.30MB read
+  Socket errors: connect 0, read 42, write 0, timeout 0
+Requests/sec:    307.89
+Transfer/sec:    824.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    62.40ms   67.63ms   1.11s    84.97%
+    Req/Sec   320.44    178.44     1.17k    69.25%
+  Latency Distribution
+     50%   48.84ms
+     75%   94.61ms
+     90%  158.69ms
+     99%  265.23ms
+  191403 requests in 10.00m, 500.69MB read
+  Socket errors: connect 0, read 39, write 0, timeout 0
+Requests/sec:    318.97
+Transfer/sec:    854.42KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    61.46ms   66.59ms   1.16s    85.48%
+    Req/Sec   321.25    172.53     1.21k    69.46%
+  Latency Distribution
+     50%   48.98ms
+     75%   92.54ms
+     90%  154.03ms
+     99%  264.46ms
+  191905 requests in 10.00m, 502.00MB read
+  Socket errors: connect 0, read 33, write 0, timeout 0
+Requests/sec:    319.81
+Transfer/sec:    856.66KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.00ms   68.08ms 899.56ms   84.70%
+    Req/Sec   307.97    179.08     1.26k    72.73%
+  Latency Distribution
+     50%   51.04ms
+     75%   96.20ms
+     90%  162.93ms
+     99%  265.15ms
+  183969 requests in 10.00m, 481.24MB read
+  Socket errors: connect 0, read 40, write 0, timeout 0
+Requests/sec:    306.58
+Transfer/sec:    821.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    59.87ms   66.16ms   1.16s    85.14%
+    Req/Sec   342.55    187.21     1.25k    69.30%
+  Latency Distribution
+     50%   45.26ms
+     75%   90.69ms
+     90%  154.57ms
+     99%  262.07ms
+  204558 requests in 10.00m, 535.10MB read
+  Socket errors: connect 0, read 35, write 0, timeout 0
+Requests/sec:    340.90
+Transfer/sec:      0.89MB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.39ms   68.78ms   1.13s    84.82%
+    Req/Sec   305.97    172.06     1.12k    69.89%
+  Latency Distribution
+     50%   51.10ms
+     75%   97.33ms
+     90%  163.14ms
+     99%  268.12ms
+  182804 requests in 10.00m, 478.19MB read
+  Socket errors: connect 0, read 36, write 0, timeout 0
+Requests/sec:    304.63
+Transfer/sec:    816.00KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.95ms   69.20ms   1.16s    84.94%
+    Req/Sec   310.45    174.67     1.36k    73.31%
+  Latency Distribution
+     50%   50.55ms
+     75%   96.69ms
+     90%  162.08ms
+     99%  268.28ms
+  185457 requests in 10.00m, 485.13MB read
+  Socket errors: connect 0, read 35, write 0, timeout 0
+Requests/sec:    309.08
+Transfer/sec:    827.92KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.27ms   68.99ms   1.11s    84.90%
+    Req/Sec   307.91    166.16     1.21k    69.91%
+  Latency Distribution
+     50%   50.85ms
+     75%   96.41ms
+     90%  163.53ms
+     99%  270.04ms
+  183945 requests in 10.00m, 481.18MB read
+  Socket errors: connect 0, read 39, write 0, timeout 0
+Requests/sec:    306.54
+Transfer/sec:    821.12KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.85ms   70.04ms   1.16s    84.77%
+    Req/Sec   307.11    172.70     1.08k    67.92%
+  Latency Distribution
+     50%   50.90ms
+     75%   97.94ms
+     90%  166.02ms
+     99%  270.48ms
+  183486 requests in 10.00m, 479.98MB read
+  Socket errors: connect 0, read 41, write 0, timeout 0
+Requests/sec:    305.76
+Transfer/sec:    819.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    62.41ms   68.32ms   1.13s    84.54%
+    Req/Sec   327.41    176.39     1.20k    67.02%
+  Latency Distribution
+     50%   47.36ms
+     75%   94.70ms
+     90%  162.30ms
+     99%  265.52ms
+  195600 requests in 10.00m, 511.67MB read
+  Socket errors: connect 0, read 37, write 0, timeout 0
+Requests/sec:    325.95
+Transfer/sec:      0.85MB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.60ms   68.70ms   1.16s    84.98%
+    Req/Sec   312.51    172.45     1.25k    69.22%
+  Latency Distribution
+     50%   49.45ms
+     75%   95.63ms
+     90%  162.05ms
+     99%  267.81ms
+  186687 requests in 10.00m, 488.35MB read
+  Socket errors: connect 0, read 40, write 0, timeout 0
+Requests/sec:    311.10
+Transfer/sec:    833.33KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.46ms   68.61ms   1.17s    84.96%
+    Req/Sec   313.48    176.21     1.49k    71.56%
+  Latency Distribution
+     50%   49.57ms
+     75%   95.74ms
+     90%  161.34ms
+     99%  267.06ms
+  187282 requests in 10.00m, 489.91MB read
+  Socket errors: connect 0, read 39, write 0, timeout 0
+Requests/sec:    312.10
+Transfer/sec:    836.00KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.53ms   68.40ms   1.13s    84.59%
+    Req/Sec   314.77    175.83     1.28k    71.69%
+  Latency Distribution
+     50%   49.12ms
+     75%   95.99ms
+     90%  163.34ms
+     99%  265.69ms
+  188048 requests in 10.00m, 491.91MB read
+  Socket errors: connect 0, read 39, write 0, timeout 0
+Requests/sec:    313.37
+Transfer/sec:    839.41KB
++ (( j++ ))
++ (( j<100 ))
++ file=83
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=84
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=85
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=86
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=87
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=88
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=89
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=90
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=91
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=92
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=93
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=94
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=95
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=96
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=97
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=98
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=99
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ wait
++ for pod in 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
++ scs nginx-ingress-controller 12
+deployment.apps/nginx-ingress-controller scaled
++ cp -rf box ips
++ date
+Mon Jul 20 09:42:55 UTC 2020
++ dir=https.ingress.svc..12
++ ./2020-06-28-main.just.ingress.svc.sh https.ingress.svc..12
+Warning: Permanently added '10.1.0.22' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.89' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.23' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.29' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.24' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.30' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.25' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.50' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.45' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.111' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.31' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.26' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.78' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.28' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.67' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.27' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.56' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.38' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.51' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.33' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.32' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.36' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.34' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.35' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.40' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.39' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.42' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.41' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.47' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.44' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.37' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.68' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.46' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.48' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.49' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.43' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.59' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.70' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.58' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.54' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.75' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.57' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.63' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.55' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.76' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.53' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.52' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.60' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.66' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.64' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.62' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.61' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.77' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.85' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.69' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.79' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.72' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.65' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.74' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.71' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.82' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.73' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.81' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.80' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.84' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.94' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.92' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.87' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.105' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
++ sleep 30
+Warning: Permanently added '10.1.0.97' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.99' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.83' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.95' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.101' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.90' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.88' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.86' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.91' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.108' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.98' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.93' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.102' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.107' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.106' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.104' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.103' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.132' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+Warning: Permanently added '10.1.0.118' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.113' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.115' (ECDSA) to the list of known hosts.
+sh: 1: wrk: not found
+Warning: Permanently added '10.1.0.109' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.112' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.117' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.114' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.116' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.119' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.133' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.110' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
++ (( j=0 ))
++ (( j<100 ))
++ file=0
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=1
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=2
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=3
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=4
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=5
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=6
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=7
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=8
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=9
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=10
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=11
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=12
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=13
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=14
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=15
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=16
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=17
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=18
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=19
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=20
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=21
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=22
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=23
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=24
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=25
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=26
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=27
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=28
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=29
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=30
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=31
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=32
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=33
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=34
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=35
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=36
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=37
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=38
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=39
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=40
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=41
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=42
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=43
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=44
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=45
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=46
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=47
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=48
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=49
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=50
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=51
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=52
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=53
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=54
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=55
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=56
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=57
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=58
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=59
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=60
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=61
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=62
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=63
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=64
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=65
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=66
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=67
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=68
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=69
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=70
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=71
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=72
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=73
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=74
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=75
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=76
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=77
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=78
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=79
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=80
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=81
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=82
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    81.94ms   96.20ms 623.69ms   82.41%
+    Req/Sec   309.11    197.37     2.24k    68.08%
+  Latency Distribution
+     50%   50.02ms
+     75%  136.23ms
+     90%  232.11ms
+     99%  358.41ms
+  184615 requests in 10.00m, 482.93MB read
+Requests/sec:    307.68
+Transfer/sec:    824.18KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    87.15ms   98.77ms 600.70ms   82.13%
+    Req/Sec   271.87    183.84     2.26k    66.74%
+  Latency Distribution
+     50%   57.75ms
+     75%  148.10ms
+     90%  239.28ms
+     99%  363.54ms
+  162244 requests in 10.00m, 424.41MB read
+Requests/sec:    270.40
+Transfer/sec:    724.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.18ms   96.31ms 623.97ms   82.03%
+    Req/Sec   285.52    197.49     2.31k    70.04%
+  Latency Distribution
+     50%   55.42ms
+     75%  141.28ms
+     90%  233.92ms
+     99%  356.27ms
+  170395 requests in 10.00m, 445.73MB read
+Requests/sec:    283.98
+Transfer/sec:    760.69KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    85.82ms   98.13ms 617.28ms   82.07%
+    Req/Sec   280.95    183.75     1.44k    68.44%
+  Latency Distribution
+     50%   56.25ms
+     75%  145.18ms
+     90%  238.30ms
+     99%  361.28ms
+  167717 requests in 10.00m, 438.73MB read
+Requests/sec:    279.52
+Transfer/sec:    748.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.42ms   98.59ms 595.20ms   82.09%
+    Req/Sec   278.21    189.88     1.44k    68.44%
+  Latency Distribution
+     50%   56.50ms
+     75%  146.60ms
+     90%  239.14ms
+     99%  363.44ms
+  166095 requests in 10.00m, 434.48MB read
+Requests/sec:    276.81
+Transfer/sec:    741.47KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    88.26ms   98.86ms 594.16ms   81.95%
+    Req/Sec   260.69    184.10     1.29k    70.61%
+  Latency Distribution
+     50%   61.66ms
+     75%  148.39ms
+     90%  240.97ms
+     99%  363.67ms
+  155537 requests in 10.00m, 406.87MB read
+Requests/sec:    259.23
+Transfer/sec:    694.38KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.02ms   98.69ms 587.36ms   82.10%
+    Req/Sec   281.95    203.37     1.29k    67.88%
+  Latency Distribution
+     50%   54.91ms
+     75%  144.88ms
+     90%  240.29ms
+     99%  363.38ms
+  168355 requests in 10.00m, 440.40MB read
+Requests/sec:    280.58
+Transfer/sec:    751.57KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    87.26ms   98.34ms 589.74ms   82.26%
+    Req/Sec   265.52    182.91     1.29k    65.34%
+  Latency Distribution
+     50%   59.79ms
+     75%  145.88ms
+     90%  239.20ms
+     99%  364.53ms
+  158602 requests in 10.00m, 414.88MB read
+Requests/sec:    264.30
+Transfer/sec:    707.98KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.73ms   97.03ms 622.37ms   81.83%
+    Req/Sec   265.96    177.94     1.23k    67.42%
+  Latency Distribution
+     50%   59.87ms
+     75%  147.99ms
+     90%  235.11ms
+     99%  357.27ms
+  158836 requests in 10.00m, 415.50MB read
+Requests/sec:    264.70
+Transfer/sec:    709.05KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.37ms   97.14ms 595.23ms   82.16%
+    Req/Sec   288.70    196.08     1.41k    67.96%
+  Latency Distribution
+     50%   53.77ms
+     75%  141.62ms
+     90%  235.32ms
+     99%  359.60ms
+  172418 requests in 10.00m, 451.02MB read
+Requests/sec:    287.36
+Transfer/sec:    769.74KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    88.72ms  100.18ms 625.93ms   81.95%
+    Req/Sec   264.27    182.31     1.05k    67.73%
+  Latency Distribution
+     50%   60.59ms
+     75%  149.23ms
+     90%  245.10ms
+     99%  366.35ms
+  157818 requests in 10.00m, 412.83MB read
+Requests/sec:    263.03
+Transfer/sec:    704.56KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    88.09ms   99.42ms 605.06ms   82.16%
+    Req/Sec   264.68    180.75     1.09k    67.79%
+  Latency Distribution
+     50%   59.94ms
+     75%  148.26ms
+     90%  241.96ms
+     99%  366.89ms
+  158066 requests in 10.00m, 413.48MB read
+Requests/sec:    263.44
+Transfer/sec:    705.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    82.96ms   96.32ms 610.22ms   82.35%
+    Req/Sec   299.26    212.65     1.63k    72.64%
+  Latency Distribution
+     50%   51.53ms
+     75%  139.92ms
+     90%  232.02ms
+     99%  358.23ms
+  178770 requests in 10.00m, 467.64MB read
+Requests/sec:    297.92
+Transfer/sec:    798.04KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.30ms   98.44ms 604.44ms   82.08%
+    Req/Sec   277.84    193.11     1.37k    67.95%
+  Latency Distribution
+     50%   56.54ms
+     75%  145.75ms
+     90%  239.56ms
+     99%  361.95ms
+  165878 requests in 10.00m, 433.92MB read
+Requests/sec:    276.46
+Transfer/sec:    740.54KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.23ms   96.51ms 623.48ms   82.14%
+    Req/Sec   285.29    189.68     1.21k    67.99%
+  Latency Distribution
+     50%   54.36ms
+     75%  141.57ms
+     90%  232.74ms
+     99%  359.46ms
+  170369 requests in 10.00m, 445.67MB read
+Requests/sec:    283.92
+Transfer/sec:    760.53KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    87.46ms   97.83ms 615.05ms   81.83%
+    Req/Sec   262.55    186.00     1.22k    66.08%
+  Latency Distribution
+     50%   60.55ms
+     75%  147.52ms
+     90%  237.92ms
+     99%  360.43ms
+  156826 requests in 10.00m, 410.24MB read
+Requests/sec:    261.37
+Transfer/sec:    700.13KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    83.70ms   96.02ms 590.18ms   82.08%
+    Req/Sec   290.12    186.01     1.39k    66.80%
+  Latency Distribution
+     50%   53.29ms
+     75%  142.22ms
+     90%  231.57ms
+     99%  355.63ms
+  173331 requests in 10.00m, 453.41MB read
+Requests/sec:    288.84
+Transfer/sec:    773.72KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.94ms   97.44ms 629.30ms   81.91%
+    Req/Sec   265.50    184.22     1.19k    67.08%
+  Latency Distribution
+     50%   60.08ms
+     75%  147.46ms
+     90%  236.64ms
+     99%  359.06ms
+  158539 requests in 10.00m, 414.72MB read
+Requests/sec:    264.22
+Transfer/sec:    707.76KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.64ms   98.17ms 595.95ms   81.95%
+    Req/Sec   273.28    178.84     1.45k    64.60%
+  Latency Distribution
+     50%   57.13ms
+     75%  147.00ms
+     90%  239.22ms
+     99%  361.14ms
+  163213 requests in 10.00m, 426.95MB read
+Requests/sec:    272.02
+Transfer/sec:    728.64KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.50ms   98.30ms 632.56ms   82.23%
+    Req/Sec   273.45    191.77     1.19k    68.28%
+  Latency Distribution
+     50%   58.17ms
+     75%  146.09ms
+     90%  238.15ms
+     99%  362.48ms
+  163183 requests in 10.00m, 426.87MB read
+Requests/sec:    271.94
+Transfer/sec:    728.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    87.32ms   98.65ms 587.04ms   82.04%
+    Req/Sec   268.39    179.49     1.17k    67.40%
+  Latency Distribution
+     50%   58.85ms
+     75%  146.94ms
+     90%  241.09ms
+     99%  362.10ms
+  160269 requests in 10.00m, 419.24MB read
+Requests/sec:    267.10
+Transfer/sec:    715.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    85.97ms   97.95ms 595.70ms   82.02%
+    Req/Sec   277.84    186.27     1.26k    66.91%
+  Latency Distribution
+     50%   56.98ms
+     75%  145.65ms
+     90%  237.45ms
+     99%  360.56ms
+  165896 requests in 10.00m, 433.96MB read
+Requests/sec:    276.49
+Transfer/sec:    740.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.68ms   97.41ms 634.27ms   82.04%
+    Req/Sec   290.26    196.07     1.28k    65.93%
+  Latency Distribution
+     50%   52.96ms
+     75%  144.45ms
+     90%  235.27ms
+     99%  358.97ms
+  173388 requests in 10.00m, 453.56MB read
+Requests/sec:    288.94
+Transfer/sec:    773.99KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    87.06ms   98.81ms 604.55ms   82.20%
+    Req/Sec   270.38    186.58     1.25k    67.22%
+  Latency Distribution
+     50%   59.23ms
+     75%  145.84ms
+     90%  240.64ms
+     99%  364.97ms
+  161434 requests in 10.00m, 422.29MB read
+Requests/sec:    269.05
+Transfer/sec:    720.69KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    83.63ms   97.42ms 590.16ms   82.23%
+    Req/Sec   300.51    184.04     1.27k    70.70%
+  Latency Distribution
+     50%   51.13ms
+     75%  141.09ms
+     90%  235.31ms
+     99%  360.35ms
+  179510 requests in 10.00m, 469.58MB read
+Requests/sec:    299.14
+Transfer/sec:    801.29KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    85.90ms   98.11ms   1.01s    82.16%
+    Req/Sec   278.80    202.22     1.49k    71.07%
+  Latency Distribution
+     50%   57.09ms
+     75%  145.27ms
+     90%  237.71ms
+     99%  362.09ms
+  166461 requests in 10.00m, 435.44MB read
+Requests/sec:    277.42
+Transfer/sec:    743.11KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.55ms   96.39ms   1.02s    82.30%
+    Req/Sec   281.08    195.32     1.24k    68.75%
+  Latency Distribution
+     50%   55.69ms
+     75%  142.70ms
+     90%  232.58ms
+     99%  357.10ms
+  167909 requests in 10.00m, 439.23MB read
+Requests/sec:    279.81
+Transfer/sec:    749.50KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    85.94ms   97.55ms 588.40ms   81.99%
+    Req/Sec   275.70    185.70     1.12k    67.85%
+  Latency Distribution
+     50%   57.20ms
+     75%  145.76ms
+     90%  236.67ms
+     99%  359.80ms
+  164589 requests in 10.00m, 430.55MB read
+Requests/sec:    274.29
+Transfer/sec:    734.72KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.03ms   96.97ms 593.75ms   82.19%
+    Req/Sec   291.60    192.11     1.97k    70.28%
+  Latency Distribution
+     50%   53.10ms
+     75%  141.58ms
+     90%  234.21ms
+     99%  359.10ms
+  174159 requests in 10.00m, 455.58MB read
+Requests/sec:    290.26
+Transfer/sec:    777.52KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    82.04ms   96.04ms 603.72ms   82.30%
+    Req/Sec   307.42    201.84     1.37k    68.64%
+  Latency Distribution
+     50%   49.63ms
+     75%  136.53ms
+     90%  232.75ms
+     99%  357.27ms
+  183560 requests in 10.00m, 480.17MB read
+Requests/sec:    305.92
+Transfer/sec:    819.45KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    83.29ms   97.22ms 599.75ms   82.42%
+    Req/Sec   301.13    200.08     1.22k    66.38%
+  Latency Distribution
+     50%   50.99ms
+     75%  139.29ms
+     90%  234.99ms
+     99%  361.48ms
+  179735 requests in 10.00m, 470.17MB read
+Requests/sec:    299.54
+Transfer/sec:    802.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.23ms   97.98ms 645.09ms   82.13%
+    Req/Sec   297.90    187.62     1.37k    68.26%
+  Latency Distribution
+     50%   51.58ms
+     75%  141.95ms
+     90%  237.76ms
+     99%  361.30ms
+  177927 requests in 10.00m, 465.44MB read
+Requests/sec:    296.53
+Transfer/sec:    794.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.84ms   97.00ms 582.06ms   82.16%
+    Req/Sec   282.41    185.62     1.18k    69.35%
+  Latency Distribution
+     50%   55.75ms
+     75%  142.86ms
+     90%  235.60ms
+     99%  358.33ms
+  168601 requests in 10.00m, 441.04MB read
+Requests/sec:    281.00
+Transfer/sec:    752.70KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    89.12ms  100.53ms 595.47ms   82.08%
+    Req/Sec   262.11    186.79     1.10k    66.52%
+  Latency Distribution
+     50%   61.20ms
+     75%  149.48ms
+     90%  246.66ms
+     99%  367.92ms
+  156507 requests in 10.00m, 409.40MB read
+Requests/sec:    260.82
+Transfer/sec:    698.64KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    83.70ms   96.45ms 633.27ms   82.22%
+    Req/Sec   291.76    194.75     1.31k    66.22%
+  Latency Distribution
+     50%   53.15ms
+     75%  141.01ms
+     90%  232.98ms
+     99%  358.31ms
+  174224 requests in 10.00m, 455.75MB read
+Requests/sec:    290.36
+Transfer/sec:    777.78KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    82.62ms   95.78ms 600.46ms   82.34%
+    Req/Sec   297.72    194.99     1.21k    66.86%
+  Latency Distribution
+     50%   51.68ms
+     75%  138.20ms
+     90%  230.51ms
+     99%  357.44ms
+  177878 requests in 10.00m, 465.31MB read
+Requests/sec:    296.43
+Transfer/sec:    794.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    81.16ms   96.36ms 775.00ms   82.42%
+    Req/Sec   322.09    211.49     1.31k    67.41%
+  Latency Distribution
+     50%   47.11ms
+     75%  135.05ms
+     90%  232.16ms
+     99%  358.99ms
+  192386 requests in 10.00m, 503.26MB read
+Requests/sec:    320.61
+Transfer/sec:    858.80KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.82ms   97.81ms 615.10ms   82.19%
+    Req/Sec   288.76    196.73     1.68k    70.81%
+  Latency Distribution
+     50%   53.74ms
+     75%  142.35ms
+     90%  237.79ms
+     99%  360.83ms
+  172266 requests in 10.00m, 450.63MB read
+Requests/sec:    287.10
+Transfer/sec:    769.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.44ms   98.71ms 592.07ms   82.09%
+    Req/Sec   277.36    184.62     1.22k    66.58%
+  Latency Distribution
+     50%   56.85ms
+     75%  145.87ms
+     90%  239.89ms
+     99%  363.76ms
+  165673 requests in 10.00m, 433.38MB read
+Requests/sec:    276.11
+Transfer/sec:    739.61KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.34ms   98.10ms 592.92ms   81.88%
+    Req/Sec   276.37    178.34     1.19k    69.06%
+  Latency Distribution
+     50%   56.83ms
+     75%  147.07ms
+     90%  237.96ms
+     99%  360.52ms
+  165078 requests in 10.00m, 431.82MB read
+Requests/sec:    275.13
+Transfer/sec:    736.97KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    82.11ms   95.38ms 597.63ms   82.24%
+    Req/Sec   302.64    209.95     1.43k    68.80%
+  Latency Distribution
+     50%   50.79ms
+     75%  137.96ms
+     90%  230.25ms
+     99%  354.50ms
+  180745 requests in 10.00m, 472.81MB read
+Requests/sec:    301.24
+Transfer/sec:    806.92KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    85.66ms   97.07ms 617.23ms   82.27%
+    Req/Sec   272.93    196.94     1.28k    68.21%
+  Latency Distribution
+     50%   58.07ms
+     75%  143.85ms
+     90%  234.68ms
+     99%  361.63ms
+  162913 requests in 10.00m, 426.16MB read
+Requests/sec:    271.50
+Transfer/sec:    727.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.75ms   98.95ms 601.28ms   81.96%
+    Req/Sec   277.19    183.88     1.24k    68.62%
+  Latency Distribution
+     50%   56.99ms
+     75%  147.13ms
+     90%  240.91ms
+     99%  363.04ms
+  165442 requests in 10.00m, 432.78MB read
+Requests/sec:    275.72
+Transfer/sec:    738.56KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    87.47ms   99.89ms 622.74ms   81.86%
+    Req/Sec   275.84    189.00     1.50k    68.08%
+  Latency Distribution
+     50%   57.01ms
+     75%  147.98ms
+     90%  244.33ms
+     99%  364.86ms
+  164758 requests in 10.00m, 430.99MB read
+Requests/sec:    274.59
+Transfer/sec:    735.54KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    85.03ms   98.05ms 615.75ms   82.15%
+    Req/Sec   288.68    195.79     1.16k    65.12%
+  Latency Distribution
+     50%   52.92ms
+     75%  143.41ms
+     90%  237.56ms
+     99%  362.61ms
+  172443 requests in 10.00m, 451.09MB read
+Requests/sec:    287.36
+Transfer/sec:    769.74KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    89.10ms  100.43ms 634.04ms   81.88%
+    Req/Sec   263.05    184.59     1.07k    66.68%
+  Latency Distribution
+     50%   60.33ms
+     75%  150.76ms
+     90%  245.63ms
+     99%  366.71ms
+  157128 requests in 10.00m, 411.03MB read
+Requests/sec:    261.88
+Transfer/sec:    701.48KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    87.53ms   99.48ms 605.40ms   82.04%
+    Req/Sec   272.77    185.30     1.45k    70.63%
+  Latency Distribution
+     50%   57.75ms
+     75%  148.49ms
+     90%  241.95ms
+     99%  364.00ms
+  162749 requests in 10.00m, 425.73MB read
+Requests/sec:    271.24
+Transfer/sec:    726.56KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    85.13ms   97.79ms 597.42ms   82.04%
+    Req/Sec   285.99    186.08     1.24k    66.32%
+  Latency Distribution
+     50%   54.05ms
+     75%  143.30ms
+     90%  237.71ms
+     99%  360.81ms
+  170789 requests in 10.00m, 446.76MB read
+Requests/sec:    284.62
+Transfer/sec:    762.39KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.48ms   97.38ms 622.84ms   82.29%
+    Req/Sec   289.26    193.59     1.35k    70.42%
+  Latency Distribution
+     50%   53.26ms
+     75%  142.11ms
+     90%  235.48ms
+     99%  361.42ms
+  172698 requests in 10.00m, 451.76MB read
+Requests/sec:    287.81
+Transfer/sec:    770.94KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.23ms   96.64ms   1.02s    82.08%
+    Req/Sec   287.88    200.10     1.25k    68.59%
+  Latency Distribution
+     50%   53.94ms
+     75%  142.92ms
+     90%  233.45ms
+     99%  356.69ms
+  171938 requests in 10.00m, 449.77MB read
+Requests/sec:    286.55
+Transfer/sec:    767.57KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.44ms   96.78ms 620.78ms   82.03%
+    Req/Sec   287.16    191.79     1.33k    66.86%
+  Latency Distribution
+     50%   54.43ms
+     75%  143.13ms
+     90%  233.87ms
+     99%  357.66ms
+  171465 requests in 10.00m, 448.53MB read
+Requests/sec:    285.74
+Transfer/sec:    765.41KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.46ms   97.76ms 623.72ms   82.09%
+    Req/Sec   271.33    189.96     1.08k    66.36%
+  Latency Distribution
+     50%   57.79ms
+     75%  146.55ms
+     90%  236.79ms
+     99%  361.62ms
+  162039 requests in 10.00m, 423.87MB read
+Requests/sec:    270.05
+Transfer/sec:    723.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    83.40ms   96.42ms   1.03s    82.35%
+    Req/Sec   292.67    195.52     1.22k    68.39%
+  Latency Distribution
+     50%   52.86ms
+     75%  139.61ms
+     90%  232.58ms
+     99%  359.02ms
+  174784 requests in 10.00m, 457.21MB read
+Requests/sec:    291.30
+Transfer/sec:    780.30KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    85.48ms   97.73ms 634.56ms   82.15%
+    Req/Sec   280.94    193.02     1.44k    68.27%
+  Latency Distribution
+     50%   56.10ms
+     75%  143.86ms
+     90%  237.10ms
+     99%  362.03ms
+  167673 requests in 10.00m, 438.61MB read
+Requests/sec:    279.42
+Transfer/sec:    748.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    83.06ms   97.08ms 632.59ms   82.47%
+    Req/Sec   301.12    200.12     1.29k    67.70%
+  Latency Distribution
+     50%   51.27ms
+     75%  137.95ms
+     90%  234.15ms
+     99%  362.05ms
+  179790 requests in 10.00m, 470.31MB read
+Requests/sec:    299.63
+Transfer/sec:    802.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    87.41ms   97.82ms 599.69ms   81.86%
+    Req/Sec   263.68    186.02     1.13k    69.27%
+  Latency Distribution
+     50%   60.33ms
+     75%  148.80ms
+     90%  237.67ms
+     99%  358.94ms
+  157471 requests in 10.00m, 411.93MB read
+Requests/sec:    262.44
+Transfer/sec:    702.99KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    81.59ms   95.14ms 607.64ms   82.29%
+    Req/Sec   307.25    206.93     1.49k    70.07%
+  Latency Distribution
+     50%   49.82ms
+     75%  137.26ms
+     90%  228.85ms
+     99%  354.92ms
+  183539 requests in 10.00m, 480.12MB read
+Requests/sec:    305.90
+Transfer/sec:    819.40KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    87.36ms   99.10ms 636.52ms   81.85%
+    Req/Sec   272.81    177.28     1.25k    66.54%
+  Latency Distribution
+     50%   57.77ms
+     75%  148.93ms
+     90%  241.32ms
+     99%  362.02ms
+  162996 requests in 10.00m, 426.38MB read
+Requests/sec:    271.63
+Transfer/sec:    727.59KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    87.01ms   98.81ms 622.01ms   82.11%
+    Req/Sec   272.86    184.64     1.17k    67.08%
+  Latency Distribution
+     50%   57.50ms
+     75%  147.64ms
+     90%  239.81ms
+     99%  364.10ms
+  162879 requests in 10.00m, 426.07MB read
+Requests/sec:    271.45
+Transfer/sec:    727.13KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    83.42ms   97.10ms 595.80ms   82.27%
+    Req/Sec   299.23    193.38     1.13k    67.71%
+  Latency Distribution
+     50%   51.70ms
+     75%  139.51ms
+     90%  235.06ms
+     99%  359.14ms
+  178732 requests in 10.00m, 467.54MB read
+Requests/sec:    297.88
+Transfer/sec:    797.91KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    82.14ms   95.43ms 632.34ms   82.24%
+    Req/Sec   302.05    213.48     1.34k    67.50%
+  Latency Distribution
+     50%   51.13ms
+     75%  137.31ms
+     90%  230.87ms
+     99%  354.38ms
+  180363 requests in 10.00m, 471.81MB read
+Requests/sec:    300.60
+Transfer/sec:    805.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    85.73ms   99.25ms 633.74ms   82.16%
+    Req/Sec   289.09    194.64     1.27k    67.32%
+  Latency Distribution
+     50%   53.31ms
+     75%  144.23ms
+     90%  241.50ms
+     99%  364.47ms
+  172612 requests in 10.00m, 451.53MB read
+Requests/sec:    287.68
+Transfer/sec:    770.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    89.90ms  100.63ms 602.81ms   81.73%
+    Req/Sec   257.71    175.88     1.14k    64.94%
+  Latency Distribution
+     50%   62.41ms
+     75%  152.73ms
+     90%  246.85ms
+     99%  366.38ms
+  153942 requests in 10.00m, 402.69MB read
+Requests/sec:    256.56
+Transfer/sec:    687.23KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.35ms   96.80ms 636.17ms   82.23%
+    Req/Sec   285.38    191.62     1.10k    67.41%
+  Latency Distribution
+     50%   54.90ms
+     75%  141.00ms
+     90%  235.03ms
+     99%  358.99ms
+  170442 requests in 10.00m, 445.86MB read
+Requests/sec:    284.04
+Transfer/sec:    760.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.71ms   96.30ms   1.02s    82.07%
+    Req/Sec   279.73    196.72     1.39k    66.33%
+  Latency Distribution
+     50%   55.95ms
+     75%  143.43ms
+     90%  232.80ms
+     99%  355.90ms
+  167106 requests in 10.00m, 437.13MB read
+Requests/sec:    278.47
+Transfer/sec:    745.92KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.64ms   99.20ms 773.56ms   81.99%
+    Req/Sec   279.68    190.06     1.29k    67.12%
+  Latency Distribution
+     50%   56.29ms
+     75%  146.50ms
+     90%  241.70ms
+     99%  363.37ms
+  166947 requests in 10.00m, 436.71MB read
+Requests/sec:    278.21
+Transfer/sec:    745.23KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    82.82ms   96.51ms 611.41ms   82.31%
+    Req/Sec   301.24    180.95     1.19k    66.56%
+  Latency Distribution
+     50%   51.12ms
+     75%  138.80ms
+     90%  232.56ms
+     99%  359.38ms
+  179966 requests in 10.00m, 470.77MB read
+Requests/sec:    299.90
+Transfer/sec:    803.34KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    82.69ms   95.17ms 603.97ms   82.40%
+    Req/Sec   292.89    193.45     1.28k    70.73%
+  Latency Distribution
+     50%   53.32ms
+     75%  139.26ms
+     90%  228.29ms
+     99%  355.37ms
+  174881 requests in 10.00m, 457.47MB read
+Requests/sec:    291.45
+Transfer/sec:    780.70KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    81.64ms   94.76ms 588.01ms   82.27%
+    Req/Sec   302.86    196.71     1.18k    65.69%
+  Latency Distribution
+     50%   50.67ms
+     75%  136.84ms
+     90%  228.25ms
+     99%  353.30ms
+  180887 requests in 10.00m, 473.18MB read
+Requests/sec:    301.43
+Transfer/sec:    807.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.29ms   98.24ms 625.00ms   82.14%
+    Req/Sec   274.90    191.97     1.41k    66.58%
+  Latency Distribution
+     50%   57.08ms
+     75%  144.93ms
+     90%  239.14ms
+     99%  362.38ms
+  164231 requests in 10.00m, 429.61MB read
+Requests/sec:    273.69
+Transfer/sec:    733.12KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.43ms   98.58ms 621.31ms   82.08%
+    Req/Sec   276.28    196.44     1.44k    70.90%
+  Latency Distribution
+     50%   57.80ms
+     75%  145.28ms
+     90%  239.88ms
+     99%  362.65ms
+  164907 requests in 10.00m, 431.38MB read
+Requests/sec:    274.84
+Transfer/sec:    736.20KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    82.73ms   95.61ms 604.30ms   82.15%
+    Req/Sec   296.97    205.61     1.46k    68.75%
+  Latency Distribution
+     50%   52.65ms
+     75%  139.15ms
+     90%  230.66ms
+     99%  355.73ms
+  177339 requests in 10.00m, 463.90MB read
+Requests/sec:    295.52
+Transfer/sec:    791.61KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    85.89ms   97.78ms 588.14ms   81.91%
+    Req/Sec   279.23    198.15     1.37k    67.00%
+  Latency Distribution
+     50%   56.42ms
+     75%  146.47ms
+     90%  237.10ms
+     99%  359.44ms
+  166675 requests in 10.00m, 436.00MB read
+Requests/sec:    277.79
+Transfer/sec:    744.10KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    81.82ms   95.37ms 602.77ms   82.33%
+    Req/Sec   305.42    202.03     1.20k    66.33%
+  Latency Distribution
+     50%   50.10ms
+     75%  137.05ms
+     90%  229.17ms
+     99%  355.65ms
+  182405 requests in 10.00m, 477.15MB read
+Requests/sec:    303.98
+Transfer/sec:    814.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.29ms   99.14ms 596.45ms   82.14%
+    Req/Sec   282.26    184.05     1.29k    67.97%
+  Latency Distribution
+     50%   55.42ms
+     75%  145.80ms
+     90%  240.73ms
+     99%  364.51ms
+  168501 requests in 10.00m, 440.78MB read
+Requests/sec:    280.83
+Transfer/sec:    752.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.77ms   98.02ms 672.80ms   82.00%
+    Req/Sec   270.62    184.75     1.31k    70.16%
+  Latency Distribution
+     50%   58.57ms
+     75%  147.22ms
+     90%  237.96ms
+     99%  360.34ms
+  161639 requests in 10.00m, 422.83MB read
+Requests/sec:    269.36
+Transfer/sec:    721.52KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    85.87ms   98.28ms 613.82ms   82.07%
+    Req/Sec   281.19    203.77     1.21k    70.49%
+  Latency Distribution
+     50%   56.30ms
+     75%  145.88ms
+     90%  238.37ms
+     99%  361.26ms
+  167938 requests in 10.00m, 439.31MB read
+Requests/sec:    279.88
+Transfer/sec:    749.70KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    85.06ms   97.56ms 632.93ms   82.00%
+    Req/Sec   284.75    193.59     1.11k    65.64%
+  Latency Distribution
+     50%   54.34ms
+     75%  143.35ms
+     90%  237.21ms
+     99%  359.43ms
+  170094 requests in 10.00m, 444.95MB read
+Requests/sec:    283.46
+Transfer/sec:    759.30KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    82.74ms   95.65ms   1.03s    82.19%
+    Req/Sec   297.33    182.57     1.07k    67.15%
+  Latency Distribution
+     50%   52.19ms
+     75%  139.61ms
+     90%  230.89ms
+     99%  354.50ms
+  177580 requests in 10.00m, 464.53MB read
+Requests/sec:    295.93
+Transfer/sec:    792.70KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    82.87ms   96.10ms 604.05ms   82.39%
+    Req/Sec   296.42    192.09     1.13k    67.82%
+  Latency Distribution
+     50%   52.29ms
+     75%  138.26ms
+     90%  232.01ms
+     99%  358.48ms
+  177096 requests in 10.00m, 463.26MB read
+Requests/sec:    295.12
+Transfer/sec:    790.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    85.92ms   97.96ms 595.39ms   82.14%
+    Req/Sec   277.75    179.99     1.42k    68.45%
+  Latency Distribution
+     50%   56.81ms
+     75%  145.28ms
+     90%  237.60ms
+     99%  361.89ms
+  165927 requests in 10.00m, 434.05MB read
+Requests/sec:    276.51
+Transfer/sec:    740.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    88.77ms   99.95ms 619.03ms   81.84%
+    Req/Sec   263.76    189.09     1.53k    68.36%
+  Latency Distribution
+     50%   59.34ms
+     75%  150.58ms
+     90%  244.24ms
+     99%  365.31ms
+  157525 requests in 10.00m, 412.07MB read
+Requests/sec:    262.50
+Transfer/sec:    703.15KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.48ms   97.56ms 618.37ms   82.12%
+    Req/Sec   291.17    192.10     1.32k    67.36%
+  Latency Distribution
+     50%   53.84ms
+     75%  142.36ms
+     90%  236.39ms
+     99%  359.81ms
+  173756 requests in 10.00m, 454.53MB read
+Requests/sec:    289.56
+Transfer/sec:    775.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    82.37ms   95.58ms 604.20ms   82.32%
+    Req/Sec   299.74    193.75     1.27k    70.11%
+  Latency Distribution
+     50%   51.18ms
+     75%  138.31ms
+     90%  229.78ms
+     99%  356.58ms
+  178960 requests in 10.00m, 468.14MB read
+Requests/sec:    298.23
+Transfer/sec:    798.85KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    87.46ms   98.61ms 628.72ms   82.01%
+    Req/Sec   267.36    185.46     1.16k    69.64%
+  Latency Distribution
+     50%   59.26ms
+     75%  148.36ms
+     90%  239.83ms
+     99%  362.83ms
+  159671 requests in 10.00m, 417.68MB read
+Requests/sec:    266.08
+Transfer/sec:    712.74KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.06ms   97.06ms 623.21ms   81.91%
+    Req/Sec   272.15    188.62     1.33k    68.72%
+  Latency Distribution
+     50%   57.05ms
+     75%  145.98ms
+     90%  236.38ms
+     99%  356.70ms
+  162556 requests in 10.00m, 425.23MB read
+Requests/sec:    270.91
+Transfer/sec:    725.68KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    85.83ms   98.46ms 606.12ms   82.09%
+    Req/Sec   281.44    196.87     1.63k    69.21%
+  Latency Distribution
+     50%   55.93ms
+     75%  143.98ms
+     90%  239.53ms
+     99%  363.19ms
+  167983 requests in 10.00m, 439.42MB read
+Requests/sec:    279.93
+Transfer/sec:    749.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    82.90ms   96.52ms 603.86ms   82.34%
+    Req/Sec   300.83    203.64     1.44k    66.64%
+  Latency Distribution
+     50%   51.51ms
+     75%  139.29ms
+     90%  232.44ms
+     99%  358.96ms
+  179684 requests in 10.00m, 470.03MB read
+Requests/sec:    299.44
+Transfer/sec:    802.10KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    83.28ms   95.66ms 598.86ms   82.21%
+    Req/Sec   290.92    193.82     1.34k    68.13%
+  Latency Distribution
+     50%   53.27ms
+     75%  140.37ms
+     90%  230.71ms
+     99%  356.26ms
+  173784 requests in 10.00m, 454.60MB read
+Requests/sec:    289.59
+Transfer/sec:    775.72KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.48ms   99.33ms 604.55ms   82.02%
+    Req/Sec   282.89    191.47     1.31k    69.23%
+  Latency Distribution
+     50%   55.44ms
+     75%  146.85ms
+     90%  241.71ms
+     99%  363.64ms
+  168861 requests in 10.00m, 441.72MB read
+Requests/sec:    281.41
+Transfer/sec:    753.80KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    86.42ms   97.88ms 631.74ms   82.07%
+    Req/Sec   272.10    177.92     1.24k    67.68%
+  Latency Distribution
+     50%   57.93ms
+     75%  145.70ms
+     90%  237.80ms
+     99%  361.20ms
+  162554 requests in 10.00m, 425.22MB read
+Requests/sec:    270.89
+Transfer/sec:    725.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    83.73ms   96.63ms   1.01s    82.22%
+    Req/Sec   290.94    188.72     1.09k    65.53%
+  Latency Distribution
+     50%   53.78ms
+     75%  140.22ms
+     90%  233.25ms
+     99%  358.92ms
+  173817 requests in 10.00m, 454.68MB read
+Requests/sec:    289.65
+Transfer/sec:    775.88KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    84.02ms   98.06ms 632.54ms   82.08%
+    Req/Sec   302.51    208.99     1.52k    66.00%
+  Latency Distribution
+     50%   50.55ms
+     75%  142.19ms
+     90%  237.86ms
+     99%  361.19ms
+  180632 requests in 10.00m, 472.51MB read
+Requests/sec:    301.01
+Transfer/sec:    806.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    83.61ms   97.55ms   1.10s    82.32%
+    Req/Sec   299.77    199.34     1.36k    64.94%
+  Latency Distribution
+     50%   50.90ms
+     75%  140.47ms
+     90%  235.83ms
+     99%  360.16ms
+  179061 requests in 10.00m, 468.40MB read
+Requests/sec:    298.39
+Transfer/sec:    799.27KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    85.17ms   97.04ms 622.58ms   82.26%
+    Req/Sec   278.16    185.69     1.17k    67.11%
+  Latency Distribution
+     50%   57.24ms
+     75%  143.15ms
+     90%  234.67ms
+     99%  360.13ms
+  166136 requests in 10.00m, 434.59MB read
+Requests/sec:    276.85
+Transfer/sec:    741.59KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    83.45ms   95.97ms 625.04ms   82.13%
+    Req/Sec   291.93    195.58     1.43k    67.02%
+  Latency Distribution
+     50%   53.33ms
+     75%  141.51ms
+     90%  231.04ms
+     99%  356.08ms
+  174353 requests in 10.00m, 456.09MB read
+Requests/sec:    290.57
+Transfer/sec:    778.34KB
++ (( j++ ))
++ (( j<100 ))
++ file=83
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=84
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=85
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=86
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=87
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=88
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=89
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=90
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=91
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=92
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=93
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=94
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=95
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=96
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=97
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=98
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=99
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ wait
++ for pod in 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
++ scs nginx-ingress-controller 11
+deployment.apps/nginx-ingress-controller scaled
++ cp -rf box ips
++ date
+Mon Jul 20 09:54:58 UTC 2020
++ dir=https.ingress.svc..11
++ ./2020-06-28-main.just.ingress.svc.sh https.ingress.svc..11
+Warning: Permanently added '10.1.0.22' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.23' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.34' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.56' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.24' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.29' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.30' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.89' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.28' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.31' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.43' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.27' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.37' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.33' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.45' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.32' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.26' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.44' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.67' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.36' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.40' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.38' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.46' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.78' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.39' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.35' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.47' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.42' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.111' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.50' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.48' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.41' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.52' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.53' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.25' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.51' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.54' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.60' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.55' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.49' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.59' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.58' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.63' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.61' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.57' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.64' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.62' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.70' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.71' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.66' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.74' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.79' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.72' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.65' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.73' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.76' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.77' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.80' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.68' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.69' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.81' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.83' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.82' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.84' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.95' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.75' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
++ sleep 30
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.86' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.90' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.88' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.87' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.85' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.98' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.103' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.93' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.97' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.104' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.105' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.91' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.102' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.101' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.92' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.106' (ECDSA) to the list of known hosts.
+sh: 1: wrk: not found
+Warning: Permanently added '10.1.0.94' (ECDSA) to the list of known hosts.
+sh: 1: wrk: not found
+Warning: Permanently added '10.1.0.108' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.99' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.107' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.110' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.109' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.113' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.115' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.114' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.112' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.116' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.133' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.118' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.117' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.119' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.132' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+sh: 1: wrk: not found
++ (( j=0 ))
++ (( j<100 ))
++ file=0
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=1
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=2
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=3
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=4
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=5
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=6
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=7
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=8
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=9
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=10
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=11
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=12
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=13
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=14
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=15
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=16
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=17
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=18
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=19
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=20
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=21
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=22
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=23
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=24
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=25
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=26
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=27
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=28
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=29
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=30
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=31
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=32
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=33
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=34
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=35
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=36
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=37
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=38
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=39
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=40
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=41
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=42
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=43
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=44
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=45
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=46
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=47
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=48
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=49
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=50
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=51
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=52
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=53
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=54
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=55
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=56
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=57
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=58
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=59
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=60
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=61
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=62
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=63
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=64
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=65
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=66
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=67
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=68
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=69
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=70
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=71
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=72
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=73
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=74
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=75
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=76
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=77
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=78
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=79
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=80
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=81
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=82
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    92.53ms  109.83ms 822.22ms   83.18%
+    Req/Sec   273.23    191.28     1.25k    66.46%
+  Latency Distribution
+     50%   56.44ms
+     75%  152.34ms
+     90%  259.34ms
+     99%  428.63ms
+  163224 requests in 10.00m, 426.97MB read
+Requests/sec:    272.03
+Transfer/sec:    728.68KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.21ms  111.42ms 789.02ms   82.93%
+    Req/Sec   258.55    184.18     1.37k    69.36%
+  Latency Distribution
+     50%   59.41ms
+     75%  156.76ms
+     90%  265.77ms
+     99%  431.05ms
+  154447 requests in 10.00m, 404.02MB read
+Requests/sec:    257.41
+Transfer/sec:    689.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.68ms  111.28ms 794.31ms   82.88%
+    Req/Sec   264.73    180.66     1.16k    67.78%
+  Latency Distribution
+     50%   58.00ms
+     75%  156.98ms
+     90%  265.43ms
+     99%  427.00ms
+  158126 requests in 10.00m, 413.64MB read
+Requests/sec:    263.52
+Transfer/sec:    705.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.83ms  112.46ms 836.23ms   82.75%
+    Req/Sec   261.46    179.89     1.18k    65.16%
+  Latency Distribution
+     50%   57.87ms
+     75%  159.74ms
+     90%  267.97ms
+     99%  430.86ms
+  156129 requests in 10.00m, 408.41MB read
+Requests/sec:    260.20
+Transfer/sec:    696.98KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.73ms  113.12ms 792.97ms   82.89%
+    Req/Sec   255.31    185.27     1.27k    66.48%
+  Latency Distribution
+     50%   60.14ms
+     75%  160.61ms
+     90%  269.36ms
+     99%  436.30ms
+  152503 requests in 10.00m, 398.93MB read
+Requests/sec:    254.16
+Transfer/sec:    680.81KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    93.76ms  109.74ms 804.67ms   83.44%
+    Req/Sec   259.12    190.84     1.14k    71.30%
+  Latency Distribution
+     50%   59.18ms
+     75%  154.04ms
+     90%  257.30ms
+     99%  432.72ms
+  154783 requests in 10.00m, 404.89MB read
+Requests/sec:    257.95
+Transfer/sec:    690.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.02ms  113.93ms 836.77ms   82.55%
+    Req/Sec   251.92    178.81     1.09k    67.34%
+  Latency Distribution
+     50%   60.69ms
+     75%  164.17ms
+     90%  273.80ms
+     99%  433.58ms
+  150341 requests in 10.00m, 393.27MB read
+Requests/sec:    250.57
+Transfer/sec:    671.18KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.65ms  111.29ms   1.03s    83.07%
+    Req/Sec   244.85    170.78     1.05k    69.48%
+  Latency Distribution
+     50%   62.42ms
+     75%  159.38ms
+     90%  264.35ms
+     99%  432.45ms
+  146275 requests in 10.00m, 382.64MB read
+Requests/sec:    243.78
+Transfer/sec:    653.02KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.17ms  114.21ms 834.54ms   82.55%
+    Req/Sec   251.78    174.66     1.06k    67.87%
+  Latency Distribution
+     50%   61.01ms
+     75%  164.18ms
+     90%  274.34ms
+     99%  435.06ms
+  150430 requests in 10.00m, 393.51MB read
+Requests/sec:    250.69
+Transfer/sec:    671.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    93.66ms  110.31ms 768.74ms   83.03%
+    Req/Sec   266.58    186.13     1.35k    67.85%
+  Latency Distribution
+     50%   58.18ms
+     75%  154.93ms
+     90%  261.34ms
+     99%  429.00ms
+  159252 requests in 10.00m, 416.58MB read
+Requests/sec:    265.40
+Transfer/sec:    710.91KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.66ms  113.81ms 797.46ms   82.66%
+    Req/Sec   244.88    187.79     1.28k    74.27%
+  Latency Distribution
+     50%   63.31ms
+     75%  164.78ms
+     90%  273.53ms
+     99%  433.28ms
+  146288 requests in 10.00m, 382.67MB read
+Requests/sec:    243.79
+Transfer/sec:    653.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.26ms  113.09ms 788.30ms   82.70%
+    Req/Sec   272.33    188.85     1.22k    66.17%
+  Latency Distribution
+     50%   56.94ms
+     75%  159.30ms
+     90%  269.42ms
+     99%  433.27ms
+  162524 requests in 10.00m, 425.14MB read
+Requests/sec:    270.87
+Transfer/sec:    725.57KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    93.96ms  110.24ms 802.02ms   83.03%
+    Req/Sec   264.51    184.44     1.26k    67.36%
+  Latency Distribution
+     50%   57.78ms
+     75%  156.00ms
+     90%  261.56ms
+     99%  425.17ms
+  158040 requests in 10.00m, 413.41MB read
+Requests/sec:    263.36
+Transfer/sec:    705.45KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.18ms  113.44ms 804.10ms   82.75%
+    Req/Sec   245.78    184.61     1.21k    68.45%
+  Latency Distribution
+     50%   63.02ms
+     75%  163.24ms
+     90%  271.66ms
+     99%  435.41ms
+  146751 requests in 10.00m, 383.88MB read
+Requests/sec:    244.58
+Transfer/sec:    655.15KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.60ms  111.82ms 824.20ms   82.72%
+    Req/Sec   250.27    180.47     1.11k    70.81%
+  Latency Distribution
+     50%   61.77ms
+     75%  159.95ms
+     90%  267.65ms
+     99%  428.50ms
+  149473 requests in 10.00m, 391.00MB read
+Requests/sec:    249.08
+Transfer/sec:    667.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.76ms  115.83ms 891.18ms   82.79%
+    Req/Sec   229.81    168.97     1.21k    69.68%
+  Latency Distribution
+     50%   67.66ms
+     75%  170.29ms
+     90%  277.12ms
+     99%  442.58ms
+  137213 requests in 10.00m, 358.93MB read
+Requests/sec:    228.69
+Transfer/sec:    612.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.73ms  111.24ms 775.84ms   82.89%
+    Req/Sec   263.29    190.79     1.13k    68.09%
+  Latency Distribution
+     50%   58.46ms
+     75%  157.16ms
+     90%  264.41ms
+     99%  428.75ms
+  157265 requests in 10.00m, 411.39MB read
+Requests/sec:    262.10
+Transfer/sec:    702.07KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.08ms  111.62ms 835.21ms   82.95%
+    Req/Sec   271.26    186.02     1.11k    65.73%
+  Latency Distribution
+     50%   56.67ms
+     75%  155.85ms
+     90%  265.03ms
+     99%  430.65ms
+  161964 requests in 10.00m, 423.68MB read
+Requests/sec:    269.92
+Transfer/sec:    723.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    93.54ms  110.38ms 801.52ms   82.98%
+    Req/Sec   269.75    187.38     1.29k    66.74%
+  Latency Distribution
+     50%   56.80ms
+     75%  155.72ms
+     90%  260.64ms
+     99%  425.99ms
+  161177 requests in 10.00m, 421.62MB read
+Requests/sec:    268.61
+Transfer/sec:    719.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.79ms  112.50ms 778.71ms   82.99%
+    Req/Sec   250.60    181.89     1.39k    69.96%
+  Latency Distribution
+     50%   61.43ms
+     75%  160.41ms
+     90%  266.96ms
+     99%  435.11ms
+  149735 requests in 10.00m, 391.69MB read
+Requests/sec:    249.54
+Transfer/sec:    668.42KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    97.25ms  113.50ms 767.06ms   82.81%
+    Req/Sec   254.24    175.02     1.12k    66.70%
+  Latency Distribution
+     50%   60.38ms
+     75%  162.15ms
+     90%  271.36ms
+     99%  436.31ms
+  151905 requests in 10.00m, 397.37MB read
+Requests/sec:    253.16
+Transfer/sec:    678.12KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.38ms  112.17ms 805.91ms   83.12%
+    Req/Sec   251.90    183.00     1.29k    73.86%
+  Latency Distribution
+     50%   61.37ms
+     75%  159.91ms
+     90%  265.16ms
+     99%  436.37ms
+  150458 requests in 10.00m, 393.58MB read
+Requests/sec:    250.73
+Transfer/sec:    671.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.88ms  111.59ms 782.89ms   83.00%
+    Req/Sec   263.60    199.58     1.37k    72.92%
+  Latency Distribution
+     50%   58.22ms
+     75%  157.42ms
+     90%  264.88ms
+     99%  432.33ms
+  157486 requests in 10.00m, 411.96MB read
+Requests/sec:    262.44
+Transfer/sec:    702.98KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.07ms  111.54ms 795.08ms   83.06%
+    Req/Sec   260.20    176.02     1.12k    67.75%
+  Latency Distribution
+     50%   59.04ms
+     75%  157.14ms
+     90%  264.78ms
+     99%  432.16ms
+  155454 requests in 10.00m, 406.65MB read
+Requests/sec:    259.05
+Transfer/sec:    693.92KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    97.76ms  112.12ms 793.84ms   83.00%
+    Req/Sec   240.70    169.72     1.21k    69.02%
+  Latency Distribution
+     50%   64.71ms
+     75%  162.04ms
+     90%  266.44ms
+     99%  432.36ms
+  143825 requests in 10.00m, 376.23MB read
+Requests/sec:    239.68
+Transfer/sec:    642.01KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    91.37ms  108.95ms 801.26ms   83.10%
+    Req/Sec   279.81    196.92     1.35k    67.70%
+  Latency Distribution
+     50%   55.50ms
+     75%  149.99ms
+     90%  257.27ms
+     99%  423.70ms
+  167134 requests in 10.00m, 437.20MB read
+Requests/sec:    278.55
+Transfer/sec:    746.14KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.52ms  113.97ms 790.26ms   82.83%
+    Req/Sec   245.44    178.46     1.26k    71.38%
+  Latency Distribution
+     50%   62.79ms
+     75%  163.48ms
+     90%  273.17ms
+     99%  437.78ms
+  146474 requests in 10.00m, 383.16MB read
+Requests/sec:    244.12
+Transfer/sec:    653.91KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    93.50ms  109.74ms 790.72ms   82.88%
+    Req/Sec   266.19    186.05     1.35k    65.82%
+  Latency Distribution
+     50%   57.90ms
+     75%  154.74ms
+     90%  261.11ms
+     99%  421.33ms
+  159025 requests in 10.00m, 415.99MB read
+Requests/sec:    265.01
+Transfer/sec:    709.88KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.85ms  111.04ms 820.39ms   83.00%
+    Req/Sec   251.35    191.46     1.25k    76.94%
+  Latency Distribution
+     50%   61.62ms
+     75%  158.99ms
+     90%  264.16ms
+     99%  426.60ms
+  150178 requests in 10.00m, 392.85MB read
+Requests/sec:    250.27
+Transfer/sec:    670.40KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.80ms  115.12ms 832.85ms   82.64%
+    Req/Sec   242.76    177.61     1.13k    71.06%
+  Latency Distribution
+     50%   63.91ms
+     75%  167.13ms
+     90%  276.55ms
+     99%  438.15ms
+  145027 requests in 10.00m, 379.37MB read
+Requests/sec:    241.70
+Transfer/sec:    647.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.19ms  113.66ms 785.09ms   82.77%
+    Req/Sec   247.43    178.44     1.17k    71.18%
+  Latency Distribution
+     50%   62.60ms
+     75%  164.24ms
+     90%  271.09ms
+     99%  436.40ms
+  147707 requests in 10.00m, 386.38MB read
+Requests/sec:    246.15
+Transfer/sec:    659.34KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.82ms  112.74ms 783.26ms   82.87%
+    Req/Sec   252.91    174.99     1.13k    68.66%
+  Latency Distribution
+     50%   60.77ms
+     75%  161.17ms
+     90%  268.95ms
+     99%  434.29ms
+  151070 requests in 10.00m, 395.18MB read
+Requests/sec:    251.76
+Transfer/sec:    674.38KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.05ms  111.82ms 762.40ms   82.89%
+    Req/Sec   263.78    184.79     1.17k    67.67%
+  Latency Distribution
+     50%   58.13ms
+     75%  157.69ms
+     90%  266.19ms
+     99%  430.52ms
+  157543 requests in 10.00m, 412.11MB read
+Requests/sec:    262.54
+Transfer/sec:    703.27KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    92.23ms  109.45ms 801.29ms   83.29%
+    Req/Sec   273.70    182.95     1.20k    66.55%
+  Latency Distribution
+     50%   56.87ms
+     75%  151.28ms
+     90%  258.09ms
+     99%  424.63ms
+  163526 requests in 10.00m, 427.76MB read
+Requests/sec:    272.52
+Transfer/sec:    729.98KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    97.06ms  112.03ms 787.96ms   82.72%
+    Req/Sec   249.13    183.76     1.33k    71.39%
+  Latency Distribution
+     50%   62.37ms
+     75%  163.09ms
+     90%  266.94ms
+     99%  427.59ms
+  148853 requests in 10.00m, 389.38MB read
+Requests/sec:    248.05
+Transfer/sec:    664.45KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.71ms  113.74ms 806.01ms   82.68%
+    Req/Sec   243.21    169.79     1.21k    69.36%
+  Latency Distribution
+     50%   62.92ms
+     75%  163.93ms
+     90%  273.75ms
+     99%  433.23ms
+  145325 requests in 10.00m, 380.15MB read
+Requests/sec:    242.19
+Transfer/sec:    648.74KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.86ms  112.61ms 833.86ms   82.86%
+    Req/Sec   260.29    191.02     1.45k    71.33%
+  Latency Distribution
+     50%   59.13ms
+     75%  158.62ms
+     90%  268.75ms
+     99%  434.06ms
+  155472 requests in 10.00m, 406.70MB read
+Requests/sec:    259.11
+Transfer/sec:    694.07KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    87.57ms  106.19ms 764.83ms   83.25%
+    Req/Sec   305.45    197.79     1.43k    64.88%
+  Latency Distribution
+     50%   49.58ms
+     75%  143.61ms
+     90%  249.08ms
+     99%  413.27ms
+  182433 requests in 10.00m, 477.22MB read
+Requests/sec:    304.04
+Transfer/sec:    814.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.72ms  111.06ms 784.78ms   82.92%
+    Req/Sec   253.72    192.54     1.33k    70.31%
+  Latency Distribution
+     50%   60.28ms
+     75%  159.88ms
+     90%  263.05ms
+     99%  429.81ms
+  151552 requests in 10.00m, 396.44MB read
+Requests/sec:    252.58
+Transfer/sec:    676.59KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.89ms  111.87ms 804.93ms   83.02%
+    Req/Sec   255.84    177.60     1.21k    67.60%
+  Latency Distribution
+     50%   60.06ms
+     75%  159.34ms
+     90%  265.14ms
+     99%  432.95ms
+  152849 requests in 10.00m, 399.83MB read
+Requests/sec:    254.73
+Transfer/sec:    682.33KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    92.99ms  109.98ms 785.99ms   83.27%
+    Req/Sec   268.54    190.60     1.25k    70.37%
+  Latency Distribution
+     50%   57.16ms
+     75%  151.93ms
+     90%  260.86ms
+     99%  430.30ms
+  160399 requests in 10.00m, 419.58MB read
+Requests/sec:    267.31
+Transfer/sec:    716.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    92.52ms  110.00ms 803.35ms   83.20%
+    Req/Sec   274.51    199.65     1.34k    71.17%
+  Latency Distribution
+     50%   56.59ms
+     75%  152.10ms
+     90%  259.98ms
+     99%  427.97ms
+  163988 requests in 10.00m, 428.97MB read
+Requests/sec:    273.27
+Transfer/sec:    732.00KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    93.67ms  111.53ms 767.52ms   82.96%
+    Req/Sec   275.10    181.42     1.18k    64.93%
+  Latency Distribution
+     50%   55.58ms
+     75%  154.47ms
+     90%  266.05ms
+     99%  429.62ms
+  164320 requests in 10.00m, 429.84MB read
+Requests/sec:    273.82
+Transfer/sec:    733.48KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    92.38ms  110.58ms 843.96ms   83.05%
+    Req/Sec   282.74    198.04     1.31k    66.51%
+  Latency Distribution
+     50%   53.93ms
+     75%  153.50ms
+     90%  260.56ms
+     99%  428.95ms
+  168828 requests in 10.00m, 441.63MB read
+Requests/sec:    281.37
+Transfer/sec:    753.69KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    93.56ms  109.79ms 753.98ms   83.07%
+    Req/Sec   263.88    183.66     1.31k    65.33%
+  Latency Distribution
+     50%   58.70ms
+     75%  154.20ms
+     90%  260.36ms
+     99%  426.48ms
+  157657 requests in 10.00m, 412.41MB read
+Requests/sec:    262.72
+Transfer/sec:    703.74KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.80ms  111.30ms 764.77ms   82.91%
+    Req/Sec   264.13    193.09     1.12k    65.77%
+  Latency Distribution
+     50%   58.39ms
+     75%  158.63ms
+     90%  263.30ms
+     99%  430.06ms
+  157812 requests in 10.00m, 412.82MB read
+Requests/sec:    263.00
+Transfer/sec:    704.49KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.82ms  113.78ms 755.08ms   82.81%
+    Req/Sec   242.78    181.41     1.19k    69.78%
+  Latency Distribution
+     50%   63.30ms
+     75%  164.71ms
+     90%  272.41ms
+     99%  436.13ms
+  144953 requests in 10.00m, 379.18MB read
+Requests/sec:    241.55
+Transfer/sec:    647.04KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.52ms  112.85ms   1.02s    82.82%
+    Req/Sec   266.92    197.09     1.18k    72.52%
+  Latency Distribution
+     50%   57.58ms
+     75%  159.60ms
+     90%  268.35ms
+     99%  432.33ms
+  159436 requests in 10.00m, 417.07MB read
+Requests/sec:    265.71
+Transfer/sec:    711.76KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    93.04ms  110.05ms 785.39ms   83.00%
+    Req/Sec   273.12    197.35     1.17k    68.55%
+  Latency Distribution
+     50%   56.07ms
+     75%  154.73ms
+     90%  260.88ms
+     99%  425.05ms
+  163167 requests in 10.00m, 426.83MB read
+Requests/sec:    271.90
+Transfer/sec:    728.33KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.52ms  110.28ms 797.88ms   82.89%
+    Req/Sec   260.04    187.90     1.49k    69.01%
+  Latency Distribution
+     50%   59.62ms
+     75%  157.26ms
+     90%  262.66ms
+     99%  422.40ms
+  155325 requests in 10.00m, 406.31MB read
+Requests/sec:    258.87
+Transfer/sec:    693.42KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.41ms  112.11ms 779.08ms   82.92%
+    Req/Sec   262.91    190.67     1.28k    67.56%
+  Latency Distribution
+     50%   58.78ms
+     75%  158.81ms
+     90%  266.54ms
+     99%  431.74ms
+  157036 requests in 10.00m, 410.79MB read
+Requests/sec:    261.68
+Transfer/sec:    700.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.00ms  110.82ms 791.82ms   83.07%
+    Req/Sec   247.79    178.89     1.10k    72.42%
+  Latency Distribution
+     50%   62.94ms
+     75%  158.41ms
+     90%  264.15ms
+     99%  427.49ms
+  148053 requests in 10.00m, 387.29MB read
+Requests/sec:    246.74
+Transfer/sec:    660.94KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.87ms  113.16ms 891.87ms   82.62%
+    Req/Sec   266.65    186.60     1.24k    66.26%
+  Latency Distribution
+     50%   57.90ms
+     75%  160.54ms
+     90%  270.46ms
+     99%  431.42ms
+  159210 requests in 10.00m, 416.47MB read
+Requests/sec:    265.35
+Transfer/sec:    710.78KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.55ms  111.43ms 792.24ms   82.92%
+    Req/Sec   256.47    184.10     1.09k    68.17%
+  Latency Distribution
+     50%   60.22ms
+     75%  158.78ms
+     90%  264.98ms
+     99%  429.08ms
+  153195 requests in 10.00m, 400.74MB read
+Requests/sec:    255.32
+Transfer/sec:    683.91KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    92.90ms  109.87ms 766.43ms   83.14%
+    Req/Sec   270.67    191.18     1.18k    68.45%
+  Latency Distribution
+     50%   57.50ms
+     75%  153.77ms
+     90%  258.92ms
+     99%  426.66ms
+  161680 requests in 10.00m, 422.94MB read
+Requests/sec:    269.43
+Transfer/sec:    721.72KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.82ms  112.67ms 776.55ms   82.75%
+    Req/Sec   263.76    198.15     1.23k    70.24%
+  Latency Distribution
+     50%   57.97ms
+     75%  160.42ms
+     90%  268.05ms
+     99%  432.12ms
+  157562 requests in 10.00m, 412.16MB read
+Requests/sec:    262.60
+Transfer/sec:    703.42KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    93.47ms  110.78ms 788.33ms   82.73%
+    Req/Sec   275.35    200.26     1.18k    67.54%
+  Latency Distribution
+     50%   56.28ms
+     75%  155.73ms
+     90%  264.19ms
+     99%  423.28ms
+  164460 requests in 10.00m, 430.21MB read
+Requests/sec:    274.10
+Transfer/sec:    734.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.47ms  110.02ms 817.49ms   82.95%
+    Req/Sec   258.21    188.09     1.30k    69.14%
+  Latency Distribution
+     50%   59.08ms
+     75%  156.21ms
+     90%  262.30ms
+     99%  424.41ms
+  154207 requests in 10.00m, 403.39MB read
+Requests/sec:    257.00
+Transfer/sec:    688.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    92.45ms  109.19ms 778.95ms   82.99%
+    Req/Sec   272.51    196.27     1.17k    66.42%
+  Latency Distribution
+     50%   56.61ms
+     75%  153.21ms
+     90%  258.07ms
+     99%  420.43ms
+  162772 requests in 10.00m, 425.79MB read
+Requests/sec:    271.28
+Transfer/sec:    726.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.26ms  112.13ms 893.12ms   82.83%
+    Req/Sec   254.13    179.58     1.18k    69.53%
+  Latency Distribution
+     50%   60.86ms
+     75%  159.65ms
+     90%  267.54ms
+     99%  431.09ms
+  151746 requests in 10.00m, 396.95MB read
+Requests/sec:    252.90
+Transfer/sec:    677.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.97ms  110.30ms 763.49ms   83.01%
+    Req/Sec   255.02    185.92     1.24k    71.78%
+  Latency Distribution
+     50%   60.82ms
+     75%  157.18ms
+     90%  262.24ms
+     99%  425.05ms
+  152235 requests in 10.00m, 398.23MB read
+Requests/sec:    253.72
+Transfer/sec:    679.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.37ms  111.69ms 759.25ms   82.82%
+    Req/Sec   250.89    189.51     1.25k    72.51%
+  Latency Distribution
+     50%   62.36ms
+     75%  159.80ms
+     90%  266.39ms
+     99%  429.15ms
+  149764 requests in 10.00m, 391.76MB read
+Requests/sec:    249.60
+Transfer/sec:    668.59KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.43ms  111.60ms 799.98ms   82.99%
+    Req/Sec   257.66    191.55     1.39k    70.65%
+  Latency Distribution
+     50%   59.96ms
+     75%  158.70ms
+     90%  264.43ms
+     99%  430.45ms
+  153924 requests in 10.00m, 402.65MB read
+Requests/sec:    256.50
+Transfer/sec:    687.09KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.88ms  111.79ms 829.19ms   82.82%
+    Req/Sec   255.92    179.53     1.24k    65.89%
+  Latency Distribution
+     50%   59.67ms
+     75%  159.58ms
+     90%  265.42ms
+     99%  432.28ms
+  152889 requests in 10.00m, 399.94MB read
+Requests/sec:    254.80
+Transfer/sec:    682.53KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    93.53ms  108.52ms 741.72ms   83.12%
+    Req/Sec   256.36    180.50     1.37k    69.36%
+  Latency Distribution
+     50%   60.51ms
+     75%  153.09ms
+     90%  259.15ms
+     99%  419.43ms
+  153198 requests in 10.00m, 400.75MB read
+Requests/sec:    255.29
+Transfer/sec:    683.83KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.34ms  112.40ms 804.69ms   82.74%
+    Req/Sec   256.63    177.66     1.22k    69.89%
+  Latency Distribution
+     50%   60.00ms
+     75%  161.30ms
+     90%  268.18ms
+     99%  429.92ms
+  153283 requests in 10.00m, 400.97MB read
+Requests/sec:    255.46
+Transfer/sec:    684.29KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    93.86ms  109.20ms 789.42ms   83.21%
+    Req/Sec   256.54    188.46     1.17k    72.71%
+  Latency Distribution
+     50%   60.75ms
+     75%  154.27ms
+     90%  258.43ms
+     99%  424.59ms
+  153153 requests in 10.00m, 400.63MB read
+Requests/sec:    255.24
+Transfer/sec:    683.69KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    91.94ms  108.68ms 778.15ms   83.07%
+    Req/Sec   273.95    191.04     1.32k    68.30%
+  Latency Distribution
+     50%   56.85ms
+     75%  152.66ms
+     90%  256.18ms
+     99%  420.66ms
+  163662 requests in 10.00m, 428.12MB read
+Requests/sec:    272.74
+Transfer/sec:    730.59KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.71ms  114.14ms 836.16ms   82.85%
+    Req/Sec   236.05    177.57     1.16k    76.28%
+  Latency Distribution
+     50%   66.19ms
+     75%  165.45ms
+     90%  273.73ms
+     99%  438.22ms
+  140991 requests in 10.00m, 368.82MB read
+Requests/sec:    234.97
+Transfer/sec:    629.40KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    91.42ms  109.51ms 833.59ms   83.12%
+    Req/Sec   284.56    190.00     1.51k    64.83%
+  Latency Distribution
+     50%   53.80ms
+     75%  150.64ms
+     90%  258.09ms
+     99%  425.87ms
+  169971 requests in 10.00m, 444.62MB read
+Requests/sec:    283.27
+Transfer/sec:    758.80KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    97.87ms  114.04ms 756.48ms   82.62%
+    Req/Sec   252.91    181.21     1.12k    65.49%
+  Latency Distribution
+     50%   61.45ms
+     75%  163.45ms
+     90%  274.35ms
+     99%  433.45ms
+  150886 requests in 10.00m, 394.70MB read
+Requests/sec:    251.44
+Transfer/sec:    673.54KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    93.26ms  109.88ms 776.85ms   83.05%
+    Req/Sec   267.62    189.99     1.22k    69.58%
+  Latency Distribution
+     50%   57.47ms
+     75%  154.55ms
+     90%  259.69ms
+     99%  427.60ms
+  159839 requests in 10.00m, 418.12MB read
+Requests/sec:    266.38
+Transfer/sec:    713.53KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    97.43ms  114.20ms 891.90ms   82.91%
+    Req/Sec   254.95    185.57     1.24k    71.30%
+  Latency Distribution
+     50%   61.00ms
+     75%  161.45ms
+     90%  273.03ms
+     99%  439.96ms
+  152200 requests in 10.00m, 398.14MB read
+Requests/sec:    253.63
+Transfer/sec:    679.40KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.52ms  113.01ms 774.09ms   82.92%
+    Req/Sec   256.80    179.95     1.08k    67.70%
+  Latency Distribution
+     50%   60.21ms
+     75%  161.06ms
+     90%  267.98ms
+     99%  437.77ms
+  153290 requests in 10.00m, 400.99MB read
+Requests/sec:    255.46
+Transfer/sec:    684.28KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    97.63ms  113.58ms 785.78ms   82.82%
+    Req/Sec   251.34    181.54     1.36k    70.84%
+  Latency Distribution
+     50%   61.22ms
+     75%  162.94ms
+     90%  271.63ms
+     99%  434.83ms
+  150133 requests in 10.00m, 392.73MB read
+Requests/sec:    250.21
+Transfer/sec:    670.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.48ms  111.35ms 807.17ms   82.85%
+    Req/Sec   266.82    189.04     1.44k    69.46%
+  Latency Distribution
+     50%   57.26ms
+     75%  156.96ms
+     90%  265.80ms
+     99%  428.09ms
+  159392 requests in 10.00m, 416.95MB read
+Requests/sec:    265.64
+Transfer/sec:    711.57KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    92.93ms  109.60ms 803.78ms   82.88%
+    Req/Sec   271.22    184.73     1.08k    66.49%
+  Latency Distribution
+     50%   56.51ms
+     75%  154.01ms
+     90%  260.00ms
+     99%  421.93ms
+  161995 requests in 10.00m, 423.76MB read
+Requests/sec:    269.97
+Transfer/sec:    723.15KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    93.47ms  109.81ms 812.05ms   83.04%
+    Req/Sec   265.35    207.84     1.46k    77.61%
+  Latency Distribution
+     50%   58.24ms
+     75%  153.85ms
+     90%  261.67ms
+     99%  423.54ms
+  158394 requests in 10.00m, 414.34MB read
+Requests/sec:    263.95
+Transfer/sec:    707.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    97.01ms  112.90ms 791.17ms   82.84%
+    Req/Sec   252.06    183.97     1.37k    70.73%
+  Latency Distribution
+     50%   61.69ms
+     75%  161.33ms
+     90%  269.21ms
+     99%  434.35ms
+  150514 requests in 10.00m, 393.73MB read
+Requests/sec:    250.84
+Transfer/sec:    671.92KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.39ms  110.01ms 754.84ms   83.06%
+    Req/Sec   258.39    178.87     1.16k    68.12%
+  Latency Distribution
+     50%   59.48ms
+     75%  157.00ms
+     90%  259.26ms
+     99%  428.84ms
+  154378 requests in 10.00m, 403.83MB read
+Requests/sec:    257.26
+Transfer/sec:    689.12KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    97.06ms  112.40ms 788.28ms   82.72%
+    Req/Sec   250.57    184.56     1.37k    71.43%
+  Latency Distribution
+     50%   62.05ms
+     75%  162.29ms
+     90%  269.24ms
+     99%  429.22ms
+  149695 requests in 10.00m, 391.58MB read
+Requests/sec:    249.46
+Transfer/sec:    668.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.05ms  110.85ms 793.50ms   83.07%
+    Req/Sec   266.02    192.89     1.29k    69.02%
+  Latency Distribution
+     50%   57.97ms
+     75%  155.52ms
+     90%  262.98ms
+     99%  429.45ms
+  158940 requests in 10.00m, 415.77MB read
+Requests/sec:    264.89
+Transfer/sec:    709.55KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.07ms  110.51ms 722.97ms   83.01%
+    Req/Sec   263.88    172.40     1.19k    64.22%
+  Latency Distribution
+     50%   58.41ms
+     75%  155.55ms
+     90%  261.69ms
+     99%  429.44ms
+  157659 requests in 10.00m, 412.42MB read
+Requests/sec:    262.75
+Transfer/sec:    703.82KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.43ms  111.95ms 774.38ms   83.05%
+    Req/Sec   250.13    183.83     1.19k    71.44%
+  Latency Distribution
+     50%   61.96ms
+     75%  159.74ms
+     90%  265.68ms
+     99%  435.52ms
+  149397 requests in 10.00m, 390.80MB read
+Requests/sec:    248.99
+Transfer/sec:    666.97KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.16ms  111.80ms 776.50ms   83.11%
+    Req/Sec   260.92    186.56     1.17k    67.16%
+  Latency Distribution
+     50%   59.06ms
+     75%  157.65ms
+     90%  264.58ms
+     99%  432.88ms
+  155854 requests in 10.00m, 407.70MB read
+Requests/sec:    259.72
+Transfer/sec:    695.71KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.55ms  113.21ms 765.37ms   82.83%
+    Req/Sec   257.92    183.46     1.08k    66.09%
+  Latency Distribution
+     50%   59.82ms
+     75%  160.26ms
+     90%  271.30ms
+     99%  433.87ms
+  154035 requests in 10.00m, 402.94MB read
+Requests/sec:    256.69
+Transfer/sec:    687.59KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.37ms  112.93ms 800.35ms   82.96%
+    Req/Sec   257.54    176.59     1.14k    64.26%
+  Latency Distribution
+     50%   59.83ms
+     75%  160.66ms
+     90%  267.55ms
+     99%  435.84ms
+  153843 requests in 10.00m, 402.44MB read
+Requests/sec:    256.40
+Transfer/sec:    686.81KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    92.46ms  109.77ms 784.03ms   83.08%
+    Req/Sec   275.21    186.89     1.18k    66.88%
+  Latency Distribution
+     50%   55.57ms
+     75%  152.76ms
+     90%  259.23ms
+     99%  426.03ms
+  164413 requests in 10.00m, 430.08MB read
+Requests/sec:    273.98
+Transfer/sec:    733.91KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.94ms  112.69ms 805.33ms   82.68%
+    Req/Sec   263.68    195.68     1.19k    72.07%
+  Latency Distribution
+     50%   58.11ms
+     75%  161.20ms
+     90%  268.79ms
+     99%  430.56ms
+  157483 requests in 10.00m, 411.96MB read
+Requests/sec:    262.45
+Transfer/sec:    703.01KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    92.72ms  109.91ms 755.05ms   83.34%
+    Req/Sec   269.94    189.11     1.42k    67.25%
+  Latency Distribution
+     50%   57.41ms
+     75%  151.38ms
+     90%  258.69ms
+     99%  432.04ms
+  161276 requests in 10.00m, 421.88MB read
+Requests/sec:    268.75
+Transfer/sec:    719.90KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.30ms  109.21ms 835.05ms   83.11%
+    Req/Sec   253.11    176.84     1.10k    70.44%
+  Latency Distribution
+     50%   61.24ms
+     75%  155.04ms
+     90%  259.17ms
+     99%  422.96ms
+  151220 requests in 10.00m, 395.57MB read
+Requests/sec:    252.00
+Transfer/sec:    675.01KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.88ms  110.68ms 768.92ms   83.06%
+    Req/Sec   257.07    191.62     1.22k    71.66%
+  Latency Distribution
+     50%   60.66ms
+     75%  157.01ms
+     90%  262.68ms
+     99%  429.44ms
+  153546 requests in 10.00m, 401.66MB read
+Requests/sec:    255.87
+Transfer/sec:    685.40KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.10ms  112.21ms 891.32ms   83.00%
+    Req/Sec   265.12    185.39     1.12k    68.61%
+  Latency Distribution
+     50%   58.06ms
+     75%  157.74ms
+     90%  266.42ms
+     99%  434.94ms
+  158373 requests in 10.00m, 414.28MB read
+Requests/sec:    263.95
+Transfer/sec:    707.04KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.51ms  111.97ms 785.14ms   82.85%
+    Req/Sec   251.23    181.93     1.22k    72.23%
+  Latency Distribution
+     50%   61.58ms
+     75%  160.70ms
+     90%  266.39ms
+     99%  431.80ms
+  150052 requests in 10.00m, 392.52MB read
+Requests/sec:    250.06
+Transfer/sec:    669.83KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    93.34ms  109.88ms 778.72ms   82.82%
+    Req/Sec   268.81    178.59     1.19k    64.73%
+  Latency Distribution
+     50%   57.83ms
+     75%  155.46ms
+     90%  260.07ms
+     99%  423.20ms
+  160602 requests in 10.00m, 420.12MB read
+Requests/sec:    267.63
+Transfer/sec:    716.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    95.17ms  111.42ms 746.86ms   82.95%
+    Req/Sec   260.27    177.29     1.25k    66.55%
+  Latency Distribution
+     50%   59.34ms
+     75%  158.33ms
+     90%  264.92ms
+     99%  430.63ms
+  155491 requests in 10.00m, 406.75MB read
+Requests/sec:    259.14
+Transfer/sec:    694.16KB
++ (( j++ ))
++ (( j<100 ))
++ file=83
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=84
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=85
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=86
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=87
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=88
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=89
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=90
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=91
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=92
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=93
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=94
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=95
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=96
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=97
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=98
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=99
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ wait
++ for pod in 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
++ scs nginx-ingress-controller 10
+deployment.apps/nginx-ingress-controller scaled
++ cp -rf box ips
++ date
+Mon Jul 20 10:07:00 UTC 2020
++ dir=https.ingress.svc..10
++ ./2020-06-28-main.just.ingress.svc.sh https.ingress.svc..10
+Warning: Permanently added '10.1.0.23' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.22' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.78' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.25' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.34' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.45' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.111' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.27' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.40' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.29' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.28' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.89' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.37' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.38' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.51' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.36' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.26' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.30' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.31' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.56' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.32' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.24' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.41' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.43' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.67' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.48' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.39' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.46' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.63' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.42' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.47' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.64' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.35' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.33' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.55' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.44' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.49' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.58' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.61' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.54' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.52' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.53' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.60' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.50' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.62' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.75' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.57' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.91' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.70' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.59' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.74' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.105' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.65' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.69' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.68' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.103' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.66' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.76' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.71' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.79' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.97' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.80' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.72' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.77' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.73' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
++ sleep 30
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.82' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.81' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.84' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.87' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.83' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.86' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.85' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.92' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.113' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.88' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.106' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.99' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.95' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.110' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.94' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.93' (ECDSA) to the list of known hosts.
+sh: 1: wrk: not found
+Warning: Permanently added '10.1.0.102' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.104' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.98' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.101' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.112' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.109' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.108' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.107' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.114' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.132' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.115' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.133' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.117' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.116' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.118' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.119' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+sh: 1: wrk: not found
++ (( j=0 ))
++ (( j<100 ))
++ file=0
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=1
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=2
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=3
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=4
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=5
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=6
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=7
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=8
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=9
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=10
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=11
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=12
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=13
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=14
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=15
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=16
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=17
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=18
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=19
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=20
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=21
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=22
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=23
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=24
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=25
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=26
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=27
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=28
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=29
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=30
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=31
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=32
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=33
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=34
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=35
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=36
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=37
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=38
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=39
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=40
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=41
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=42
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=43
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=44
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=45
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=46
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=47
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=48
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=49
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=50
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=51
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=52
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=53
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=54
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=55
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=56
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=57
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=58
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=59
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=60
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=61
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=62
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=63
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=64
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=65
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=66
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=67
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=68
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=69
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=70
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=71
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=72
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=73
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=74
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=75
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=76
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=77
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=78
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=79
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=80
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=81
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.97ms  122.06ms 728.89ms   83.41%
+    Req/Sec   257.80    180.71     2.42k    69.07%
+  Latency Distribution
+     50%   59.23ms
+     75%  166.21ms
+     90%  298.29ms
+     99%  451.05ms
+  154032 requests in 10.00m, 402.93MB read
+Requests/sec:    256.70
+Transfer/sec:    687.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.75ms  125.62ms 722.80ms   82.78%
+    Req/Sec   241.22    189.35     1.97k    69.64%
+  Latency Distribution
+     50%   63.18ms
+     75%  176.46ms
+     90%  309.02ms
+     99%  454.40ms
+  143980 requests in 10.00m, 376.63MB read
+Requests/sec:    239.97
+Transfer/sec:    642.79KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.57ms  125.58ms 768.14ms   82.79%
+    Req/Sec   241.70    185.99     1.96k    72.13%
+  Latency Distribution
+     50%   63.90ms
+     75%  175.81ms
+     90%  308.08ms
+     99%  456.13ms
+  144253 requests in 10.00m, 377.35MB read
+Requests/sec:    240.42
+Transfer/sec:    644.00KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.35ms  126.23ms 795.25ms   82.65%
+    Req/Sec   239.59    176.62     1.11k    67.18%
+  Latency Distribution
+     50%   64.44ms
+     75%  177.59ms
+     90%  311.37ms
+     99%  455.65ms
+  143024 requests in 10.00m, 374.13MB read
+Requests/sec:    238.37
+Transfer/sec:    638.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.43ms  126.91ms 743.57ms   82.47%
+    Req/Sec   244.94    174.99     1.06k    67.25%
+  Latency Distribution
+     50%   62.03ms
+     75%  179.01ms
+     90%  312.31ms
+     99%  456.71ms
+  146320 requests in 10.00m, 382.76MB read
+Requests/sec:    243.86
+Transfer/sec:    653.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   108.30ms  127.07ms 760.76ms   82.75%
+    Req/Sec   235.44    175.44     1.20k    70.91%
+  Latency Distribution
+     50%   65.12ms
+     75%  177.83ms
+     90%  313.54ms
+     99%  459.30ms
+  140572 requests in 10.00m, 367.72MB read
+Requests/sec:    234.27
+Transfer/sec:    627.53KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.02ms  123.41ms 796.53ms   83.33%
+    Req/Sec   256.87    182.71     1.23k    67.15%
+  Latency Distribution
+     50%   59.19ms
+     75%  168.12ms
+     90%  301.96ms
+     99%  453.15ms
+  153413 requests in 10.00m, 401.31MB read
+Requests/sec:    255.67
+Transfer/sec:    684.87KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   104.79ms  124.37ms 712.92ms   82.68%
+    Req/Sec   252.73    178.43     1.12k    66.85%
+  Latency Distribution
+     50%   60.56ms
+     75%  173.96ms
+     90%  305.55ms
+     99%  450.49ms
+  150865 requests in 10.00m, 394.64MB read
+Requests/sec:    251.41
+Transfer/sec:    673.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.96ms  125.99ms 744.30ms   82.98%
+    Req/Sec   239.18    192.16     1.28k    73.84%
+  Latency Distribution
+     50%   64.65ms
+     75%  175.39ms
+     90%  309.35ms
+     99%  459.44ms
+  142675 requests in 10.00m, 373.22MB read
+Requests/sec:    237.79
+Transfer/sec:    636.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.23ms  125.40ms 734.51ms   82.66%
+    Req/Sec   244.28    182.90     1.20k    66.27%
+  Latency Distribution
+     50%   63.32ms
+     75%  175.45ms
+     90%  308.73ms
+     99%  453.01ms
+  145900 requests in 10.00m, 381.66MB read
+Requests/sec:    243.15
+Transfer/sec:    651.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   109.00ms  127.34ms 732.89ms   82.79%
+    Req/Sec   232.34    169.79     1.09k    66.32%
+  Latency Distribution
+     50%   66.09ms
+     75%  179.87ms
+     90%  314.05ms
+     99%  459.56ms
+  138761 requests in 10.00m, 362.98MB read
+Requests/sec:    231.26
+Transfer/sec:    619.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.58ms  126.02ms 795.65ms   82.65%
+    Req/Sec   245.21    168.98     1.18k    68.08%
+  Latency Distribution
+     50%   62.38ms
+     75%  176.38ms
+     90%  310.17ms
+     99%  455.60ms
+  146411 requests in 10.00m, 382.99MB read
+Requests/sec:    243.98
+Transfer/sec:    653.55KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.34ms  123.35ms 794.97ms   83.15%
+    Req/Sec   265.28    199.45     1.32k    69.65%
+  Latency Distribution
+     50%   57.65ms
+     75%  167.94ms
+     90%  300.88ms
+     99%  452.66ms
+  158491 requests in 10.00m, 414.59MB read
+Requests/sec:    264.12
+Transfer/sec:    707.48KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.80ms  126.18ms 732.62ms   82.50%
+    Req/Sec   245.88    182.49     1.21k    68.54%
+  Latency Distribution
+     50%   61.45ms
+     75%  177.21ms
+     90%  311.00ms
+     99%  455.56ms
+  146845 requests in 10.00m, 384.13MB read
+Requests/sec:    244.71
+Transfer/sec:    655.49KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.97ms  124.21ms 733.08ms   82.82%
+    Req/Sec   269.89    188.06     1.25k    65.10%
+  Latency Distribution
+     50%   54.54ms
+     75%  170.55ms
+     90%  303.97ms
+     99%  451.56ms
+  161042 requests in 10.00m, 421.27MB read
+Requests/sec:    268.39
+Transfer/sec:    718.93KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.41ms  124.53ms 730.29ms   83.00%
+    Req/Sec   228.19    174.94     1.10k    72.59%
+  Latency Distribution
+     50%   68.42ms
+     75%  176.04ms
+     90%  306.16ms
+     99%  454.44ms
+  136352 requests in 10.00m, 356.68MB read
+Requests/sec:    227.23
+Transfer/sec:    608.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.28ms  122.37ms 796.01ms   83.20%
+    Req/Sec   259.25    191.71     1.21k    69.39%
+  Latency Distribution
+     50%   59.42ms
+     75%  167.82ms
+     90%  298.98ms
+     99%  448.79ms
+  154828 requests in 10.00m, 405.01MB read
+Requests/sec:    258.02
+Transfer/sec:    691.14KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.86ms  126.62ms 744.31ms   82.59%
+    Req/Sec   238.58    186.03     1.22k    70.52%
+  Latency Distribution
+     50%   64.56ms
+     75%  178.90ms
+     90%  311.42ms
+     99%  456.54ms
+  142524 requests in 10.00m, 372.83MB read
+Requests/sec:    237.53
+Transfer/sec:    636.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.82ms  124.62ms 768.82ms   82.92%
+    Req/Sec   260.95    179.13     1.19k    64.85%
+  Latency Distribution
+     50%   57.98ms
+     75%  171.58ms
+     90%  305.26ms
+     99%  454.38ms
+  155869 requests in 10.00m, 407.73MB read
+Requests/sec:    259.78
+Transfer/sec:    695.86KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.45ms  125.94ms 772.38ms   82.76%
+    Req/Sec   245.97    174.51     1.05k    61.66%
+  Latency Distribution
+     50%   61.66ms
+     75%  176.46ms
+     90%  308.82ms
+     99%  456.60ms
+  146864 requests in 10.00m, 384.18MB read
+Requests/sec:    244.74
+Transfer/sec:    655.57KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   105.24ms  124.98ms 729.91ms   82.81%
+    Req/Sec   250.32    172.35     1.03k    65.84%
+  Latency Distribution
+     50%   60.57ms
+     75%  173.76ms
+     90%  307.54ms
+     99%  453.98ms
+  149509 requests in 10.00m, 391.10MB read
+Requests/sec:    249.18
+Transfer/sec:    667.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.54ms  126.24ms 758.89ms   82.61%
+    Req/Sec   239.03    160.54     0.93k    64.86%
+  Latency Distribution
+     50%   63.47ms
+     75%  177.95ms
+     90%  310.41ms
+     99%  456.50ms
+  142827 requests in 10.00m, 373.62MB read
+Requests/sec:    238.04
+Transfer/sec:    637.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   109.75ms  127.29ms 733.35ms   82.40%
+    Req/Sec   227.96    174.46     1.06k    69.13%
+  Latency Distribution
+     50%   67.51ms
+     75%  182.41ms
+     90%  314.52ms
+     99%  456.78ms
+  136114 requests in 10.00m, 356.06MB read
+Requests/sec:    226.83
+Transfer/sec:    607.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   105.99ms  125.42ms 761.70ms   82.72%
+    Req/Sec   246.31    185.18     1.16k    69.54%
+  Latency Distribution
+     50%   61.84ms
+     75%  174.90ms
+     90%  308.52ms
+     99%  454.58ms
+  147020 requests in 10.00m, 384.59MB read
+Requests/sec:    245.00
+Transfer/sec:    656.27KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.60ms  123.04ms 746.34ms   83.08%
+    Req/Sec   252.03    190.76     1.34k    69.14%
+  Latency Distribution
+     50%   60.50ms
+     75%  170.64ms
+     90%  300.28ms
+     99%  451.98ms
+  150524 requests in 10.00m, 393.75MB read
+Requests/sec:    250.87
+Transfer/sec:    671.98KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   108.76ms  127.79ms 767.93ms   82.44%
+    Req/Sec   238.47    185.25     1.11k    70.67%
+  Latency Distribution
+     50%   64.29ms
+     75%  180.69ms
+     90%  315.41ms
+     99%  458.32ms
+  142424 requests in 10.00m, 372.56MB read
+Requests/sec:    237.36
+Transfer/sec:    635.80KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   105.23ms  123.36ms 745.84ms   83.43%
+    Req/Sec   237.12    181.01     1.06k    72.15%
+  Latency Distribution
+     50%   65.54ms
+     75%  172.27ms
+     90%  300.18ms
+     99%  454.06ms
+  141649 requests in 10.00m, 370.54MB read
+Requests/sec:    236.07
+Transfer/sec:    632.35KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.63ms  125.94ms 770.77ms   82.69%
+    Req/Sec   243.70    165.44     1.29k    64.96%
+  Latency Distribution
+     50%   62.96ms
+     75%  176.27ms
+     90%  309.66ms
+     99%  456.58ms
+  145536 requests in 10.00m, 380.70MB read
+Requests/sec:    242.56
+Transfer/sec:    649.74KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   108.55ms  126.64ms 730.18ms   82.52%
+    Req/Sec   233.19    181.62     1.06k    70.50%
+  Latency Distribution
+     50%   66.06ms
+     75%  179.86ms
+     90%  312.27ms
+     99%  455.95ms
+  139310 requests in 10.00m, 364.42MB read
+Requests/sec:    232.15
+Transfer/sec:    621.86KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.77ms  125.61ms 773.82ms   82.85%
+    Req/Sec   231.24    168.28     1.12k    68.05%
+  Latency Distribution
+     50%   67.27ms
+     75%  176.75ms
+     90%  309.62ms
+     99%  456.04ms
+  138140 requests in 10.00m, 361.36MB read
+Requests/sec:    230.20
+Transfer/sec:    616.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.25ms  125.52ms 766.35ms   82.96%
+    Req/Sec   243.83    177.81     1.07k    66.97%
+  Latency Distribution
+     50%   62.56ms
+     75%  174.86ms
+     90%  307.74ms
+     99%  457.47ms
+  145386 requests in 10.00m, 380.31MB read
+Requests/sec:    242.31
+Transfer/sec:    649.06KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   109.25ms  128.19ms 757.95ms   82.27%
+    Req/Sec   237.76    179.58     1.24k    70.99%
+  Latency Distribution
+     50%   64.27ms
+     75%  182.06ms
+     90%  317.39ms
+     99%  457.78ms
+  142018 requests in 10.00m, 371.50MB read
+Requests/sec:    236.69
+Transfer/sec:    634.01KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.14ms  125.51ms 721.24ms   82.83%
+    Req/Sec   236.42    179.87     1.13k    71.46%
+  Latency Distribution
+     50%   65.38ms
+     75%  176.13ms
+     90%  309.30ms
+     99%  455.39ms
+  141221 requests in 10.00m, 369.42MB read
+Requests/sec:    235.36
+Transfer/sec:    630.45KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.76ms  126.37ms 713.46ms   82.57%
+    Req/Sec   247.47    188.51     1.19k    72.86%
+  Latency Distribution
+     50%   62.08ms
+     75%  177.55ms
+     90%  310.62ms
+     99%  456.21ms
+  147548 requests in 10.00m, 385.97MB read
+Requests/sec:    245.88
+Transfer/sec:    658.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   110.32ms  127.89ms 745.78ms   82.57%
+    Req/Sec   225.65    173.49     1.17k    69.42%
+  Latency Distribution
+     50%   68.98ms
+     75%  182.49ms
+     90%  316.41ms
+     99%  459.35ms
+  134723 requests in 10.00m, 352.42MB read
+Requests/sec:    224.53
+Transfer/sec:    601.44KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.78ms  124.79ms 732.51ms   82.83%
+    Req/Sec   236.16    175.15     1.19k    67.23%
+  Latency Distribution
+     50%   65.36ms
+     75%  176.35ms
+     90%  306.95ms
+     99%  452.74ms
+  141020 requests in 10.00m, 368.89MB read
+Requests/sec:    235.02
+Transfer/sec:    629.54KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.92ms  126.03ms 730.53ms   82.74%
+    Req/Sec   233.60    174.23     1.07k    73.08%
+  Latency Distribution
+     50%   65.89ms
+     75%  177.84ms
+     90%  310.64ms
+     99%  456.86ms
+  139550 requests in 10.00m, 365.05MB read
+Requests/sec:    232.57
+Transfer/sec:    622.97KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.27ms  125.92ms 775.21ms   82.70%
+    Req/Sec   239.50    182.87     1.27k    71.52%
+  Latency Distribution
+     50%   63.10ms
+     75%  177.67ms
+     90%  309.38ms
+     99%  456.18ms
+  143026 requests in 10.00m, 374.14MB read
+Requests/sec:    238.37
+Transfer/sec:    638.53KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   105.18ms  125.36ms 757.05ms   82.79%
+    Req/Sec   253.55    183.43     1.10k    64.39%
+  Latency Distribution
+     50%   60.14ms
+     75%  174.21ms
+     90%  307.69ms
+     99%  454.55ms
+  151426 requests in 10.00m, 396.11MB read
+Requests/sec:    252.38
+Transfer/sec:    676.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   109.11ms  127.39ms 716.27ms   82.28%
+    Req/Sec   234.75    175.06     1.16k    69.97%
+  Latency Distribution
+     50%   64.83ms
+     75%  181.90ms
+     90%  314.33ms
+     99%  456.53ms
+  140204 requests in 10.00m, 366.76MB read
+Requests/sec:    233.65
+Transfer/sec:    625.88KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.81ms  126.91ms 798.48ms   82.46%
+    Req/Sec   242.02    184.64     1.38k    72.41%
+  Latency Distribution
+     50%   62.96ms
+     75%  179.65ms
+     90%  312.90ms
+     99%  455.20ms
+  144558 requests in 10.00m, 378.15MB read
+Requests/sec:    240.92
+Transfer/sec:    645.35KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   104.32ms  123.42ms 817.83ms   83.07%
+    Req/Sec   246.87    194.50     1.17k    71.36%
+  Latency Distribution
+     50%   62.81ms
+     75%  171.32ms
+     90%  302.57ms
+     99%  451.68ms
+  147460 requests in 10.00m, 385.74MB read
+Requests/sec:    245.75
+Transfer/sec:    658.28KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.23ms  125.50ms 758.75ms   82.82%
+    Req/Sec   244.69    177.12     1.15k    69.29%
+  Latency Distribution
+     50%   62.46ms
+     75%  175.65ms
+     90%  307.87ms
+     99%  455.73ms
+  146129 requests in 10.00m, 382.26MB read
+Requests/sec:    243.53
+Transfer/sec:    652.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   110.13ms  128.49ms 767.63ms   82.56%
+    Req/Sec   230.92    167.65     1.05k    66.65%
+  Latency Distribution
+     50%   66.38ms
+     75%  182.85ms
+     90%  318.85ms
+     99%  459.55ms
+  137911 requests in 10.00m, 360.76MB read
+Requests/sec:    229.84
+Transfer/sec:    615.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   110.50ms  127.69ms 769.04ms   82.35%
+    Req/Sec   224.28    168.47     1.15k    71.08%
+  Latency Distribution
+     50%   69.50ms
+     75%  184.21ms
+     90%  316.77ms
+     99%  455.33ms
+  133920 requests in 10.00m, 350.32MB read
+Requests/sec:    223.20
+Transfer/sec:    597.87KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.63ms  126.03ms 758.23ms   82.49%
+    Req/Sec   237.02    174.94     0.93k    65.50%
+  Latency Distribution
+     50%   65.30ms
+     75%  177.62ms
+     90%  311.62ms
+     99%  453.58ms
+  141479 requests in 10.00m, 370.09MB read
+Requests/sec:    235.80
+Transfer/sec:    631.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.65ms  124.25ms 726.32ms   82.94%
+    Req/Sec   259.32    188.51     1.08k    66.03%
+  Latency Distribution
+     50%   58.63ms
+     75%  170.29ms
+     90%  305.23ms
+     99%  452.75ms
+  154770 requests in 10.00m, 404.86MB read
+Requests/sec:    257.93
+Transfer/sec:    690.92KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.36ms  123.17ms 744.02ms   83.18%
+    Req/Sec   253.53    180.95     1.18k    64.95%
+  Latency Distribution
+     50%   59.93ms
+     75%  169.33ms
+     90%  301.43ms
+     99%  452.39ms
+  151476 requests in 10.00m, 396.24MB read
+Requests/sec:    252.42
+Transfer/sec:    676.14KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   109.49ms  127.11ms 767.41ms   82.66%
+    Req/Sec   227.08    170.75     1.30k    70.99%
+  Latency Distribution
+     50%   68.29ms
+     75%  180.49ms
+     90%  314.51ms
+     99%  457.56ms
+  135708 requests in 10.00m, 355.00MB read
+Requests/sec:    226.14
+Transfer/sec:    605.76KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.08ms  126.53ms 765.11ms   82.27%
+    Req/Sec   246.71    185.82     1.15k    67.35%
+  Latency Distribution
+     50%   61.37ms
+     75%  178.80ms
+     90%  311.40ms
+     99%  454.50ms
+  147405 requests in 10.00m, 385.59MB read
+Requests/sec:    245.64
+Transfer/sec:    657.98KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   111.19ms  128.85ms 765.14ms   82.31%
+    Req/Sec   226.07    177.44     1.03k    73.11%
+  Latency Distribution
+     50%   67.83ms
+     75%  185.65ms
+     90%  319.39ms
+     99%  459.30ms
+  134959 requests in 10.00m, 353.04MB read
+Requests/sec:    224.91
+Transfer/sec:    602.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.68ms  125.82ms 774.07ms   82.99%
+    Req/Sec   232.43    173.30     1.31k    71.29%
+  Latency Distribution
+     50%   67.24ms
+     75%  176.69ms
+     90%  309.34ms
+     99%  457.86ms
+  138802 requests in 10.00m, 363.09MB read
+Requests/sec:    231.30
+Transfer/sec:    619.59KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.98ms  124.83ms 775.03ms   82.74%
+    Req/Sec   262.58    195.24     1.25k    69.30%
+  Latency Distribution
+     50%   57.82ms
+     75%  172.36ms
+     90%  305.87ms
+     99%  453.41ms
+  156776 requests in 10.00m, 410.11MB read
+Requests/sec:    261.28
+Transfer/sec:    699.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.94ms  122.94ms 741.41ms   83.17%
+    Req/Sec   266.00    190.35     1.20k    66.62%
+  Latency Distribution
+     50%   57.06ms
+     75%  166.30ms
+     90%  301.39ms
+     99%  450.98ms
+  158844 requests in 10.00m, 415.52MB read
+Requests/sec:    264.73
+Transfer/sec:    709.13KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.60ms  124.28ms 766.97ms   82.85%
+    Req/Sec   261.25    190.88     1.15k    65.03%
+  Latency Distribution
+     50%   57.99ms
+     75%  171.10ms
+     90%  304.15ms
+     99%  453.41ms
+  156077 requests in 10.00m, 408.28MB read
+Requests/sec:    260.12
+Transfer/sec:    696.77KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.99ms  125.93ms 797.07ms   82.71%
+    Req/Sec   241.17    178.28     1.17k    66.41%
+  Latency Distribution
+     50%   64.13ms
+     75%  176.83ms
+     90%  309.27ms
+     99%  455.53ms
+  144030 requests in 10.00m, 376.77MB read
+Requests/sec:    240.03
+Transfer/sec:    642.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   108.59ms  127.26ms 776.12ms   82.46%
+    Req/Sec   236.24    191.89     1.57k    73.67%
+  Latency Distribution
+     50%   64.22ms
+     75%  179.90ms
+     90%  314.32ms
+     99%  457.07ms
+  141061 requests in 10.00m, 369.00MB read
+Requests/sec:    235.06
+Transfer/sec:    629.66KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   104.57ms  123.46ms 729.83ms   83.20%
+    Req/Sec   244.52    177.62     1.08k    67.21%
+  Latency Distribution
+     50%   62.30ms
+     75%  171.62ms
+     90%  301.79ms
+     99%  454.58ms
+  145998 requests in 10.00m, 381.91MB read
+Requests/sec:    243.30
+Transfer/sec:    651.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   108.61ms  126.61ms 721.17ms   82.73%
+    Req/Sec   230.94    169.71     1.05k    65.59%
+  Latency Distribution
+     50%   66.66ms
+     75%  178.62ms
+     90%  312.95ms
+     99%  456.99ms
+  137745 requests in 10.00m, 360.32MB read
+Requests/sec:    229.54
+Transfer/sec:    614.86KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.38ms  122.28ms 794.77ms   83.32%
+    Req/Sec   256.62    197.72     1.36k    72.42%
+  Latency Distribution
+     50%   59.71ms
+     75%  167.92ms
+     90%  298.15ms
+     99%  451.58ms
+  153291 requests in 10.00m, 400.99MB read
+Requests/sec:    255.48
+Transfer/sec:    684.35KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   109.49ms  126.70ms 746.48ms   82.64%
+    Req/Sec   225.98    164.60     1.07k    65.15%
+  Latency Distribution
+     50%   67.29ms
+     75%  181.36ms
+     90%  312.40ms
+     99%  458.73ms
+  134948 requests in 10.00m, 353.01MB read
+Requests/sec:    224.90
+Transfer/sec:    602.42KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.52ms  123.34ms 795.33ms   83.26%
+    Req/Sec   251.24    169.75     1.16k    63.10%
+  Latency Distribution
+     50%   61.17ms
+     75%  168.67ms
+     90%  302.25ms
+     99%  453.60ms
+  150072 requests in 10.00m, 392.57MB read
+Requests/sec:    250.09
+Transfer/sec:    669.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   104.97ms  124.53ms 769.28ms   82.90%
+    Req/Sec   250.31    182.40     1.19k    68.12%
+  Latency Distribution
+     50%   60.78ms
+     75%  174.14ms
+     90%  304.07ms
+     99%  454.68ms
+  149489 requests in 10.00m, 391.05MB read
+Requests/sec:    249.13
+Transfer/sec:    667.34KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   110.34ms  128.59ms 767.28ms   82.40%
+    Req/Sec   230.07    176.12     1.04k    69.29%
+  Latency Distribution
+     50%   67.07ms
+     75%  183.49ms
+     90%  318.23ms
+     99%  459.15ms
+  137362 requests in 10.00m, 359.32MB read
+Requests/sec:    228.90
+Transfer/sec:    613.15KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   108.95ms  127.10ms 796.76ms   82.53%
+    Req/Sec   231.79    189.09     1.25k    75.28%
+  Latency Distribution
+     50%   66.81ms
+     75%  180.39ms
+     90%  313.29ms
+     99%  456.79ms
+  138417 requests in 10.00m, 362.08MB read
+Requests/sec:    230.67
+Transfer/sec:    617.90KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   105.18ms  125.22ms 758.51ms   82.81%
+    Req/Sec   252.17    188.77     1.06k    66.74%
+  Latency Distribution
+     50%   60.79ms
+     75%  174.33ms
+     90%  307.46ms
+     99%  454.19ms
+  150636 requests in 10.00m, 394.05MB read
+Requests/sec:    251.05
+Transfer/sec:    672.48KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.84ms  127.36ms 763.37ms   82.29%
+    Req/Sec   244.33    178.81     1.21k    67.97%
+  Latency Distribution
+     50%   62.45ms
+     75%  179.62ms
+     90%  314.37ms
+     99%  456.46ms
+  145877 requests in 10.00m, 381.60MB read
+Requests/sec:    243.12
+Transfer/sec:    651.23KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.26ms  122.88ms 756.63ms   83.42%
+    Req/Sec   260.93    185.69     1.34k    67.34%
+  Latency Distribution
+     50%   58.89ms
+     75%  167.40ms
+     90%  299.80ms
+     99%  453.28ms
+  155765 requests in 10.00m, 407.46MB read
+Requests/sec:    259.60
+Transfer/sec:    695.39KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   105.56ms  125.36ms 760.14ms   82.89%
+    Req/Sec   249.38    187.77     1.25k    67.78%
+  Latency Distribution
+     50%   61.16ms
+     75%  174.65ms
+     90%  307.14ms
+     99%  455.88ms
+  148935 requests in 10.00m, 389.60MB read
+Requests/sec:    248.21
+Transfer/sec:    664.87KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.29ms  123.56ms 742.78ms   82.85%
+    Req/Sec   259.53    193.25     1.40k    70.30%
+  Latency Distribution
+     50%   58.85ms
+     75%  170.02ms
+     90%  302.92ms
+     99%  450.28ms
+  155030 requests in 10.00m, 405.54MB read
+Requests/sec:    258.36
+Transfer/sec:    692.05KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.60ms  123.37ms 757.01ms   83.26%
+    Req/Sec   251.00    181.89     1.24k    70.23%
+  Latency Distribution
+     50%   61.31ms
+     75%  169.08ms
+     90%  301.86ms
+     99%  453.76ms
+  149928 requests in 10.00m, 392.19MB read
+Requests/sec:    249.87
+Transfer/sec:    669.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   104.22ms  124.55ms 769.74ms   82.81%
+    Req/Sec   257.25    180.03     1.06k    64.78%
+  Latency Distribution
+     50%   59.17ms
+     75%  172.25ms
+     90%  304.98ms
+     99%  454.63ms
+  153597 requests in 10.00m, 401.79MB read
+Requests/sec:    255.98
+Transfer/sec:    685.68KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   111.51ms  129.49ms 740.72ms   82.29%
+    Req/Sec   227.34    172.42     1.17k    69.67%
+  Latency Distribution
+     50%   67.63ms
+     75%  186.28ms
+     90%  321.21ms
+     99%  460.73ms
+  135569 requests in 10.00m, 354.63MB read
+Requests/sec:    225.93
+Transfer/sec:    605.18KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   108.79ms  127.36ms 767.97ms   82.53%
+    Req/Sec   235.83    173.23     1.12k    67.26%
+  Latency Distribution
+     50%   65.01ms
+     75%  181.04ms
+     90%  314.85ms
+     99%  456.86ms
+  140752 requests in 10.00m, 368.19MB read
+Requests/sec:    234.57
+Transfer/sec:    628.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   108.57ms  127.25ms 768.14ms   82.61%
+    Req/Sec   235.90    183.04     1.27k    69.97%
+  Latency Distribution
+     50%   65.10ms
+     75%  179.53ms
+     90%  314.27ms
+     99%  458.22ms
+  140776 requests in 10.00m, 368.25MB read
+Requests/sec:    234.62
+Transfer/sec:    628.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.50ms  123.72ms 770.30ms   82.97%
+    Req/Sec   257.79    216.97     1.50k    76.40%
+  Latency Distribution
+     50%   59.33ms
+     75%  170.75ms
+     90%  303.00ms
+     99%  452.20ms
+  153943 requests in 10.00m, 402.70MB read
+Requests/sec:    256.54
+Transfer/sec:    687.18KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.33ms  126.72ms 743.06ms   82.74%
+    Req/Sec   241.80    183.33     1.20k    68.96%
+  Latency Distribution
+     50%   63.08ms
+     75%  176.48ms
+     90%  313.22ms
+     99%  457.17ms
+  144412 requests in 10.00m, 377.76MB read
+Requests/sec:    240.66
+Transfer/sec:    644.66KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   109.75ms  127.17ms 772.28ms   82.66%
+    Req/Sec   225.61    175.86     1.20k    77.67%
+  Latency Distribution
+     50%   68.02ms
+     75%  181.22ms
+     90%  314.44ms
+     99%  458.33ms
+  134724 requests in 10.00m, 352.42MB read
+Requests/sec:    224.54
+Transfer/sec:    601.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   114.66ms  131.53ms 747.15ms   81.89%
+    Req/Sec   215.54    161.24     1.18k    68.62%
+  Latency Distribution
+     50%   71.81ms
+     75%  193.21ms
+     90%  327.87ms
+     99%  462.70ms
+  128668 requests in 10.00m, 336.58MB read
+Requests/sec:    214.43
+Transfer/sec:    574.39KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.38ms  126.13ms 756.81ms   82.87%
+    Req/Sec   237.78    188.81     1.46k    76.51%
+  Latency Distribution
+     50%   64.21ms
+     75%  176.63ms
+     90%  310.71ms
+     99%  457.35ms
+  141881 requests in 10.00m, 371.14MB read
+Requests/sec:    236.43
+Transfer/sec:    633.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.94ms  126.73ms 747.80ms   82.35%
+    Req/Sec   248.80    182.50     1.17k    67.05%
+  Latency Distribution
+     50%   60.83ms
+     75%  178.40ms
+     90%  311.97ms
+     99%  455.46ms
+  148509 requests in 10.00m, 388.48MB read
+Requests/sec:    247.50
+Transfer/sec:    662.98KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.64ms  126.06ms 748.73ms   82.78%
+    Req/Sec   244.10    179.48     1.05k    67.64%
+  Latency Distribution
+     50%   62.49ms
+     75%  176.11ms
+     90%  310.26ms
+     99%  456.68ms
+  145667 requests in 10.00m, 381.05MB read
+Requests/sec:    242.76
+Transfer/sec:    650.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   108.36ms  126.05ms 719.72ms   82.83%
+    Req/Sec   230.07    177.08     1.15k    71.53%
+  Latency Distribution
+     50%   67.47ms
+     75%  178.93ms
+     90%  310.74ms
+     99%  456.44ms
+  137345 requests in 10.00m, 359.28MB read
+Requests/sec:    228.87
+Transfer/sec:    613.08KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   108.59ms  127.53ms 798.77ms   82.48%
+    Req/Sec   238.03    183.95     1.15k    71.28%
+  Latency Distribution
+     50%   64.25ms
+     75%  180.02ms
+     90%  315.54ms
+     99%  457.97ms
+  142143 requests in 10.00m, 371.83MB read
+Requests/sec:    236.90
+Transfer/sec:    634.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.59ms  123.78ms 760.13ms   83.04%
+    Req/Sec   256.71    191.57     1.22k    69.91%
+  Latency Distribution
+     50%   59.63ms
+     75%  170.31ms
+     90%  302.91ms
+     99%  452.84ms
+  153277 requests in 10.00m, 400.95MB read
+Requests/sec:    255.44
+Transfer/sec:    684.23KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   108.10ms  126.94ms 767.56ms   82.68%
+    Req/Sec   238.06    180.03     1.22k    70.77%
+  Latency Distribution
+     50%   64.56ms
+     75%  178.52ms
+     90%  313.77ms
+     99%  457.73ms
+  142051 requests in 10.00m, 371.59MB read
+Requests/sec:    236.71
+Transfer/sec:    634.08KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.71ms  127.05ms 838.06ms   82.36%
+    Req/Sec   243.20    177.64     1.20k    66.78%
+  Latency Distribution
+     50%   63.44ms
+     75%  179.26ms
+     90%  313.07ms
+     99%  455.57ms
+  145241 requests in 10.00m, 379.93MB read
+Requests/sec:    242.04
+Transfer/sec:    648.33KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   104.92ms  123.74ms 722.74ms   82.98%
+    Req/Sec   244.83    174.95     1.49k    67.85%
+  Latency Distribution
+     50%   62.48ms
+     75%  172.48ms
+     90%  303.31ms
+     99%  451.89ms
+  146121 requests in 10.00m, 382.24MB read
+Requests/sec:    243.50
+Transfer/sec:    652.24KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   105.24ms  124.82ms 724.61ms   82.81%
+    Req/Sec   248.78    197.01     1.39k    71.77%
+  Latency Distribution
+     50%   62.31ms
+     75%  173.62ms
+     90%  306.57ms
+     99%  453.31ms
+  148548 requests in 10.00m, 388.58MB read
+Requests/sec:    247.55
+Transfer/sec:    663.10KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.38ms  121.88ms 743.18ms   83.40%
+    Req/Sec   262.75    179.64     1.20k    68.13%
+  Latency Distribution
+     50%   58.47ms
+     75%  165.11ms
+     90%  298.16ms
+     99%  449.82ms
+  156975 requests in 10.00m, 410.63MB read
+Requests/sec:    261.59
+Transfer/sec:    700.70KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   112.10ms  129.43ms 796.23ms   82.34%
+    Req/Sec   222.03    170.94     1.18k    70.51%
+  Latency Distribution
+     50%   69.83ms
+     75%  187.68ms
+     90%  320.82ms
+     99%  461.21ms
+  132553 requests in 10.00m, 346.74MB read
+Requests/sec:    220.89
+Transfer/sec:    591.69KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.46ms  127.74ms 743.87ms   82.29%
+    Req/Sec   250.34    176.51     0.99k    63.36%
+  Latency Distribution
+     50%   60.22ms
+     75%  178.93ms
+     90%  315.90ms
+     99%  457.34ms
+  149506 requests in 10.00m, 391.09MB read
+Requests/sec:    249.16
+Transfer/sec:    667.42KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   108.37ms  126.50ms 742.32ms   82.69%
+    Req/Sec   232.76    183.96     1.22k    76.03%
+  Latency Distribution
+     50%   66.19ms
+     75%  179.32ms
+     90%  312.25ms
+     99%  456.64ms
+  138994 requests in 10.00m, 363.59MB read
+Requests/sec:    231.62
+Transfer/sec:    620.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   111.61ms  128.70ms 748.09ms   82.38%
+    Req/Sec   220.98    162.43     1.03k    71.36%
+  Latency Distribution
+     50%   69.77ms
+     75%  185.60ms
+     90%  319.45ms
+     99%  459.83ms
+  131940 requests in 10.00m, 345.14MB read
+Requests/sec:    219.87
+Transfer/sec:    588.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   107.89ms  126.88ms 798.51ms   82.51%
+    Req/Sec   239.40    179.22     1.04k    66.81%
+  Latency Distribution
+     50%   64.47ms
+     75%  177.92ms
+     90%  314.10ms
+     99%  456.39ms
+  142973 requests in 10.00m, 374.00MB read
+Requests/sec:    238.25
+Transfer/sec:    638.19KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   108.39ms  126.65ms 767.80ms   82.52%
+    Req/Sec   234.64    175.21     1.04k    70.50%
+  Latency Distribution
+     50%   65.72ms
+     75%  180.62ms
+     90%  311.76ms
+     99%  454.73ms
+  140197 requests in 10.00m, 366.74MB read
+Requests/sec:    233.63
+Transfer/sec:    625.80KB
++ (( j++ ))
++ (( j<100 ))
++ file=82
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=83
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=84
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=85
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=86
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=87
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=88
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=89
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=90
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=91
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=92
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=93
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=94
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=95
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=96
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=97
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=98
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=99
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ wait
++ for pod in 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
++ scs nginx-ingress-controller 9
+deployment.apps/nginx-ingress-controller scaled
++ cp -rf box ips
++ date
+Mon Jul 20 10:19:08 UTC 2020
++ dir=https.ingress.svc..9
++ ./2020-06-28-main.just.ingress.svc.sh https.ingress.svc..9
+Warning: Permanently added '10.1.0.67' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.25' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.89' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.56' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.22' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.78' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.45' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.26' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.34' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.28' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.31' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.29' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.47' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.37' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.23' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.38' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.36' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.33' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.30' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.32' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.35' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.55' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.111' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.61' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.53' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.39' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.41' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.48' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.43' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.60' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.42' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.44' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.40' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.24' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.27' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.46' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.54' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.49' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.51' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.58' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.50' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.52' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.64' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.57' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.72' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.69' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.76' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.65' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.68' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.62' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.63' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.59' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.74' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.70' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.73' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.93' (ECDSA) to the list of known hosts.
++ sleep 30
+Warning: Permanently added '10.1.0.66' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.79' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.83' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.92' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.71' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.75' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.101' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.81' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.97' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.84' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.80' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.82' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.86' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.85' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.77' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.108' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.95' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.106' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.132' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.109' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.98' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.110' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.91' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.104' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.133' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.99' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.103' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.102' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.105' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.87' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.88' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.94' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.113' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.112' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.115' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.114' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.118' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.107' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+Warning: Permanently added '10.1.0.119' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.116' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.117' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
++ (( j=0 ))
++ (( j<100 ))
++ file=0
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=1
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=2
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=3
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=4
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=5
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=6
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=7
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=8
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=9
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=10
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=11
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=12
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=13
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=14
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=15
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=16
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=17
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=18
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=19
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=20
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=21
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=22
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=23
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=24
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=25
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=26
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=27
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=28
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=29
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=30
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=31
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=32
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=33
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=34
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=35
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=36
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=37
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=38
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=39
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=40
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=41
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=42
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=43
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=44
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=45
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=46
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=47
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=48
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=49
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=50
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=51
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=52
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=53
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=54
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=55
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=56
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=57
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=58
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=59
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=60
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=61
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=62
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=63
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=64
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=65
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=66
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=67
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=68
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=69
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=70
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=71
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=72
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=73
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=74
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=75
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=76
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=77
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=78
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=79
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=80
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=81
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.30ms  105.13ms 550.47ms   79.56%
+    Req/Sec   225.70    199.06     2.21k    83.06%
+  Latency Distribution
+     50%   69.01ms
+     75%  179.07ms
+     90%  263.54ms
+     99%  349.82ms
+  134677 requests in 10.00m, 352.30MB read
+Requests/sec:    224.46
+Transfer/sec:    601.24KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.06ms  105.04ms 584.21ms   79.54%
+    Req/Sec   227.17    169.72     2.20k    71.36%
+  Latency Distribution
+     50%   67.60ms
+     75%  179.04ms
+     90%  262.75ms
+     99%  350.29ms
+  135552 requests in 10.00m, 354.59MB read
+Requests/sec:    225.91
+Transfer/sec:    605.12KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.23ms  105.60ms 546.91ms   79.46%
+    Req/Sec   221.25    161.95     1.10k    69.74%
+  Latency Distribution
+     50%   70.55ms
+     75%  181.65ms
+     90%  264.55ms
+     99%  350.38ms
+  132051 requests in 10.00m, 345.43MB read
+Requests/sec:    220.07
+Transfer/sec:    589.50KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.96ms  105.91ms 567.03ms   79.45%
+    Req/Sec   217.44    174.97     1.08k    72.81%
+  Latency Distribution
+     50%   71.48ms
+     75%  183.34ms
+     90%  264.92ms
+     99%  350.80ms
+  129872 requests in 10.00m, 339.73MB read
+Requests/sec:    216.44
+Transfer/sec:    579.77KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.45ms  106.37ms 564.73ms   79.46%
+    Req/Sec   216.48    169.41     1.05k    74.04%
+  Latency Distribution
+     50%   70.93ms
+     75%  183.88ms
+     90%  266.49ms
+     99%  353.11ms
+  129123 requests in 10.00m, 337.77MB read
+Requests/sec:    215.20
+Transfer/sec:    576.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.55ms  106.17ms 600.18ms   79.55%
+    Req/Sec   214.51    167.76     1.12k    73.96%
+  Latency Distribution
+     50%   72.25ms
+     75%  183.54ms
+     90%  266.33ms
+     99%  352.14ms
+  127950 requests in 10.00m, 334.70MB read
+Requests/sec:    213.25
+Transfer/sec:    571.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.62ms  106.00ms 590.44ms   79.48%
+    Req/Sec   213.44    166.66     1.17k    74.78%
+  Latency Distribution
+     50%   72.09ms
+     75%  184.18ms
+     90%  265.82ms
+     99%  350.84ms
+  127497 requests in 10.00m, 333.52MB read
+Requests/sec:    212.48
+Transfer/sec:    569.16KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.69ms  105.80ms 573.49ms   79.48%
+    Req/Sec   218.96    168.15     1.27k    70.72%
+  Latency Distribution
+     50%   70.87ms
+     75%  182.49ms
+     90%  264.87ms
+     99%  350.93ms
+  130631 requests in 10.00m, 341.72MB read
+Requests/sec:    217.69
+Transfer/sec:    583.13KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.05ms  107.40ms 572.61ms   79.41%
+    Req/Sec   203.82    164.38     1.01k    78.48%
+  Latency Distribution
+     50%   75.77ms
+     75%  188.49ms
+     90%  269.99ms
+     99%  352.94ms
+  121756 requests in 10.00m, 318.50MB read
+Requests/sec:    202.92
+Transfer/sec:    543.57KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.27ms  106.90ms 557.71ms   79.57%
+    Req/Sec   212.28    167.06     1.26k    74.91%
+  Latency Distribution
+     50%   73.35ms
+     75%  185.59ms
+     90%  267.60ms
+     99%  352.64ms
+  126864 requests in 10.00m, 331.86MB read
+Requests/sec:    211.43
+Transfer/sec:    566.35KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.67ms  107.24ms 571.90ms   79.45%
+    Req/Sec   205.03    171.58     1.12k    79.24%
+  Latency Distribution
+     50%   76.25ms
+     75%  188.10ms
+     90%  269.00ms
+     99%  352.20ms
+  122469 requests in 10.00m, 320.36MB read
+Requests/sec:    204.11
+Transfer/sec:    546.75KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.97ms  106.72ms 571.89ms   79.47%
+    Req/Sec   207.70    159.80     1.27k    76.51%
+  Latency Distribution
+     50%   74.67ms
+     75%  186.12ms
+     90%  268.04ms
+     99%  351.48ms
+  124050 requests in 10.00m, 324.50MB read
+Requests/sec:    206.74
+Transfer/sec:    553.78KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.46ms  107.59ms 575.10ms   79.50%
+    Req/Sec   207.81    161.31     1.33k    74.51%
+  Latency Distribution
+     50%   74.69ms
+     75%  187.61ms
+     90%  269.79ms
+     99%  353.99ms
+  124110 requests in 10.00m, 324.66MB read
+Requests/sec:    206.84
+Transfer/sec:    554.06KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.19ms  106.68ms 577.23ms   79.45%
+    Req/Sec   205.73    153.03     1.10k    67.58%
+  Latency Distribution
+     50%   76.13ms
+     75%  186.52ms
+     90%  268.20ms
+     99%  352.24ms
+  122877 requests in 10.00m, 321.43MB read
+Requests/sec:    204.78
+Transfer/sec:    548.53KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.53ms  105.25ms 532.44ms   79.52%
+    Req/Sec   217.46    175.49     1.27k    76.27%
+  Latency Distribution
+     50%   71.08ms
+     75%  181.61ms
+     90%  264.07ms
+     99%  349.25ms
+  129703 requests in 10.00m, 339.29MB read
+Requests/sec:    216.16
+Transfer/sec:    579.02KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    97.45ms  105.11ms 563.92ms   79.64%
+    Req/Sec   232.35    169.73     1.09k    67.65%
+  Latency Distribution
+     50%   66.35ms
+     75%  178.21ms
+     90%  262.30ms
+     99%  350.04ms
+  138706 requests in 10.00m, 362.84MB read
+Requests/sec:    231.18
+Transfer/sec:    619.24KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.88ms  106.15ms 550.98ms   79.49%
+    Req/Sec   219.19    162.89     1.01k    70.55%
+  Latency Distribution
+     50%   70.42ms
+     75%  182.78ms
+     90%  266.05ms
+     99%  351.55ms
+  130968 requests in 10.00m, 342.60MB read
+Requests/sec:    218.25
+Transfer/sec:    584.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.00ms  105.99ms 557.24ms   79.49%
+    Req/Sec   210.50    161.06     1.03k    74.67%
+  Latency Distribution
+     50%   73.41ms
+     75%  184.54ms
+     90%  266.02ms
+     99%  351.42ms
+  125714 requests in 10.00m, 328.85MB read
+Requests/sec:    209.51
+Transfer/sec:    561.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.73ms  106.42ms 581.98ms   79.61%
+    Req/Sec   214.14    165.62     1.18k    73.88%
+  Latency Distribution
+     50%   72.21ms
+     75%  184.12ms
+     90%  267.20ms
+     99%  352.15ms
+  127840 requests in 10.00m, 334.41MB read
+Requests/sec:    213.04
+Transfer/sec:    570.66KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.94ms  106.35ms 570.99ms   79.48%
+    Req/Sec   212.56    178.43     1.21k    78.80%
+  Latency Distribution
+     50%   73.12ms
+     75%  184.53ms
+     90%  267.17ms
+     99%  352.14ms
+  126869 requests in 10.00m, 331.87MB read
+Requests/sec:    211.43
+Transfer/sec:    566.34KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.10ms  105.93ms 573.04ms   79.47%
+    Req/Sec   216.55    163.56     0.94k    69.04%
+  Latency Distribution
+     50%   71.51ms
+     75%  183.21ms
+     90%  265.36ms
+     99%  350.12ms
+  129338 requests in 10.00m, 338.33MB read
+Requests/sec:    215.53
+Transfer/sec:    577.33KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.45ms  104.20ms 576.42ms   79.63%
+    Req/Sec   235.75    168.40     1.23k    70.20%
+  Latency Distribution
+     50%   64.75ms
+     75%  176.29ms
+     90%  260.50ms
+     99%  347.67ms
+  140893 requests in 10.00m, 368.56MB read
+Requests/sec:    234.79
+Transfer/sec:    628.92KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.33ms  107.98ms 764.35ms   79.53%
+    Req/Sec   204.27    155.87     1.07k    74.49%
+  Latency Distribution
+     50%   75.27ms
+     75%  188.85ms
+     90%  271.21ms
+     99%  355.36ms
+  121993 requests in 10.00m, 319.12MB read
+Requests/sec:    203.30
+Transfer/sec:    544.57KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.27ms  107.20ms   1.03s    79.47%
+    Req/Sec   213.64    172.40     1.11k    73.79%
+  Latency Distribution
+     50%   72.95ms
+     75%  185.80ms
+     90%  268.13ms
+     99%  352.92ms
+  127541 requests in 10.00m, 333.63MB read
+Requests/sec:    212.57
+Transfer/sec:    569.39KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.78ms  105.62ms 581.74ms   79.57%
+    Req/Sec   224.37    167.29     1.11k    70.61%
+  Latency Distribution
+     50%   68.84ms
+     75%  180.72ms
+     90%  263.95ms
+     99%  351.51ms
+  133902 requests in 10.00m, 350.27MB read
+Requests/sec:    223.17
+Transfer/sec:    597.79KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.36ms  107.02ms 548.24ms   79.50%
+    Req/Sec   206.37    163.27     1.67k    73.67%
+  Latency Distribution
+     50%   74.82ms
+     75%  186.81ms
+     90%  269.18ms
+     99%  353.31ms
+  123230 requests in 10.00m, 322.36MB read
+Requests/sec:    205.38
+Transfer/sec:    550.14KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.06ms  106.69ms 605.85ms   79.54%
+    Req/Sec   206.20    152.38     1.01k    68.49%
+  Latency Distribution
+     50%   75.68ms
+     75%  185.65ms
+     90%  267.56ms
+     99%  353.31ms
+  123069 requests in 10.00m, 321.93MB read
+Requests/sec:    205.08
+Transfer/sec:    549.35KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.53ms  104.81ms 544.85ms   79.59%
+    Req/Sec   222.58    164.13     1.01k    68.84%
+  Latency Distribution
+     50%   68.38ms
+     75%  179.62ms
+     90%  262.90ms
+     99%  348.99ms
+  132951 requests in 10.00m, 347.78MB read
+Requests/sec:    221.56
+Transfer/sec:    593.47KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    97.89ms  105.07ms   1.49s    79.61%
+    Req/Sec   227.35    171.95     1.24k    71.00%
+  Latency Distribution
+     50%   68.25ms
+     75%  178.75ms
+     90%  261.65ms
+     99%  349.07ms
+  135680 requests in 10.00m, 354.92MB read
+Requests/sec:    226.10
+Transfer/sec:    605.64KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.56ms  106.06ms 600.25ms   79.56%
+    Req/Sec   213.63    162.36     1.13k    67.68%
+  Latency Distribution
+     50%   71.91ms
+     75%  183.41ms
+     90%  266.17ms
+     99%  351.55ms
+  127596 requests in 10.00m, 333.78MB read
+Requests/sec:    212.64
+Transfer/sec:    569.59KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.44ms  106.96ms 602.60ms   79.54%
+    Req/Sec   205.11    157.24     1.09k    73.97%
+  Latency Distribution
+     50%   75.60ms
+     75%  187.45ms
+     90%  268.29ms
+     99%  352.70ms
+  122492 requests in 10.00m, 320.42MB read
+Requests/sec:    204.13
+Transfer/sec:    546.81KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.98ms  106.30ms 561.98ms   79.52%
+    Req/Sec   218.88    164.60     1.13k    67.95%
+  Latency Distribution
+     50%   71.47ms
+     75%  183.03ms
+     90%  265.89ms
+     99%  351.88ms
+  130712 requests in 10.00m, 341.93MB read
+Requests/sec:    217.84
+Transfer/sec:    583.52KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.22ms  105.93ms 571.28ms   79.48%
+    Req/Sec   223.08    167.23     1.12k    70.52%
+  Latency Distribution
+     50%   69.49ms
+     75%  181.77ms
+     90%  265.37ms
+     99%  350.94ms
+  133206 requests in 10.00m, 348.45MB read
+Requests/sec:    221.98
+Transfer/sec:    594.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.90ms  104.27ms 563.95ms   79.61%
+    Req/Sec   232.29    158.31     1.01k    64.36%
+  Latency Distribution
+     50%   66.24ms
+     75%  177.24ms
+     90%  260.38ms
+     99%  346.56ms
+  138723 requests in 10.00m, 362.88MB read
+Requests/sec:    231.18
+Transfer/sec:    619.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.43ms  106.46ms 574.62ms   79.46%
+    Req/Sec   216.81    171.42     1.19k    74.30%
+  Latency Distribution
+     50%   71.18ms
+     75%  184.24ms
+     90%  266.67ms
+     99%  351.54ms
+  129452 requests in 10.00m, 338.63MB read
+Requests/sec:    215.74
+Transfer/sec:    577.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.75ms  103.35ms 598.51ms   79.73%
+    Req/Sec   245.30    179.22     1.10k    68.71%
+  Latency Distribution
+     50%   62.59ms
+     75%  172.59ms
+     90%  258.08ms
+     99%  346.21ms
+  146471 requests in 10.00m, 383.15MB read
+Requests/sec:    244.08
+Transfer/sec:    653.80KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.64ms  105.33ms 565.02ms   79.56%
+    Req/Sec   224.31    180.46     1.15k    74.28%
+  Latency Distribution
+     50%   68.06ms
+     75%  179.61ms
+     90%  264.27ms
+     99%  350.76ms
+  133909 requests in 10.00m, 350.29MB read
+Requests/sec:    223.18
+Transfer/sec:    597.81KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.86ms  105.20ms 564.57ms   79.48%
+    Req/Sec   222.01    158.75     1.23k    67.84%
+  Latency Distribution
+     50%   69.19ms
+     75%  181.17ms
+     90%  263.07ms
+     99%  348.13ms
+  132629 requests in 10.00m, 346.94MB read
+Requests/sec:    221.04
+Transfer/sec:    592.08KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.65ms  104.26ms 566.52ms   79.58%
+    Req/Sec   234.71    173.51     1.18k    68.24%
+  Latency Distribution
+     50%   65.45ms
+     75%  176.49ms
+     90%  261.03ms
+     99%  347.73ms
+  140047 requests in 10.00m, 366.35MB read
+Requests/sec:    233.38
+Transfer/sec:    625.15KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.86ms  105.46ms 564.40ms   79.48%
+    Req/Sec   223.66    163.84     1.06k    72.03%
+  Latency Distribution
+     50%   68.66ms
+     75%  180.53ms
+     90%  264.50ms
+     99%  350.54ms
+  133483 requests in 10.00m, 349.18MB read
+Requests/sec:    222.45
+Transfer/sec:    595.86KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    97.68ms  104.89ms 565.37ms   79.58%
+    Req/Sec   229.15    173.81     1.12k    70.93%
+  Latency Distribution
+     50%   67.38ms
+     75%  178.93ms
+     90%  261.69ms
+     99%  348.29ms
+  136912 requests in 10.00m, 358.15MB read
+Requests/sec:    228.15
+Transfer/sec:    611.15KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.04ms  105.73ms 626.92ms   79.58%
+    Req/Sec   215.48    165.93     1.21k    74.85%
+  Latency Distribution
+     50%   72.18ms
+     75%  183.14ms
+     90%  265.23ms
+     99%  350.23ms
+  128703 requests in 10.00m, 336.67MB read
+Requests/sec:    214.49
+Transfer/sec:    574.54KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.68ms  107.37ms 584.02ms   79.50%
+    Req/Sec   205.17    168.37     1.15k    79.49%
+  Latency Distribution
+     50%   76.21ms
+     75%  187.83ms
+     90%  269.20ms
+     99%  353.76ms
+  122579 requests in 10.00m, 320.65MB read
+Requests/sec:    204.28
+Transfer/sec:    547.19KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.15ms  107.19ms 550.12ms   79.51%
+    Req/Sec   202.14    160.85     1.07k    72.97%
+  Latency Distribution
+     50%   77.08ms
+     75%  188.37ms
+     90%  269.20ms
+     99%  351.92ms
+  120612 requests in 10.00m, 315.51MB read
+Requests/sec:    201.02
+Transfer/sec:    538.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.69ms  105.26ms 694.98ms   79.53%
+    Req/Sec   223.29    168.23     1.21k    70.75%
+  Latency Distribution
+     50%   69.40ms
+     75%  180.34ms
+     90%  263.34ms
+     99%  349.37ms
+  133297 requests in 10.00m, 348.69MB read
+Requests/sec:    222.15
+Transfer/sec:    595.07KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.74ms  106.26ms 600.09ms   79.42%
+    Req/Sec   213.70    178.34     1.33k    78.40%
+  Latency Distribution
+     50%   72.06ms
+     75%  184.38ms
+     90%  266.16ms
+     99%  351.49ms
+  127585 requests in 10.00m, 333.75MB read
+Requests/sec:    212.64
+Transfer/sec:    569.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.77ms  106.92ms 573.66ms   79.40%
+    Req/Sec   209.67    163.77     1.31k    74.69%
+  Latency Distribution
+     50%   73.53ms
+     75%  186.18ms
+     90%  268.34ms
+     99%  353.46ms
+  125220 requests in 10.00m, 327.56MB read
+Requests/sec:    208.70
+Transfer/sec:    559.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.06ms  106.62ms 653.74ms   79.50%
+    Req/Sec   213.04    155.42     1.00k    70.60%
+  Latency Distribution
+     50%   72.20ms
+     75%  184.52ms
+     90%  268.03ms
+     99%  352.93ms
+  127171 requests in 10.00m, 332.66MB read
+Requests/sec:    211.94
+Transfer/sec:    567.71KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.60ms  106.23ms 572.96ms   79.46%
+    Req/Sec   221.56    175.79     1.18k    74.33%
+  Latency Distribution
+     50%   70.27ms
+     75%  182.93ms
+     90%  265.50ms
+     99%  350.62ms
+  132255 requests in 10.00m, 345.96MB read
+Requests/sec:    220.42
+Transfer/sec:    590.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.41ms  105.65ms 566.09ms   79.49%
+    Req/Sec   220.19    169.31     1.11k    69.80%
+  Latency Distribution
+     50%   70.26ms
+     75%  182.12ms
+     90%  264.68ms
+     99%  349.70ms
+  131466 requests in 10.00m, 343.90MB read
+Requests/sec:    219.10
+Transfer/sec:    586.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.60ms  106.84ms 576.26ms   79.49%
+    Req/Sec   210.16    163.91     1.08k    72.93%
+  Latency Distribution
+     50%   74.73ms
+     75%  186.07ms
+     90%  267.53ms
+     99%  352.68ms
+  125286 requests in 10.00m, 327.73MB read
+Requests/sec:    208.81
+Transfer/sec:    559.33KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.08ms  104.42ms 542.86ms   79.55%
+    Req/Sec   223.85    187.09     1.15k    79.31%
+  Latency Distribution
+     50%   68.72ms
+     75%  179.24ms
+     90%  261.47ms
+     99%  346.70ms
+  133633 requests in 10.00m, 349.57MB read
+Requests/sec:    222.72
+Transfer/sec:    596.59KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.27ms  106.96ms 627.27ms   79.52%
+    Req/Sec   213.17    161.00     1.15k    68.05%
+  Latency Distribution
+     50%   73.19ms
+     75%  185.34ms
+     90%  267.80ms
+     99%  354.50ms
+  127116 requests in 10.00m, 332.52MB read
+Requests/sec:    211.84
+Transfer/sec:    567.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.28ms  106.39ms 600.66ms   79.50%
+    Req/Sec   210.77    161.83     0.99k    73.71%
+  Latency Distribution
+     50%   72.76ms
+     75%  185.04ms
+     90%  267.39ms
+     99%  352.23ms
+  125916 requests in 10.00m, 329.38MB read
+Requests/sec:    209.83
+Transfer/sec:    562.08KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.59ms  106.20ms 558.90ms   79.56%
+    Req/Sec   214.01    167.98     1.35k    75.54%
+  Latency Distribution
+     50%   72.72ms
+     75%  184.09ms
+     90%  265.82ms
+     99%  351.27ms
+  127742 requests in 10.00m, 334.16MB read
+Requests/sec:    212.87
+Transfer/sec:    570.20KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.90ms  106.56ms 551.60ms   79.45%
+    Req/Sec   206.92    158.26     1.09k    74.45%
+  Latency Distribution
+     50%   75.97ms
+     75%  186.26ms
+     90%  267.40ms
+     99%  351.54ms
+  123489 requests in 10.00m, 323.03MB read
+Requests/sec:    205.81
+Transfer/sec:    551.28KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.77ms  106.66ms 541.94ms   79.37%
+    Req/Sec   208.94    160.13     1.11k    73.96%
+  Latency Distribution
+     50%   74.39ms
+     75%  186.61ms
+     90%  267.92ms
+     99%  350.79ms
+  124752 requests in 10.00m, 326.34MB read
+Requests/sec:    207.91
+Transfer/sec:    556.91KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.86ms  106.00ms 574.97ms   79.54%
+    Req/Sec   225.80    168.77     1.16k    71.59%
+  Latency Distribution
+     50%   68.52ms
+     75%  181.26ms
+     90%  264.91ms
+     99%  351.27ms
+  134795 requests in 10.00m, 352.61MB read
+Requests/sec:    224.66
+Transfer/sec:    601.78KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.72ms  106.75ms 552.37ms   79.45%
+    Req/Sec   209.04    160.50     1.12k    74.16%
+  Latency Distribution
+     50%   74.33ms
+     75%  186.07ms
+     90%  268.00ms
+     99%  352.92ms
+  124760 requests in 10.00m, 326.36MB read
+Requests/sec:    207.92
+Transfer/sec:    556.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.13ms  107.39ms 564.47ms   79.54%
+    Req/Sec   208.61    165.64     0.97k    74.17%
+  Latency Distribution
+     50%   74.53ms
+     75%  186.51ms
+     90%  269.02ms
+     99%  355.04ms
+  124523 requests in 10.00m, 325.74MB read
+Requests/sec:    207.53
+Transfer/sec:    555.92KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.40ms  105.34ms 561.00ms   79.45%
+    Req/Sec   218.65    161.25     1.11k    71.60%
+  Latency Distribution
+     50%   70.43ms
+     75%  181.59ms
+     90%  263.62ms
+     99%  349.73ms
+  130500 requests in 10.00m, 341.37MB read
+Requests/sec:    217.49
+Transfer/sec:    582.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.39ms  106.59ms 540.77ms   79.48%
+    Req/Sec   217.79    175.46     1.12k    75.14%
+  Latency Distribution
+     50%   71.66ms
+     75%  183.59ms
+     90%  267.55ms
+     99%  352.14ms
+  129988 requests in 10.00m, 340.03MB read
+Requests/sec:    216.61
+Transfer/sec:    580.23KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.55ms  105.90ms 602.36ms   79.50%
+    Req/Sec   219.80    175.86     1.15k    74.34%
+  Latency Distribution
+     50%   70.46ms
+     75%  181.27ms
+     90%  265.78ms
+     99%  351.25ms
+  131252 requests in 10.00m, 343.34MB read
+Requests/sec:    218.75
+Transfer/sec:    585.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    93.97ms  102.96ms 545.34ms   79.76%
+    Req/Sec   250.01    183.14     1.19k    68.10%
+  Latency Distribution
+     50%   60.56ms
+     75%  171.17ms
+     90%  256.90ms
+     99%  346.01ms
+  149270 requests in 10.00m, 390.47MB read
+Requests/sec:    248.77
+Transfer/sec:    666.37KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.31ms  107.32ms 560.99ms   79.53%
+    Req/Sec   207.79    164.86     1.02k    71.97%
+  Latency Distribution
+     50%   74.06ms
+     75%  187.12ms
+     90%  269.50ms
+     99%  353.62ms
+  124136 requests in 10.00m, 324.73MB read
+Requests/sec:    206.88
+Transfer/sec:    554.15KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    97.00ms  104.41ms 618.82ms   79.48%
+    Req/Sec   232.71    174.20     1.24k    71.34%
+  Latency Distribution
+     50%   66.38ms
+     75%  177.54ms
+     90%  260.80ms
+     99%  347.20ms
+  138906 requests in 10.00m, 363.36MB read
+Requests/sec:    231.50
+Transfer/sec:    620.10KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.43ms  106.94ms 598.64ms   79.41%
+    Req/Sec   212.24    151.18     0.88k    63.47%
+  Latency Distribution
+     50%   73.33ms
+     75%  185.37ms
+     90%  268.75ms
+     99%  353.54ms
+  126718 requests in 10.00m, 331.48MB read
+Requests/sec:    211.16
+Transfer/sec:    565.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.81ms  105.65ms 625.63ms   79.54%
+    Req/Sec   225.14    165.60     1.23k    70.54%
+  Latency Distribution
+     50%   68.17ms
+     75%  181.30ms
+     90%  264.67ms
+     99%  350.10ms
+  134330 requests in 10.00m, 351.39MB read
+Requests/sec:    223.87
+Transfer/sec:    599.68KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    97.97ms  105.45ms 572.24ms   79.62%
+    Req/Sec   229.61    177.14     1.12k    69.44%
+  Latency Distribution
+     50%   67.21ms
+     75%  178.57ms
+     90%  264.48ms
+     99%  350.97ms
+  137069 requests in 10.00m, 358.56MB read
+Requests/sec:    228.42
+Transfer/sec:    611.85KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.93ms  106.68ms 559.76ms   79.51%
+    Req/Sec   207.22    164.20     1.03k    72.80%
+  Latency Distribution
+     50%   75.62ms
+     75%  186.18ms
+     90%  267.57ms
+     99%  351.71ms
+  123733 requests in 10.00m, 323.67MB read
+Requests/sec:    206.20
+Transfer/sec:    552.34KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.57ms  106.06ms 572.87ms   79.47%
+    Req/Sec   213.36    156.69     1.03k    71.87%
+  Latency Distribution
+     50%   73.76ms
+     75%  184.22ms
+     90%  265.50ms
+     99%  349.92ms
+  127294 requests in 10.00m, 332.99MB read
+Requests/sec:    212.15
+Transfer/sec:    568.28KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.58ms  106.41ms 551.03ms   79.46%
+    Req/Sec   222.94    167.61     1.09k    69.87%
+  Latency Distribution
+     50%   68.83ms
+     75%  182.81ms
+     90%  266.59ms
+     99%  351.94ms
+  133095 requests in 10.00m, 348.16MB read
+Requests/sec:    221.81
+Transfer/sec:    594.16KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.94ms  106.70ms 560.63ms   79.57%
+    Req/Sec   206.89    168.96     1.03k    77.34%
+  Latency Distribution
+     50%   75.90ms
+     75%  185.94ms
+     90%  267.57ms
+     99%  352.52ms
+  123476 requests in 10.00m, 323.00MB read
+Requests/sec:    205.79
+Transfer/sec:    551.23KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.80ms  105.56ms 560.47ms   79.60%
+    Req/Sec   223.86    166.80     1.03k    70.21%
+  Latency Distribution
+     50%   69.05ms
+     75%  180.92ms
+     90%  264.17ms
+     99%  350.71ms
+  133602 requests in 10.00m, 349.49MB read
+Requests/sec:    222.66
+Transfer/sec:    596.42KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    97.14ms  104.95ms 580.23ms   79.60%
+    Req/Sec   234.10    176.53     1.16k    70.49%
+  Latency Distribution
+     50%   65.47ms
+     75%  177.63ms
+     90%  261.85ms
+     99%  348.74ms
+  139691 requests in 10.00m, 365.42MB read
+Requests/sec:    232.81
+Transfer/sec:    623.61KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.56ms  107.41ms 572.82ms   79.40%
+    Req/Sec   206.78    172.87     1.21k    76.56%
+  Latency Distribution
+     50%   75.02ms
+     75%  187.87ms
+     90%  269.41ms
+     99%  353.28ms
+  123389 requests in 10.00m, 322.77MB read
+Requests/sec:    205.63
+Transfer/sec:    550.80KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.55ms  106.15ms 534.91ms   79.53%
+    Req/Sec   207.94    159.80     1.09k    73.28%
+  Latency Distribution
+     50%   74.04ms
+     75%  185.65ms
+     90%  266.38ms
+     99%  350.70ms
+  124042 requests in 10.00m, 324.48MB read
+Requests/sec:    206.73
+Transfer/sec:    553.76KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.05ms  105.52ms 560.13ms   79.53%
+    Req/Sec   222.13    182.75     1.17k    78.67%
+  Latency Distribution
+     50%   68.86ms
+     75%  181.17ms
+     90%  264.07ms
+     99%  350.12ms
+  132582 requests in 10.00m, 346.82MB read
+Requests/sec:    220.96
+Transfer/sec:    591.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.90ms  107.42ms 574.77ms   79.46%
+    Req/Sec   204.40    147.31     1.01k    69.78%
+  Latency Distribution
+     50%   76.07ms
+     75%  188.35ms
+     90%  269.66ms
+     99%  352.79ms
+  122063 requests in 10.00m, 319.30MB read
+Requests/sec:    203.42
+Transfer/sec:    544.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.94ms  106.19ms 584.42ms   79.56%
+    Req/Sec   218.79    180.05     1.08k    77.52%
+  Latency Distribution
+     50%   70.09ms
+     75%  182.93ms
+     90%  265.97ms
+     99%  352.88ms
+  130593 requests in 10.00m, 341.62MB read
+Requests/sec:    217.63
+Transfer/sec:    582.95KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    98.24ms  104.68ms 558.14ms   79.55%
+    Req/Sec   224.20    172.31     1.48k    71.59%
+  Latency Distribution
+     50%   68.64ms
+     75%  179.24ms
+     90%  262.63ms
+     99%  347.96ms
+  133730 requests in 10.00m, 349.82MB read
+Requests/sec:    222.87
+Transfer/sec:    597.00KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.62ms  106.15ms 572.91ms   79.44%
+    Req/Sec   214.09    168.94     1.50k    77.36%
+  Latency Distribution
+     50%   72.39ms
+     75%  184.26ms
+     90%  266.28ms
+     99%  350.88ms
+  127845 requests in 10.00m, 334.43MB read
+Requests/sec:    213.05
+Transfer/sec:    570.68KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.49ms  105.75ms 625.09ms   79.49%
+    Req/Sec   220.07    161.57     0.92k    70.06%
+  Latency Distribution
+     50%   70.67ms
+     75%  182.45ms
+     90%  264.12ms
+     99%  350.09ms
+  131455 requests in 10.00m, 343.87MB read
+Requests/sec:    219.06
+Transfer/sec:    586.79KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.19ms  106.46ms 574.02ms   79.47%
+    Req/Sec   211.30    160.86     1.06k    71.09%
+  Latency Distribution
+     50%   73.46ms
+     75%  185.57ms
+     90%  266.63ms
+     99%  351.66ms
+  126179 requests in 10.00m, 330.07MB read
+Requests/sec:    210.28
+Transfer/sec:    563.27KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.01ms  106.95ms 562.62ms   79.50%
+    Req/Sec   207.88    159.17     1.15k    75.51%
+  Latency Distribution
+     50%   75.45ms
+     75%  187.17ms
+     90%  267.61ms
+     99%  352.05ms
+  124112 requests in 10.00m, 324.66MB read
+Requests/sec:    206.84
+Transfer/sec:    554.05KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.73ms  105.88ms 569.52ms   79.39%
+    Req/Sec   219.64    167.85     1.12k    68.09%
+  Latency Distribution
+     50%   69.67ms
+     75%  183.37ms
+     90%  264.85ms
+     99%  349.95ms
+  131011 requests in 10.00m, 342.71MB read
+Requests/sec:    218.32
+Transfer/sec:    584.80KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    99.19ms  105.91ms 574.65ms   79.53%
+    Req/Sec   222.81    176.02     1.07k    74.42%
+  Latency Distribution
+     50%   69.34ms
+     75%  181.77ms
+     90%  264.55ms
+     99%  352.27ms
+  133103 requests in 10.00m, 348.18MB read
+Requests/sec:    221.81
+Transfer/sec:    594.16KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.23ms  106.46ms 551.30ms   79.52%
+    Req/Sec   204.77    149.50     0.99k    70.30%
+  Latency Distribution
+     50%   75.98ms
+     75%  186.73ms
+     90%  267.28ms
+     99%  349.61ms
+  122253 requests in 10.00m, 319.80MB read
+Requests/sec:    203.73
+Transfer/sec:    545.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.16ms  106.67ms 561.11ms   79.40%
+    Req/Sec   212.57    160.09     1.18k    69.41%
+  Latency Distribution
+     50%   73.54ms
+     75%  185.27ms
+     90%  267.43ms
+     99%  351.90ms
+  126891 requests in 10.00m, 331.93MB read
+Requests/sec:    211.45
+Transfer/sec:    566.41KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.29ms  106.33ms 570.99ms   79.40%
+    Req/Sec   210.03    172.31     1.20k    78.48%
+  Latency Distribution
+     50%   74.02ms
+     75%  185.40ms
+     90%  266.15ms
+     99%  350.77ms
+  125449 requests in 10.00m, 328.16MB read
+Requests/sec:    209.05
+Transfer/sec:    559.98KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.80ms  106.64ms   1.03s    79.53%
+    Req/Sec   208.42    174.43     1.21k    78.60%
+  Latency Distribution
+     50%   73.85ms
+     75%  186.28ms
+     90%  267.74ms
+     99%  351.39ms
+  124340 requests in 10.00m, 325.26MB read
+Requests/sec:    207.22
+Transfer/sec:    555.08KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.16ms  106.04ms 570.93ms   79.47%
+    Req/Sec   216.70    166.35     1.17k    68.33%
+  Latency Distribution
+     50%   71.07ms
+     75%  183.52ms
+     90%  265.60ms
+     99%  351.15ms
+  129417 requests in 10.00m, 338.54MB read
+Requests/sec:    215.68
+Transfer/sec:    577.74KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.83ms  106.78ms 553.98ms   79.52%
+    Req/Sec   208.45    163.02     1.17k    73.99%
+  Latency Distribution
+     50%   74.51ms
+     75%  186.24ms
+     90%  267.75ms
+     99%  351.56ms
+  124426 requests in 10.00m, 325.48MB read
+Requests/sec:    207.34
+Transfer/sec:    555.40KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.21ms  106.90ms 559.22ms   79.44%
+    Req/Sec   213.16    160.97     1.18k    70.25%
+  Latency Distribution
+     50%   73.23ms
+     75%  185.18ms
+     90%  268.37ms
+     99%  353.25ms
+  127140 requests in 10.00m, 332.58MB read
+Requests/sec:    211.88
+Transfer/sec:    567.56KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   101.84ms  106.90ms 578.28ms   79.47%
+    Req/Sec   208.90    167.88     1.13k    73.61%
+  Latency Distribution
+     50%   74.88ms
+     75%  186.44ms
+     90%  268.44ms
+     99%  352.08ms
+  124790 requests in 10.00m, 326.44MB read
+Requests/sec:    207.96
+Transfer/sec:    557.05KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   100.71ms  106.00ms 542.13ms   79.48%
+    Req/Sec   212.91    155.52     1.09k    69.26%
+  Latency Distribution
+     50%   73.34ms
+     75%  184.46ms
+     90%  265.53ms
+     99%  349.87ms
+  127040 requests in 10.00m, 332.32MB read
+Requests/sec:    211.70
+Transfer/sec:    567.08KB
++ (( j++ ))
++ (( j<100 ))
++ file=82
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=83
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=84
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=85
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=86
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=87
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=88
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=89
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=90
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=91
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=92
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=93
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=94
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=95
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=96
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=97
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=98
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=99
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ wait
++ for pod in 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
++ scs nginx-ingress-controller 8
+deployment.apps/nginx-ingress-controller scaled
++ cp -rf box ips
++ date
+Mon Jul 20 10:31:17 UTC 2020
++ dir=https.ingress.svc..8
++ ./2020-06-28-main.just.ingress.svc.sh https.ingress.svc..8
+Warning: Permanently added '10.1.0.23' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.22' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.89' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.34' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.78' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.56' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.24' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.111' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.25' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.33' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.35' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.30' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.45' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.36' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.37' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.26' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.31' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.40' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.32' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.58' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.27' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.29' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.41' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.67' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.28' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.43' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.38' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.39' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.44' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.42' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.50' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.47' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.49' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.54' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.52' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.48' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.63' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.61' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.62' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.64' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.51' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.53' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.65' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.59' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.66' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.57' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.46' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.60' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.71' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.55' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.68' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.69' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.70' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.72' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.73' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.74' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.83' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.80' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.75' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.76' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.77' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.85' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.82' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.79' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.84' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.92' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.81' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.91' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.87' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.88' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.93' (ECDSA) to the list of known hosts.
++ sleep 30
+Warning: Permanently added '10.1.0.94' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.99' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.101' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.95' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.97' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.86' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.105' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.110' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.96' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.98' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.112' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.107' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.114' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: Warning: Permanently added '10.1.0.104' (ECDSA) to the list of known hosts.
+wrk: not found
+Warning: Permanently added '10.1.0.108' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.106' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.118' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.115' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.109' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.102' (ECDSA) to the list of known hosts.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.117' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.133' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.116' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.103' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.113' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.132' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.119' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
++ (( j=0 ))
++ (( j<100 ))
++ file=0
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=1
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=2
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=3
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=4
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=5
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=6
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=7
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=8
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=9
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=10
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=11
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=12
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=13
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=14
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=15
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=16
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=17
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=18
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=19
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=20
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=21
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=22
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=23
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=24
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=25
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=26
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=27
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=28
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=29
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=30
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=31
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=32
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=33
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=34
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=35
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=36
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=37
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=38
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=39
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=40
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=41
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=42
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=43
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=44
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=45
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=46
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=47
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=48
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=49
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=50
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=51
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=52
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=53
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=54
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=55
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=56
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=57
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=58
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=59
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=60
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=61
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=62
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=63
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=64
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=65
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=66
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=67
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=68
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=69
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=70
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=71
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=72
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=73
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=74
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=75
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=76
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=77
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=78
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=79
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=80
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=81
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=82
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   138.27ms  168.01ms 944.60ms   80.97%
+    Req/Sec   218.17    175.53     2.13k    74.31%
+  Latency Distribution
+     50%   66.05ms
+     75%  239.72ms
+     90%  416.77ms
+     99%  587.70ms
+  129054 requests in 10.00m, 337.59MB read
+Requests/sec:    215.08
+Transfer/sec:    576.13KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.16ms  169.84ms 899.70ms   80.77%
+    Req/Sec   202.90    160.68     1.63k    73.15%
+  Latency Distribution
+     50%   73.59ms
+     75%  249.18ms
+     90%  421.71ms
+     99%  590.04ms
+  120731 requests in 10.00m, 315.82MB read
+Requests/sec:    201.21
+Transfer/sec:    538.97KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   145.42ms  170.75ms 963.15ms   80.82%
+    Req/Sec   187.72    154.79     1.05k    74.36%
+  Latency Distribution
+     50%   81.29ms
+     75%  252.74ms
+     90%  425.22ms
+     99%  594.11ms
+  111461 requests in 10.00m, 291.57MB read
+Requests/sec:    185.77
+Transfer/sec:    497.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   140.93ms  168.95ms   1.03s    80.73%
+    Req/Sec   207.22    175.95     1.71k    78.50%
+  Latency Distribution
+     50%   70.41ms
+     75%  247.62ms
+     90%  419.38ms
+     99%  588.42ms
+  123173 requests in 10.00m, 322.21MB read
+Requests/sec:    205.27
+Transfer/sec:    549.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.76ms  169.58ms 936.20ms   80.75%
+    Req/Sec   198.04    148.12     1.05k    72.43%
+  Latency Distribution
+     50%   73.56ms
+     75%  248.05ms
+     90%  422.49ms
+     99%  590.44ms
+  117221 requests in 10.00m, 306.64MB read
+Requests/sec:    195.36
+Transfer/sec:    523.29KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.76ms  170.84ms 985.39ms   80.67%
+    Req/Sec   197.83    146.18     1.30k    67.45%
+  Latency Distribution
+     50%   74.94ms
+     75%  251.95ms
+     90%  424.34ms
+     99%  592.26ms
+  117557 requests in 10.00m, 307.52MB read
+Requests/sec:    195.92
+Transfer/sec:    524.79KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   147.19ms  172.52ms 933.55ms   80.43%
+    Req/Sec   188.34    156.76     0.90k    73.13%
+  Latency Distribution
+     50%   80.52ms
+     75%  259.74ms
+     90%  429.52ms
+     99%  595.09ms
+  111409 requests in 10.00m, 291.43MB read
+Requests/sec:    185.68
+Transfer/sec:    497.37KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   138.56ms  168.15ms 931.60ms   81.09%
+    Req/Sec   215.09    160.87     1.05k    71.18%
+  Latency Distribution
+     50%   67.59ms
+     75%  239.26ms
+     90%  417.75ms
+     99%  587.73ms
+  127957 requests in 10.00m, 334.72MB read
+Requests/sec:    213.24
+Transfer/sec:    571.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.13ms  169.77ms 991.42ms   80.79%
+    Req/Sec   201.69    165.24     1.11k    74.95%
+  Latency Distribution
+     50%   75.46ms
+     75%  247.67ms
+     90%  422.42ms
+     99%  590.89ms
+  119839 requests in 10.00m, 313.48MB read
+Requests/sec:    199.70
+Transfer/sec:    534.94KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   137.37ms  167.80ms 973.44ms   81.08%
+    Req/Sec   224.77    176.69     1.21k    74.71%
+  Latency Distribution
+     50%   63.07ms
+     75%  239.83ms
+     90%  414.32ms
+     99%  585.27ms
+  133967 requests in 10.00m, 350.44MB read
+Requests/sec:    223.28
+Transfer/sec:    598.08KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   138.97ms  167.88ms 928.01ms   81.08%
+    Req/Sec   211.71    172.01     1.09k    77.86%
+  Latency Distribution
+     50%   68.35ms
+     75%  240.23ms
+     90%  416.94ms
+     99%  586.85ms
+  125951 requests in 10.00m, 329.47MB read
+Requests/sec:    209.91
+Transfer/sec:    562.28KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   135.20ms  166.31ms 961.69ms   81.34%
+    Req/Sec   224.04    166.60     1.10k    74.04%
+  Latency Distribution
+     50%   67.14ms
+     75%  229.47ms
+     90%  411.93ms
+     99%  587.53ms
+  133710 requests in 10.00m, 349.77MB read
+Requests/sec:    222.83
+Transfer/sec:    596.90KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   139.60ms  169.04ms 944.49ms   80.99%
+    Req/Sec   211.85    156.98     1.27k    71.90%
+  Latency Distribution
+     50%   71.18ms
+     75%  241.07ms
+     90%  420.15ms
+     99%  589.37ms
+  125997 requests in 10.00m, 329.59MB read
+Requests/sec:    209.97
+Transfer/sec:    562.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   146.83ms  172.71ms 946.48ms   80.55%
+    Req/Sec   188.76    158.95     1.27k    80.17%
+  Latency Distribution
+     50%   80.89ms
+     75%  257.74ms
+     90%  430.85ms
+     99%  594.18ms
+  112231 requests in 10.00m, 293.58MB read
+Requests/sec:    187.03
+Transfer/sec:    500.98KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   144.71ms  170.79ms 934.48ms   80.75%
+    Req/Sec   191.58    152.63     1.17k    73.80%
+  Latency Distribution
+     50%   78.49ms
+     75%  252.10ms
+     90%  426.39ms
+     99%  593.21ms
+  113808 requests in 10.00m, 297.71MB read
+Requests/sec:    189.67
+Transfer/sec:    508.06KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   139.86ms  168.62ms 962.57ms   81.03%
+    Req/Sec   208.53    178.22     1.32k    77.07%
+  Latency Distribution
+     50%   70.72ms
+     75%  240.62ms
+     90%  419.55ms
+     99%  590.51ms
+  123624 requests in 10.00m, 323.39MB read
+Requests/sec:    206.01
+Transfer/sec:    551.83KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   140.96ms  168.82ms 985.22ms   80.91%
+    Req/Sec   206.66    173.14     1.46k    76.80%
+  Latency Distribution
+     50%   71.82ms
+     75%  246.41ms
+     90%  418.05ms
+     99%  589.55ms
+  122123 requests in 10.00m, 319.46MB read
+Requests/sec:    203.53
+Transfer/sec:    545.18KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   139.11ms  168.77ms 972.34ms   80.89%
+    Req/Sec   214.42    165.71     1.25k    73.81%
+  Latency Distribution
+     50%   68.17ms
+     75%  241.63ms
+     90%  418.68ms
+     99%  588.79ms
+  127696 requests in 10.00m, 334.04MB read
+Requests/sec:    212.80
+Transfer/sec:    570.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.57ms  169.58ms 942.11ms   80.82%
+    Req/Sec   198.42    161.32     0.97k    73.16%
+  Latency Distribution
+     50%   77.38ms
+     75%  248.36ms
+     90%  421.11ms
+     99%  590.96ms
+  117906 requests in 10.00m, 308.43MB read
+Requests/sec:    196.51
+Transfer/sec:    526.38KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   146.41ms  171.83ms 991.42ms   80.62%
+    Req/Sec   187.82    142.88     0.86k    73.17%
+  Latency Distribution
+     50%   81.14ms
+     75%  256.58ms
+     90%  427.24ms
+     99%  593.28ms
+  111582 requests in 10.00m, 291.89MB read
+Requests/sec:    185.96
+Transfer/sec:    498.11KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   145.34ms  171.61ms 973.43ms   80.62%
+    Req/Sec   191.27    144.17     0.92k    73.37%
+  Latency Distribution
+     50%   80.05ms
+     75%  254.66ms
+     90%  427.61ms
+     99%  593.74ms
+  113892 requests in 10.00m, 297.93MB read
+Requests/sec:    189.82
+Transfer/sec:    508.45KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   146.17ms  171.51ms 924.23ms   80.54%
+    Req/Sec   190.35    149.32     0.97k    68.63%
+  Latency Distribution
+     50%   78.08ms
+     75%  258.19ms
+     90%  425.93ms
+     99%  591.37ms
+  112910 requests in 10.00m, 295.36MB read
+Requests/sec:    188.17
+Transfer/sec:    504.05KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   145.77ms  170.89ms 930.04ms   80.76%
+    Req/Sec   187.68    147.58     0.94k    70.98%
+  Latency Distribution
+     50%   80.56ms
+     75%  254.41ms
+     90%  425.10ms
+     99%  592.61ms
+  111397 requests in 10.00m, 291.40MB read
+Requests/sec:    185.65
+Transfer/sec:    497.29KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.23ms  170.48ms   1.03s    80.58%
+    Req/Sec   199.88    154.12     1.24k    71.21%
+  Latency Distribution
+     50%   74.46ms
+     75%  251.96ms
+     90%  423.27ms
+     99%  590.46ms
+  118897 requests in 10.00m, 311.02MB read
+Requests/sec:    198.14
+Transfer/sec:    530.76KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.27ms  170.31ms   1.03s    80.89%
+    Req/Sec   195.90    161.59     1.16k    74.23%
+  Latency Distribution
+     50%   77.88ms
+     75%  248.32ms
+     90%  424.02ms
+     99%  592.74ms
+  116145 requests in 10.00m, 303.82MB read
+Requests/sec:    193.57
+Transfer/sec:    518.50KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   137.89ms  167.64ms 898.87ms   81.12%
+    Req/Sec   216.12    159.81     1.02k    71.85%
+  Latency Distribution
+     50%   65.39ms
+     75%  237.12ms
+     90%  416.00ms
+     99%  588.40ms
+  128714 requests in 10.00m, 336.70MB read
+Requests/sec:    214.51
+Transfer/sec:    574.61KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   144.46ms  171.08ms 961.78ms   80.75%
+    Req/Sec   194.54    153.93     0.95k    71.00%
+  Latency Distribution
+     50%   78.44ms
+     75%  253.48ms
+     90%  425.12ms
+     99%  592.93ms
+  115823 requests in 10.00m, 302.98MB read
+Requests/sec:    193.03
+Transfer/sec:    517.06KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.29ms  169.90ms 922.46ms   80.76%
+    Req/Sec   201.02    154.86     1.06k    72.77%
+  Latency Distribution
+     50%   74.01ms
+     75%  248.05ms
+     90%  422.99ms
+     99%  590.61ms
+  119647 requests in 10.00m, 312.98MB read
+Requests/sec:    199.40
+Transfer/sec:    534.12KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.48ms  169.77ms 963.57ms   80.78%
+    Req/Sec   200.76    165.51     1.33k    78.88%
+  Latency Distribution
+     50%   75.57ms
+     75%  249.57ms
+     90%  421.08ms
+     99%  590.09ms
+  119485 requests in 10.00m, 312.56MB read
+Requests/sec:    199.12
+Transfer/sec:    533.37KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   145.48ms  171.23ms 947.85ms   80.73%
+    Req/Sec   189.00    157.60     0.93k    72.83%
+  Latency Distribution
+     50%   81.64ms
+     75%  252.27ms
+     90%  427.76ms
+     99%  593.54ms
+  112120 requests in 10.00m, 293.29MB read
+Requests/sec:    186.84
+Transfer/sec:    500.47KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.97ms  170.01ms 937.42ms   80.68%
+    Req/Sec   195.35    166.39     1.28k    81.64%
+  Latency Distribution
+     50%   76.31ms
+     75%  252.99ms
+     90%  422.05ms
+     99%  591.99ms
+  115365 requests in 10.00m, 301.78MB read
+Requests/sec:    192.27
+Transfer/sec:    515.02KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.56ms  170.58ms   1.03s    80.78%
+    Req/Sec   196.63    168.01     1.19k    79.23%
+  Latency Distribution
+     50%   76.59ms
+     75%  250.06ms
+     90%  424.31ms
+     99%  593.61ms
+  116554 requests in 10.00m, 304.89MB read
+Requests/sec:    194.25
+Transfer/sec:    520.33KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   146.10ms  171.56ms 933.90ms   80.62%
+    Req/Sec   187.83    150.29     1.23k    78.87%
+  Latency Distribution
+     50%   80.50ms
+     75%  255.64ms
+     90%  427.14ms
+     99%  593.70ms
+  111815 requests in 10.00m, 292.49MB read
+Requests/sec:    186.33
+Transfer/sec:    499.13KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   145.29ms  171.17ms 926.96ms   80.62%
+    Req/Sec   192.49    149.20     1.19k    69.23%
+  Latency Distribution
+     50%   77.32ms
+     75%  256.54ms
+     90%  425.04ms
+     99%  590.37ms
+  114610 requests in 10.00m, 299.81MB read
+Requests/sec:    191.00
+Transfer/sec:    511.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   145.52ms  171.52ms 974.75ms   80.71%
+    Req/Sec   190.56    160.86     1.26k    80.08%
+  Latency Distribution
+     50%   79.75ms
+     75%  254.73ms
+     90%  426.48ms
+     99%  593.15ms
+  113443 requests in 10.00m, 296.75MB read
+Requests/sec:    189.07
+Transfer/sec:    506.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.27ms  170.58ms 963.31ms   80.61%
+    Req/Sec   199.03    155.08     1.00k    69.81%
+  Latency Distribution
+     50%   76.20ms
+     75%  250.38ms
+     90%  424.38ms
+     99%  591.13ms
+  118411 requests in 10.00m, 309.75MB read
+Requests/sec:    197.34
+Transfer/sec:    528.61KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   141.70ms  170.19ms 960.64ms   80.80%
+    Req/Sec   206.45    158.82     0.98k    72.37%
+  Latency Distribution
+     50%   70.81ms
+     75%  248.36ms
+     90%  421.50ms
+     99%  591.38ms
+  122961 requests in 10.00m, 321.65MB read
+Requests/sec:    204.91
+Transfer/sec:    548.88KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   141.29ms  169.26ms   1.03s    80.98%
+    Req/Sec   202.06    152.88     0.91k    73.82%
+  Latency Distribution
+     50%   73.78ms
+     75%  244.09ms
+     90%  420.91ms
+     99%  591.48ms
+  120161 requests in 10.00m, 314.33MB read
+Requests/sec:    200.26
+Transfer/sec:    536.44KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.86ms  169.51ms 959.92ms   80.72%
+    Req/Sec   198.32    150.10     1.25k    72.13%
+  Latency Distribution
+     50%   73.34ms
+     75%  250.15ms
+     90%  421.36ms
+     99%  589.39ms
+  117876 requests in 10.00m, 308.35MB read
+Requests/sec:    196.44
+Transfer/sec:    526.20KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.80ms  170.49ms 949.32ms   80.71%
+    Req/Sec   194.84    157.53     1.31k    78.01%
+  Latency Distribution
+     50%   77.29ms
+     75%  250.89ms
+     90%  424.51ms
+     99%  592.79ms
+  115876 requests in 10.00m, 303.12MB read
+Requests/sec:    193.12
+Transfer/sec:    517.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   140.68ms  168.96ms 909.41ms   80.87%
+    Req/Sec   206.00    148.53     1.02k    68.99%
+  Latency Distribution
+     50%   71.20ms
+     75%  244.40ms
+     90%  420.21ms
+     99%  589.80ms
+  122681 requests in 10.00m, 320.92MB read
+Requests/sec:    204.45
+Transfer/sec:    547.66KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.43ms  169.66ms 926.82ms   80.81%
+    Req/Sec   197.20    154.76     1.06k    72.22%
+  Latency Distribution
+     50%   76.15ms
+     75%  245.86ms
+     90%  424.09ms
+     99%  592.06ms
+  117398 requests in 10.00m, 307.10MB read
+Requests/sec:    195.65
+Transfer/sec:    524.07KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   146.88ms  172.07ms 962.23ms   80.57%
+    Req/Sec   186.37    146.60     1.05k    73.75%
+  Latency Distribution
+     50%   80.66ms
+     75%  257.78ms
+     90%  428.09ms
+     99%  593.96ms
+  110963 requests in 10.00m, 290.27MB read
+Requests/sec:    184.92
+Transfer/sec:    495.33KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.06ms  169.61ms 943.41ms   80.80%
+    Req/Sec   200.88    154.67     1.05k    71.63%
+  Latency Distribution
+     50%   74.62ms
+     75%  247.01ms
+     90%  422.06ms
+     99%  590.31ms
+  119400 requests in 10.00m, 312.34MB read
+Requests/sec:    199.00
+Transfer/sec:    533.04KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.34ms  170.23ms 991.03ms   80.78%
+    Req/Sec   202.33    147.86     0.95k    68.90%
+  Latency Distribution
+     50%   74.18ms
+     75%  248.79ms
+     90%  422.90ms
+     99%  592.02ms
+  120118 requests in 10.00m, 314.21MB read
+Requests/sec:    200.18
+Transfer/sec:    536.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   146.53ms  172.03ms 945.55ms   80.51%
+    Req/Sec   190.38    158.07     1.06k    73.58%
+  Latency Distribution
+     50%   80.65ms
+     75%  259.02ms
+     90%  426.80ms
+     99%  593.38ms
+  112648 requests in 10.00m, 294.67MB read
+Requests/sec:    187.72
+Transfer/sec:    502.83KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   137.99ms  167.57ms 966.95ms   81.03%
+    Req/Sec   216.68    168.31     1.03k    74.23%
+  Latency Distribution
+     50%   65.79ms
+     75%  238.48ms
+     90%  415.64ms
+     99%  587.40ms
+  128777 requests in 10.00m, 336.87MB read
+Requests/sec:    214.61
+Transfer/sec:    574.86KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.54ms  169.65ms 974.08ms   80.79%
+    Req/Sec   199.60    153.25     0.93k    72.04%
+  Latency Distribution
+     50%   74.79ms
+     75%  248.78ms
+     90%  420.95ms
+     99%  591.66ms
+  118490 requests in 10.00m, 309.96MB read
+Requests/sec:    197.48
+Transfer/sec:    528.97KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   144.08ms  170.83ms 944.90ms   80.67%
+    Req/Sec   196.26    162.85     1.05k    74.76%
+  Latency Distribution
+     50%   78.49ms
+     75%  252.35ms
+     90%  424.66ms
+     99%  591.86ms
+  116227 requests in 10.00m, 304.04MB read
+Requests/sec:    193.71
+Transfer/sec:    518.88KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   149.16ms  173.38ms 972.85ms   80.37%
+    Req/Sec   182.47    156.27     1.21k    76.98%
+  Latency Distribution
+     50%   84.61ms
+     75%  265.11ms
+     90%  433.10ms
+     99%  594.03ms
+  107812 requests in 10.00m, 282.02MB read
+Requests/sec:    179.66
+Transfer/sec:    481.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.75ms  170.08ms 948.74ms   80.75%
+    Req/Sec   199.51    167.52     0.94k    73.89%
+  Latency Distribution
+     50%   76.05ms
+     75%  249.21ms
+     90%  422.68ms
+     99%  589.79ms
+  118826 requests in 10.00m, 310.83MB read
+Requests/sec:    198.03
+Transfer/sec:    530.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   140.80ms  168.98ms 948.35ms   80.88%
+    Req/Sec   207.55    168.39     1.17k    75.51%
+  Latency Distribution
+     50%   69.80ms
+     75%  245.89ms
+     90%  419.00ms
+     99%  588.65ms
+  123093 requests in 10.00m, 322.00MB read
+Requests/sec:    205.15
+Transfer/sec:    549.54KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.61ms  170.18ms 945.98ms   80.77%
+    Req/Sec   199.51    150.88     0.99k    71.22%
+  Latency Distribution
+     50%   76.18ms
+     75%  247.98ms
+     90%  423.17ms
+     99%  591.92ms
+  118680 requests in 10.00m, 310.45MB read
+Requests/sec:    197.80
+Transfer/sec:    529.83KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.16ms  170.17ms 966.24ms   80.82%
+    Req/Sec   197.15    154.32     0.98k    72.65%
+  Latency Distribution
+     50%   76.12ms
+     75%  249.10ms
+     90%  423.37ms
+     99%  592.49ms
+  117383 requests in 10.00m, 307.06MB read
+Requests/sec:    195.62
+Transfer/sec:    524.00KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   137.10ms  167.40ms 949.38ms   81.33%
+    Req/Sec   217.87    171.77     1.09k    72.82%
+  Latency Distribution
+     50%   69.82ms
+     75%  233.23ms
+     90%  414.88ms
+     99%  590.96ms
+  129103 requests in 10.00m, 337.72MB read
+Requests/sec:    215.14
+Transfer/sec:    576.28KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.18ms  169.84ms 972.96ms   80.81%
+    Req/Sec   202.12    151.35     0.99k    66.61%
+  Latency Distribution
+     50%   75.17ms
+     75%  248.47ms
+     90%  422.40ms
+     99%  590.01ms
+  119993 requests in 10.00m, 313.89MB read
+Requests/sec:    199.98
+Transfer/sec:    535.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   139.24ms  168.46ms 939.11ms   80.83%
+    Req/Sec   214.39    165.67     1.06k    72.57%
+  Latency Distribution
+     50%   67.99ms
+     75%  243.24ms
+     90%  417.95ms
+     99%  586.45ms
+  127452 requests in 10.00m, 333.40MB read
+Requests/sec:    212.39
+Transfer/sec:    568.93KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   141.79ms  169.70ms 972.65ms   80.86%
+    Req/Sec   203.61    159.63     1.10k    71.12%
+  Latency Distribution
+     50%   71.10ms
+     75%  247.48ms
+     90%  421.63ms
+     99%  590.69ms
+  120863 requests in 10.00m, 316.16MB read
+Requests/sec:    201.41
+Transfer/sec:    539.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.64ms  170.74ms 972.80ms   80.72%
+    Req/Sec   197.37    148.13     0.95k    72.41%
+  Latency Distribution
+     50%   77.04ms
+     75%  252.07ms
+     90%  424.24ms
+     99%  591.57ms
+  117633 requests in 10.00m, 307.71MB read
+Requests/sec:    196.03
+Transfer/sec:    525.11KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   140.06ms  168.66ms 937.79ms   80.89%
+    Req/Sec   208.30    163.50     1.04k    73.72%
+  Latency Distribution
+     50%   70.70ms
+     75%  242.56ms
+     90%  418.97ms
+     99%  590.05ms
+  123649 requests in 10.00m, 323.45MB read
+Requests/sec:    206.08
+Transfer/sec:    552.01KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   144.87ms  171.30ms 943.56ms   80.70%
+    Req/Sec   193.50    141.14   848.00     66.39%
+  Latency Distribution
+     50%   76.38ms
+     75%  254.38ms
+     90%  424.70ms
+     99%  595.56ms
+  115134 requests in 10.00m, 301.18MB read
+Requests/sec:    191.89
+Transfer/sec:    514.00KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.38ms  170.51ms 992.72ms   80.78%
+    Req/Sec   198.55    155.42     1.17k    72.31%
+  Latency Distribution
+     50%   71.08ms
+     75%  251.11ms
+     90%  422.74ms
+     99%  592.23ms
+  118144 requests in 10.00m, 309.05MB read
+Requests/sec:    196.88
+Transfer/sec:    527.38KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   145.53ms  171.50ms   1.04s    80.73%
+    Req/Sec   191.10    149.83     0.93k    70.10%
+  Latency Distribution
+     50%   79.17ms
+     75%  255.13ms
+     90%  426.42ms
+     99%  595.03ms
+  113313 requests in 10.00m, 296.41MB read
+Requests/sec:    188.83
+Transfer/sec:    505.80KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   144.76ms  171.12ms 993.64ms   80.55%
+    Req/Sec   195.21    146.53     0.90k    71.53%
+  Latency Distribution
+     50%   75.02ms
+     75%  255.57ms
+     90%  425.22ms
+     99%  590.68ms
+  116009 requests in 10.00m, 303.47MB read
+Requests/sec:    193.34
+Transfer/sec:    517.88KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   147.01ms  171.98ms 971.83ms   80.66%
+    Req/Sec   185.28    146.95     0.95k    72.69%
+  Latency Distribution
+     50%   82.18ms
+     75%  257.77ms
+     90%  427.78ms
+     99%  594.34ms
+  110202 requests in 10.00m, 288.28MB read
+Requests/sec:    183.66
+Transfer/sec:    491.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.67ms  169.83ms 958.18ms   80.88%
+    Req/Sec   196.98    153.29     1.16k    70.86%
+  Latency Distribution
+     50%   75.59ms
+     75%  245.99ms
+     90%  424.19ms
+     99%  592.79ms
+  116875 requests in 10.00m, 305.73MB read
+Requests/sec:    194.79
+Transfer/sec:    521.77KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   144.34ms  170.78ms 976.93ms   80.80%
+    Req/Sec   193.25    149.86     0.97k    71.16%
+  Latency Distribution
+     50%   77.00ms
+     75%  250.66ms
+     90%  426.22ms
+     99%  592.93ms
+  114600 requests in 10.00m, 299.78MB read
+Requests/sec:    190.98
+Transfer/sec:    511.57KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   144.68ms  171.14ms 944.50ms   80.71%
+    Req/Sec   194.29    155.67     1.04k    75.16%
+  Latency Distribution
+     50%   78.79ms
+     75%  253.34ms
+     90%  425.70ms
+     99%  593.82ms
+  114904 requests in 10.00m, 300.58MB read
+Requests/sec:    191.49
+Transfer/sec:    512.94KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   138.25ms  168.32ms 932.87ms   81.02%
+    Req/Sec   220.06    173.03     1.09k    74.98%
+  Latency Distribution
+     50%   66.47ms
+     75%  240.67ms
+     90%  416.26ms
+     99%  588.12ms
+  130899 requests in 10.00m, 342.42MB read
+Requests/sec:    218.16
+Transfer/sec:    584.38KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.08ms  170.13ms 946.24ms   80.73%
+    Req/Sec   198.63    148.93     0.99k    71.44%
+  Latency Distribution
+     50%   75.70ms
+     75%  249.73ms
+     90%  423.16ms
+     99%  591.14ms
+  117663 requests in 10.00m, 307.79MB read
+Requests/sec:    196.10
+Transfer/sec:    525.27KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.38ms  170.61ms 974.64ms   80.73%
+    Req/Sec   198.11    158.06     1.02k    70.77%
+  Latency Distribution
+     50%   77.45ms
+     75%  250.43ms
+     90%  423.75ms
+     99%  592.63ms
+  117568 requests in 10.00m, 307.54MB read
+Requests/sec:    195.93
+Transfer/sec:    524.82KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   144.43ms  170.46ms 961.05ms   80.77%
+    Req/Sec   192.00    146.67     1.09k    71.70%
+  Latency Distribution
+     50%   78.89ms
+     75%  250.62ms
+     90%  424.75ms
+     99%  592.20ms
+  113434 requests in 10.00m, 296.73MB read
+Requests/sec:    189.04
+Transfer/sec:    506.39KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   144.73ms  170.55ms 950.26ms   80.83%
+    Req/Sec   189.91    157.36     0.98k    75.40%
+  Latency Distribution
+     50%   79.16ms
+     75%  251.82ms
+     90%  425.23ms
+     99%  594.19ms
+  113098 requests in 10.00m, 295.85MB read
+Requests/sec:    188.47
+Transfer/sec:    504.85KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.60ms  169.86ms 969.59ms   80.70%
+    Req/Sec   200.31    148.36     1.06k    69.85%
+  Latency Distribution
+     50%   72.84ms
+     75%  250.09ms
+     90%  421.38ms
+     99%  592.00ms
+  119374 requests in 10.00m, 312.27MB read
+Requests/sec:    198.93
+Transfer/sec:    532.88KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   145.02ms  171.30ms 965.56ms   80.61%
+    Req/Sec   194.56    148.66     0.99k    72.03%
+  Latency Distribution
+     50%   76.43ms
+     75%  256.22ms
+     90%  425.18ms
+     99%  591.96ms
+  115502 requests in 10.00m, 302.14MB read
+Requests/sec:    192.49
+Transfer/sec:    515.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.54ms  170.03ms 946.91ms   80.85%
+    Req/Sec   194.19    147.64     1.11k    73.94%
+  Latency Distribution
+     50%   78.33ms
+     75%  248.92ms
+     90%  424.27ms
+     99%  592.61ms
+  115050 requests in 10.00m, 300.96MB read
+Requests/sec:    191.75
+Transfer/sec:    513.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   140.59ms  169.70ms 943.98ms   80.83%
+    Req/Sec   209.73    160.18     1.02k    69.95%
+  Latency Distribution
+     50%   71.20ms
+     75%  244.68ms
+     90%  421.96ms
+     99%  588.90ms
+  124729 requests in 10.00m, 326.28MB read
+Requests/sec:    207.87
+Transfer/sec:    556.81KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   137.29ms  167.75ms 942.83ms   81.01%
+    Req/Sec   221.50    166.49     1.13k    68.96%
+  Latency Distribution
+     50%   65.79ms
+     75%  236.65ms
+     90%  417.07ms
+     99%  586.37ms
+  131674 requests in 10.00m, 344.44MB read
+Requests/sec:    219.42
+Transfer/sec:    587.77KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   142.32ms  169.94ms 971.31ms   80.86%
+    Req/Sec   200.43    168.51     1.03k    72.46%
+  Latency Distribution
+     50%   77.27ms
+     75%  246.79ms
+     90%  422.39ms
+     99%  591.59ms
+  118589 requests in 10.00m, 310.21MB read
+Requests/sec:    197.65
+Transfer/sec:    529.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.86ms  170.69ms 986.32ms   80.79%
+    Req/Sec   195.36    156.42     0.96k    75.12%
+  Latency Distribution
+     50%   78.24ms
+     75%  250.74ms
+     90%  424.71ms
+     99%  593.02ms
+  116272 requests in 10.00m, 304.15MB read
+Requests/sec:    193.77
+Transfer/sec:    519.06KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   139.85ms  168.63ms 988.72ms   81.00%
+    Req/Sec   209.14    164.32     1.15k    73.80%
+  Latency Distribution
+     50%   72.25ms
+     75%  243.01ms
+     90%  418.16ms
+     99%  588.94ms
+  124706 requests in 10.00m, 326.22MB read
+Requests/sec:    207.81
+Transfer/sec:    556.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   141.99ms  170.12ms 944.09ms   80.75%
+    Req/Sec   204.50    165.17     1.03k    74.91%
+  Latency Distribution
+     50%   73.41ms
+     75%  248.99ms
+     90%  422.91ms
+     99%  589.66ms
+  121609 requests in 10.00m, 318.11MB read
+Requests/sec:    202.65
+Transfer/sec:    542.83KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.20ms  170.34ms 962.63ms   80.64%
+    Req/Sec   198.75    165.76     1.15k    74.89%
+  Latency Distribution
+     50%   75.98ms
+     75%  251.49ms
+     90%  422.84ms
+     99%  590.62ms
+  118223 requests in 10.00m, 309.26MB read
+Requests/sec:    197.03
+Transfer/sec:    527.78KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   139.32ms  168.55ms 965.17ms   81.07%
+    Req/Sec   209.81    161.49     1.10k    71.08%
+  Latency Distribution
+     50%   69.31ms
+     75%  239.39ms
+     90%  418.72ms
+     99%  591.13ms
+  124749 requests in 10.00m, 326.33MB read
+Requests/sec:    207.90
+Transfer/sec:    556.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   146.21ms  171.41ms 938.65ms   80.72%
+    Req/Sec   186.12    144.91     1.08k    70.33%
+  Latency Distribution
+     50%   80.89ms
+     75%  254.36ms
+     90%  427.87ms
+     99%  595.11ms
+  110538 requests in 10.00m, 289.15MB read
+Requests/sec:    184.22
+Transfer/sec:    493.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   146.67ms  172.35ms 928.91ms   80.52%
+    Req/Sec   188.13    147.79     0.86k    70.46%
+  Latency Distribution
+     50%   81.53ms
+     75%  257.18ms
+     90%  429.45ms
+     99%  594.63ms
+  111799 requests in 10.00m, 292.45MB read
+Requests/sec:    186.31
+Transfer/sec:    499.07KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   148.29ms  172.83ms 965.74ms   80.47%
+    Req/Sec   183.20    162.13     1.10k    78.87%
+  Latency Distribution
+     50%   83.30ms
+     75%  261.52ms
+     90%  430.74ms
+     99%  595.00ms
+  108665 requests in 10.00m, 284.25MB read
+Requests/sec:    181.09
+Transfer/sec:    485.08KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   140.55ms  169.67ms 962.03ms   80.75%
+    Req/Sec   211.69    151.47     0.91k    64.78%
+  Latency Distribution
+     50%   67.70ms
+     75%  246.79ms
+     90%  420.94ms
+     99%  588.45ms
+  126067 requests in 10.00m, 329.78MB read
+Requests/sec:    210.08
+Transfer/sec:    562.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   144.17ms  170.18ms 992.34ms   80.88%
+    Req/Sec   190.90    152.70     1.04k    77.81%
+  Latency Distribution
+     50%   80.11ms
+     75%  249.92ms
+     90%  424.39ms
+     99%  593.97ms
+  113321 requests in 10.00m, 296.43MB read
+Requests/sec:    188.84
+Transfer/sec:    505.83KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   146.02ms  171.35ms 970.42ms   80.85%
+    Req/Sec   185.69    147.89     1.00k    75.68%
+  Latency Distribution
+     50%   81.91ms
+     75%  253.10ms
+     90%  427.54ms
+     99%  595.35ms
+  110333 requests in 10.00m, 288.62MB read
+Requests/sec:    183.86
+Transfer/sec:    492.50KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   141.78ms  169.81ms 935.80ms   80.85%
+    Req/Sec   203.11    152.82     1.15k    66.43%
+  Latency Distribution
+     50%   74.08ms
+     75%  247.16ms
+     90%  422.50ms
+     99%  589.48ms
+  121030 requests in 10.00m, 316.60MB read
+Requests/sec:    201.69
+Transfer/sec:    540.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   150.89ms  174.03ms 943.68ms   80.40%
+    Req/Sec   176.37    150.45     0.87k    76.57%
+  Latency Distribution
+     50%   86.99ms
+     75%  267.40ms
+     90%  433.98ms
+     99%  597.55ms
+  104138 requests in 10.00m, 272.41MB read
+Requests/sec:    173.53
+Transfer/sec:    464.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   137.47ms  167.26ms 975.56ms   81.07%
+    Req/Sec   216.96    160.59     1.17k    71.99%
+  Latency Distribution
+     50%   66.20ms
+     75%  236.56ms
+     90%  415.05ms
+     99%  587.32ms
+  129155 requests in 10.00m, 337.85MB read
+Requests/sec:    215.23
+Transfer/sec:    576.53KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   146.02ms  171.00ms 965.10ms   80.70%
+    Req/Sec   185.79    151.77     0.90k    75.80%
+  Latency Distribution
+     50%   81.57ms
+     75%  255.35ms
+     90%  426.08ms
+     99%  594.13ms
+  110743 requests in 10.00m, 289.69MB read
+Requests/sec:    184.55
+Transfer/sec:    494.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.85ms  171.06ms 936.73ms   80.62%
+    Req/Sec   197.81    147.38     0.99k    68.50%
+  Latency Distribution
+     50%   75.93ms
+     75%  251.69ms
+     90%  426.25ms
+     99%  592.73ms
+  117410 requests in 10.00m, 307.13MB read
+Requests/sec:    195.65
+Transfer/sec:    524.09KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   146.64ms  171.89ms 994.93ms   80.60%
+    Req/Sec   186.96    140.96   810.00     70.61%
+  Latency Distribution
+     50%   81.88ms
+     75%  257.98ms
+     90%  427.31ms
+     99%  594.16ms
+  111111 requests in 10.00m, 290.65MB read
+Requests/sec:    185.16
+Transfer/sec:    495.98KB
++ (( j++ ))
++ (( j<100 ))
++ file=83
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=84
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=85
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=86
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=87
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=88
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=89
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=90
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=91
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=92
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=93
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=94
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=95
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=96
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=97
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=98
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=99
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ wait
++ for pod in 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
++ scs nginx-ingress-controller 7
+deployment.apps/nginx-ingress-controller scaled
++ cp -rf box ips
++ date
+Mon Jul 20 10:43:20 UTC 2020
++ dir=https.ingress.svc..7
++ ./2020-06-28-main.just.ingress.svc.sh https.ingress.svc..7
+Warning: Permanently added '10.1.0.23' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.22' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.67' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.78' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.89' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.56' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.30' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.26' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.25' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.24' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.111' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.28' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.40' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.29' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.31' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.37' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.45' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.36' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.32' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.27' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.35' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.46' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.39' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.33' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.43' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.34' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.38' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.51' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.42' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.55' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.41' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.54' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.44' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.47' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.48' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.49' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.50' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.52' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.57' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.59' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.65' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.60' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.66' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.58' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.68' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.53' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.74' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.70' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.72' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.73' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.71' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.69' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.62' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.61' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
++ sleep 30
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.76' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.77' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.97' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.63' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.64' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.81' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.92' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.84' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.80' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.75' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.82' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.101' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.83' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.79' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.106' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.117' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.91' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.87' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.115' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.86' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.93' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.99' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.132' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.103' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.96' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.104' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.114' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.98' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.112' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.85' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.118' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.105' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.109' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.95' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.88' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.102' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.133' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.113' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.116' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.108' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.107' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.94' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.119' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.110' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
++ (( j=0 ))
++ (( j<100 ))
++ file=0
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=1
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=2
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=3
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=4
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=5
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=6
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=7
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=8
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=9
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=10
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=11
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=12
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=13
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=14
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=15
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=16
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=17
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=18
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=19
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=20
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=21
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=22
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=23
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=24
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=25
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=26
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=27
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=28
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=29
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=30
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=31
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=32
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=33
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=34
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=35
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=36
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=37
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=38
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=39
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=40
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=41
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=42
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=43
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=44
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=45
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=46
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=47
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=48
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=49
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=50
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=51
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=52
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=53
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=54
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=55
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=56
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=57
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=58
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=59
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=60
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=61
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=62
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=63
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=64
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=65
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=66
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=67
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=68
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=69
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=70
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=71
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=72
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=73
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=74
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=75
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=76
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=77
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=78
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=79
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=80
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=81
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=82
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   166.09ms  195.13ms 997.95ms   79.91%
+    Req/Sec   177.43    143.10     2.17k    68.88%
+  Latency Distribution
+     50%   81.75ms
+     75%  300.49ms
+     90%  488.76ms
+     99%  642.95ms
+  104613 requests in 10.00m, 273.66MB read
+Requests/sec:    174.34
+Transfer/sec:    467.01KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   166.61ms  195.85ms 971.09ms   79.83%
+    Req/Sec   178.41    156.93     1.92k    70.15%
+  Latency Distribution
+     50%   81.92ms
+     75%  303.18ms
+     90%  490.10ms
+     99%  643.35ms
+  105137 requests in 10.00m, 275.03MB read
+Requests/sec:    175.21
+Transfer/sec:    469.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   172.13ms  198.20ms   1.09s    79.99%
+    Req/Sec   162.56    135.37     1.12k    71.09%
+  Latency Distribution
+     50%   87.33ms
+     75%  316.27ms
+     90%  498.04ms
+     99%  646.04ms
+  95277 requests in 10.00m, 249.23MB read
+Requests/sec:    158.79
+Transfer/sec:    425.33KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   174.26ms  199.25ms 998.60ms   79.74%
+    Req/Sec   157.84    140.48     1.02k    75.86%
+  Latency Distribution
+     50%   91.18ms
+     75%  321.53ms
+     90%  501.62ms
+     99%  647.46ms
+  92510 requests in 10.00m, 242.00MB read
+Requests/sec:    154.17
+Transfer/sec:    412.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   168.42ms  196.43ms   1.03s    79.86%
+    Req/Sec   173.62    154.39     1.03k    76.89%
+  Latency Distribution
+     50%   86.37ms
+     75%  307.60ms
+     90%  492.53ms
+     99%  644.09ms
+  101131 requests in 10.00m, 264.55MB read
+Requests/sec:    168.54
+Transfer/sec:    451.47KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   165.28ms  195.28ms   1.00s    79.89%
+    Req/Sec   182.72    147.97     1.02k    68.29%
+  Latency Distribution
+     50%   80.99ms
+     75%  301.38ms
+     90%  488.12ms
+     99%  642.34ms
+  107628 requests in 10.00m, 281.54MB read
+Requests/sec:    179.38
+Transfer/sec:    480.49KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   170.21ms  197.28ms 974.26ms   79.78%
+    Req/Sec   169.66    145.10     0.94k    70.90%
+  Latency Distribution
+     50%   86.65ms
+     75%  311.85ms
+     90%  495.37ms
+     99%  645.59ms
+  98342 requests in 10.00m, 257.25MB read
+Requests/sec:    163.89
+Transfer/sec:    439.01KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   168.59ms  196.76ms   1.03s    79.95%
+    Req/Sec   174.08    153.35     0.91k    73.33%
+  Latency Distribution
+     50%   87.94ms
+     75%  307.93ms
+     90%  491.41ms
+     99%  643.77ms
+  101821 requests in 10.00m, 266.35MB read
+Requests/sec:    169.70
+Transfer/sec:    454.56KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   166.82ms  196.10ms   1.03s    79.80%
+    Req/Sec   180.01    169.36     1.18k    80.04%
+  Latency Distribution
+     50%   85.59ms
+     75%  304.28ms
+     90%  489.70ms
+     99%  642.84ms
+  104985 requests in 10.00m, 274.63MB read
+Requests/sec:    174.97
+Transfer/sec:    468.69KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   168.74ms  197.24ms 980.06ms   79.78%
+    Req/Sec   174.34    160.24     1.01k    78.84%
+  Latency Distribution
+     50%   85.29ms
+     75%  308.73ms
+     90%  493.41ms
+     99%  645.76ms
+  101919 requests in 10.00m, 266.61MB read
+Requests/sec:    169.85
+Transfer/sec:    454.98KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   165.29ms  195.34ms   1.03s    79.83%
+    Req/Sec   185.10    146.01   840.00     66.70%
+  Latency Distribution
+     50%   80.67ms
+     75%  302.12ms
+     90%  488.12ms
+     99%  642.42ms
+  108163 requests in 10.00m, 282.94MB read
+Requests/sec:    180.25
+Transfer/sec:    482.82KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   167.63ms  196.53ms   1.01s    79.92%
+    Req/Sec   176.48    155.21     1.05k    71.58%
+  Latency Distribution
+     50%   86.31ms
+     75%  304.99ms
+     90%  492.72ms
+     99%  643.96ms
+  102903 requests in 10.00m, 269.18MB read
+Requests/sec:    171.50
+Transfer/sec:    459.40KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   170.86ms  197.82ms 984.98ms   79.99%
+    Req/Sec   166.17    134.75     0.89k    66.01%
+  Latency Distribution
+     50%   88.93ms
+     75%  312.73ms
+     90%  496.01ms
+     99%  645.50ms
+  97570 requests in 10.00m, 255.23MB read
+Requests/sec:    162.61
+Transfer/sec:    435.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   169.62ms  197.23ms 998.60ms   79.89%
+    Req/Sec   169.18    159.78     1.13k    85.65%
+  Latency Distribution
+     50%   86.45ms
+     75%  309.83ms
+     90%  493.59ms
+     99%  645.46ms
+  99385 requests in 10.00m, 259.98MB read
+Requests/sec:    165.63
+Transfer/sec:    443.68KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   169.28ms  196.93ms 997.54ms   79.87%
+    Req/Sec   170.87    147.24     1.17k    71.45%
+  Latency Distribution
+     50%   85.73ms
+     75%  309.76ms
+     90%  492.57ms
+     99%  644.19ms
+  100275 requests in 10.00m, 262.31MB read
+Requests/sec:    167.11
+Transfer/sec:    447.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   170.43ms  197.22ms   1.00s    79.95%
+    Req/Sec   166.83    145.93     0.93k    70.47%
+  Latency Distribution
+     50%   84.73ms
+     75%  311.94ms
+     90%  495.08ms
+     99%  644.76ms
+  97616 requests in 10.00m, 255.35MB read
+Requests/sec:    162.69
+Transfer/sec:    435.78KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   163.83ms  195.13ms 997.95ms   79.99%
+    Req/Sec   193.62    166.34     1.07k    72.64%
+  Latency Distribution
+     50%   76.40ms
+     75%  300.92ms
+     90%  485.29ms
+     99%  643.53ms
+  112909 requests in 10.00m, 295.36MB read
+Requests/sec:    188.16
+Transfer/sec:    504.02KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   169.29ms  197.24ms 993.60ms   79.86%
+    Req/Sec   172.88    160.52     0.94k    79.18%
+  Latency Distribution
+     50%   87.99ms
+     75%  309.89ms
+     90%  493.23ms
+     99%  644.92ms
+  100569 requests in 10.00m, 263.08MB read
+Requests/sec:    167.61
+Transfer/sec:    448.97KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   171.44ms  198.10ms   1.00s    79.94%
+    Req/Sec   164.55    141.22     0.93k    69.64%
+  Latency Distribution
+     50%   88.94ms
+     75%  314.85ms
+     90%  496.97ms
+     99%  645.70ms
+  96704 requests in 10.00m, 252.97MB read
+Requests/sec:    161.16
+Transfer/sec:    431.69KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   167.11ms  196.27ms   1.09s    79.83%
+    Req/Sec   179.19    153.58     1.01k    71.27%
+  Latency Distribution
+     50%   83.38ms
+     75%  304.83ms
+     90%  489.70ms
+     99%  643.46ms
+  105202 requests in 10.00m, 275.20MB read
+Requests/sec:    175.32
+Transfer/sec:    469.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   173.45ms  198.74ms   1.04s    79.88%
+    Req/Sec   158.80    151.28     1.08k    84.93%
+  Latency Distribution
+     50%   92.94ms
+     75%  318.36ms
+     90%  499.58ms
+     99%  647.76ms
+  92970 requests in 10.00m, 243.20MB read
+Requests/sec:    154.94
+Transfer/sec:    415.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   171.52ms  198.36ms 997.61ms   79.89%
+    Req/Sec   164.22    149.94     1.21k    79.88%
+  Latency Distribution
+     50%   88.05ms
+     75%  315.34ms
+     90%  498.51ms
+     99%  647.29ms
+  96745 requests in 10.00m, 253.07MB read
+Requests/sec:    161.23
+Transfer/sec:    431.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   173.22ms  198.54ms 998.89ms   79.79%
+    Req/Sec   161.02    151.45     1.08k    84.85%
+  Latency Distribution
+     50%   89.93ms
+     75%  318.77ms
+     90%  500.36ms
+     99%  646.49ms
+  93504 requests in 10.00m, 244.60MB read
+Requests/sec:    155.82
+Transfer/sec:    417.39KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   171.10ms  197.90ms   1.00s    79.85%
+    Req/Sec   167.20    154.92     1.06k    77.97%
+  Latency Distribution
+     50%   88.06ms
+     75%  315.17ms
+     90%  496.71ms
+     99%  646.03ms
+  97359 requests in 10.00m, 254.68MB read
+Requests/sec:    162.25
+Transfer/sec:    434.61KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   166.72ms  195.97ms   1.00s    79.82%
+    Req/Sec   179.71    138.99     0.94k    64.45%
+  Latency Distribution
+     50%   83.00ms
+     75%  302.98ms
+     90%  490.75ms
+     99%  643.50ms
+  104688 requests in 10.00m, 273.85MB read
+Requests/sec:    174.46
+Transfer/sec:    467.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   163.66ms  194.76ms   1.08s    80.03%
+    Req/Sec   189.17    148.42     0.87k    63.14%
+  Latency Distribution
+     50%   78.70ms
+     75%  298.21ms
+     90%  486.33ms
+     99%  643.13ms
+  110791 requests in 10.00m, 289.82MB read
+Requests/sec:    184.63
+Transfer/sec:    494.57KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   167.68ms  196.12ms   1.03s    79.93%
+    Req/Sec   174.76    147.16   808.00     71.11%
+  Latency Distribution
+     50%   83.97ms
+     75%  305.43ms
+     90%  490.84ms
+     99%  643.61ms
+  102557 requests in 10.00m, 268.28MB read
+Requests/sec:    170.91
+Transfer/sec:    457.80KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   169.97ms  197.31ms 999.30ms   79.90%
+    Req/Sec   167.98    156.13     1.02k    78.40%
+  Latency Distribution
+     50%   87.53ms
+     75%  310.20ms
+     90%  494.83ms
+     99%  644.78ms
+  98606 requests in 10.00m, 257.94MB read
+Requests/sec:    164.34
+Transfer/sec:    440.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   172.86ms  198.06ms   1.08s    79.91%
+    Req/Sec   160.62    141.71     0.92k    77.24%
+  Latency Distribution
+     50%   89.25ms
+     75%  316.46ms
+     90%  499.88ms
+     99%  646.43ms
+  93159 requests in 10.00m, 243.69MB read
+Requests/sec:    155.25
+Transfer/sec:    415.85KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   168.89ms  196.82ms 999.98ms   79.88%
+    Req/Sec   173.28    147.48     1.12k    71.13%
+  Latency Distribution
+     50%   84.71ms
+     75%  307.30ms
+     90%  493.89ms
+     99%  646.30ms
+  100185 requests in 10.00m, 262.07MB read
+Requests/sec:    166.96
+Transfer/sec:    447.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   170.22ms  197.56ms   1.09s    79.86%
+    Req/Sec   169.55    158.12     1.15k    80.41%
+  Latency Distribution
+     50%   86.11ms
+     75%  312.26ms
+     90%  494.11ms
+     99%  645.73ms
+  98935 requests in 10.00m, 258.80MB read
+Requests/sec:    164.88
+Transfer/sec:    441.66KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   165.53ms  195.90ms   1.00s    79.79%
+    Req/Sec   183.90    158.05     1.04k    71.18%
+  Latency Distribution
+     50%   83.51ms
+     75%  302.52ms
+     90%  489.37ms
+     99%  644.29ms
+  107953 requests in 10.00m, 282.39MB read
+Requests/sec:    179.90
+Transfer/sec:    481.88KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   168.15ms  196.70ms   1.09s    79.84%
+    Req/Sec   174.34    137.92     0.87k    67.58%
+  Latency Distribution
+     50%   84.78ms
+     75%  307.33ms
+     90%  491.97ms
+     99%  644.82ms
+  102647 requests in 10.00m, 268.51MB read
+Requests/sec:    171.06
+Transfer/sec:    458.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   162.49ms  194.02ms   1.00s    80.04%
+    Req/Sec   193.84    148.98     1.04k    66.98%
+  Latency Distribution
+     50%   75.52ms
+     75%  296.64ms
+     90%  483.88ms
+     99%  640.57ms
+  113505 requests in 10.00m, 296.92MB read
+Requests/sec:    189.15
+Transfer/sec:    506.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   168.77ms  196.58ms   1.00s    79.84%
+    Req/Sec   173.04    142.31     0.94k    65.87%
+  Latency Distribution
+     50%   86.18ms
+     75%  308.70ms
+     90%  491.69ms
+     99%  643.84ms
+  100906 requests in 10.00m, 263.96MB read
+Requests/sec:    168.17
+Transfer/sec:    450.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   173.72ms  198.74ms 972.24ms   79.89%
+    Req/Sec   158.43    135.71     0.88k    70.16%
+  Latency Distribution
+     50%   90.55ms
+     75%  318.91ms
+     90%  500.81ms
+     99%  646.75ms
+  92430 requests in 10.00m, 241.79MB read
+Requests/sec:    154.04
+Transfer/sec:    412.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   168.36ms  196.43ms 996.98ms   79.88%
+    Req/Sec   173.28    140.42     1.00k    65.10%
+  Latency Distribution
+     50%   84.67ms
+     75%  306.32ms
+     90%  493.05ms
+     99%  644.66ms
+  100954 requests in 10.00m, 264.08MB read
+Requests/sec:    168.24
+Transfer/sec:    450.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   177.20ms  200.24ms   1.00s    79.66%
+    Req/Sec   149.88    126.80     1.00k    68.71%
+  Latency Distribution
+     50%   97.50ms
+     75%  325.87ms
+     90%  504.89ms
+     99%  649.28ms
+  87482 requests in 10.00m, 228.84MB read
+Requests/sec:    145.80
+Transfer/sec:    390.54KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   165.55ms  195.37ms 965.13ms   79.77%
+    Req/Sec   182.72    157.67     1.02k    71.24%
+  Latency Distribution
+     50%   82.14ms
+     75%  303.34ms
+     90%  487.86ms
+     99%  641.87ms
+  107647 requests in 10.00m, 281.59MB read
+Requests/sec:    179.40
+Transfer/sec:    480.55KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   165.07ms  195.17ms 990.47ms   79.82%
+    Req/Sec   186.18    168.79     1.17k    79.37%
+  Latency Distribution
+     50%   82.67ms
+     75%  302.85ms
+     90%  487.21ms
+     99%  641.15ms
+  108755 requests in 10.00m, 284.49MB read
+Requests/sec:    181.25
+Transfer/sec:    485.52KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   167.74ms  196.63ms   1.01s    79.79%
+    Req/Sec   177.42    155.72     1.11k    72.06%
+  Latency Distribution
+     50%   86.32ms
+     75%  307.75ms
+     90%  491.27ms
+     99%  643.96ms
+  104142 requests in 10.00m, 272.42MB read
+Requests/sec:    173.56
+Transfer/sec:    464.91KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   168.51ms  196.95ms 973.68ms   79.74%
+    Req/Sec   172.91    142.40   840.00     63.84%
+  Latency Distribution
+     50%   86.04ms
+     75%  308.66ms
+     90%  493.64ms
+     99%  644.68ms
+  101882 requests in 10.00m, 266.51MB read
+Requests/sec:    169.79
+Transfer/sec:    454.82KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   163.57ms  194.52ms   1.08s    79.93%
+    Req/Sec   188.41    150.25     0.99k    68.07%
+  Latency Distribution
+     50%   80.14ms
+     75%  299.14ms
+     90%  486.12ms
+     99%  642.12ms
+  111072 requests in 10.00m, 290.55MB read
+Requests/sec:    185.11
+Transfer/sec:    495.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   167.31ms  196.28ms 991.08ms   79.85%
+    Req/Sec   177.28    155.42     0.97k    71.09%
+  Latency Distribution
+     50%   85.14ms
+     75%  304.73ms
+     90%  491.76ms
+     99%  644.09ms
+  103580 requests in 10.00m, 270.95MB read
+Requests/sec:    172.62
+Transfer/sec:    462.38KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   166.73ms  195.83ms   1.09s    79.76%
+    Req/Sec   179.48    158.59     0.93k    70.14%
+  Latency Distribution
+     50%   82.63ms
+     75%  304.80ms
+     90%  489.12ms
+     99%  641.99ms
+  105211 requests in 10.00m, 275.22MB read
+Requests/sec:    175.35
+Transfer/sec:    469.71KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   165.62ms  195.53ms   1.01s    79.84%
+    Req/Sec   183.16    168.86     0.93k    75.88%
+  Latency Distribution
+     50%   82.40ms
+     75%  302.24ms
+     90%  489.05ms
+     99%  642.37ms
+  107100 requests in 10.00m, 280.16MB read
+Requests/sec:    178.49
+Transfer/sec:    478.11KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   166.29ms  195.45ms   1.03s    79.86%
+    Req/Sec   178.23    171.74     1.12k    86.26%
+  Latency Distribution
+     50%   83.21ms
+     75%  302.21ms
+     90%  489.98ms
+     99%  642.92ms
+  104753 requests in 10.00m, 274.02MB read
+Requests/sec:    174.56
+Transfer/sec:    467.59KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   169.53ms  196.93ms 993.41ms   79.86%
+    Req/Sec   170.52    155.36     0.99k    78.27%
+  Latency Distribution
+     50%   85.11ms
+     75%  311.00ms
+     90%  492.72ms
+     99%  644.16ms
+  100255 requests in 10.00m, 262.26MB read
+Requests/sec:    167.07
+Transfer/sec:    447.53KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   169.03ms  197.15ms   1.03s    79.93%
+    Req/Sec   172.30    143.55     0.86k    70.27%
+  Latency Distribution
+     50%   84.14ms
+     75%  308.10ms
+     90%  494.10ms
+     99%  645.72ms
+  100402 requests in 10.00m, 262.64MB read
+Requests/sec:    167.33
+Transfer/sec:    448.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   165.61ms  195.61ms   1.09s    79.91%
+    Req/Sec   183.61    167.43     1.10k    80.74%
+  Latency Distribution
+     50%   81.66ms
+     75%  302.71ms
+     90%  488.29ms
+     99%  642.49ms
+  107320 requests in 10.00m, 280.74MB read
+Requests/sec:    178.86
+Transfer/sec:    479.11KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   169.94ms  197.49ms 998.58ms   79.87%
+    Req/Sec   170.68    148.46     0.89k    69.70%
+  Latency Distribution
+     50%   86.78ms
+     75%  311.53ms
+     90%  494.10ms
+     99%  645.19ms
+  99582 requests in 10.00m, 260.49MB read
+Requests/sec:    165.96
+Transfer/sec:    444.54KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   174.18ms  199.45ms   1.09s    79.77%
+    Req/Sec   159.79    141.97     0.90k    76.61%
+  Latency Distribution
+     50%   93.42ms
+     75%  321.94ms
+     90%  500.71ms
+     99%  648.52ms
+  93049 requests in 10.00m, 243.41MB read
+Requests/sec:    155.06
+Transfer/sec:    415.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   171.92ms  198.45ms   1.08s    79.90%
+    Req/Sec   165.28    164.97     1.30k    85.86%
+  Latency Distribution
+     50%   88.13ms
+     75%  316.34ms
+     90%  498.37ms
+     99%  646.28ms
+  96392 requests in 10.00m, 252.15MB read
+Requests/sec:    160.64
+Transfer/sec:    430.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   169.70ms  197.35ms 991.25ms   79.90%
+    Req/Sec   169.52    145.73     0.87k    69.29%
+  Latency Distribution
+     50%   86.61ms
+     75%  309.43ms
+     90%  497.17ms
+     99%  646.35ms
+  98994 requests in 10.00m, 258.96MB read
+Requests/sec:    164.97
+Transfer/sec:    441.90KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   167.91ms  196.72ms   1.03s    79.79%
+    Req/Sec   176.20    157.85     1.20k    80.27%
+  Latency Distribution
+     50%   86.22ms
+     75%  307.28ms
+     90%  491.31ms
+     99%  645.50ms
+  103062 requests in 10.00m, 269.60MB read
+Requests/sec:    171.76
+Transfer/sec:    460.09KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   166.72ms  195.85ms   1.00s    79.84%
+    Req/Sec   178.82    146.35     0.91k    67.12%
+  Latency Distribution
+     50%   83.84ms
+     75%  303.05ms
+     90%  489.93ms
+     99%  643.36ms
+  104534 requests in 10.00m, 273.45MB read
+Requests/sec:    174.21
+Transfer/sec:    466.64KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   178.56ms  200.58ms   1.00s    79.55%
+    Req/Sec   144.70    125.21   710.00     75.48%
+  Latency Distribution
+     50%   99.91ms
+     75%  326.20ms
+     90%  507.03ms
+     99%  648.57ms
+  85184 requests in 10.00m, 222.83MB read
+Requests/sec:    141.95
+Transfer/sec:    380.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   168.48ms  196.80ms   1.01s    79.90%
+    Req/Sec   173.41    150.05     0.94k    71.23%
+  Latency Distribution
+     50%   86.78ms
+     75%  307.88ms
+     90%  492.83ms
+     99%  643.80ms
+  101598 requests in 10.00m, 265.77MB read
+Requests/sec:    169.32
+Transfer/sec:    453.55KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   165.47ms  195.25ms   1.01s    79.85%
+    Req/Sec   183.29    151.52   838.00     65.71%
+  Latency Distribution
+     50%   80.26ms
+     75%  302.00ms
+     90%  488.22ms
+     99%  642.08ms
+  107273 requests in 10.00m, 280.61MB read
+Requests/sec:    178.77
+Transfer/sec:    478.86KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   175.95ms  199.80ms 993.49ms   79.77%
+    Req/Sec   153.23    146.28     0.98k    83.74%
+  Latency Distribution
+     50%   94.45ms
+     75%  323.30ms
+     90%  505.19ms
+     99%  648.99ms
+  89178 requests in 10.00m, 233.28MB read
+Requests/sec:    148.63
+Transfer/sec:    398.12KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   176.34ms  199.78ms   1.08s    79.67%
+    Req/Sec   151.01    131.68   830.00     77.52%
+  Latency Distribution
+     50%   95.24ms
+     75%  323.61ms
+     90%  504.19ms
+     99%  648.31ms
+  88598 requests in 10.00m, 231.76MB read
+Requests/sec:    147.64
+Transfer/sec:    395.49KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   170.96ms  197.42ms   1.09s    79.94%
+    Req/Sec   164.30    132.31     1.08k    64.21%
+  Latency Distribution
+     50%   86.77ms
+     75%  312.09ms
+     90%  498.24ms
+     99%  645.05ms
+  96167 requests in 10.00m, 251.56MB read
+Requests/sec:    160.27
+Transfer/sec:    429.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   176.89ms  200.05ms   1.00s    79.67%
+    Req/Sec   149.64    142.49   848.00     83.67%
+  Latency Distribution
+     50%   94.72ms
+     75%  324.05ms
+     90%  505.89ms
+     99%  648.67ms
+  87625 requests in 10.00m, 229.22MB read
+Requests/sec:    146.04
+Transfer/sec:    391.19KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   168.67ms  196.87ms   1.01s    79.93%
+    Req/Sec   172.79    152.76     1.02k    72.25%
+  Latency Distribution
+     50%   84.84ms
+     75%  306.79ms
+     90%  493.88ms
+     99%  645.17ms
+  100870 requests in 10.00m, 263.86MB read
+Requests/sec:    168.10
+Transfer/sec:    450.28KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   172.93ms  198.53ms   1.01s    79.90%
+    Req/Sec   161.82    140.52     0.92k    70.08%
+  Latency Distribution
+     50%   89.53ms
+     75%  318.53ms
+     90%  498.56ms
+     99%  647.12ms
+  93979 requests in 10.00m, 245.84MB read
+Requests/sec:    156.62
+Transfer/sec:    419.54KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   166.85ms  195.63ms   1.01s    79.85%
+    Req/Sec   178.62    165.80     1.11k    78.93%
+  Latency Distribution
+     50%   81.88ms
+     75%  303.83ms
+     90%  488.87ms
+     99%  642.82ms
+  104164 requests in 10.00m, 272.48MB read
+Requests/sec:    173.60
+Transfer/sec:    465.02KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   165.13ms  195.15ms   1.00s    79.91%
+    Req/Sec   184.71    159.93     1.25k    72.66%
+  Latency Distribution
+     50%   80.62ms
+     75%  301.02ms
+     90%  488.13ms
+     99%  642.55ms
+  107980 requests in 10.00m, 282.46MB read
+Requests/sec:    179.95
+Transfer/sec:    482.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   167.95ms  196.38ms 975.88ms   79.86%
+    Req/Sec   174.50    138.69     0.86k    67.69%
+  Latency Distribution
+     50%   83.61ms
+     75%  306.37ms
+     90%  491.20ms
+     99%  644.35ms
+  102300 requests in 10.00m, 267.60MB read
+Requests/sec:    170.49
+Transfer/sec:    456.69KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   166.50ms  195.85ms   1.09s    79.76%
+    Req/Sec   180.04    157.86     1.10k    71.46%
+  Latency Distribution
+     50%   83.40ms
+     75%  303.21ms
+     90%  490.20ms
+     99%  642.09ms
+  105392 requests in 10.00m, 275.69MB read
+Requests/sec:    175.63
+Transfer/sec:    470.44KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   164.06ms  194.92ms 958.52ms   79.84%
+    Req/Sec   190.21    154.25     0.89k    67.23%
+  Latency Distribution
+     50%   80.92ms
+     75%  301.59ms
+     90%  486.89ms
+     99%  640.16ms
+  111178 requests in 10.00m, 290.83MB read
+Requests/sec:    185.29
+Transfer/sec:    496.33KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   170.43ms  197.61ms   1.04s    79.77%
+    Req/Sec   168.90    145.96     0.90k    70.58%
+  Latency Distribution
+     50%   88.44ms
+     75%  312.69ms
+     90%  496.82ms
+     99%  644.25ms
+  98194 requests in 10.00m, 256.86MB read
+Requests/sec:    163.65
+Transfer/sec:    438.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   171.57ms  198.21ms   1.01s    79.92%
+    Req/Sec   165.89    143.80     1.28k    72.66%
+  Latency Distribution
+     50%   89.15ms
+     75%  316.34ms
+     90%  496.10ms
+     99%  644.95ms
+  96880 requests in 10.00m, 253.43MB read
+Requests/sec:    161.47
+Transfer/sec:    432.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   168.53ms  196.74ms   1.09s    79.82%
+    Req/Sec   172.33    140.90     0.94k    67.64%
+  Latency Distribution
+     50%   86.62ms
+     75%  308.53ms
+     90%  492.80ms
+     99%  644.29ms
+  101596 requests in 10.00m, 265.76MB read
+Requests/sec:    169.31
+Transfer/sec:    453.52KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   172.02ms  198.38ms 990.20ms   79.88%
+    Req/Sec   167.01    159.58     1.05k    85.68%
+  Latency Distribution
+     50%   89.29ms
+     75%  316.70ms
+     90%  498.05ms
+     99%  645.94ms
+  96040 requests in 10.00m, 251.23MB read
+Requests/sec:    160.05
+Transfer/sec:    428.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   168.74ms  196.97ms   1.01s    79.84%
+    Req/Sec   174.85    154.51     0.94k    71.04%
+  Latency Distribution
+     50%   88.17ms
+     75%  309.90ms
+     90%  491.23ms
+     99%  644.10ms
+  102164 requests in 10.00m, 267.25MB read
+Requests/sec:    170.26
+Transfer/sec:    456.07KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   172.98ms  198.69ms   1.00s    79.85%
+    Req/Sec   159.89    141.53     0.89k    78.50%
+  Latency Distribution
+     50%   89.77ms
+     75%  318.15ms
+     90%  499.47ms
+     99%  647.48ms
+  94074 requests in 10.00m, 246.09MB read
+Requests/sec:    156.78
+Transfer/sec:    419.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   171.79ms  198.06ms   1.09s    79.91%
+    Req/Sec   163.63    145.53   840.00     78.04%
+  Latency Distribution
+     50%   89.47ms
+     75%  315.47ms
+     90%  497.44ms
+     99%  646.56ms
+  95708 requests in 10.00m, 250.36MB read
+Requests/sec:    159.51
+Transfer/sec:    427.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   170.39ms  197.47ms   1.00s    79.90%
+    Req/Sec   169.07    163.27     1.19k    83.92%
+  Latency Distribution
+     50%   86.99ms
+     75%  312.84ms
+     90%  494.55ms
+     99%  645.14ms
+  98482 requests in 10.00m, 257.62MB read
+Requests/sec:    164.12
+Transfer/sec:    439.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   169.27ms  197.37ms 972.99ms   79.86%
+    Req/Sec   171.88    143.92     0.98k    72.82%
+  Latency Distribution
+     50%   86.92ms
+     75%  309.52ms
+     90%  493.78ms
+     99%  645.29ms
+  100583 requests in 10.00m, 263.11MB read
+Requests/sec:    167.63
+Transfer/sec:    449.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   163.85ms  194.80ms   1.01s    79.96%
+    Req/Sec   189.67    169.24     1.13k    70.88%
+  Latency Distribution
+     50%   80.72ms
+     75%  299.18ms
+     90%  487.00ms
+     99%  641.53ms
+  110447 requests in 10.00m, 288.92MB read
+Requests/sec:    184.06
+Transfer/sec:    493.04KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   169.80ms  197.28ms   1.01s    79.94%
+    Req/Sec   170.24    139.85     0.92k    65.57%
+  Latency Distribution
+     50%   86.78ms
+     75%  309.83ms
+     90%  494.58ms
+     99%  646.04ms
+  99026 requests in 10.00m, 259.04MB read
+Requests/sec:    165.04
+Transfer/sec:    442.08KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   167.86ms  196.77ms   1.60s    79.84%
+    Req/Sec   177.68    145.82     0.91k    65.43%
+  Latency Distribution
+     50%   85.08ms
+     75%  307.44ms
+     90%  490.96ms
+     99%  644.39ms
+  103721 requests in 10.00m, 271.32MB read
+Requests/sec:    172.85
+Transfer/sec:    463.00KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   174.82ms  199.11ms   1.00s    79.87%
+    Req/Sec   154.66    131.04   808.00     68.76%
+  Latency Distribution
+     50%   94.75ms
+     75%  321.31ms
+     90%  502.00ms
+     99%  646.59ms
+  90660 requests in 10.00m, 237.16MB read
+Requests/sec:    151.09
+Transfer/sec:    404.71KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   168.87ms  197.27ms 999.91ms   79.79%
+    Req/Sec   173.81    157.66     0.89k    79.82%
+  Latency Distribution
+     50%   87.47ms
+     75%  309.07ms
+     90%  494.15ms
+     99%  644.68ms
+  101329 requests in 10.00m, 265.06MB read
+Requests/sec:    168.86
+Transfer/sec:    452.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   161.92ms  193.90ms 979.54ms   80.01%
+    Req/Sec   197.37    182.92     1.31k    80.79%
+  Latency Distribution
+     50%   78.24ms
+     75%  296.70ms
+     90%  484.07ms
+     99%  640.90ms
+  115545 requests in 10.00m, 302.25MB read
+Requests/sec:    192.56
+Transfer/sec:    515.81KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   166.74ms  196.09ms   1.01s    79.83%
+    Req/Sec   179.97    155.02     1.08k    73.50%
+  Latency Distribution
+     50%   82.29ms
+     75%  304.65ms
+     90%  489.41ms
+     99%  643.82ms
+  105470 requests in 10.00m, 275.90MB read
+Requests/sec:    175.75
+Transfer/sec:    470.79KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   164.04ms  194.80ms 997.62ms   79.90%
+    Req/Sec   188.79    151.70     0.89k    66.93%
+  Latency Distribution
+     50%   80.28ms
+     75%  300.14ms
+     90%  486.66ms
+     99%  640.91ms
+  110587 requests in 10.00m, 289.28MB read
+Requests/sec:    184.28
+Transfer/sec:    493.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   171.12ms  197.56ms 988.19ms   79.94%
+    Req/Sec   164.73    143.62     0.94k    70.95%
+  Latency Distribution
+     50%   88.64ms
+     75%  313.71ms
+     90%  495.89ms
+     99%  645.43ms
+  96481 requests in 10.00m, 252.38MB read
+Requests/sec:    160.80
+Transfer/sec:    430.72KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   164.46ms  195.19ms 990.92ms   79.92%
+    Req/Sec   187.59    149.09     0.91k    67.83%
+  Latency Distribution
+     50%   80.55ms
+     75%  300.22ms
+     90%  488.81ms
+     99%  642.99ms
+  109445 requests in 10.00m, 286.30MB read
+Requests/sec:    182.38
+Transfer/sec:    488.54KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   168.36ms  196.66ms   1.00s    79.81%
+    Req/Sec   172.76    135.11   777.00     66.63%
+  Latency Distribution
+     50%   88.73ms
+     75%  307.17ms
+     90%  492.55ms
+     99%  643.54ms
+  101528 requests in 10.00m, 265.59MB read
+Requests/sec:    169.19
+Transfer/sec:    453.20KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   165.22ms  195.48ms 982.38ms   79.88%
+    Req/Sec   185.83    149.20     0.86k    69.83%
+  Latency Distribution
+     50%   80.76ms
+     75%  302.86ms
+     90%  487.83ms
+     99%  642.74ms
+  108384 requests in 10.00m, 283.52MB read
+Requests/sec:    180.61
+Transfer/sec:    483.80KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   167.07ms  195.90ms 965.75ms   79.85%
+    Req/Sec   177.89    143.48     0.92k    67.50%
+  Latency Distribution
+     50%   83.78ms
+     75%  304.21ms
+     90%  490.65ms
+     99%  642.88ms
+  103951 requests in 10.00m, 271.92MB read
+Requests/sec:    173.24
+Transfer/sec:    464.05KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   170.33ms  197.66ms 996.15ms   79.89%
+    Req/Sec   168.48    142.04     0.96k    73.20%
+  Latency Distribution
+     50%   86.89ms
+     75%  312.27ms
+     90%  495.72ms
+     99%  646.54ms
+  98412 requests in 10.00m, 257.43MB read
+Requests/sec:    164.00
+Transfer/sec:    439.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   177.21ms  200.00ms   1.01s    79.61%
+    Req/Sec   148.92    133.03   828.00     76.90%
+  Latency Distribution
+     50%   96.16ms
+     75%  324.55ms
+     90%  505.58ms
+     99%  648.16ms
+  86984 requests in 10.00m, 227.54MB read
+Requests/sec:    144.95
+Transfer/sec:    388.28KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   170.88ms  197.78ms 986.38ms   79.92%
+    Req/Sec   168.62    150.58     0.89k    75.58%
+  Latency Distribution
+     50%   87.45ms
+     75%  312.40ms
+     90%  497.42ms
+     99%  646.58ms
+  97127 requests in 10.00m, 254.07MB read
+Requests/sec:    161.85
+Transfer/sec:    433.55KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   167.79ms  196.21ms 997.38ms   79.81%
+    Req/Sec   174.52    144.39     0.89k    66.47%
+  Latency Distribution
+     50%   83.51ms
+     75%  306.89ms
+     90%  491.33ms
+     99%  643.38ms
+  102852 requests in 10.00m, 269.05MB read
+Requests/sec:    171.40
+Transfer/sec:    459.12KB
++ (( j++ ))
++ (( j<100 ))
++ file=83
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=84
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=85
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=86
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=87
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=88
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=89
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=90
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=91
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=92
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=93
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=94
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=95
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=96
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=97
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=98
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=99
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ wait
++ for pod in 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
++ scs nginx-ingress-controller 6
+deployment.apps/nginx-ingress-controller scaled
++ cp -rf box ips
++ date
+Mon Jul 20 10:55:25 UTC 2020
++ dir=https.ingress.svc..6
++ ./2020-06-28-main.just.ingress.svc.sh https.ingress.svc..6
+Warning: Permanently added '10.1.0.23' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.22' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.56' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.25' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.45' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.89' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.111' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.34' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.100' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.24' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.40' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.26' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.39' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.28' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.36' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.37' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.31' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.67' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.27' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.78' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.51' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.33' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.32' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.30' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.29' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.49' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.35' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.38' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.50' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.46' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.47' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.43' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.53' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.44' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.54' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.48' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.63' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.41' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.42' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.55' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.60' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.65' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.57' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.62' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.64' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.58' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.70' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.52' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.61' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.59' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.79' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.69' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.71' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.66' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.87' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.91' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.81' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.80' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.68' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.75' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.72' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.73' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.102' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.74' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.82' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.99' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.76' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.103' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.77' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.86' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+Warning: Permanently added '10.1.0.104' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.93' (ECDSA) to the list of known hosts.
++ sleep 30
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.94' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.95' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.92' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.83' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.85' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.84' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.88' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.96' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.101' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.116' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.98' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.97' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+Warning: Permanently added '10.1.0.107' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.108' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.112' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.119' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.109' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.113' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.106' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.110' (ECDSA) to the list of known hosts.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.105' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.132' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.118' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.117' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.115' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.114' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.133' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
++ (( j=0 ))
++ (( j<100 ))
++ file=0
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=1
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=2
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=3
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=4
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=5
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=6
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=7
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=8
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=9
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=10
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=11
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=12
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=13
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=14
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=15
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=16
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=17
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=18
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=19
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=20
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=21
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=22
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=23
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=24
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=25
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=26
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=27
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=28
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=29
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=30
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=31
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=32
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=33
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=34
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=35
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=36
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=37
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=38
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=39
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=40
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=41
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=42
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=43
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=44
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=45
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=46
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=47
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=48
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=49
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=50
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=51
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=52
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=53
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=54
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=55
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=56
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=57
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=58
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=59
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=60
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=61
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=62
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=63
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=64
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=65
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=66
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=67
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=68
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=69
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=70
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=71
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=72
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=73
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=74
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=75
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=76
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=77
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=78
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=79
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=80
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=81
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=82
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   121.09ms  116.88ms 688.66ms   64.58%
+    Req/Sec   148.49    122.69     2.26k    80.88%
+  Latency Distribution
+     50%  114.24ms
+     75%  195.50ms
+     90%  289.87ms
+     99%  417.99ms
+  88653 requests in 10.00m, 231.91MB read
+Requests/sec:    147.75
+Transfer/sec:    395.77KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   121.31ms  116.26ms 721.16ms   58.30%
+    Req/Sec   146.99    122.26     0.86k    81.96%
+  Latency Distribution
+     50%  114.88ms
+     75%  194.67ms
+     90%  288.19ms
+     99%  419.50ms
+  87859 requests in 10.00m, 229.83MB read
+Requests/sec:    146.43
+Transfer/sec:    392.23KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   115.49ms  113.66ms 706.16ms   82.89%
+    Req/Sec   158.77    124.81     0.87k    79.08%
+  Latency Distribution
+     50%  103.70ms
+     75%  185.34ms
+     90%  279.52ms
+     99%  416.35ms
+  94897 requests in 10.00m, 248.24MB read
+Requests/sec:    158.15
+Transfer/sec:    423.64KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   117.28ms  114.61ms 710.79ms   78.28%
+    Req/Sec   154.76    132.32     0.98k    82.61%
+  Latency Distribution
+     50%  108.18ms
+     75%  186.25ms
+     90%  282.21ms
+     99%  419.38ms
+  92493 requests in 10.00m, 241.95MB read
+Requests/sec:    154.15
+Transfer/sec:    412.91KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   122.83ms  115.89ms 704.29ms   53.29%
+    Req/Sec   143.13    116.60   820.00     80.94%
+  Latency Distribution
+     50%  117.89ms
+     75%  197.33ms
+     90%  287.47ms
+     99%  418.19ms
+  85554 requests in 10.00m, 223.80MB read
+Requests/sec:    142.58
+Transfer/sec:    381.93KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   117.03ms  115.25ms 731.48ms   83.05%
+    Req/Sec   156.15    127.87     1.06k    81.81%
+  Latency Distribution
+     50%  107.95ms
+     75%  188.23ms
+     90%  282.73ms
+     99%  418.09ms
+  93269 requests in 10.00m, 243.98MB read
+Requests/sec:    155.44
+Transfer/sec:    416.37KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.65ms  114.33ms   1.46s    80.97%
+    Req/Sec   155.55    124.73   818.00     80.46%
+  Latency Distribution
+     50%  107.31ms
+     75%  187.82ms
+     90%  279.10ms
+     99%  416.10ms
+  92992 requests in 10.00m, 243.26MB read
+Requests/sec:    154.98
+Transfer/sec:    415.13KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.98ms  115.12ms 709.42ms   82.59%
+    Req/Sec   156.80    125.24   848.00     78.77%
+  Latency Distribution
+     50%  106.34ms
+     75%  189.04ms
+     90%  284.22ms
+     99%  417.06ms
+  93706 requests in 10.00m, 245.12MB read
+Requests/sec:    156.16
+Transfer/sec:    418.30KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   118.79ms  115.74ms 652.16ms   74.20%
+    Req/Sec   152.68    127.39     0.91k    81.33%
+  Latency Distribution
+     50%  110.15ms
+     75%  190.61ms
+     90%  286.32ms
+     99%  418.75ms
+  91205 requests in 10.00m, 238.58MB read
+Requests/sec:    152.00
+Transfer/sec:    407.16KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.35ms  113.99ms 755.76ms   80.68%
+    Req/Sec   156.19    122.65     0.92k    78.16%
+  Latency Distribution
+     50%  106.69ms
+     75%  187.49ms
+     90%  279.58ms
+     99%  418.02ms
+  93370 requests in 10.00m, 244.24MB read
+Requests/sec:    155.59
+Transfer/sec:    416.79KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   118.64ms  115.53ms 688.29ms   73.20%
+    Req/Sec   152.79    122.89     0.98k    80.76%
+  Latency Distribution
+     50%  108.74ms
+     75%  190.21ms
+     90%  285.95ms
+     99%  418.14ms
+  91312 requests in 10.00m, 238.86MB read
+Requests/sec:    152.17
+Transfer/sec:    407.61KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   118.36ms  114.49ms 671.93ms   67.87%
+    Req/Sec   151.91    117.71   700.00     78.29%
+  Latency Distribution
+     50%  110.96ms
+     75%  189.90ms
+     90%  282.35ms
+     99%  416.59ms
+  90791 requests in 10.00m, 237.50MB read
+Requests/sec:    151.31
+Transfer/sec:    405.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   121.58ms  117.75ms 702.22ms   68.35%
+    Req/Sec   148.66    120.88     0.88k    81.00%
+  Latency Distribution
+     50%  113.65ms
+     75%  194.54ms
+     90%  293.61ms
+     99%  422.83ms
+  88821 requests in 10.00m, 232.35MB read
+Requests/sec:    148.02
+Transfer/sec:    396.50KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   121.28ms  116.80ms 668.61ms   63.06%
+    Req/Sec   148.28    120.87     0.98k    81.55%
+  Latency Distribution
+     50%  112.82ms
+     75%  193.93ms
+     90%  290.39ms
+     99%  421.86ms
+  88585 requests in 10.00m, 231.73MB read
+Requests/sec:    147.64
+Transfer/sec:    395.47KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   119.45ms  115.06ms 704.32ms   64.19%
+    Req/Sec   150.54    121.62     0.94k    82.84%
+  Latency Distribution
+     50%  110.74ms
+     75%  190.54ms
+     90%  286.49ms
+     99%  417.22ms
+  89952 requests in 10.00m, 235.30MB read
+Requests/sec:    149.92
+Transfer/sec:    401.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   118.99ms  115.45ms 759.40ms   70.70%
+    Req/Sec   151.43    124.57     1.03k    82.66%
+  Latency Distribution
+     50%  110.90ms
+     75%  191.12ms
+     90%  284.58ms
+     99%  419.58ms
+  90514 requests in 10.00m, 236.77MB read
+Requests/sec:    150.84
+Transfer/sec:    404.04KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   113.41ms  111.55ms 693.86ms   83.48%
+    Req/Sec   160.45    128.07     0.86k    79.27%
+  Latency Distribution
+     50%  104.83ms
+     75%  182.13ms
+     90%  271.74ms
+     99%  413.92ms
+  95784 requests in 10.00m, 250.56MB read
+Requests/sec:    159.63
+Transfer/sec:    427.59KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   120.93ms  116.49ms 669.72ms   63.88%
+    Req/Sec   148.48    118.42     1.00k    78.22%
+  Latency Distribution
+     50%  112.58ms
+     75%  194.77ms
+     90%  288.86ms
+     99%  419.27ms
+  88749 requests in 10.00m, 232.16MB read
+Requests/sec:    147.91
+Transfer/sec:    396.20KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   118.12ms  114.50ms 724.81ms   70.17%
+    Req/Sec   152.43    129.51     1.02k    82.50%
+  Latency Distribution
+     50%  109.89ms
+     75%  189.01ms
+     90%  281.80ms
+     99%  418.70ms
+  91071 requests in 10.00m, 238.23MB read
+Requests/sec:    151.77
+Transfer/sec:    406.55KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   122.76ms  116.53ms 753.52ms   54.73%
+    Req/Sec   144.10    116.77     0.91k    81.05%
+  Latency Distribution
+     50%  116.87ms
+     75%  194.78ms
+     90%  289.66ms
+     99%  421.30ms
+  86150 requests in 10.00m, 225.36MB read
+Requests/sec:    143.57
+Transfer/sec:    384.57KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.68ms  114.26ms 700.02ms   80.32%
+    Req/Sec   156.00    120.32   808.00     79.04%
+  Latency Distribution
+     50%  106.42ms
+     75%  187.59ms
+     90%  280.84ms
+     99%  417.45ms
+  93239 requests in 10.00m, 243.90MB read
+Requests/sec:    155.38
+Transfer/sec:    416.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   117.11ms  115.01ms 679.54ms   82.28%
+    Req/Sec   155.89    123.57     0.87k    77.74%
+  Latency Distribution
+     50%  107.53ms
+     75%  187.93ms
+     90%  283.27ms
+     99%  417.04ms
+  93163 requests in 10.00m, 243.70MB read
+Requests/sec:    155.27
+Transfer/sec:    415.91KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   123.04ms  117.50ms 708.24ms   57.43%
+    Req/Sec   145.43    114.03   820.00     78.64%
+  Latency Distribution
+     50%  114.23ms
+     75%  196.60ms
+     90%  293.65ms
+     99%  421.63ms
+  86879 requests in 10.00m, 227.27MB read
+Requests/sec:    144.79
+Transfer/sec:    387.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.48ms  113.29ms   1.46s    73.68%
+    Req/Sec   153.83    120.56   848.00     79.44%
+  Latency Distribution
+     50%  109.25ms
+     75%  187.26ms
+     90%  275.89ms
+     99%  414.68ms
+  91941 requests in 10.00m, 240.51MB read
+Requests/sec:    153.22
+Transfer/sec:    410.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.60ms  115.79ms 753.77ms   82.76%
+    Req/Sec   158.87    137.26     1.37k    82.16%
+  Latency Distribution
+     50%  104.83ms
+     75%  187.72ms
+     90%  285.70ms
+     99%  419.99ms
+  94927 requests in 10.00m, 248.32MB read
+Requests/sec:    158.19
+Transfer/sec:    423.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.51ms  114.58ms 704.39ms   82.75%
+    Req/Sec   157.06    127.54     0.91k    81.41%
+  Latency Distribution
+     50%  106.06ms
+     75%  187.48ms
+     90%  282.69ms
+     99%  416.59ms
+  93883 requests in 10.00m, 245.59MB read
+Requests/sec:    156.45
+Transfer/sec:    419.07KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   117.82ms  115.44ms 704.03ms   79.65%
+    Req/Sec   154.77    124.12     0.86k    79.64%
+  Latency Distribution
+     50%  108.28ms
+     75%  190.69ms
+     90%  284.75ms
+     99%  416.79ms
+  92519 requests in 10.00m, 242.02MB read
+Requests/sec:    154.19
+Transfer/sec:    413.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   120.52ms  115.99ms 724.07ms   62.90%
+    Req/Sec   148.61    123.82     1.18k    83.32%
+  Latency Distribution
+     50%  112.42ms
+     75%  193.00ms
+     90%  286.38ms
+     99%  420.03ms
+  88785 requests in 10.00m, 232.25MB read
+Requests/sec:    147.95
+Transfer/sec:    396.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   118.13ms  115.29ms 676.86ms   76.17%
+    Req/Sec   153.83    129.06     0.97k    82.43%
+  Latency Distribution
+     50%  108.43ms
+     75%  188.15ms
+     90%  285.01ms
+     99%  418.97ms
+  91877 requests in 10.00m, 240.34MB read
+Requests/sec:    153.12
+Transfer/sec:    410.15KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   119.94ms  116.16ms 722.56ms   68.98%
+    Req/Sec   150.33    120.31     0.92k    79.07%
+  Latency Distribution
+     50%  111.71ms
+     75%  192.20ms
+     90%  286.93ms
+     99%  420.90ms
+  89781 requests in 10.00m, 234.86MB read
+Requests/sec:    149.63
+Transfer/sec:    400.80KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   117.67ms  113.13ms 729.31ms   63.62%
+    Req/Sec   151.45    120.20   797.00     79.55%
+  Latency Distribution
+     50%  111.22ms
+     75%  188.39ms
+     90%  277.86ms
+     99%  414.50ms
+  90528 requests in 10.00m, 236.81MB read
+Requests/sec:    150.87
+Transfer/sec:    404.12KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   119.49ms  116.82ms 674.05ms   77.70%
+    Req/Sec   152.81    117.06   840.00     77.42%
+  Latency Distribution
+     50%  108.52ms
+     75%  192.30ms
+     90%  290.36ms
+     99%  421.97ms
+  91306 requests in 10.00m, 238.85MB read
+Requests/sec:    152.18
+Transfer/sec:    407.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   119.53ms  117.46ms 657.55ms   82.00%
+    Req/Sec   153.81    123.82     0.93k    81.17%
+  Latency Distribution
+     50%  107.77ms
+     75%  192.91ms
+     90%  291.83ms
+     99%  422.25ms
+  91886 requests in 10.00m, 240.36MB read
+Requests/sec:    153.13
+Transfer/sec:    410.18KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   121.35ms  117.10ms 729.21ms   65.09%
+    Req/Sec   148.02    116.33     0.87k    77.49%
+  Latency Distribution
+     50%  113.83ms
+     75%  195.42ms
+     90%  289.70ms
+     99%  420.82ms
+  88435 requests in 10.00m, 231.34MB read
+Requests/sec:    147.38
+Transfer/sec:    394.79KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   119.55ms  115.59ms 726.00ms   66.52%
+    Req/Sec   150.41    123.83     1.09k    82.74%
+  Latency Distribution
+     50%  111.05ms
+     75%  191.17ms
+     90%  285.89ms
+     99%  419.80ms
+  89888 requests in 10.00m, 235.14MB read
+Requests/sec:    149.80
+Transfer/sec:    401.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   118.87ms  115.75ms 670.01ms   73.18%
+    Req/Sec   152.78    129.59     0.96k    83.03%
+  Latency Distribution
+     50%  108.60ms
+     75%  191.88ms
+     90%  287.12ms
+     99%  417.20ms
+  91323 requests in 10.00m, 238.89MB read
+Requests/sec:    152.19
+Transfer/sec:    407.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   119.16ms  116.41ms 721.97ms   76.76%
+    Req/Sec   153.16    127.11     0.87k    81.41%
+  Latency Distribution
+     50%  109.08ms
+     75%  191.71ms
+     90%  290.00ms
+     99%  418.95ms
+  91554 requests in 10.00m, 239.49MB read
+Requests/sec:    152.57
+Transfer/sec:    408.69KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.40ms  112.86ms 757.00ms   71.64%
+    Req/Sec   154.59    123.07     0.85k    79.76%
+  Latency Distribution
+     50%  107.29ms
+     75%  186.38ms
+     90%  277.65ms
+     99%  414.31ms
+  92401 requests in 10.00m, 241.71MB read
+Requests/sec:    153.99
+Transfer/sec:    412.47KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   119.83ms  117.37ms 689.46ms   79.19%
+    Req/Sec   152.35    125.50     0.95k    81.38%
+  Latency Distribution
+     50%  110.15ms
+     75%  194.75ms
+     90%  290.28ms
+     99%  420.75ms
+  90998 requests in 10.00m, 238.04MB read
+Requests/sec:    151.66
+Transfer/sec:    406.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   115.43ms  113.07ms 700.57ms   80.70%
+    Req/Sec   157.70    123.74     1.03k    78.50%
+  Latency Distribution
+     50%  105.85ms
+     75%  183.70ms
+     90%  277.82ms
+     99%  416.80ms
+  94209 requests in 10.00m, 246.44MB read
+Requests/sec:    157.01
+Transfer/sec:    420.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   120.47ms  117.45ms 712.69ms   74.78%
+    Req/Sec   150.58    129.71     1.00k    82.10%
+  Latency Distribution
+     50%  112.83ms
+     75%  195.63ms
+     90%  290.14ms
+     99%  419.65ms
+  89955 requests in 10.00m, 235.31MB read
+Requests/sec:    149.92
+Transfer/sec:    401.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   122.01ms  116.71ms 666.55ms   58.53%
+    Req/Sec   145.59    122.81     0.96k    82.00%
+  Latency Distribution
+     50%  116.05ms
+     75%  195.99ms
+     90%  288.53ms
+     99%  420.96ms
+  87033 requests in 10.00m, 227.67MB read
+Requests/sec:    145.03
+Transfer/sec:    388.49KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   117.74ms  116.01ms 756.90ms   82.85%
+    Req/Sec   155.81    122.24     0.92k    77.69%
+  Latency Distribution
+     50%  106.74ms
+     75%  189.75ms
+     90%  286.42ms
+     99%  420.21ms
+  93079 requests in 10.00m, 243.48MB read
+Requests/sec:    155.11
+Transfer/sec:    415.48KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   120.77ms  115.66ms 727.76ms   59.04%
+    Req/Sec   148.07    119.83     0.89k    81.61%
+  Latency Distribution
+     50%  111.32ms
+     75%  192.02ms
+     90%  286.94ms
+     99%  422.50ms
+  88417 requests in 10.00m, 231.29MB read
+Requests/sec:    147.34
+Transfer/sec:    394.68KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   121.89ms  116.50ms 700.05ms   57.28%
+    Req/Sec   146.11    121.45   828.00     80.79%
+  Latency Distribution
+     50%  115.06ms
+     75%  195.19ms
+     90%  289.22ms
+     99%  418.30ms
+  87280 requests in 10.00m, 228.31MB read
+Requests/sec:    145.44
+Transfer/sec:    389.59KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   120.34ms  116.35ms 720.51ms   67.25%
+    Req/Sec   149.49    123.54     0.89k    81.89%
+  Latency Distribution
+     50%  112.88ms
+     75%  192.60ms
+     90%  289.00ms
+     99%  419.61ms
+  89340 requests in 10.00m, 233.70MB read
+Requests/sec:    148.89
+Transfer/sec:    398.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   122.74ms  115.99ms 652.08ms   54.21%
+    Req/Sec   143.77    112.25   777.00     78.25%
+  Latency Distribution
+     50%  116.78ms
+     75%  195.63ms
+     90%  288.35ms
+     99%  419.42ms
+  85864 requests in 10.00m, 224.61MB read
+Requests/sec:    143.10
+Transfer/sec:    383.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   111.81ms  112.45ms 663.54ms   83.06%
+    Req/Sec   167.11    135.62     0.87k    79.45%
+  Latency Distribution
+     50%   99.57ms
+     75%  182.01ms
+     90%  273.62ms
+     99%  413.13ms
+  99849 requests in 10.00m, 261.19MB read
+Requests/sec:    166.40
+Transfer/sec:    445.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   123.82ms  116.97ms 703.55ms   55.26%
+    Req/Sec   142.74    112.40   818.00     77.40%
+  Latency Distribution
+     50%  116.81ms
+     75%  196.46ms
+     90%  291.80ms
+     99%  422.82ms
+  85311 requests in 10.00m, 223.16MB read
+Requests/sec:    142.16
+Transfer/sec:    380.81KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   121.47ms  117.80ms 706.16ms   68.34%
+    Req/Sec   149.33    121.05   848.00     80.76%
+  Latency Distribution
+     50%  111.41ms
+     75%  195.60ms
+     90%  292.69ms
+     99%  423.32ms
+  89156 requests in 10.00m, 233.22MB read
+Requests/sec:    148.57
+Transfer/sec:    397.97KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.68ms  114.52ms 728.36ms   81.68%
+    Req/Sec   156.15    125.04     0.95k    78.87%
+  Latency Distribution
+     50%  107.09ms
+     75%  188.08ms
+     90%  281.02ms
+     99%  416.33ms
+  93254 requests in 10.00m, 243.94MB read
+Requests/sec:    155.42
+Transfer/sec:    416.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   123.76ms  117.37ms 702.26ms   53.52%
+    Req/Sec   142.80    120.08   848.00     81.31%
+  Latency Distribution
+     50%  118.35ms
+     75%  197.28ms
+     90%  292.24ms
+     99%  422.47ms
+  85349 requests in 10.00m, 223.26MB read
+Requests/sec:    142.23
+Transfer/sec:    380.98KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   115.27ms  114.45ms 705.15ms   83.10%
+    Req/Sec   160.14    131.78     1.19k    82.30%
+  Latency Distribution
+     50%  104.65ms
+     75%  185.01ms
+     90%  281.26ms
+     99%  418.07ms
+  95679 requests in 10.00m, 250.28MB read
+Requests/sec:    159.45
+Transfer/sec:    427.12KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   128.06ms  117.54ms   1.02s    50.34%
+    Req/Sec   134.19    110.92     0.96k    82.99%
+  Latency Distribution
+     50%  126.80ms
+     75%  202.35ms
+     90%  293.77ms
+     99%  422.35ms
+  80203 requests in 10.00m, 209.80MB read
+Requests/sec:    133.67
+Transfer/sec:    358.06KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   121.51ms  116.69ms 690.95ms   60.55%
+    Req/Sec   147.32    120.59     0.87k    81.02%
+  Latency Distribution
+     50%  113.71ms
+     75%  193.45ms
+     90%  289.97ms
+     99%  422.13ms
+  87942 requests in 10.00m, 230.05MB read
+Requests/sec:    146.57
+Transfer/sec:    392.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   118.37ms  116.36ms 731.52ms   82.07%
+    Req/Sec   154.71    131.18     0.88k    82.46%
+  Latency Distribution
+     50%  107.31ms
+     75%  192.99ms
+     90%  286.61ms
+     99%  418.76ms
+  92412 requests in 10.00m, 241.74MB read
+Requests/sec:    154.00
+Transfer/sec:    412.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   120.72ms  117.87ms 728.85ms   75.44%
+    Req/Sec   150.77    127.31     1.06k    81.71%
+  Latency Distribution
+     50%  111.80ms
+     75%  196.34ms
+     90%  291.69ms
+     99%  420.19ms
+  90047 requests in 10.00m, 235.55MB read
+Requests/sec:    150.08
+Transfer/sec:    402.00KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   119.72ms  116.29ms 677.13ms   71.33%
+    Req/Sec   151.12    122.15   780.00     81.30%
+  Latency Distribution
+     50%  110.22ms
+     75%  193.44ms
+     90%  287.53ms
+     99%  418.89ms
+  90219 requests in 10.00m, 236.00MB read
+Requests/sec:    150.36
+Transfer/sec:    402.77KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.68ms  113.34ms 705.57ms   73.03%
+    Req/Sec   154.35    122.71     1.02k    78.18%
+  Latency Distribution
+     50%  108.08ms
+     75%  185.49ms
+     90%  278.11ms
+     99%  416.00ms
+  92239 requests in 10.00m, 241.29MB read
+Requests/sec:    153.72
+Transfer/sec:    411.76KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.30ms  115.17ms 755.98ms   82.69%
+    Req/Sec   158.75    129.77     0.87k    81.62%
+  Latency Distribution
+     50%  104.69ms
+     75%  188.12ms
+     90%  283.56ms
+     99%  416.84ms
+  94840 requests in 10.00m, 248.09MB read
+Requests/sec:    158.04
+Transfer/sec:    423.35KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   113.27ms  112.95ms 724.83ms   83.20%
+    Req/Sec   163.42    135.57     1.22k    81.35%
+  Latency Distribution
+     50%  102.59ms
+     75%  182.33ms
+     90%  275.86ms
+     99%  414.69ms
+  97632 requests in 10.00m, 255.39MB read
+Requests/sec:    162.71
+Transfer/sec:    435.83KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   120.81ms  116.29ms 670.96ms   63.20%
+    Req/Sec   148.22    122.93     1.00k    82.04%
+  Latency Distribution
+     50%  114.23ms
+     75%  193.57ms
+     90%  288.26ms
+     99%  419.43ms
+  88505 requests in 10.00m, 231.52MB read
+Requests/sec:    147.50
+Transfer/sec:    395.11KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   121.97ms  115.91ms 704.55ms   55.10%
+    Req/Sec   145.27    120.43     1.05k    82.25%
+  Latency Distribution
+     50%  114.91ms
+     75%  196.43ms
+     90%  288.38ms
+     99%  416.35ms
+  86785 requests in 10.00m, 227.02MB read
+Requests/sec:    144.64
+Transfer/sec:    387.44KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   117.05ms  115.80ms 721.78ms   82.93%
+    Req/Sec   157.09    124.97   838.00     78.88%
+  Latency Distribution
+     50%  106.46ms
+     75%  189.08ms
+     90%  284.00ms
+     99%  420.42ms
+  93833 requests in 10.00m, 245.46MB read
+Requests/sec:    156.38
+Transfer/sec:    418.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   118.76ms  115.00ms 754.09ms   68.47%
+    Req/Sec   151.40    118.04     1.07k    78.28%
+  Latency Distribution
+     50%  110.77ms
+     75%  189.65ms
+     90%  283.11ms
+     99%  418.73ms
+  90461 requests in 10.00m, 236.64MB read
+Requests/sec:    150.75
+Transfer/sec:    403.81KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   118.54ms  114.49ms 756.69ms   67.03%
+    Req/Sec   151.40    117.59     1.02k    78.78%
+  Latency Distribution
+     50%  110.73ms
+     75%  188.40ms
+     90%  283.20ms
+     99%  417.43ms
+  90457 requests in 10.00m, 236.62MB read
+Requests/sec:    150.74
+Transfer/sec:    403.78KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.09ms  114.35ms 725.28ms   83.17%
+    Req/Sec   157.80    122.56   838.00     79.08%
+  Latency Distribution
+     50%  105.13ms
+     75%  185.38ms
+     90%  281.75ms
+     99%  419.33ms
+  94283 requests in 10.00m, 246.63MB read
+Requests/sec:    157.13
+Transfer/sec:    420.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   113.76ms  112.85ms 721.17ms   83.14%
+    Req/Sec   161.66    128.12     0.95k    79.56%
+  Latency Distribution
+     50%  101.92ms
+     75%  184.51ms
+     90%  274.79ms
+     99%  414.34ms
+  96541 requests in 10.00m, 252.54MB read
+Requests/sec:    160.89
+Transfer/sec:    430.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   123.46ms  117.93ms 678.41ms   58.51%
+    Req/Sec   145.51    117.87     0.97k    81.49%
+  Latency Distribution
+     50%  113.08ms
+     75%  197.18ms
+     90%  296.17ms
+     99%  424.39ms
+  86816 requests in 10.00m, 227.10MB read
+Requests/sec:    144.69
+Transfer/sec:    387.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   122.32ms  117.34ms 730.56ms   59.49%
+    Req/Sec   146.22    122.03     0.98k    81.47%
+  Latency Distribution
+     50%  115.18ms
+     75%  196.53ms
+     90%  291.57ms
+     99%  421.06ms
+  87327 requests in 10.00m, 228.44MB read
+Requests/sec:    145.54
+Transfer/sec:    389.85KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   117.40ms  115.87ms 705.43ms   82.98%
+    Req/Sec   156.03    126.22     1.10k    81.20%
+  Latency Distribution
+     50%  107.71ms
+     75%  189.08ms
+     90%  284.85ms
+     99%  420.39ms
+  93213 requests in 10.00m, 243.83MB read
+Requests/sec:    155.35
+Transfer/sec:    416.13KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   115.94ms  112.86ms 721.45ms   74.59%
+    Req/Sec   155.20    121.43     0.91k    78.20%
+  Latency Distribution
+     50%  108.95ms
+     75%  185.36ms
+     90%  275.63ms
+     99%  416.18ms
+  92638 requests in 10.00m, 242.33MB read
+Requests/sec:    154.39
+Transfer/sec:    413.56KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.72ms  114.51ms 724.74ms   81.99%
+    Req/Sec   155.79    124.68     0.92k    78.10%
+  Latency Distribution
+     50%  107.29ms
+     75%  187.45ms
+     90%  280.18ms
+     99%  418.85ms
+  93012 requests in 10.00m, 243.31MB read
+Requests/sec:    155.02
+Transfer/sec:    415.24KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   118.69ms  116.41ms 738.63ms   80.79%
+    Req/Sec   153.82    121.24     0.87k    78.45%
+  Latency Distribution
+     50%  109.24ms
+     75%  190.76ms
+     90%  288.25ms
+     99%  419.86ms
+  91931 requests in 10.00m, 240.48MB read
+Requests/sec:    153.21
+Transfer/sec:    410.39KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   118.17ms  115.03ms 714.36ms   74.02%
+    Req/Sec   152.91    128.96     1.06k    82.03%
+  Latency Distribution
+     50%  110.24ms
+     75%  189.28ms
+     90%  283.86ms
+     99%  419.02ms
+  91331 requests in 10.00m, 238.91MB read
+Requests/sec:    152.21
+Transfer/sec:    407.72KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   117.36ms  113.18ms 722.73ms   65.88%
+    Req/Sec   152.37    121.20     0.95k    80.56%
+  Latency Distribution
+     50%  110.56ms
+     75%  187.12ms
+     90%  278.42ms
+     99%  415.22ms
+  91032 requests in 10.00m, 238.13MB read
+Requests/sec:    151.70
+Transfer/sec:    406.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   129.03ms  118.49ms 675.42ms   51.41%
+    Req/Sec   133.99    108.38     0.93k    81.54%
+  Latency Distribution
+     50%  125.16ms
+     75%  202.60ms
+     90%  298.90ms
+     99%  427.38ms
+  80021 requests in 10.00m, 209.33MB read
+Requests/sec:    133.36
+Transfer/sec:    357.23KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   121.11ms  117.11ms 722.13ms   67.63%
+    Req/Sec   148.94    115.83   740.00     78.09%
+  Latency Distribution
+     50%  111.60ms
+     75%  193.61ms
+     90%  290.04ms
+     99%  423.35ms
+  88964 requests in 10.00m, 232.72MB read
+Requests/sec:    148.25
+Transfer/sec:    397.12KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   115.42ms  115.15ms 687.87ms   82.75%
+    Req/Sec   160.92    131.27     1.02k    81.29%
+  Latency Distribution
+     50%  103.76ms
+     75%  187.34ms
+     90%  282.26ms
+     99%  417.47ms
+  96058 requests in 10.00m, 251.28MB read
+Requests/sec:    160.08
+Transfer/sec:    428.80KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   121.35ms  116.94ms 676.98ms   63.15%
+    Req/Sec   147.87    114.55   828.00     77.94%
+  Latency Distribution
+     50%  113.68ms
+     75%  193.80ms
+     90%  290.83ms
+     99%  420.84ms
+  88287 requests in 10.00m, 230.95MB read
+Requests/sec:    147.12
+Transfer/sec:    394.10KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   125.34ms  119.00ms 728.94ms   54.68%
+    Req/Sec   142.02    115.51     0.89k    80.56%
+  Latency Distribution
+     50%  116.87ms
+     75%  202.20ms
+     90%  298.48ms
+     99%  423.90ms
+  84838 requests in 10.00m, 221.93MB read
+Requests/sec:    141.39
+Transfer/sec:    378.74KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   120.60ms  116.25ms 757.61ms   62.81%
+    Req/Sec   148.35    116.47   818.00     78.32%
+  Latency Distribution
+     50%  113.27ms
+     75%  194.51ms
+     90%  285.93ms
+     99%  419.85ms
+  88600 requests in 10.00m, 231.77MB read
+Requests/sec:    147.66
+Transfer/sec:    395.52KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   118.49ms  115.22ms 677.21ms   72.05%
+    Req/Sec   152.54    122.96     1.20k    80.64%
+  Latency Distribution
+     50%  110.61ms
+     75%  191.35ms
+     90%  284.04ms
+     99%  416.12ms
+  91083 requests in 10.00m, 238.26MB read
+Requests/sec:    151.80
+Transfer/sec:    406.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   115.12ms  111.23ms 727.93ms   68.64%
+    Req/Sec   155.23    123.95     0.89k    80.71%
+  Latency Distribution
+     50%  107.45ms
+     75%  184.08ms
+     90%  271.03ms
+     99%  413.32ms
+  92716 requests in 10.00m, 242.53MB read
+Requests/sec:    154.50
+Transfer/sec:    413.87KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   118.51ms  115.97ms 702.05ms   78.47%
+    Req/Sec   154.08    123.33     1.02k    79.41%
+  Latency Distribution
+     50%  107.51ms
+     75%  191.26ms
+     90%  287.16ms
+     99%  419.58ms
+  92027 requests in 10.00m, 240.73MB read
+Requests/sec:    153.38
+Transfer/sec:    410.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   117.80ms  114.61ms 723.87ms   73.13%
+    Req/Sec   153.69    122.70     0.99k    78.75%
+  Latency Distribution
+     50%  108.44ms
+     75%  189.04ms
+     90%  283.22ms
+     99%  416.23ms
+  91709 requests in 10.00m, 239.90MB read
+Requests/sec:    152.84
+Transfer/sec:    409.40KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   124.29ms  117.96ms 759.28ms   55.36%
+    Req/Sec   142.71    120.05     1.06k    82.35%
+  Latency Distribution
+     50%  117.64ms
+     75%  199.82ms
+     90%  294.36ms
+     99%  421.15ms
+  85237 requests in 10.00m, 222.97MB read
+Requests/sec:    142.04
+Transfer/sec:    380.48KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   124.78ms  118.35ms 660.45ms   54.52%
+    Req/Sec   142.01    118.01   797.00     81.58%
+  Latency Distribution
+     50%  117.54ms
+     75%  199.80ms
+     90%  295.54ms
+     99%  424.56ms
+  84813 requests in 10.00m, 221.86MB read
+Requests/sec:    141.34
+Transfer/sec:    378.61KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   121.15ms  117.06ms 659.33ms   65.79%
+    Req/Sec   149.29    119.05   828.00     77.20%
+  Latency Distribution
+     50%  110.69ms
+     75%  193.72ms
+     90%  291.88ms
+     99%  423.43ms
+  89103 requests in 10.00m, 233.08MB read
+Requests/sec:    148.48
+Transfer/sec:    397.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   119.07ms  115.08ms 699.13ms   67.69%
+    Req/Sec   150.80    123.14     1.01k    81.84%
+  Latency Distribution
+     50%  111.73ms
+     75%  189.43ms
+     90%  283.54ms
+     99%  419.87ms
+  90121 requests in 10.00m, 235.75MB read
+Requests/sec:    150.19
+Transfer/sec:    402.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.68ms  113.89ms 685.94ms   76.96%
+    Req/Sec   155.00    134.70     1.06k    82.64%
+  Latency Distribution
+     50%  108.21ms
+     75%  186.80ms
+     90%  279.11ms
+     99%  416.57ms
+  92640 requests in 10.00m, 242.34MB read
+Requests/sec:    154.38
+Transfer/sec:    413.53KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   117.50ms  115.10ms 696.52ms   80.10%
+    Req/Sec   155.44    119.54     0.92k    79.54%
+  Latency Distribution
+     50%  106.54ms
+     75%  189.23ms
+     90%  283.50ms
+     99%  418.48ms
+  92893 requests in 10.00m, 243.00MB read
+Requests/sec:    154.80
+Transfer/sec:    414.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   119.88ms  117.14ms 690.75ms   77.30%
+    Req/Sec   151.91    122.89     1.15k    81.69%
+  Latency Distribution
+     50%  110.01ms
+     75%  191.78ms
+     90%  290.45ms
+     99%  422.45ms
+  90736 requests in 10.00m, 237.35MB read
+Requests/sec:    151.21
+Transfer/sec:    405.05KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   113.51ms  114.49ms 727.48ms   83.07%
+    Req/Sec   164.91    131.60     0.88k    78.32%
+  Latency Distribution
+     50%  102.18ms
+     75%  184.06ms
+     90%  278.58ms
+     99%  417.35ms
+  98545 requests in 10.00m, 257.78MB read
+Requests/sec:    164.21
+Transfer/sec:    439.88KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.90ms  114.61ms 756.88ms   81.06%
+    Req/Sec   155.70    123.36   848.00     78.97%
+  Latency Distribution
+     50%  107.26ms
+     75%  188.40ms
+     90%  281.90ms
+     99%  416.81ms
+  93039 requests in 10.00m, 243.38MB read
+Requests/sec:    155.04
+Transfer/sec:    415.30KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   114.15ms  112.68ms 671.82ms   83.33%
+    Req/Sec   160.55    126.25     1.04k    79.47%
+  Latency Distribution
+     50%  103.68ms
+     75%  182.82ms
+     90%  275.63ms
+     99%  416.06ms
+  95955 requests in 10.00m, 251.01MB read
+Requests/sec:    159.90
+Transfer/sec:    428.33KB
++ (( j++ ))
++ (( j<100 ))
++ file=83
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=84
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=85
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=86
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=87
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=88
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=89
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=90
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=91
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=92
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=93
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=94
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=95
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=96
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=97
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=98
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=99
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ wait
++ for pod in 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
++ scs nginx-ingress-controller 5
+deployment.apps/nginx-ingress-controller scaled
++ cp -rf box ips
++ date
+Mon Jul 20 11:07:26 UTC 2020
++ dir=https.ingress.svc..5
++ ./2020-06-28-main.just.ingress.svc.sh https.ingress.svc..5
+Warning: Permanently added '10.1.0.56' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.89' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.22' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.78' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.23' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.34' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.44' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.40' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.28' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.26' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.29' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.39' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.45' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.25' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.24' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.67' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.42' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.32' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.41' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.111' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.35' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.49' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.30' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.27' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.52' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.59' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.31' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.33' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.37' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.43' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.53' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.62' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.36' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.38' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.58' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.47' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.50' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.51' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.65' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.46' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.61' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.60' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.54' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.57' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.48' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.66' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.55' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.63' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.68' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.64' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.69' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.73' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.75' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.80' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.72' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.81' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.74' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.79' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.77' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.76' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.83' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
++ sleep 30
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.70' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.71' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.82' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.84' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.87' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.101' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.95' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.86' (ECDSA) to the list of known hosts.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.85' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.117' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.92' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.98' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.88' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.91' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.93' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.97' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.99' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.94' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.132' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.96' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.107' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.102' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.109' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.118' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.108' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.110' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.112' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.114' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.104' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.133' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.115' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.103' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.113' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.106' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.105' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.119' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.116' (ECDSA) to the list of known hosts.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
++ (( j=0 ))
++ (( j<100 ))
++ file=0
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=1
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=2
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=3
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=4
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=5
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=6
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=7
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=8
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=9
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=10
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=11
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=12
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=13
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=14
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=15
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=16
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=17
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=18
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=19
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=20
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=21
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=22
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=23
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=24
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=25
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=26
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=27
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=28
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=29
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=30
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=31
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=32
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=33
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=34
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=35
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=36
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=37
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=38
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=39
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=40
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=41
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=42
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=43
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=44
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=45
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=46
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=47
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=48
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=49
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=50
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=51
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=52
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=53
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=54
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=55
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=56
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=57
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=58
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=59
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=60
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=61
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=62
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=63
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=64
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=65
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=66
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=67
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=68
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=69
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=70
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=71
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=72
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=73
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=74
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=75
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=76
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=77
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=78
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=79
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=80
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=81
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   131.90ms  119.54ms 628.64ms   48.69%
+    Req/Sec   127.07    107.19     2.09k    85.24%
+  Latency Distribution
+     50%  128.56ms
+     75%  222.23ms
+     90%  306.23ms
+     99%  392.61ms
+  75907 requests in 10.00m, 198.56MB read
+Requests/sec:    126.49
+Transfer/sec:    338.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   127.26ms  117.55ms 722.22ms   49.79%
+    Req/Sec   134.41    111.83     0.96k    81.92%
+  Latency Distribution
+     50%  120.00ms
+     75%  217.82ms
+     90%  299.11ms
+     99%  390.83ms
+  80273 requests in 10.00m, 209.98MB read
+Requests/sec:    133.78
+Transfer/sec:    358.35KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   130.03ms  120.53ms 654.00ms   48.86%
+    Req/Sec   131.38    116.78     0.97k    84.30%
+  Latency Distribution
+     50%  125.58ms
+     75%  221.28ms
+     90%  308.17ms
+     99%  394.17ms
+  78512 requests in 10.00m, 205.38MB read
+Requests/sec:    130.85
+Transfer/sec:    350.50KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   127.86ms  118.21ms 630.78ms   48.33%
+    Req/Sec   133.19    116.02     0.92k    83.07%
+  Latency Distribution
+     50%  123.05ms
+     75%  218.33ms
+     90%  299.68ms
+     99%  391.25ms
+  79520 requests in 10.00m, 208.01MB read
+Requests/sec:    132.53
+Transfer/sec:    355.01KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   133.11ms  121.72ms 664.13ms   48.25%
+    Req/Sec   127.07    103.41     0.95k    80.83%
+  Latency Distribution
+     50%  128.89ms
+     75%  224.42ms
+     90%  313.01ms
+     99%  396.96ms
+  75886 requests in 10.00m, 198.51MB read
+Requests/sec:    126.48
+Transfer/sec:    338.78KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   131.47ms  119.63ms 637.80ms   49.23%
+    Req/Sec   128.42    111.56     1.04k    83.75%
+  Latency Distribution
+     50%  125.46ms
+     75%  221.68ms
+     90%  306.95ms
+     99%  394.58ms
+  76690 requests in 10.00m, 200.61MB read
+Requests/sec:    127.80
+Transfer/sec:    342.34KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   132.70ms  119.47ms 962.34ms   48.17%
+    Req/Sec   125.28    103.83   646.00     80.54%
+  Latency Distribution
+     50%  133.57ms
+     75%  222.46ms
+     90%  303.94ms
+     99%  392.47ms
+  74799 requests in 10.00m, 195.67MB read
+Requests/sec:    124.65
+Transfer/sec:    333.90KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   125.35ms  117.69ms 607.07ms   51.28%
+    Req/Sec   138.22    114.80   848.00     80.79%
+  Latency Distribution
+     50%  118.69ms
+     75%  216.21ms
+     90%  298.11ms
+     99%  389.50ms
+  82579 requests in 10.00m, 216.02MB read
+Requests/sec:    137.61
+Transfer/sec:    368.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   128.42ms  118.77ms 708.35ms   49.89%
+    Req/Sec   133.38    116.23     0.87k    83.93%
+  Latency Distribution
+     50%  120.78ms
+     75%  218.91ms
+     90%  303.91ms
+     99%  393.64ms
+  79664 requests in 10.00m, 208.39MB read
+Requests/sec:    132.75
+Transfer/sec:    355.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   130.43ms  120.20ms 635.88ms   48.88%
+    Req/Sec   130.45    112.07   828.00     84.22%
+  Latency Distribution
+     50%  125.04ms
+     75%  221.55ms
+     90%  308.37ms
+     99%  394.01ms
+  77928 requests in 10.00m, 203.85MB read
+Requests/sec:    129.88
+Transfer/sec:    347.90KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   128.33ms  119.06ms 614.82ms   49.90%
+    Req/Sec   133.62    107.97   818.00     80.68%
+  Latency Distribution
+     50%  121.81ms
+     75%  218.96ms
+     90%  304.31ms
+     99%  393.49ms
+  79772 requests in 10.00m, 208.67MB read
+Requests/sec:    132.95
+Transfer/sec:    356.13KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   130.30ms  119.38ms 589.72ms   48.05%
+    Req/Sec   129.99    113.46     0.91k    84.56%
+  Latency Distribution
+     50%  124.73ms
+     75%  221.23ms
+     90%  305.86ms
+     99%  391.84ms
+  77640 requests in 10.00m, 203.10MB read
+Requests/sec:    129.40
+Transfer/sec:    346.61KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   127.84ms  118.37ms 610.61ms   49.71%
+    Req/Sec   133.49    109.98     0.88k    80.89%
+  Latency Distribution
+     50%  122.46ms
+     75%  218.52ms
+     90%  300.08ms
+     99%  392.65ms
+  79749 requests in 10.00m, 208.61MB read
+Requests/sec:    132.90
+Transfer/sec:    355.99KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   133.29ms  120.38ms 667.33ms   47.09%
+    Req/Sec   125.19    103.99   808.00     79.21%
+  Latency Distribution
+     50%  132.38ms
+     75%  223.83ms
+     90%  308.56ms
+     99%  391.56ms
+  74780 requests in 10.00m, 195.62MB read
+Requests/sec:    124.62
+Transfer/sec:    333.82KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   127.42ms  117.77ms 603.62ms   49.36%
+    Req/Sec   133.78    107.16   797.00     80.24%
+  Latency Distribution
+     50%  121.66ms
+     75%  217.62ms
+     90%  299.10ms
+     99%  390.39ms
+  79911 requests in 10.00m, 209.04MB read
+Requests/sec:    133.18
+Transfer/sec:    356.74KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   129.65ms  119.02ms 606.93ms   49.36%
+    Req/Sec   130.73    111.30     1.11k    84.35%
+  Latency Distribution
+     50%  124.64ms
+     75%  219.99ms
+     90%  304.08ms
+     99%  392.67ms
+  78100 requests in 10.00m, 204.30MB read
+Requests/sec:    130.16
+Transfer/sec:    348.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   134.30ms  120.48ms 619.41ms   48.51%
+    Req/Sec   123.95    103.21     1.01k    81.08%
+  Latency Distribution
+     50%  132.75ms
+     75%  224.09ms
+     90%  311.02ms
+     99%  394.15ms
+  74075 requests in 10.00m, 193.77MB read
+Requests/sec:    123.44
+Transfer/sec:    330.66KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   127.31ms  117.97ms 687.91ms   48.52%
+    Req/Sec   134.02    108.27     0.88k    81.59%
+  Latency Distribution
+     50%  122.22ms
+     75%  217.08ms
+     90%  299.19ms
+     99%  391.71ms
+  80117 requests in 10.00m, 209.58MB read
+Requests/sec:    133.51
+Transfer/sec:    357.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   124.61ms  115.31ms 648.35ms   50.10%
+    Req/Sec   136.67    119.23     1.16k    84.15%
+  Latency Distribution
+     50%  119.65ms
+     75%  214.50ms
+     90%  288.70ms
+     99%  389.16ms
+  81655 requests in 10.00m, 213.60MB read
+Requests/sec:    136.08
+Transfer/sec:    364.52KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   124.97ms  117.44ms 626.11ms   51.48%
+    Req/Sec   139.07    121.46     0.86k    83.50%
+  Latency Distribution
+     50%  117.88ms
+     75%  216.16ms
+     90%  297.69ms
+     99%  390.09ms
+  82981 requests in 10.00m, 217.07MB read
+Requests/sec:    138.30
+Transfer/sec:    370.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   131.92ms  120.38ms 606.42ms   46.87%
+    Req/Sec   127.42    109.91     0.93k    84.01%
+  Latency Distribution
+     50%  129.49ms
+     75%  222.89ms
+     90%  307.02ms
+     99%  394.17ms
+  76066 requests in 10.00m, 198.98MB read
+Requests/sec:    126.77
+Transfer/sec:    339.57KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   130.56ms  119.80ms 629.45ms   48.92%
+    Req/Sec   129.72    103.24   700.00     80.83%
+  Latency Distribution
+     50%  126.00ms
+     75%  221.32ms
+     90%  306.55ms
+     99%  392.54ms
+  77464 requests in 10.00m, 202.64MB read
+Requests/sec:    129.09
+Transfer/sec:    345.79KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   127.79ms  118.64ms 631.98ms   49.25%
+    Req/Sec   134.17    113.35   820.00     81.35%
+  Latency Distribution
+     50%  120.93ms
+     75%  218.62ms
+     90%  302.27ms
+     99%  392.54ms
+  80075 requests in 10.00m, 209.47MB read
+Requests/sec:    133.45
+Transfer/sec:    357.47KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   129.71ms  119.85ms 595.39ms   48.67%
+    Req/Sec   131.25    112.96     0.88k    82.95%
+  Latency Distribution
+     50%  125.35ms
+     75%  220.53ms
+     90%  306.11ms
+     99%  393.26ms
+  78427 requests in 10.00m, 205.16MB read
+Requests/sec:    130.71
+Transfer/sec:    350.12KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   135.93ms  120.61ms 648.93ms   47.78%
+    Req/Sec   121.38    101.77   732.00     84.90%
+  Latency Distribution
+     50%  137.69ms
+     75%  225.21ms
+     90%  310.51ms
+     99%  394.65ms
+  72539 requests in 10.00m, 189.75MB read
+Requests/sec:    120.89
+Transfer/sec:    323.83KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   133.87ms  121.58ms 649.91ms   46.89%
+    Req/Sec   125.63    106.71   787.00     83.52%
+  Latency Distribution
+     50%  131.79ms
+     75%  224.88ms
+     90%  312.57ms
+     99%  395.67ms
+  74974 requests in 10.00m, 196.12MB read
+Requests/sec:    124.95
+Transfer/sec:    334.70KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   133.27ms  120.96ms   1.02s    47.63%
+    Req/Sec   125.75    103.22   818.00     80.72%
+  Latency Distribution
+     50%  132.15ms
+     75%  223.39ms
+     90%  310.34ms
+     99%  395.76ms
+  75101 requests in 10.00m, 196.46MB read
+Requests/sec:    125.16
+Transfer/sec:    335.27KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   129.63ms  119.46ms 612.48ms   50.22%
+    Req/Sec   132.06    108.81   840.00     81.21%
+  Latency Distribution
+     50%  120.59ms
+     75%  219.95ms
+     90%  307.61ms
+     99%  395.55ms
+  78856 requests in 10.00m, 206.28MB read
+Requests/sec:    131.41
+Transfer/sec:    352.00KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   134.77ms  120.80ms 590.10ms   48.22%
+    Req/Sec   123.62    101.56     0.91k    80.96%
+  Latency Distribution
+     50%  132.71ms
+     75%  224.56ms
+     90%  312.20ms
+     99%  393.85ms
+  73848 requests in 10.00m, 193.18MB read
+Requests/sec:    123.07
+Transfer/sec:    329.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   129.79ms  119.35ms 633.57ms   49.42%
+    Req/Sec   130.78    110.03   818.00     82.22%
+  Latency Distribution
+     50%  124.64ms
+     75%  220.49ms
+     90%  305.28ms
+     99%  392.62ms
+  78156 requests in 10.00m, 204.45MB read
+Requests/sec:    130.24
+Transfer/sec:    348.87KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   131.08ms  119.20ms 635.74ms   48.63%
+    Req/Sec   128.22    105.13   740.00     81.01%
+  Latency Distribution
+     50%  127.20ms
+     75%  220.86ms
+     90%  305.08ms
+     99%  393.84ms
+  76598 requests in 10.00m, 200.37MB read
+Requests/sec:    127.66
+Transfer/sec:    341.95KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   128.60ms  119.27ms 597.40ms   49.82%
+    Req/Sec   133.06    111.78   828.00     80.44%
+  Latency Distribution
+     50%  122.03ms
+     75%  219.57ms
+     90%  304.26ms
+     99%  392.97ms
+  79493 requests in 10.00m, 207.94MB read
+Requests/sec:    132.48
+Transfer/sec:    354.87KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   131.51ms  120.73ms 753.16ms   48.07%
+    Req/Sec   129.07    109.73     0.86k    84.16%
+  Latency Distribution
+     50%  127.04ms
+     75%  222.41ms
+     90%  309.64ms
+     99%  395.05ms
+  77012 requests in 10.00m, 201.45MB read
+Requests/sec:    128.35
+Transfer/sec:    343.81KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   128.35ms  119.34ms 599.55ms   49.50%
+    Req/Sec   133.23    111.29     0.86k    80.45%
+  Latency Distribution
+     50%  123.14ms
+     75%  219.78ms
+     90%  302.84ms
+     99%  390.95ms
+  79557 requests in 10.00m, 208.11MB read
+Requests/sec:    132.58
+Transfer/sec:    355.14KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   131.52ms  119.49ms 623.55ms   47.82%
+    Req/Sec   127.36    113.83     0.92k    85.32%
+  Latency Distribution
+     50%  128.64ms
+     75%  222.15ms
+     90%  304.99ms
+     99%  391.84ms
+  76086 requests in 10.00m, 199.03MB read
+Requests/sec:    126.79
+Transfer/sec:    339.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   137.33ms  123.44ms 609.10ms   47.23%
+    Req/Sec   121.75    105.99   800.00     83.94%
+  Latency Distribution
+     50%  137.91ms
+     75%  228.25ms
+     90%  318.84ms
+     99%  399.14ms
+  72654 requests in 10.00m, 190.05MB read
+Requests/sec:    121.09
+Transfer/sec:    324.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   133.92ms  119.91ms 607.51ms   47.45%
+    Req/Sec   123.61     99.64   630.00     80.62%
+  Latency Distribution
+     50%  135.28ms
+     75%  223.22ms
+     90%  306.45ms
+     99%  394.78ms
+  73849 requests in 10.00m, 193.18MB read
+Requests/sec:    123.07
+Transfer/sec:    329.66KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   127.77ms  118.04ms 634.15ms   49.70%
+    Req/Sec   133.67    118.70     1.00k    85.04%
+  Latency Distribution
+     50%  121.25ms
+     75%  217.91ms
+     90%  300.67ms
+     99%  391.80ms
+  79804 requests in 10.00m, 208.76MB read
+Requests/sec:    132.99
+Transfer/sec:    356.23KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   129.49ms  119.25ms 701.73ms   49.22%
+    Req/Sec   131.53    101.41     0.87k    74.80%
+  Latency Distribution
+     50%  123.43ms
+     75%  220.05ms
+     90%  305.05ms
+     99%  392.63ms
+  78519 requests in 10.00m, 205.40MB read
+Requests/sec:    130.86
+Transfer/sec:    350.53KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   134.52ms  121.64ms 612.12ms   47.71%
+    Req/Sec   124.40    101.16   663.00     81.52%
+  Latency Distribution
+     50%  132.40ms
+     75%  225.47ms
+     90%  313.07ms
+     99%  395.43ms
+  74276 requests in 10.00m, 194.30MB read
+Requests/sec:    123.79
+Transfer/sec:    331.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   132.49ms  120.78ms 791.25ms   46.90%
+    Req/Sec   126.64    108.71     0.88k    83.60%
+  Latency Distribution
+     50%  131.79ms
+     75%  222.98ms
+     90%  308.61ms
+     99%  393.35ms
+  75664 requests in 10.00m, 197.93MB read
+Requests/sec:    126.09
+Transfer/sec:    337.76KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   123.89ms  116.36ms 627.89ms   51.09%
+    Req/Sec   139.96    117.10     1.04k    81.59%
+  Latency Distribution
+     50%  117.18ms
+     75%  214.46ms
+     90%  293.32ms
+     99%  389.08ms
+  83549 requests in 10.00m, 218.55MB read
+Requests/sec:    139.24
+Transfer/sec:    372.97KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   131.19ms  120.94ms 683.79ms   48.92%
+    Req/Sec   129.77    114.19     0.89k    83.48%
+  Latency Distribution
+     50%  126.54ms
+     75%  222.74ms
+     90%  309.66ms
+     99%  395.21ms
+  77478 requests in 10.00m, 202.67MB read
+Requests/sec:    129.11
+Transfer/sec:    345.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   131.56ms  120.90ms 605.97ms   47.34%
+    Req/Sec   129.09    107.74   818.00     80.16%
+  Latency Distribution
+     50%  126.37ms
+     75%  222.34ms
+     90%  310.29ms
+     99%  394.29ms
+  77083 requests in 10.00m, 201.64MB read
+Requests/sec:    128.47
+Transfer/sec:    344.13KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   134.79ms  121.84ms 862.98ms   48.79%
+    Req/Sec   124.51     99.61   848.00     80.34%
+  Latency Distribution
+     50%  131.21ms
+     75%  225.47ms
+     90%  314.76ms
+     99%  398.03ms
+  74352 requests in 10.00m, 194.50MB read
+Requests/sec:    123.90
+Transfer/sec:    331.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   129.46ms  120.09ms 581.09ms   49.61%
+    Req/Sec   132.42    112.62     0.95k    83.61%
+  Latency Distribution
+     50%  123.03ms
+     75%  220.65ms
+     90%  308.11ms
+     99%  393.65ms
+  79039 requests in 10.00m, 206.76MB read
+Requests/sec:    131.71
+Transfer/sec:    352.82KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   136.03ms  122.11ms 716.63ms   47.60%
+    Req/Sec   122.65    105.76   760.00     83.42%
+  Latency Distribution
+     50%  135.24ms
+     75%  226.16ms
+     90%  315.44ms
+     99%  397.71ms
+  73251 requests in 10.00m, 191.62MB read
+Requests/sec:    122.07
+Transfer/sec:    326.98KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   124.53ms  117.33ms 613.50ms   52.25%
+    Req/Sec   140.11    118.27   818.00     80.70%
+  Latency Distribution
+     50%  116.18ms
+     75%  215.30ms
+     90%  298.14ms
+     99%  390.46ms
+  83680 requests in 10.00m, 218.90MB read
+Requests/sec:    139.45
+Transfer/sec:    373.55KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   127.95ms  118.63ms 651.62ms   49.46%
+    Req/Sec   133.93    117.67     0.91k    84.45%
+  Latency Distribution
+     50%  121.28ms
+     75%  218.83ms
+     90%  302.46ms
+     99%  391.55ms
+  79937 requests in 10.00m, 209.11MB read
+Requests/sec:    133.22
+Transfer/sec:    356.86KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   132.74ms  120.33ms   1.07s    47.58%
+    Req/Sec   126.34    104.88   707.00     80.74%
+  Latency Distribution
+     50%  129.65ms
+     75%  222.61ms
+     90%  308.83ms
+     99%  393.67ms
+  75470 requests in 10.00m, 197.42MB read
+Requests/sec:    125.77
+Transfer/sec:    336.90KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   129.86ms  118.96ms 868.05ms   48.92%
+    Req/Sec   130.55    110.52   808.00     79.99%
+  Latency Distribution
+     50%  123.70ms
+     75%  219.80ms
+     90%  305.19ms
+     99%  392.63ms
+  77933 requests in 10.00m, 203.86MB read
+Requests/sec:    129.89
+Transfer/sec:    347.92KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   139.18ms  122.63ms 598.38ms   47.05%
+    Req/Sec   118.05    103.11   787.00     84.03%
+  Latency Distribution
+     50%  146.10ms
+     75%  228.87ms
+     90%  316.18ms
+     99%  398.11ms
+  70457 requests in 10.00m, 184.31MB read
+Requests/sec:    117.43
+Transfer/sec:    314.55KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   132.93ms  121.06ms 633.12ms   47.32%
+    Req/Sec   126.69    106.61   707.00     80.56%
+  Latency Distribution
+     50%  130.54ms
+     75%  223.09ms
+     90%  311.38ms
+     99%  393.58ms
+  75605 requests in 10.00m, 197.77MB read
+Requests/sec:    125.99
+Transfer/sec:    337.49KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   126.00ms  117.83ms 585.14ms   50.60%
+    Req/Sec   137.14    115.19   790.00     80.96%
+  Latency Distribution
+     50%  118.36ms
+     75%  216.46ms
+     90%  299.56ms
+     99%  392.42ms
+  81850 requests in 10.00m, 214.11MB read
+Requests/sec:    136.41
+Transfer/sec:    365.40KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   138.25ms  121.98ms 596.94ms   47.46%
+    Req/Sec   119.11    104.36   770.00     85.11%
+  Latency Distribution
+     50%  143.58ms
+     75%  227.97ms
+     90%  315.26ms
+     99%  396.05ms
+  71099 requests in 10.00m, 185.99MB read
+Requests/sec:    118.48
+Transfer/sec:    317.37KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   128.48ms  118.98ms 634.99ms   49.92%
+    Req/Sec   133.26    113.78     0.88k    84.05%
+  Latency Distribution
+     50%  121.88ms
+     75%  219.38ms
+     90%  304.03ms
+     99%  393.44ms
+  79579 requests in 10.00m, 208.17MB read
+Requests/sec:    132.61
+Transfer/sec:    355.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   131.56ms  120.39ms 611.30ms   48.02%
+    Req/Sec   128.39    104.28   727.00     80.92%
+  Latency Distribution
+     50%  127.80ms
+     75%  222.97ms
+     90%  307.90ms
+     99%  392.65ms
+  76689 requests in 10.00m, 200.61MB read
+Requests/sec:    127.81
+Transfer/sec:    342.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   126.75ms  119.66ms 794.51ms   53.25%
+    Req/Sec   138.18    113.44     1.05k    80.05%
+  Latency Distribution
+     50%  117.89ms
+     75%  218.33ms
+     90%  305.95ms
+     99%  394.47ms
+  82497 requests in 10.00m, 215.80MB read
+Requests/sec:    137.48
+Transfer/sec:    368.27KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   128.68ms  119.10ms 634.27ms   48.67%
+    Req/Sec   132.56    110.07     0.88k    80.25%
+  Latency Distribution
+     50%  123.71ms
+     75%  219.23ms
+     90%  303.67ms
+     99%  391.98ms
+  79129 requests in 10.00m, 206.99MB read
+Requests/sec:    131.86
+Transfer/sec:    353.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   128.16ms  118.72ms 814.49ms   49.68%
+    Req/Sec   133.32    107.73     0.95k    80.03%
+  Latency Distribution
+     50%  122.17ms
+     75%  218.38ms
+     90%  303.04ms
+     99%  392.29ms
+  79592 requests in 10.00m, 208.20MB read
+Requests/sec:    132.63
+Transfer/sec:    355.28KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   128.76ms  119.71ms 727.05ms   49.81%
+    Req/Sec   133.07    110.15   797.00     81.23%
+  Latency Distribution
+     50%  123.02ms
+     75%  219.76ms
+     90%  305.74ms
+     99%  393.21ms
+  79483 requests in 10.00m, 207.92MB read
+Requests/sec:    132.46
+Transfer/sec:    354.83KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   126.89ms  118.17ms 689.10ms   50.44%
+    Req/Sec   135.32    112.35   841.00     80.22%
+  Latency Distribution
+     50%  119.90ms
+     75%  217.39ms
+     90%  300.41ms
+     99%  391.59ms
+  80805 requests in 10.00m, 211.38MB read
+Requests/sec:    134.65
+Transfer/sec:    360.69KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   127.62ms  118.72ms 609.89ms   48.99%
+    Req/Sec   134.44    112.56   797.00     80.24%
+  Latency Distribution
+     50%  121.44ms
+     75%  218.46ms
+     90%  303.10ms
+     99%  390.65ms
+  80238 requests in 10.00m, 209.89MB read
+Requests/sec:    133.73
+Transfer/sec:    358.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   125.59ms  116.95ms 651.28ms   50.16%
+    Req/Sec   136.68    115.28   808.00     79.78%
+  Latency Distribution
+     50%  119.74ms
+     75%  215.61ms
+     90%  296.32ms
+     99%  389.03ms
+  81599 requests in 10.00m, 213.45MB read
+Requests/sec:    136.00
+Transfer/sec:    364.29KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   129.77ms  119.55ms 630.23ms   48.92%
+    Req/Sec   130.88    110.89   770.00     83.52%
+  Latency Distribution
+     50%  124.05ms
+     75%  221.07ms
+     90%  305.38ms
+     99%  392.43ms
+  78150 requests in 10.00m, 204.43MB read
+Requests/sec:    130.25
+Transfer/sec:    348.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   133.58ms  119.58ms 648.96ms   48.98%
+    Req/Sec   124.70    101.91   640.00     80.98%
+  Latency Distribution
+     50%  131.56ms
+     75%  222.67ms
+     90%  307.90ms
+     99%  393.28ms
+  74382 requests in 10.00m, 194.57MB read
+Requests/sec:    123.96
+Transfer/sec:    332.05KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   135.42ms  120.60ms 612.91ms   49.13%
+    Req/Sec   122.33     98.81     0.88k    81.10%
+  Latency Distribution
+     50%  135.21ms
+     75%  225.06ms
+     90%  311.37ms
+     99%  394.41ms
+  73021 requests in 10.00m, 191.01MB read
+Requests/sec:    121.70
+Transfer/sec:    325.99KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   131.69ms  119.98ms 663.50ms   48.06%
+    Req/Sec   127.68    106.27   690.00     80.40%
+  Latency Distribution
+     50%  128.66ms
+     75%  222.10ms
+     90%  306.24ms
+     99%  393.96ms
+  76220 requests in 10.00m, 199.38MB read
+Requests/sec:    127.02
+Transfer/sec:    340.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   134.23ms  122.56ms 635.25ms   46.66%
+    Req/Sec   125.80    109.44   840.00     83.06%
+  Latency Distribution
+     50%  130.28ms
+     75%  225.97ms
+     90%  315.54ms
+     99%  397.13ms
+  75086 requests in 10.00m, 196.42MB read
+Requests/sec:    125.14
+Transfer/sec:    335.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   128.00ms  118.41ms 607.87ms   49.13%
+    Req/Sec   133.19    108.09     0.90k    80.79%
+  Latency Distribution
+     50%  123.42ms
+     75%  218.65ms
+     90%  300.82ms
+     99%  391.64ms
+  79523 requests in 10.00m, 208.02MB read
+Requests/sec:    132.53
+Transfer/sec:    355.00KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   133.27ms  121.44ms 974.68ms   47.89%
+    Req/Sec   125.99    109.37     0.92k    84.34%
+  Latency Distribution
+     50%  131.60ms
+     75%  224.30ms
+     90%  310.77ms
+     99%  396.11ms
+  75222 requests in 10.00m, 196.77MB read
+Requests/sec:    125.36
+Transfer/sec:    335.81KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   131.06ms  120.22ms 945.64ms   48.96%
+    Req/Sec   129.21    101.55   680.00     79.80%
+  Latency Distribution
+     50%  126.02ms
+     75%  221.98ms
+     90%  307.77ms
+     99%  394.04ms
+  77171 requests in 10.00m, 201.87MB read
+Requests/sec:    128.60
+Transfer/sec:    344.49KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   129.47ms  119.12ms 599.06ms   48.38%
+    Req/Sec   131.21    114.13   750.00     83.40%
+  Latency Distribution
+     50%  123.71ms
+     75%  220.31ms
+     90%  304.99ms
+     99%  392.33ms
+  78322 requests in 10.00m, 204.88MB read
+Requests/sec:    130.53
+Transfer/sec:    349.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   127.36ms  118.52ms 600.51ms   50.26%
+    Req/Sec   135.23    119.78   848.00     83.92%
+  Latency Distribution
+     50%  119.36ms
+     75%  218.51ms
+     90%  302.74ms
+     99%  391.54ms
+  80730 requests in 10.00m, 211.18MB read
+Requests/sec:    134.53
+Transfer/sec:    360.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   124.27ms  116.69ms 594.55ms   52.20%
+    Req/Sec   139.44    117.88   848.00     79.97%
+  Latency Distribution
+     50%  117.75ms
+     75%  214.67ms
+     90%  294.96ms
+     99%  389.54ms
+  83223 requests in 10.00m, 217.70MB read
+Requests/sec:    138.69
+Transfer/sec:    371.50KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   130.66ms  119.22ms 635.17ms   48.99%
+    Req/Sec   129.46    108.00   810.00     81.59%
+  Latency Distribution
+     50%  124.40ms
+     75%  221.16ms
+     90%  306.33ms
+     99%  392.84ms
+  77262 requests in 10.00m, 202.11MB read
+Requests/sec:    128.77
+Transfer/sec:    344.93KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   133.04ms  121.80ms 612.92ms   48.17%
+    Req/Sec   127.10    109.91     1.06k    84.22%
+  Latency Distribution
+     50%  129.01ms
+     75%  224.85ms
+     90%  312.94ms
+     99%  396.95ms
+  75933 requests in 10.00m, 198.63MB read
+Requests/sec:    126.54
+Transfer/sec:    338.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   127.62ms  117.85ms 585.20ms   49.95%
+    Req/Sec   134.08    104.28   780.00     79.58%
+  Latency Distribution
+     50%  120.49ms
+     75%  217.49ms
+     90%  301.36ms
+     99%  391.00ms
+  80000 requests in 10.00m, 209.27MB read
+Requests/sec:    133.31
+Transfer/sec:    357.10KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   124.11ms  116.79ms 750.03ms   51.82%
+    Req/Sec   140.25    117.48   790.00     80.57%
+  Latency Distribution
+     50%  116.04ms
+     75%  214.49ms
+     90%  295.46ms
+     99%  390.96ms
+  83764 requests in 10.00m, 219.12MB read
+Requests/sec:    139.60
+Transfer/sec:    373.93KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   130.19ms  119.15ms 594.37ms   48.99%
+    Req/Sec   129.45    112.01     0.95k    84.09%
+  Latency Distribution
+     50%  126.73ms
+     75%  220.79ms
+     90%  303.10ms
+     99%  391.95ms
+  77275 requests in 10.00m, 202.14MB read
+Requests/sec:    128.78
+Transfer/sec:    344.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   121.77ms  116.29ms 612.48ms   57.53%
+    Req/Sec   146.08    119.31     0.92k    80.69%
+  Latency Distribution
+     50%  112.54ms
+     75%  212.29ms
+     90%  294.95ms
+     99%  389.92ms
+  87192 requests in 10.00m, 228.08MB read
+Requests/sec:    145.31
+Transfer/sec:    389.23KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   132.04ms  121.02ms 688.15ms   47.54%
+    Req/Sec   128.12    105.87     0.89k    79.58%
+  Latency Distribution
+     50%  127.10ms
+     75%  223.30ms
+     90%  309.80ms
+     99%  395.98ms
+  76498 requests in 10.00m, 200.11MB read
+Requests/sec:    127.49
+Transfer/sec:    341.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   123.54ms  115.89ms 626.35ms   50.51%
+    Req/Sec   140.29    117.03   830.00     79.77%
+  Latency Distribution
+     50%  117.15ms
+     75%  213.51ms
+     90%  292.03ms
+     99%  388.43ms
+  83691 requests in 10.00m, 218.93MB read
+Requests/sec:    139.47
+Transfer/sec:    373.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   126.80ms  117.35ms   1.03s    50.47%
+    Req/Sec   135.07    114.45     1.37k    80.89%
+  Latency Distribution
+     50%  119.16ms
+     75%  216.89ms
+     90%  298.80ms
+     99%  391.63ms
+  80634 requests in 10.00m, 210.93MB read
+Requests/sec:    134.37
+Transfer/sec:    359.94KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   123.86ms  116.25ms 682.83ms   51.73%
+    Req/Sec   139.63    111.69     0.87k    80.73%
+  Latency Distribution
+     50%  117.52ms
+     75%  214.73ms
+     90%  292.08ms
+     99%  389.09ms
+  83416 requests in 10.00m, 218.21MB read
+Requests/sec:    139.00
+Transfer/sec:    372.35KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   129.43ms  118.97ms 613.72ms   48.97%
+    Req/Sec   131.18    108.55     0.89k    79.12%
+  Latency Distribution
+     50%  123.72ms
+     75%  219.73ms
+     90%  303.61ms
+     99%  392.29ms
+  78282 requests in 10.00m, 204.78MB read
+Requests/sec:    130.45
+Transfer/sec:    349.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   129.32ms  119.23ms 596.85ms   47.97%
+    Req/Sec   131.17    117.17     0.96k    83.97%
+  Latency Distribution
+     50%  125.22ms
+     75%  220.49ms
+     90%  303.67ms
+     99%  392.21ms
+  78373 requests in 10.00m, 205.01MB read
+Requests/sec:    130.60
+Transfer/sec:    349.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   127.29ms  119.70ms 709.58ms   50.88%
+    Req/Sec   136.99    116.82     0.93k    79.62%
+  Latency Distribution
+     50%  117.94ms
+     75%  219.50ms
+     90%  306.70ms
+     99%  392.86ms
+  81752 requests in 10.00m, 213.85MB read
+Requests/sec:    136.24
+Transfer/sec:    364.93KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   138.13ms  122.58ms   1.11s    47.93%
+    Req/Sec   119.64    100.75   790.00     84.10%
+  Latency Distribution
+     50%  142.46ms
+     75%  228.08ms
+     90%  316.42ms
+     99%  397.42ms
+  71447 requests in 10.00m, 186.90MB read
+Requests/sec:    119.06
+Transfer/sec:    318.93KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   131.82ms  120.70ms 582.56ms   48.10%
+    Req/Sec   128.36    108.77   767.00     84.07%
+  Latency Distribution
+     50%  126.79ms
+     75%  222.95ms
+     90%  310.32ms
+     99%  393.36ms
+  76641 requests in 10.00m, 200.48MB read
+Requests/sec:    127.73
+Transfer/sec:    342.13KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   126.36ms  116.77ms 611.68ms   49.38%
+    Req/Sec   134.87    110.41     0.89k    81.18%
+  Latency Distribution
+     50%  120.53ms
+     75%  216.44ms
+     90%  295.46ms
+     99%  390.15ms
+  80573 requests in 10.00m, 210.77MB read
+Requests/sec:    134.28
+Transfer/sec:    359.70KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   128.84ms  119.77ms 802.59ms   50.87%
+    Req/Sec   133.81    110.60     0.95k    80.63%
+  Latency Distribution
+     50%  119.77ms
+     75%  220.21ms
+     90%  308.18ms
+     99%  393.94ms
+  79933 requests in 10.00m, 209.10MB read
+Requests/sec:    133.20
+Transfer/sec:    356.80KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   128.03ms  118.84ms 863.69ms   49.53%
+    Req/Sec   133.20    112.38     0.88k    80.89%
+  Latency Distribution
+     50%  123.30ms
+     75%  219.43ms
+     90%  301.68ms
+     99%  391.89ms
+  79568 requests in 10.00m, 208.14MB read
+Requests/sec:    132.59
+Transfer/sec:    355.17KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   131.14ms  119.38ms 637.39ms   48.05%
+    Req/Sec   128.31    103.41   808.00     79.95%
+  Latency Distribution
+     50%  127.44ms
+     75%  220.50ms
+     90%  306.26ms
+     99%  393.40ms
+  76658 requests in 10.00m, 200.53MB read
+Requests/sec:    127.75
+Transfer/sec:    342.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   124.48ms  117.37ms 625.45ms   52.00%
+    Req/Sec   139.83    114.64     0.85k    81.56%
+  Latency Distribution
+     50%  117.08ms
+     75%  214.98ms
+     90%  297.49ms
+     99%  390.28ms
+  83517 requests in 10.00m, 218.47MB read
+Requests/sec:    139.18
+Transfer/sec:    372.82KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   125.54ms  117.87ms 606.39ms   50.31%
+    Req/Sec   138.60    117.57     1.40k    80.38%
+  Latency Distribution
+     50%  117.23ms
+     75%  215.89ms
+     90%  300.73ms
+     99%  389.43ms
+  82717 requests in 10.00m, 216.38MB read
+Requests/sec:    137.85
+Transfer/sec:    369.26KB
++ (( j++ ))
++ (( j<100 ))
++ file=82
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=83
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=84
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=85
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=86
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=87
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=88
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=89
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=90
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=91
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=92
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=93
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=94
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=95
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=96
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=97
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=98
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=99
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ wait
++ for pod in 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
++ scs nginx-ingress-controller 4
+deployment.apps/nginx-ingress-controller scaled
++ cp -rf box ips
++ date
+Mon Jul 20 11:19:36 UTC 2020
++ dir=https.ingress.svc..4
++ ./2020-06-28-main.just.ingress.svc.sh https.ingress.svc..4
+Warning: Permanently added '10.1.0.22' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.67' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.56' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.23' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.100' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.89' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.45' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.32' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.25' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.78' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.33' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.26' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.28' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.24' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.34' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.30' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.111' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.41' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.29' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.31' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.27' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.46' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.53' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.38' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.42' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.43' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.39' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.40' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.48' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.49' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.35' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.47' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.44' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.51' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.57' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.55' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.50' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.52' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.60' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.54' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.59' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.36' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.37' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.58' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.61' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.63' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.65' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.62' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.68' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.64' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.69' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.66' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.71' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.70' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.72' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.81' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.74' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.77' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.75' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.76' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.79' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.73' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.80' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.82' (ECDSA) to the list of known hosts.
++ sleep 30
+Warning: Permanently added '10.1.0.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.91' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.83' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.88' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.85' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.87' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.92' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.95' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.99' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.97' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.98' (ECDSA) to the list of known hosts.
+sh: 1: wrk: not found
+Warning: Permanently added '10.1.0.86' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.105' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.84' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.93' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.94' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.110' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.101' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.104' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.102' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.108' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.114' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.113' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.106' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.119' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.109' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.112' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.103' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.117' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.118' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.115' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.107' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.132' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.116' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.133' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+sh: 1: wrk: not found
++ (( j=0 ))
++ (( j<100 ))
++ file=0
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=1
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=2
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=3
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=4
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=5
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=6
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=7
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=8
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=9
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=10
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=11
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=12
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=13
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=14
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=15
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=16
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=17
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=18
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=19
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=20
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=21
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=22
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=23
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=24
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=25
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=26
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=27
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=28
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=29
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=30
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=31
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=32
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=33
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=34
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=35
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=36
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=37
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=38
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=39
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=40
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=41
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=42
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=43
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=44
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=45
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=46
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=47
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=48
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=49
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=50
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=51
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=52
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=53
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=54
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=55
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=56
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=57
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=58
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=59
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=60
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=61
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=62
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=63
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=64
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=65
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=66
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=67
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=68
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=69
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=70
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=71
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=72
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=73
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=74
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=75
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=76
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=77
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=78
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=79
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=80
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=81
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=82
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   153.28ms  129.09ms 680.06ms   47.86%
+    Req/Sec   104.96     91.27   808.00     85.04%
+  Latency Distribution
+     50%  167.29ms
+     75%  243.09ms
+     90%  338.41ms
+     99%  421.04ms
+  62744 requests in 10.00m, 164.13MB read
+Requests/sec:    104.57
+Transfer/sec:    280.11KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.42ms  130.40ms   1.23s    47.46%
+    Req/Sec   103.33     91.02     0.89k    84.78%
+  Latency Distribution
+     50%  168.95ms
+     75%  246.48ms
+     90%  341.38ms
+     99%  423.17ms
+  61745 requests in 10.00m, 161.52MB read
+Requests/sec:    102.91
+Transfer/sec:    275.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   159.97ms  129.83ms 656.24ms   48.24%
+    Req/Sec    98.75     87.90   820.00     85.44%
+  Latency Distribution
+     50%  175.02ms
+     75%  251.04ms
+     90%  342.98ms
+     99%  422.40ms
+  59015 requests in 10.00m, 154.38MB read
+Requests/sec:     98.35
+Transfer/sec:    263.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   159.17ms  129.70ms 668.79ms   48.53%
+    Req/Sec    99.48     86.84   757.00     85.10%
+  Latency Distribution
+     50%  174.54ms
+     75%  249.03ms
+     90%  342.49ms
+     99%  423.09ms
+  59461 requests in 10.00m, 155.54MB read
+Requests/sec:     99.09
+Transfer/sec:    265.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.92ms  131.60ms 737.53ms   47.01%
+    Req/Sec   103.21     90.45   760.00     84.21%
+  Latency Distribution
+     50%  170.59ms
+     75%  249.61ms
+     90%  343.09ms
+     99%  423.24ms
+  61627 requests in 10.00m, 161.21MB read
+Requests/sec:    102.71
+Transfer/sec:    275.13KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   146.79ms  128.88ms 737.48ms   46.05%
+    Req/Sec   111.81     98.91     0.89k    82.92%
+  Latency Distribution
+     50%  158.87ms
+     75%  238.73ms
+     90%  332.70ms
+     99%  419.11ms
+  66796 requests in 10.00m, 174.73MB read
+Requests/sec:    111.31
+Transfer/sec:    298.17KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   154.91ms  128.94ms 676.70ms   47.72%
+    Req/Sec   103.07     93.91   790.00     85.85%
+  Latency Distribution
+     50%  171.55ms
+     75%  244.24ms
+     90%  337.21ms
+     99%  420.12ms
+  61597 requests in 10.00m, 161.13MB read
+Requests/sec:    102.65
+Transfer/sec:    274.97KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.86ms  130.47ms 733.03ms   47.15%
+    Req/Sec   102.69     94.48   666.00     85.25%
+  Latency Distribution
+     50%  171.66ms
+     75%  248.01ms
+     90%  340.81ms
+     99%  421.14ms
+  61334 requests in 10.00m, 160.44MB read
+Requests/sec:    102.22
+Transfer/sec:    273.81KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   148.50ms  129.79ms 672.48ms   45.63%
+    Req/Sec   110.47     97.87   666.00     83.51%
+  Latency Distribution
+     50%  159.86ms
+     75%  239.82ms
+     90%  336.28ms
+     99%  419.62ms
+  66005 requests in 10.00m, 172.66MB read
+Requests/sec:    110.00
+Transfer/sec:    294.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   160.14ms  130.54ms 658.58ms   47.82%
+    Req/Sec    98.83     87.70   740.00     84.72%
+  Latency Distribution
+     50%  175.13ms
+     75%  251.76ms
+     90%  344.41ms
+     99%  422.64ms
+  59038 requests in 10.00m, 154.44MB read
+Requests/sec:     98.39
+Transfer/sec:    263.56KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.59ms  130.43ms 666.47ms   46.98%
+    Req/Sec   103.12     93.92   720.00     85.69%
+  Latency Distribution
+     50%  170.86ms
+     75%  246.57ms
+     90%  341.61ms
+     99%  422.38ms
+  61580 requests in 10.00m, 161.09MB read
+Requests/sec:    102.62
+Transfer/sec:    274.88KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   160.82ms  130.09ms 784.91ms   48.19%
+    Req/Sec    98.25     88.22   767.00     85.14%
+  Latency Distribution
+     50%  175.14ms
+     75%  250.76ms
+     90%  343.90ms
+     99%  424.21ms
+  58645 requests in 10.00m, 153.41MB read
+Requests/sec:     97.74
+Transfer/sec:    261.81KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   146.57ms  127.81ms   1.39s    46.92%
+    Req/Sec   111.46    103.74   840.00     85.50%
+  Latency Distribution
+     50%  159.85ms
+     75%  236.80ms
+     90%  329.30ms
+     99%  416.11ms
+  66601 requests in 10.00m, 174.22MB read
+Requests/sec:    111.00
+Transfer/sec:    297.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   153.83ms  129.07ms 734.00ms   47.51%
+    Req/Sec   104.09     93.15   797.00     84.50%
+  Latency Distribution
+     50%  170.63ms
+     75%  244.58ms
+     90%  336.98ms
+     99%  419.47ms
+  62177 requests in 10.00m, 162.65MB read
+Requests/sec:    103.62
+Transfer/sec:    277.56KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   153.29ms  127.95ms 671.96ms   48.44%
+    Req/Sec   104.69     91.44   787.00     84.60%
+  Latency Distribution
+     50%  167.74ms
+     75%  240.49ms
+     90%  336.97ms
+     99%  420.54ms
+  62532 requests in 10.00m, 163.58MB read
+Requests/sec:    104.21
+Transfer/sec:    279.14KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   160.63ms  130.24ms 671.54ms   48.72%
+    Req/Sec    98.31     86.42   800.00     85.18%
+  Latency Distribution
+     50%  176.61ms
+     75%  251.74ms
+     90%  343.73ms
+     99%  423.78ms
+  58710 requests in 10.00m, 153.58MB read
+Requests/sec:     97.84
+Transfer/sec:    262.08KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   154.04ms  126.96ms 736.14ms   48.84%
+    Req/Sec   103.65     90.08   660.00     84.51%
+  Latency Distribution
+     50%  168.04ms
+     75%  240.40ms
+     90%  335.51ms
+     99%  418.12ms
+  61932 requests in 10.00m, 162.01MB read
+Requests/sec:    103.21
+Transfer/sec:    276.47KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   157.42ms  129.98ms 704.08ms   47.79%
+    Req/Sec   101.22     94.45     0.92k    86.13%
+  Latency Distribution
+     50%  172.02ms
+     75%  246.92ms
+     90%  341.89ms
+     99%  421.65ms
+  60473 requests in 10.00m, 158.19MB read
+Requests/sec:    100.78
+Transfer/sec:    269.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   151.15ms  129.70ms 763.38ms   46.34%
+    Req/Sec   107.49     96.28   750.00     85.17%
+  Latency Distribution
+     50%  163.35ms
+     75%  242.22ms
+     90%  337.37ms
+     99%  420.27ms
+  64213 requests in 10.00m, 167.97MB read
+Requests/sec:    107.02
+Transfer/sec:    286.66KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   152.17ms  129.45ms 755.27ms   46.69%
+    Req/Sec   106.10     94.61   767.00     84.05%
+  Latency Distribution
+     50%  166.37ms
+     75%  242.32ms
+     90%  336.87ms
+     99%  420.48ms
+  63355 requests in 10.00m, 165.73MB read
+Requests/sec:    105.59
+Transfer/sec:    282.83KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   149.53ms  128.58ms 734.42ms   46.97%
+    Req/Sec   108.71     96.65   800.00     84.49%
+  Latency Distribution
+     50%  162.47ms
+     75%  238.81ms
+     90%  335.07ms
+     99%  418.92ms
+  64963 requests in 10.00m, 169.94MB read
+Requests/sec:    108.27
+Transfer/sec:    290.01KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   151.73ms  128.75ms 670.69ms   47.75%
+    Req/Sec   106.63     91.04     0.97k    83.34%
+  Latency Distribution
+     50%  164.39ms
+     75%  241.01ms
+     90%  337.69ms
+     99%  420.42ms
+  63664 requests in 10.00m, 166.54MB read
+Requests/sec:    106.11
+Transfer/sec:    284.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   149.00ms  129.93ms 701.20ms   45.76%
+    Req/Sec   109.69     96.65     0.94k    82.97%
+  Latency Distribution
+     50%  162.80ms
+     75%  241.52ms
+     90%  334.92ms
+     99%  420.09ms
+  65507 requests in 10.00m, 171.36MB read
+Requests/sec:    109.17
+Transfer/sec:    292.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   151.40ms  129.43ms 668.11ms   46.61%
+    Req/Sec   107.01     97.72   760.00     86.06%
+  Latency Distribution
+     50%  165.41ms
+     75%  243.85ms
+     90%  336.08ms
+     99%  419.45ms
+  63864 requests in 10.00m, 167.06MB read
+Requests/sec:    106.44
+Transfer/sec:    285.10KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   156.42ms  129.95ms 700.60ms   47.73%
+    Req/Sec   102.32     94.00     0.86k    86.14%
+  Latency Distribution
+     50%  170.24ms
+     75%  247.36ms
+     90%  341.51ms
+     99%  421.54ms
+  61066 requests in 10.00m, 159.74MB read
+Requests/sec:    101.77
+Transfer/sec:    272.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   154.82ms  129.86ms 669.35ms   46.87%
+    Req/Sec   103.51     93.59   760.00     85.41%
+  Latency Distribution
+     50%  171.29ms
+     75%  245.57ms
+     90%  339.03ms
+     99%  420.16ms
+  61787 requests in 10.00m, 161.63MB read
+Requests/sec:    102.98
+Transfer/sec:    275.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   157.27ms  130.22ms 702.20ms   47.36%
+    Req/Sec   101.43     92.09   690.00     86.49%
+  Latency Distribution
+     50%  171.22ms
+     75%  249.24ms
+     90%  341.33ms
+     99%  423.54ms
+  60581 requests in 10.00m, 158.47MB read
+Requests/sec:    100.96
+Transfer/sec:    270.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   149.40ms  129.77ms 684.03ms   46.00%
+    Req/Sec   109.39     99.79     0.85k    84.61%
+  Latency Distribution
+     50%  161.70ms
+     75%  241.23ms
+     90%  336.43ms
+     99%  420.29ms
+  65298 requests in 10.00m, 170.81MB read
+Requests/sec:    108.83
+Transfer/sec:    291.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   149.63ms  128.46ms 735.74ms   46.69%
+    Req/Sec   108.45     96.45     0.87k    83.90%
+  Latency Distribution
+     50%  162.97ms
+     75%  240.30ms
+     90%  333.37ms
+     99%  418.58ms
+  64739 requests in 10.00m, 169.35MB read
+Requests/sec:    107.89
+Transfer/sec:    288.99KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   151.40ms  127.43ms 701.97ms   48.26%
+    Req/Sec   106.44     94.47   830.00     84.50%
+  Latency Distribution
+     50%  165.24ms
+     75%  238.21ms
+     90%  334.69ms
+     99%  419.05ms
+  63615 requests in 10.00m, 166.41MB read
+Requests/sec:    106.01
+Transfer/sec:    283.97KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   150.87ms  126.83ms 669.78ms   47.64%
+    Req/Sec   106.35    100.29   848.00     86.53%
+  Latency Distribution
+     50%  166.56ms
+     75%  237.85ms
+     90%  331.18ms
+     99%  417.07ms
+  63533 requests in 10.00m, 166.19MB read
+Requests/sec:    105.87
+Transfer/sec:    283.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   152.32ms  129.38ms 668.88ms   46.71%
+    Req/Sec   106.10     95.19   707.00     84.62%
+  Latency Distribution
+     50%  166.38ms
+     75%  241.88ms
+     90%  337.91ms
+     99%  420.50ms
+  63366 requests in 10.00m, 165.76MB read
+Requests/sec:    105.59
+Transfer/sec:    282.85KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   154.14ms  130.27ms 735.50ms   47.04%
+    Req/Sec   104.49     93.11   650.00     84.35%
+  Latency Distribution
+     50%  168.38ms
+     75%  246.33ms
+     90%  340.05ms
+     99%  421.05ms
+  62393 requests in 10.00m, 163.21MB read
+Requests/sec:    103.98
+Transfer/sec:    278.53KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   157.12ms  130.15ms 675.83ms   47.56%
+    Req/Sec   101.69     92.59     0.89k    86.41%
+  Latency Distribution
+     50%  171.40ms
+     75%  248.25ms
+     90%  342.34ms
+     99%  422.12ms
+  60657 requests in 10.00m, 158.67MB read
+Requests/sec:    101.09
+Transfer/sec:    270.78KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.06ms  129.15ms 668.90ms   48.44%
+    Req/Sec   103.52     92.26   656.00     84.65%
+  Latency Distribution
+     50%  168.82ms
+     75%  244.05ms
+     90%  340.59ms
+     99%  421.26ms
+  61770 requests in 10.00m, 161.58MB read
+Requests/sec:    102.94
+Transfer/sec:    275.74KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   153.11ms  128.50ms 689.17ms   48.40%
+    Req/Sec   105.23    100.11     0.98k    86.73%
+  Latency Distribution
+     50%  164.79ms
+     75%  241.71ms
+     90%  338.33ms
+     99%  420.64ms
+  62808 requests in 10.00m, 164.30MB read
+Requests/sec:    104.68
+Transfer/sec:    280.40KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   153.98ms  129.08ms 669.80ms   49.01%
+    Req/Sec   104.42     92.99   737.00     84.47%
+  Latency Distribution
+     50%  167.18ms
+     75%  244.55ms
+     90%  338.67ms
+     99%  422.35ms
+  62377 requests in 10.00m, 163.17MB read
+Requests/sec:    103.95
+Transfer/sec:    278.44KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   147.48ms  130.56ms 678.83ms   45.16%
+    Req/Sec   111.87    103.60     0.89k    84.87%
+  Latency Distribution
+     50%  158.98ms
+     75%  241.48ms
+     90%  336.02ms
+     99%  419.75ms
+  66791 requests in 10.00m, 174.72MB read
+Requests/sec:    111.31
+Transfer/sec:    298.16KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   153.93ms  131.30ms 677.44ms   46.37%
+    Req/Sec   105.11     97.70   720.00     85.54%
+  Latency Distribution
+     50%  168.45ms
+     75%  246.89ms
+     90%  341.67ms
+     99%  422.50ms
+  62737 requests in 10.00m, 164.11MB read
+Requests/sec:    104.56
+Transfer/sec:    280.07KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   152.73ms  128.58ms 673.27ms   47.70%
+    Req/Sec   105.60     90.58   767.00     84.24%
+  Latency Distribution
+     50%  166.20ms
+     75%  241.26ms
+     90%  337.57ms
+     99%  420.85ms
+  63000 requests in 10.00m, 164.80MB read
+Requests/sec:    104.99
+Transfer/sec:    281.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   148.47ms  127.47ms 674.72ms   47.08%
+    Req/Sec   109.17     96.40   808.00     84.70%
+  Latency Distribution
+     50%  162.15ms
+     75%  237.93ms
+     90%  330.98ms
+     99%  417.47ms
+  65220 requests in 10.00m, 170.61MB read
+Requests/sec:    108.69
+Transfer/sec:    291.14KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   152.40ms  129.79ms 736.68ms   46.85%
+    Req/Sec   106.26     94.65   797.00     84.68%
+  Latency Distribution
+     50%  164.60ms
+     75%  243.25ms
+     90%  339.55ms
+     99%  420.53ms
+  63440 requests in 10.00m, 165.95MB read
+Requests/sec:    105.73
+Transfer/sec:    283.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.03ms  130.03ms 679.88ms   47.26%
+    Req/Sec   103.48     95.96     0.92k    85.74%
+  Latency Distribution
+     50%  169.19ms
+     75%  246.56ms
+     90%  339.31ms
+     99%  422.38ms
+  61772 requests in 10.00m, 161.59MB read
+Requests/sec:    102.94
+Transfer/sec:    275.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   151.76ms  128.70ms 686.79ms   47.36%
+    Req/Sec   106.56     99.73     1.00k    86.54%
+  Latency Distribution
+     50%  164.01ms
+     75%  241.94ms
+     90%  337.44ms
+     99%  419.53ms
+  63626 requests in 10.00m, 166.44MB read
+Requests/sec:    106.04
+Transfer/sec:    284.05KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   154.94ms  128.76ms 662.57ms   48.37%
+    Req/Sec   103.22     87.43   750.00     84.18%
+  Latency Distribution
+     50%  169.91ms
+     75%  243.15ms
+     90%  338.62ms
+     99%  422.06ms
+  61652 requests in 10.00m, 161.27MB read
+Requests/sec:    102.75
+Transfer/sec:    275.23KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   160.55ms  128.55ms 681.61ms   49.53%
+    Req/Sec    98.05     85.81   640.00     85.32%
+  Latency Distribution
+     50%  176.04ms
+     75%  248.55ms
+     90%  341.38ms
+     99%  421.93ms
+  58519 requests in 10.00m, 153.08MB read
+Requests/sec:     97.52
+Transfer/sec:    261.23KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   153.50ms  129.74ms 735.03ms   47.18%
+    Req/Sec   104.93     97.07   838.00     85.74%
+  Latency Distribution
+     50%  168.23ms
+     75%  244.16ms
+     90%  338.67ms
+     99%  421.48ms
+  62600 requests in 10.00m, 163.75MB read
+Requests/sec:    104.33
+Transfer/sec:    279.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   154.33ms  129.18ms 664.57ms   47.64%
+    Req/Sec   104.03     91.49   686.00     84.41%
+  Latency Distribution
+     50%  167.92ms
+     75%  243.77ms
+     90%  340.17ms
+     99%  421.00ms
+  62117 requests in 10.00m, 162.49MB read
+Requests/sec:    103.53
+Transfer/sec:    277.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   145.60ms  129.06ms 682.32ms   45.99%
+    Req/Sec   113.31    101.53   757.00     83.33%
+  Latency Distribution
+     50%  157.04ms
+     75%  237.30ms
+     90%  332.01ms
+     99%  419.46ms
+  67654 requests in 10.00m, 176.97MB read
+Requests/sec:    112.74
+Transfer/sec:    301.99KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   152.68ms  129.27ms 616.68ms   47.22%
+    Req/Sec   105.68     92.34   640.00     84.90%
+  Latency Distribution
+     50%  166.06ms
+     75%  243.01ms
+     90%  338.39ms
+     99%  420.34ms
+  63122 requests in 10.00m, 165.12MB read
+Requests/sec:    105.19
+Transfer/sec:    281.78KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   149.89ms  128.22ms 734.74ms   45.95%
+    Req/Sec   107.81    103.00     1.01k    85.28%
+  Latency Distribution
+     50%  165.91ms
+     75%  239.80ms
+     90%  332.24ms
+     99%  416.67ms
+  64370 requests in 10.00m, 168.38MB read
+Requests/sec:    107.28
+Transfer/sec:    287.37KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   153.25ms  129.16ms 665.38ms   47.50%
+    Req/Sec   105.01     91.42     0.90k    83.38%
+  Latency Distribution
+     50%  167.24ms
+     75%  243.62ms
+     90%  338.21ms
+     99%  420.42ms
+  62710 requests in 10.00m, 164.04MB read
+Requests/sec:    104.50
+Transfer/sec:    279.92KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   153.25ms  129.69ms 672.35ms   46.90%
+    Req/Sec   105.09    102.60     1.15k    86.11%
+  Latency Distribution
+     50%  167.55ms
+     75%  244.22ms
+     90%  338.91ms
+     99%  420.02ms
+  62775 requests in 10.00m, 164.21MB read
+Requests/sec:    104.61
+Transfer/sec:    280.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   151.39ms  130.08ms 656.50ms   47.24%
+    Req/Sec   107.69     95.24     0.88k    84.44%
+  Latency Distribution
+     50%  161.46ms
+     75%  244.19ms
+     90%  339.46ms
+     99%  420.25ms
+  64273 requests in 10.00m, 168.13MB read
+Requests/sec:    107.12
+Transfer/sec:    286.93KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   157.29ms  130.18ms 679.60ms   47.59%
+    Req/Sec   101.60     90.09   640.00     84.81%
+  Latency Distribution
+     50%  170.13ms
+     75%  248.46ms
+     90%  343.18ms
+     99%  421.77ms
+  60653 requests in 10.00m, 158.66MB read
+Requests/sec:    101.08
+Transfer/sec:    270.75KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   154.63ms  130.53ms 768.15ms   46.60%
+    Req/Sec   103.92     93.33   660.00     84.02%
+  Latency Distribution
+     50%  168.79ms
+     75%  247.35ms
+     90%  340.31ms
+     99%  421.73ms
+  62085 requests in 10.00m, 162.41MB read
+Requests/sec:    103.47
+Transfer/sec:    277.15KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   153.08ms  129.41ms 678.74ms   47.38%
+    Req/Sec   105.28     97.07     0.86k    86.05%
+  Latency Distribution
+     50%  166.40ms
+     75%  244.04ms
+     90%  338.40ms
+     99%  419.93ms
+  62816 requests in 10.00m, 164.32MB read
+Requests/sec:    104.69
+Transfer/sec:    280.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   148.35ms  128.16ms 735.54ms   46.26%
+    Req/Sec   109.62     95.02     0.86k    83.87%
+  Latency Distribution
+     50%  161.39ms
+     75%  238.88ms
+     90%  332.52ms
+     99%  417.24ms
+  65459 requests in 10.00m, 171.23MB read
+Requests/sec:    109.09
+Transfer/sec:    292.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   154.22ms  127.45ms 663.06ms   48.40%
+    Req/Sec   103.45     92.12   696.00     85.06%
+  Latency Distribution
+     50%  169.67ms
+     75%  241.17ms
+     90%  335.79ms
+     99%  418.78ms
+  61755 requests in 10.00m, 161.54MB read
+Requests/sec:    102.91
+Transfer/sec:    275.66KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   149.52ms  128.07ms 619.21ms   47.19%
+    Req/Sec   108.30     96.56   848.00     84.30%
+  Latency Distribution
+     50%  163.82ms
+     75%  239.78ms
+     90%  332.45ms
+     99%  418.73ms
+  64628 requests in 10.00m, 169.06MB read
+Requests/sec:    107.71
+Transfer/sec:    288.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   156.78ms  128.07ms 738.32ms   48.29%
+    Req/Sec   101.07     92.41     0.94k    87.04%
+  Latency Distribution
+     50%  172.79ms
+     75%  244.77ms
+     90%  337.32ms
+     99%  419.55ms
+  60350 requests in 10.00m, 157.87MB read
+Requests/sec:    100.58
+Transfer/sec:    269.41KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   148.65ms  127.43ms 680.80ms   47.12%
+    Req/Sec   108.96     93.07   730.00     83.68%
+  Latency Distribution
+     50%  163.10ms
+     75%  238.40ms
+     90%  330.45ms
+     99%  417.38ms
+  65038 requests in 10.00m, 170.13MB read
+Requests/sec:    108.38
+Transfer/sec:    290.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   150.32ms  130.41ms 651.40ms   45.62%
+    Req/Sec   108.26    100.95     0.90k    85.16%
+  Latency Distribution
+     50%  163.41ms
+     75%  244.22ms
+     90%  337.31ms
+     99%  420.29ms
+  64658 requests in 10.00m, 169.14MB read
+Requests/sec:    107.76
+Transfer/sec:    288.66KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   156.49ms  131.38ms 682.75ms   47.02%
+    Req/Sec   102.54     90.40   717.00     85.01%
+  Latency Distribution
+     50%  170.34ms
+     75%  249.99ms
+     90%  343.59ms
+     99%  423.90ms
+  61238 requests in 10.00m, 160.19MB read
+Requests/sec:    102.06
+Transfer/sec:    273.37KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   153.93ms  129.51ms 793.76ms   47.33%
+    Req/Sec   104.29     95.34   727.00     85.25%
+  Latency Distribution
+     50%  168.28ms
+     75%  244.93ms
+     90%  338.38ms
+     99%  421.26ms
+  62262 requests in 10.00m, 162.87MB read
+Requests/sec:    103.76
+Transfer/sec:    277.94KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   149.74ms  126.68ms 640.04ms   48.07%
+    Req/Sec   107.71     97.41   787.00     85.30%
+  Latency Distribution
+     50%  162.28ms
+     75%  236.85ms
+     90%  332.01ms
+     99%  417.74ms
+  64360 requests in 10.00m, 168.36MB read
+Requests/sec:    107.26
+Transfer/sec:    287.30KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   149.95ms  130.15ms 682.66ms   45.96%
+    Req/Sec   108.93     96.37   620.00     83.99%
+  Latency Distribution
+     50%  160.83ms
+     75%  242.73ms
+     90%  338.04ms
+     99%  420.86ms
+  65074 requests in 10.00m, 170.23MB read
+Requests/sec:    108.45
+Transfer/sec:    290.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   149.12ms  127.99ms 683.29ms   46.55%
+    Req/Sec   108.78     99.26   707.00     85.75%
+  Latency Distribution
+     50%  162.76ms
+     75%  238.27ms
+     90%  332.52ms
+     99%  418.11ms
+  64959 requests in 10.00m, 169.93MB read
+Requests/sec:    108.25
+Transfer/sec:    289.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   141.16ms  126.89ms 678.83ms   45.94%
+    Req/Sec   118.40    104.43   707.00     82.59%
+  Latency Distribution
+     50%  148.46ms
+     75%  230.88ms
+     90%  327.19ms
+     99%  416.08ms
+  70612 requests in 10.00m, 184.71MB read
+Requests/sec:    117.69
+Transfer/sec:    315.24KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   156.04ms  128.53ms 689.78ms   48.46%
+    Req/Sec   101.82     90.18   747.00     85.39%
+  Latency Distribution
+     50%  172.79ms
+     75%  244.35ms
+     90%  337.46ms
+     99%  421.56ms
+  60844 requests in 10.00m, 159.16MB read
+Requests/sec:    101.39
+Transfer/sec:    271.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   154.86ms  129.35ms 650.37ms   47.60%
+    Req/Sec   103.47     90.00   636.00     84.30%
+  Latency Distribution
+     50%  167.79ms
+     75%  245.39ms
+     90%  339.80ms
+     99%  419.70ms
+  61801 requests in 10.00m, 161.66MB read
+Requests/sec:    102.99
+Transfer/sec:    275.88KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   156.79ms  129.71ms 677.53ms   48.47%
+    Req/Sec   101.84     87.67   650.00     84.69%
+  Latency Distribution
+     50%  171.39ms
+     75%  246.18ms
+     90%  341.82ms
+     99%  423.18ms
+  60798 requests in 10.00m, 159.04MB read
+Requests/sec:    101.32
+Transfer/sec:    271.41KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   154.27ms  130.20ms 682.60ms   46.96%
+    Req/Sec   104.39     95.47   666.00     85.07%
+  Latency Distribution
+     50%  168.40ms
+     75%  245.11ms
+     90%  340.45ms
+     99%  421.62ms
+  62331 requests in 10.00m, 163.05MB read
+Requests/sec:    103.88
+Transfer/sec:    278.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   150.17ms  127.59ms 655.57ms   47.30%
+    Req/Sec   107.79     92.16   660.00     83.48%
+  Latency Distribution
+     50%  162.38ms
+     75%  238.14ms
+     90%  334.17ms
+     99%  418.07ms
+  64345 requests in 10.00m, 168.32MB read
+Requests/sec:    107.24
+Transfer/sec:    287.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   150.77ms  128.68ms 735.60ms   47.88%
+    Req/Sec   107.69     95.28     0.96k    84.73%
+  Latency Distribution
+     50%  161.83ms
+     75%  239.82ms
+     90%  337.36ms
+     99%  420.30ms
+  64313 requests in 10.00m, 168.24MB read
+Requests/sec:    107.17
+Transfer/sec:    287.08KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   157.63ms  130.34ms 626.81ms   47.56%
+    Req/Sec   101.03     93.11   760.00     86.59%
+  Latency Distribution
+     50%  173.10ms
+     75%  248.57ms
+     90%  342.78ms
+     99%  422.07ms
+  60334 requests in 10.00m, 157.83MB read
+Requests/sec:    100.55
+Transfer/sec:    269.33KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   152.05ms  128.77ms 663.66ms   47.65%
+    Req/Sec   106.14     94.75   740.00     84.11%
+  Latency Distribution
+     50%  165.41ms
+     75%  242.03ms
+     90%  336.77ms
+     99%  420.14ms
+  63359 requests in 10.00m, 165.74MB read
+Requests/sec:    105.59
+Transfer/sec:    282.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   149.14ms  128.62ms 677.46ms   46.44%
+    Req/Sec   108.97     98.92   790.00     83.62%
+  Latency Distribution
+     50%  162.02ms
+     75%  239.48ms
+     90%  334.38ms
+     99%  418.21ms
+  65097 requests in 10.00m, 170.29MB read
+Requests/sec:    108.49
+Transfer/sec:    290.61KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   157.55ms  130.15ms 690.83ms   48.14%
+    Req/Sec   101.15     91.96     1.01k    86.79%
+  Latency Distribution
+     50%  172.04ms
+     75%  249.19ms
+     90%  342.22ms
+     99%  421.44ms
+  60346 requests in 10.00m, 157.86MB read
+Requests/sec:    100.57
+Transfer/sec:    269.40KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   150.31ms  129.07ms 631.65ms   47.22%
+    Req/Sec   108.41     92.67   707.00     83.64%
+  Latency Distribution
+     50%  161.62ms
+     75%  240.73ms
+     90%  336.59ms
+     99%  420.39ms
+  64664 requests in 10.00m, 169.15MB read
+Requests/sec:    107.76
+Transfer/sec:    288.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   156.75ms  129.47ms 644.02ms   48.46%
+    Req/Sec   101.70     87.28   630.00     84.52%
+  Latency Distribution
+     50%  171.07ms
+     75%  247.17ms
+     90%  341.03ms
+     99%  422.02ms
+  60724 requests in 10.00m, 158.85MB read
+Requests/sec:    101.19
+Transfer/sec:    271.06KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.90ms  128.93ms 711.37ms   48.12%
+    Req/Sec   102.23     94.98   717.00     85.95%
+  Latency Distribution
+     50%  170.66ms
+     75%  244.11ms
+     90%  339.43ms
+     99%  420.24ms
+  61097 requests in 10.00m, 159.82MB read
+Requests/sec:    101.82
+Transfer/sec:    272.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   158.20ms  131.40ms 714.38ms   46.81%
+    Req/Sec   100.54     95.03   800.00     86.17%
+  Latency Distribution
+     50%  174.69ms
+     75%  251.93ms
+     90%  342.99ms
+     99%  421.71ms
+  60054 requests in 10.00m, 157.09MB read
+Requests/sec:    100.08
+Transfer/sec:    268.08KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   150.08ms  129.55ms 673.19ms   45.55%
+    Req/Sec   108.15     96.47   740.00     83.59%
+  Latency Distribution
+     50%  164.71ms
+     75%  241.77ms
+     90%  335.13ms
+     99%  418.63ms
+  64604 requests in 10.00m, 169.00MB read
+Requests/sec:    107.66
+Transfer/sec:    288.39KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   146.01ms  127.22ms 753.31ms   46.83%
+    Req/Sec   111.83     96.13   700.00     83.77%
+  Latency Distribution
+     50%  158.08ms
+     75%  236.29ms
+     90%  328.71ms
+     99%  416.71ms
+  66760 requests in 10.00m, 174.64MB read
+Requests/sec:    111.26
+Transfer/sec:    298.04KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   156.75ms  128.64ms 627.02ms   48.28%
+    Req/Sec   101.38     94.14     0.86k    86.87%
+  Latency Distribution
+     50%  172.02ms
+     75%  245.36ms
+     90%  338.79ms
+     99%  419.95ms
+  60476 requests in 10.00m, 158.20MB read
+Requests/sec:    100.79
+Transfer/sec:    269.98KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   152.43ms  130.17ms 667.58ms   46.65%
+    Req/Sec   106.25     92.71   717.00     84.23%
+  Latency Distribution
+     50%  164.79ms
+     75%  244.38ms
+     90%  339.61ms
+     99%  421.26ms
+  63441 requests in 10.00m, 165.95MB read
+Requests/sec:    105.72
+Transfer/sec:    283.19KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   153.55ms  129.11ms 668.19ms   48.03%
+    Req/Sec   104.78     94.90     0.88k    85.11%
+  Latency Distribution
+     50%  167.76ms
+     75%  241.77ms
+     90%  339.58ms
+     99%  421.57ms
+  62550 requests in 10.00m, 163.62MB read
+Requests/sec:    104.24
+Transfer/sec:    279.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   159.01ms  130.66ms 660.91ms   47.69%
+    Req/Sec    99.73     86.57   670.00     84.59%
+  Latency Distribution
+     50%  174.41ms
+     75%  251.08ms
+     90%  343.59ms
+     99%  423.29ms
+  59569 requests in 10.00m, 155.83MB read
+Requests/sec:     99.27
+Transfer/sec:    265.90KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   153.92ms  127.18ms 669.85ms   48.95%
+    Req/Sec   103.71     88.31   640.00     85.94%
+  Latency Distribution
+     50%  168.53ms
+     75%  241.01ms
+     90%  335.41ms
+     99%  419.79ms
+  61945 requests in 10.00m, 162.04MB read
+Requests/sec:    103.23
+Transfer/sec:    276.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   156.77ms  129.91ms 691.13ms   47.94%
+    Req/Sec   101.72     95.40   720.00     86.18%
+  Latency Distribution
+     50%  173.40ms
+     75%  247.36ms
+     90%  340.85ms
+     99%  422.02ms
+  60613 requests in 10.00m, 158.56MB read
+Requests/sec:    101.01
+Transfer/sec:    270.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.91ms  128.71ms 662.73ms   48.78%
+    Req/Sec   102.04     88.21   670.00     84.83%
+  Latency Distribution
+     50%  172.14ms
+     75%  246.05ms
+     90%  338.52ms
+     99%  420.61ms
+  60923 requests in 10.00m, 159.37MB read
+Requests/sec:    101.53
+Transfer/sec:    271.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   156.38ms  130.93ms 732.07ms   47.45%
+    Req/Sec   102.49     92.65   747.00     85.86%
+  Latency Distribution
+     50%  169.77ms
+     75%  249.13ms
+     90%  342.95ms
+     99%  422.74ms
+  61238 requests in 10.00m, 160.19MB read
+Requests/sec:    102.05
+Transfer/sec:    273.37KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.31ms  129.15ms 665.80ms   48.20%
+    Req/Sec   103.00     89.55   757.00     85.22%
+  Latency Distribution
+     50%  169.07ms
+     75%  245.96ms
+     90%  339.78ms
+     99%  420.81ms
+  61457 requests in 10.00m, 160.76MB read
+Requests/sec:    102.41
+Transfer/sec:    274.33KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.71ms  129.44ms 631.57ms   48.28%
+    Req/Sec   102.68     95.87   727.00     86.82%
+  Latency Distribution
+     50%  171.14ms
+     75%  245.49ms
+     90%  340.48ms
+     99%  421.08ms
+  61269 requests in 10.00m, 160.27MB read
+Requests/sec:    102.10
+Transfer/sec:    273.49KB
++ (( j++ ))
++ (( j<100 ))
++ file=83
++ ku top pod
++ ku top node
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   145.45ms  129.12ms 681.97ms   45.94%
+    Req/Sec   113.73    171.81     4.50k    92.29%
+  Latency Distribution
+     50%  155.92ms
+     75%  238.45ms
+     90%  331.87ms
+     99%  417.97ms
+  67892 requests in 10.00m, 177.60MB read
+Requests/sec:    113.14
+Transfer/sec:    303.07KB
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=84
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=85
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=86
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=87
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=88
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=89
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=90
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=91
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=92
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=93
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=94
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=95
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=96
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=97
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=98
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=99
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ wait
++ for pod in 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
++ scs nginx-ingress-controller 3
+deployment.apps/nginx-ingress-controller scaled
++ cp -rf box ips
++ date
+Mon Jul 20 11:31:36 UTC 2020
++ dir=https.ingress.svc..3
++ ./2020-06-28-main.just.ingress.svc.sh https.ingress.svc..3
+Warning: Permanently added '10.1.0.22' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.23' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.34' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.31' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.26' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.56' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.25' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.27' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.28' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.29' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.111' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.24' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.47' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.36' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.39' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.32' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.41' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.45' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.67' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.48' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.30' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.44' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.49' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.40' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.43' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.38' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.37' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.89' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.33' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.42' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.53' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.35' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.51' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.46' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.52' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.55' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.83' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.61' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.90' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.73' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.66' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.71' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.79' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.54' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.50' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.60' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.102' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.78' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.93' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.72' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.84' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.70' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.68' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.80' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.85' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.88' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.99' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.81' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.64' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.103' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.63' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.74' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.92' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.82' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.97' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.77' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.104' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.76' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.58' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.101' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.98' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.105' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.87' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.69' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.91' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.62' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.57' (ECDSA) to the list of known hosts.
++ sleep 30
+Warning: Permanently added '10.1.0.96' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.106' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.65' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.75' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.59' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.95' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.94' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.86' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.108' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.110' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.109' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.117' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.107' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.115' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.114' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.116' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.132' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.133' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.118' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.112' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.113' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.119' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+sh: 1: wrk: not found
++ (( j=0 ))
++ (( j<100 ))
++ file=0
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=1
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=2
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=3
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=4
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=5
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=6
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=7
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=8
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=9
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=10
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=11
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=12
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=13
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=14
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=15
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=16
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=17
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=18
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=19
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=20
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=21
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=22
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=23
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=24
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=25
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=26
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=27
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=28
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=29
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=30
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=31
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=32
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=33
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=34
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=35
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=36
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=37
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=38
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=39
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=40
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=41
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=42
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=43
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=44
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=45
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=46
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=47
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=48
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=49
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=50
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=51
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=52
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=53
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=54
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=55
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=56
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=57
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=58
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=59
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=60
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=61
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=62
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=63
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=64
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=65
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=66
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=67
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=68
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=69
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=70
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=71
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=72
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=73
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=74
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=75
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=76
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=77
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=78
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=79
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=80
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=81
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=82
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   195.92ms  130.05ms 767.03ms   60.41%
+    Req/Sec    76.22     63.10     1.11k    86.51%
+  Latency Distribution
+     50%  256.02ms
+     75%  292.67ms
+     90%  324.49ms
+     99%  387.24ms
+  45538 requests in 10.00m, 119.12MB read
+Requests/sec:     75.90
+Transfer/sec:    203.30KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   199.89ms  130.49ms 770.05ms   62.25%
+    Req/Sec    74.65     63.22   670.00     87.76%
+  Latency Distribution
+     50%  258.51ms
+     75%  294.47ms
+     90%  326.80ms
+     99%  392.23ms
+  44621 requests in 10.00m, 116.72MB read
+Requests/sec:     74.37
+Transfer/sec:    199.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   189.12ms  133.59ms 786.64ms   56.99%
+    Req/Sec    79.01     69.67   575.00     88.19%
+  Latency Distribution
+     50%  252.44ms
+     75%  291.46ms
+     90%  324.23ms
+     99%  386.58ms
+  47205 requests in 10.00m, 123.48MB read
+Requests/sec:     78.67
+Transfer/sec:    210.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   198.67ms  130.15ms 775.94ms   61.62%
+    Req/Sec    75.10     64.06   555.00     88.34%
+  Latency Distribution
+     50%  257.54ms
+     75%  293.97ms
+     90%  325.81ms
+     99%  387.47ms
+  44899 requests in 10.00m, 117.45MB read
+Requests/sec:     74.82
+Transfer/sec:    200.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   194.91ms  131.81ms 742.73ms   59.85%
+    Req/Sec    76.58     68.72   606.00     89.77%
+  Latency Distribution
+     50%  255.89ms
+     75%  293.07ms
+     90%  325.06ms
+     99%  388.76ms
+  45781 requests in 10.00m, 119.76MB read
+Requests/sec:     76.30
+Transfer/sec:    204.38KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   196.19ms  131.28ms 773.01ms   60.24%
+    Req/Sec    76.15     69.68   686.00     90.30%
+  Latency Distribution
+     50%  257.15ms
+     75%  294.40ms
+     90%  326.52ms
+     99%  389.13ms
+  45480 requests in 10.00m, 118.97MB read
+Requests/sec:     75.79
+Transfer/sec:    203.01KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   189.28ms  132.83ms 626.60ms   57.11%
+    Req/Sec    78.87     72.92   838.00     89.95%
+  Latency Distribution
+     50%  252.26ms
+     75%  291.36ms
+     90%  324.17ms
+     99%  384.67ms
+  47140 requests in 10.00m, 123.31MB read
+Requests/sec:     78.56
+Transfer/sec:    210.44KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   201.73ms  128.24ms 713.43ms   63.61%
+    Req/Sec    73.92     60.25   410.00     87.79%
+  Latency Distribution
+     50%  258.88ms
+     75%  293.99ms
+     90%  325.78ms
+     99%  389.34ms
+  44190 requests in 10.00m, 115.60MB read
+Requests/sec:     73.64
+Transfer/sec:    197.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   189.34ms  132.30ms 768.40ms   57.34%
+    Req/Sec    78.85     68.66   626.00     88.44%
+  Latency Distribution
+     50%  252.26ms
+     75%  291.27ms
+     90%  323.89ms
+     99%  385.42ms
+  47131 requests in 10.00m, 123.29MB read
+Requests/sec:     78.54
+Transfer/sec:    210.39KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   206.31ms  127.49ms 606.68ms   65.06%
+    Req/Sec    72.27     60.73   560.00     89.20%
+  Latency Distribution
+     50%  261.46ms
+     75%  296.20ms
+     90%  328.08ms
+     99%  392.58ms
+  43199 requests in 10.00m, 113.00MB read
+Requests/sec:     71.99
+Transfer/sec:    192.83KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   187.90ms  133.55ms 742.81ms   56.94%
+    Req/Sec    79.49     74.28   640.00     89.52%
+  Latency Distribution
+     50%  250.60ms
+     75%  290.99ms
+     90%  322.95ms
+     99%  386.25ms
+  47508 requests in 10.00m, 124.28MB read
+Requests/sec:     79.18
+Transfer/sec:    212.09KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   193.68ms  132.24ms 582.38ms   59.31%
+    Req/Sec    77.08     69.93     0.91k    89.77%
+  Latency Distribution
+     50%  255.91ms
+     75%  293.48ms
+     90%  325.48ms
+     99%  388.93ms
+  46065 requests in 10.00m, 120.50MB read
+Requests/sec:     76.76
+Transfer/sec:    205.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   189.89ms  133.83ms 749.76ms   57.36%
+    Req/Sec    78.68     74.88     0.85k    89.80%
+  Latency Distribution
+     50%  253.84ms
+     75%  292.49ms
+     90%  325.34ms
+     99%  388.80ms
+  47023 requests in 10.00m, 123.01MB read
+Requests/sec:     78.37
+Transfer/sec:    209.92KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   187.69ms  134.70ms 572.20ms   55.91%
+    Req/Sec    79.70     70.46   616.00     88.43%
+  Latency Distribution
+     50%  252.46ms
+     75%  292.16ms
+     90%  324.95ms
+     99%  390.27ms
+  47591 requests in 10.00m, 124.49MB read
+Requests/sec:     79.31
+Transfer/sec:    212.44KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   187.53ms  133.63ms 601.40ms   56.18%
+    Req/Sec    79.64     70.26   640.00     87.96%
+  Latency Distribution
+     50%  251.91ms
+     75%  291.78ms
+     90%  324.39ms
+     99%  383.59ms
+  47572 requests in 10.00m, 124.44MB read
+Requests/sec:     79.29
+Transfer/sec:    212.38KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   196.23ms  131.25ms 605.54ms   60.19%
+    Req/Sec    76.09     63.38   636.00     87.47%
+  Latency Distribution
+     50%  257.13ms
+     75%  294.66ms
+     90%  326.72ms
+     99%  389.89ms
+  45442 requests in 10.00m, 118.87MB read
+Requests/sec:     75.74
+Transfer/sec:    202.87KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   191.79ms  132.14ms 540.50ms   58.59%
+    Req/Sec    77.85     66.15   550.00     87.12%
+  Latency Distribution
+     50%  254.18ms
+     75%  292.25ms
+     90%  324.38ms
+     99%  388.68ms
+  46506 requests in 10.00m, 121.65MB read
+Requests/sec:     77.50
+Transfer/sec:    207.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   201.46ms  129.59ms 792.39ms   62.60%
+    Req/Sec    74.15     66.96   830.00     91.29%
+  Latency Distribution
+     50%  259.42ms
+     75%  295.69ms
+     90%  327.52ms
+     99%  391.54ms
+  44269 requests in 10.00m, 115.80MB read
+Requests/sec:     73.78
+Transfer/sec:    197.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   191.09ms  132.75ms 607.79ms   58.38%
+    Req/Sec    78.12     73.13   730.00     90.03%
+  Latency Distribution
+     50%  253.32ms
+     75%  292.18ms
+     90%  324.67ms
+     99%  388.15ms
+  46675 requests in 10.00m, 122.10MB read
+Requests/sec:     77.79
+Transfer/sec:    208.37KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   197.77ms  131.10ms 750.18ms   61.30%
+    Req/Sec    75.49     67.95   626.00     90.55%
+  Latency Distribution
+     50%  257.23ms
+     75%  293.58ms
+     90%  326.14ms
+     99%  390.24ms
+  45099 requests in 10.00m, 117.97MB read
+Requests/sec:     75.16
+Transfer/sec:    201.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   197.28ms  130.18ms 602.92ms   61.12%
+    Req/Sec    75.62     65.83   565.00     90.04%
+  Latency Distribution
+     50%  256.40ms
+     75%  293.04ms
+     90%  325.25ms
+     99%  388.34ms
+  45175 requests in 10.00m, 118.17MB read
+Requests/sec:     75.29
+Transfer/sec:    201.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   189.60ms  133.68ms 606.30ms   57.08%
+    Req/Sec    78.79     71.41   757.00     88.99%
+  Latency Distribution
+     50%  253.48ms
+     75%  292.17ms
+     90%  325.02ms
+     99%  388.00ms
+  47037 requests in 10.00m, 123.04MB read
+Requests/sec:     78.39
+Transfer/sec:    209.99KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   193.79ms  131.44ms 608.01ms   59.51%
+    Req/Sec    77.03     67.07   606.00     89.48%
+  Latency Distribution
+     50%  254.82ms
+     75%  292.57ms
+     90%  324.58ms
+     99%  388.77ms
+  46008 requests in 10.00m, 120.35MB read
+Requests/sec:     76.68
+Transfer/sec:    205.39KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   198.29ms  129.39ms 706.35ms   62.16%
+    Req/Sec    75.25     66.11   656.00     90.58%
+  Latency Distribution
+     50%  256.37ms
+     75%  292.41ms
+     90%  324.84ms
+     99%  386.00ms
+  44968 requests in 10.00m, 117.63MB read
+Requests/sec:     74.93
+Transfer/sec:    200.72KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   196.44ms  132.00ms 608.15ms   60.58%
+    Req/Sec    76.09     67.60   564.00     89.71%
+  Latency Distribution
+     50%  257.47ms
+     75%  294.36ms
+     90%  326.72ms
+     99%  387.85ms
+  45385 requests in 10.00m, 118.72MB read
+Requests/sec:     75.64
+Transfer/sec:    202.61KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   194.83ms  130.88ms 606.71ms   60.23%
+    Req/Sec    76.65     67.56   555.00     90.06%
+  Latency Distribution
+     50%  255.19ms
+     75%  292.64ms
+     90%  325.05ms
+     99%  387.90ms
+  45749 requests in 10.00m, 119.67MB read
+Requests/sec:     76.24
+Transfer/sec:    204.23KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   188.70ms  134.33ms 624.16ms   56.55%
+    Req/Sec    79.18     71.81   607.00     89.16%
+  Latency Distribution
+     50%  253.25ms
+     75%  292.45ms
+     90%  324.91ms
+     99%  389.32ms
+  47277 requests in 10.00m, 123.67MB read
+Requests/sec:     78.79
+Transfer/sec:    211.05KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   202.12ms  128.91ms 609.34ms   63.20%
+    Req/Sec    73.86     63.83   600.00     88.64%
+  Latency Distribution
+     50%  259.01ms
+     75%  294.51ms
+     90%  326.58ms
+     99%  390.22ms
+  44083 requests in 10.00m, 115.32MB read
+Requests/sec:     73.47
+Transfer/sec:    196.79KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   199.13ms  128.42ms 666.57ms   62.61%
+    Req/Sec    74.92     67.26   730.00     90.86%
+  Latency Distribution
+     50%  256.17ms
+     75%  292.31ms
+     90%  323.70ms
+     99%  386.74ms
+  44736 requests in 10.00m, 117.02MB read
+Requests/sec:     74.56
+Transfer/sec:    199.72KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   197.46ms  130.78ms 610.32ms   60.92%
+    Req/Sec    75.70     64.89   540.00     88.08%
+  Latency Distribution
+     50%  257.54ms
+     75%  294.20ms
+     90%  326.55ms
+     99%  388.50ms
+  45150 requests in 10.00m, 118.11MB read
+Requests/sec:     75.24
+Transfer/sec:    201.54KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   193.29ms  131.09ms 608.50ms   59.73%
+    Req/Sec    77.27     66.96   640.00     87.57%
+  Latency Distribution
+     50%  253.86ms
+     75%  291.28ms
+     90%  323.31ms
+     99%  386.06ms
+  46136 requests in 10.00m, 120.69MB read
+Requests/sec:     76.88
+Transfer/sec:    205.95KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   182.11ms  133.84ms 610.14ms   54.19%
+    Req/Sec    82.08     73.82     0.91k    87.82%
+  Latency Distribution
+     50%  246.54ms
+     75%  288.60ms
+     90%  321.47ms
+     99%  381.50ms
+  48983 requests in 10.00m, 128.13MB read
+Requests/sec:     81.64
+Transfer/sec:    218.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   208.89ms  125.82ms 610.99ms   66.08%
+    Req/Sec    71.36     58.83   560.00     88.68%
+  Latency Distribution
+     50%  262.51ms
+     75%  296.84ms
+     90%  328.17ms
+     99%  389.38ms
+  42636 requests in 10.00m, 111.53MB read
+Requests/sec:     71.05
+Transfer/sec:    190.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   190.47ms  133.83ms 558.83ms   57.53%
+    Req/Sec    78.45     71.32   666.00     88.70%
+  Latency Distribution
+     50%  253.94ms
+     75%  293.10ms
+     90%  325.86ms
+     99%  389.13ms
+  46809 requests in 10.00m, 122.45MB read
+Requests/sec:     78.01
+Transfer/sec:    208.97KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   193.11ms  131.54ms 603.77ms   59.08%
+    Req/Sec    77.34     67.89   646.00     89.31%
+  Latency Distribution
+     50%  254.39ms
+     75%  292.08ms
+     90%  324.82ms
+     99%  386.51ms
+  46145 requests in 10.00m, 120.71MB read
+Requests/sec:     76.90
+Transfer/sec:    205.99KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   194.73ms  131.69ms 528.04ms   59.90%
+    Req/Sec    76.72     68.23   545.00     90.05%
+  Latency Distribution
+     50%  256.38ms
+     75%  293.29ms
+     90%  325.44ms
+     99%  385.09ms
+  45754 requests in 10.00m, 119.69MB read
+Requests/sec:     76.25
+Transfer/sec:    204.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   203.35ms  128.22ms 609.80ms   63.83%
+    Req/Sec    73.38     63.96   580.00     91.02%
+  Latency Distribution
+     50%  259.75ms
+     75%  295.26ms
+     90%  326.70ms
+     99%  389.63ms
+  43824 requests in 10.00m, 114.64MB read
+Requests/sec:     73.03
+Transfer/sec:    195.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   199.63ms  129.56ms 640.53ms   62.12%
+    Req/Sec    74.80     62.13   545.00     87.54%
+  Latency Distribution
+     50%  258.42ms
+     75%  294.40ms
+     90%  325.89ms
+     99%  386.42ms
+  44618 requests in 10.00m, 116.72MB read
+Requests/sec:     74.35
+Transfer/sec:    199.17KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   207.23ms  125.86ms 560.17ms   65.79%
+    Req/Sec    71.98     58.81   525.00     88.75%
+  Latency Distribution
+     50%  260.95ms
+     75%  295.57ms
+     90%  327.35ms
+     99%  386.59ms
+  42961 requests in 10.00m, 112.38MB read
+Requests/sec:     71.59
+Transfer/sec:    191.77KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   199.48ms  129.80ms 639.56ms   62.01%
+    Req/Sec    74.73     64.00   590.00     88.33%
+  Latency Distribution
+     50%  258.18ms
+     75%  293.76ms
+     90%  325.90ms
+     99%  388.15ms
+  44649 requests in 10.00m, 116.80MB read
+Requests/sec:     74.41
+Transfer/sec:    199.33KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   200.60ms  128.96ms 568.70ms   62.62%
+    Req/Sec    74.46     64.00   818.00     88.32%
+  Latency Distribution
+     50%  258.79ms
+     75%  294.62ms
+     90%  326.45ms
+     99%  385.89ms
+  44396 requests in 10.00m, 116.13MB read
+Requests/sec:     73.99
+Transfer/sec:    198.19KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   180.96ms  135.20ms 592.18ms   53.10%
+    Req/Sec    82.66     76.52   660.00     87.94%
+  Latency Distribution
+     50%  246.80ms
+     75%  289.45ms
+     90%  322.48ms
+     99%  384.48ms
+  49336 requests in 10.00m, 129.06MB read
+Requests/sec:     82.22
+Transfer/sec:    220.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   190.58ms  132.67ms 571.97ms   57.88%
+    Req/Sec    78.31     71.49   626.00     89.52%
+  Latency Distribution
+     50%  253.71ms
+     75%  292.39ms
+     90%  324.59ms
+     99%  382.30ms
+  46773 requests in 10.00m, 122.35MB read
+Requests/sec:     77.95
+Transfer/sec:    208.81KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   190.67ms  131.50ms 658.22ms   57.83%
+    Req/Sec    78.26     65.44   606.00     86.93%
+  Latency Distribution
+     50%  252.71ms
+     75%  291.33ms
+     90%  324.08ms
+     99%  385.73ms
+  46724 requests in 10.00m, 122.22MB read
+Requests/sec:     77.87
+Transfer/sec:    208.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   187.05ms  134.83ms 551.07ms   55.69%
+    Req/Sec    79.98     75.91     0.86k    89.49%
+  Latency Distribution
+     50%  251.99ms
+     75%  292.50ms
+     90%  325.37ms
+     99%  387.89ms
+  47697 requests in 10.00m, 124.77MB read
+Requests/sec:     79.48
+Transfer/sec:    212.91KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   187.49ms  133.45ms 573.68ms   56.49%
+    Req/Sec    79.56     69.29   616.00     87.22%
+  Latency Distribution
+     50%  251.47ms
+     75%  291.70ms
+     90%  323.55ms
+     99%  383.28ms
+  47542 requests in 10.00m, 124.36MB read
+Requests/sec:     79.23
+Transfer/sec:    212.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   178.27ms  134.48ms 607.00ms   51.97%
+    Req/Sec    83.95     75.03   680.00     86.85%
+  Latency Distribution
+     50%  243.65ms
+     75%  287.34ms
+     90%  320.56ms
+     99%  382.21ms
+  50101 requests in 10.00m, 131.06MB read
+Requests/sec:     83.49
+Transfer/sec:    223.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   188.22ms  133.40ms 570.22ms   56.77%
+    Req/Sec    79.26     72.27   656.00     89.51%
+  Latency Distribution
+     50%  252.09ms
+     75%  291.55ms
+     90%  323.71ms
+     99%  384.21ms
+  47357 requests in 10.00m, 123.88MB read
+Requests/sec:     78.92
+Transfer/sec:    211.40KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   190.74ms  132.84ms 621.23ms   57.62%
+    Req/Sec    78.32     70.44   787.00     89.00%
+  Latency Distribution
+     50%  253.27ms
+     75%  292.27ms
+     90%  325.04ms
+     99%  384.59ms
+  46731 requests in 10.00m, 122.24MB read
+Requests/sec:     77.88
+Transfer/sec:    208.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   189.62ms  132.70ms   1.35s    57.64%
+    Req/Sec    78.73     70.63   606.00     88.77%
+  Latency Distribution
+     50%  252.40ms
+     75%  291.68ms
+     90%  323.80ms
+     99%  382.73ms
+  46997 requests in 10.00m, 122.94MB read
+Requests/sec:     78.32
+Transfer/sec:    209.80KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   189.71ms  132.56ms 574.34ms   58.03%
+    Req/Sec    78.78     71.47   700.00     89.17%
+  Latency Distribution
+     50%  252.47ms
+     75%  290.96ms
+     90%  323.22ms
+     99%  386.22ms
+  46985 requests in 10.00m, 122.91MB read
+Requests/sec:     78.30
+Transfer/sec:    209.74KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   196.36ms  130.49ms 552.77ms   60.72%
+    Req/Sec    75.98     63.53   747.00     87.04%
+  Latency Distribution
+     50%  256.07ms
+     75%  292.77ms
+     90%  324.73ms
+     99%  388.08ms
+  45374 requests in 10.00m, 118.69MB read
+Requests/sec:     75.61
+Transfer/sec:    202.54KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   191.58ms  131.91ms 595.51ms   58.81%
+    Req/Sec    77.85     68.23   606.00     88.90%
+  Latency Distribution
+     50%  253.26ms
+     75%  291.27ms
+     90%  323.46ms
+     99%  383.75ms
+  46505 requests in 10.00m, 121.65MB read
+Requests/sec:     77.50
+Transfer/sec:    207.59KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   199.31ms  130.70ms 620.21ms   61.66%
+    Req/Sec    74.79     66.05   590.00     90.07%
+  Latency Distribution
+     50%  259.07ms
+     75%  295.33ms
+     90%  327.31ms
+     99%  385.89ms
+  44664 requests in 10.00m, 116.84MB read
+Requests/sec:     74.43
+Transfer/sec:    199.39KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   194.92ms  131.77ms 593.90ms   59.48%
+    Req/Sec    76.54     68.07   610.00     90.27%
+  Latency Distribution
+     50%  256.64ms
+     75%  294.32ms
+     90%  326.22ms
+     99%  388.80ms
+  45712 requests in 10.00m, 119.58MB read
+Requests/sec:     76.18
+Transfer/sec:    204.07KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   194.72ms  131.32ms 557.25ms   59.88%
+    Req/Sec    76.67     70.26   636.00     90.28%
+  Latency Distribution
+     50%  255.33ms
+     75%  292.52ms
+     90%  324.83ms
+     99%  388.20ms
+  45775 requests in 10.00m, 119.74MB read
+Requests/sec:     76.29
+Transfer/sec:    204.35KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   187.89ms  133.41ms 557.41ms   56.64%
+    Req/Sec    79.36     69.77   530.00     88.31%
+  Latency Distribution
+     50%  251.65ms
+     75%  291.07ms
+     90%  323.70ms
+     99%  383.91ms
+  47428 requests in 10.00m, 124.07MB read
+Requests/sec:     79.04
+Transfer/sec:    211.72KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   199.53ms  130.88ms 627.50ms   61.80%
+    Req/Sec    74.77     67.26   640.00     90.49%
+  Latency Distribution
+     50%  259.28ms
+     75%  295.37ms
+     90%  327.02ms
+     99%  390.30ms
+  44643 requests in 10.00m, 116.78MB read
+Requests/sec:     74.40
+Transfer/sec:    199.29KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   203.71ms  127.50ms 620.20ms   64.29%
+    Req/Sec    73.12     63.45   616.00     90.61%
+  Latency Distribution
+     50%  259.25ms
+     75%  294.08ms
+     90%  326.18ms
+     99%  386.92ms
+  43660 requests in 10.00m, 114.21MB read
+Requests/sec:     72.76
+Transfer/sec:    194.91KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   196.88ms  130.94ms 622.31ms   60.84%
+    Req/Sec    75.94     66.73   626.00     89.88%
+  Latency Distribution
+     50%  257.20ms
+     75%  293.95ms
+     90%  325.87ms
+     99%  389.43ms
+  45263 requests in 10.00m, 118.40MB read
+Requests/sec:     75.43
+Transfer/sec:    202.05KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   197.54ms  131.24ms 592.80ms   60.83%
+    Req/Sec    75.57     66.34   646.00     90.32%
+  Latency Distribution
+     50%  258.00ms
+     75%  294.74ms
+     90%  326.85ms
+     99%  390.83ms
+  45099 requests in 10.00m, 117.97MB read
+Requests/sec:     75.16
+Transfer/sec:    201.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   199.75ms  129.55ms 552.28ms   61.97%
+    Req/Sec    74.59     65.51   606.00     90.62%
+  Latency Distribution
+     50%  258.45ms
+     75%  294.48ms
+     90%  326.65ms
+     99%  386.34ms
+  44542 requests in 10.00m, 116.52MB read
+Requests/sec:     74.23
+Transfer/sec:    198.85KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   191.13ms  133.28ms 570.83ms   57.77%
+    Req/Sec    78.13     69.89   616.00     89.03%
+  Latency Distribution
+     50%  254.53ms
+     75%  292.94ms
+     90%  325.75ms
+     99%  386.91ms
+  46602 requests in 10.00m, 121.91MB read
+Requests/sec:     77.67
+Transfer/sec:    208.04KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   184.93ms  134.91ms 556.93ms   55.10%
+    Req/Sec    80.89     73.89   630.00     88.36%
+  Latency Distribution
+     50%  250.43ms
+     75%  291.78ms
+     90%  324.37ms
+     99%  388.01ms
+  48211 requests in 10.00m, 126.11MB read
+Requests/sec:     80.34
+Transfer/sec:    215.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   190.24ms  132.76ms 576.62ms   57.30%
+    Req/Sec    78.51     67.61   630.00     87.08%
+  Latency Distribution
+     50%  253.76ms
+     75%  292.56ms
+     90%  324.87ms
+     99%  384.23ms
+  46828 requests in 10.00m, 122.50MB read
+Requests/sec:     78.04
+Transfer/sec:    209.05KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   186.74ms  133.31ms 570.83ms   56.31%
+    Req/Sec    79.87     73.06   700.00     89.11%
+  Latency Distribution
+     50%  250.57ms
+     75%  291.10ms
+     90%  323.38ms
+     99%  383.30ms
+  47665 requests in 10.00m, 124.69MB read
+Requests/sec:     79.44
+Transfer/sec:    212.79KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   206.81ms  126.06ms 570.39ms   65.48%
+    Req/Sec    72.07     60.33   620.00     88.97%
+  Latency Distribution
+     50%  260.96ms
+     75%  295.47ms
+     90%  326.51ms
+     99%  383.84ms
+  43048 requests in 10.00m, 112.61MB read
+Requests/sec:     71.74
+Transfer/sec:    192.16KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   195.93ms  130.96ms 568.32ms   60.09%
+    Req/Sec    76.13     71.32   750.00     89.96%
+  Latency Distribution
+     50%  256.13ms
+     75%  293.04ms
+     90%  325.36ms
+     99%  384.52ms
+  45447 requests in 10.00m, 118.88MB read
+Requests/sec:     75.73
+Transfer/sec:    202.87KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   208.28ms  127.10ms 592.94ms   65.84%
+    Req/Sec    71.46     60.40   640.00     88.59%
+  Latency Distribution
+     50%  263.73ms
+     75%  297.69ms
+     90%  328.68ms
+     99%  388.52ms
+  42694 requests in 10.00m, 111.68MB read
+Requests/sec:     71.15
+Transfer/sec:    190.59KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   198.08ms  130.46ms 617.08ms   61.29%
+    Req/Sec    75.29     64.09   555.00     88.09%
+  Latency Distribution
+     50%  257.84ms
+     75%  294.07ms
+     90%  326.33ms
+     99%  387.99ms
+  44943 requests in 10.00m, 117.57MB read
+Requests/sec:     74.89
+Transfer/sec:    200.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   188.85ms  133.87ms 573.23ms   57.01%
+    Req/Sec    79.03     72.91   636.00     89.67%
+  Latency Distribution
+     50%  253.03ms
+     75%  292.41ms
+     90%  324.83ms
+     99%  386.97ms
+  47205 requests in 10.00m, 123.48MB read
+Requests/sec:     78.66
+Transfer/sec:    210.71KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   178.94ms  136.52ms 622.51ms   51.53%
+    Req/Sec    83.67     76.50   600.00     88.08%
+  Latency Distribution
+     50%  246.09ms
+     75%  290.71ms
+     90%  324.25ms
+     99%  387.02ms
+  49904 requests in 10.00m, 130.54MB read
+Requests/sec:     83.16
+Transfer/sec:    222.77KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   183.81ms  134.68ms 564.08ms   54.38%
+    Req/Sec    81.22     73.31   590.00     88.38%
+  Latency Distribution
+     50%  249.76ms
+     75%  290.52ms
+     90%  323.37ms
+     99%  383.38ms
+  48500 requests in 10.00m, 126.87MB read
+Requests/sec:     80.82
+Transfer/sec:    216.49KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   203.68ms  127.88ms 655.77ms   63.86%
+    Req/Sec    73.13     61.76   585.00     89.15%
+  Latency Distribution
+     50%  260.27ms
+     75%  295.42ms
+     90%  326.80ms
+     99%  388.80ms
+  43684 requests in 10.00m, 114.27MB read
+Requests/sec:     72.81
+Transfer/sec:    195.02KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   184.46ms  134.34ms 550.24ms   55.05%
+    Req/Sec    80.98     72.27   505.00     88.90%
+  Latency Distribution
+     50%  249.68ms
+     75%  290.78ms
+     90%  323.18ms
+     99%  385.67ms
+  48336 requests in 10.00m, 126.44MB read
+Requests/sec:     80.55
+Transfer/sec:    215.76KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   196.69ms  131.37ms 544.46ms   60.40%
+    Req/Sec    75.79     65.88   585.00     89.77%
+  Latency Distribution
+     50%  257.49ms
+     75%  294.32ms
+     90%  326.71ms
+     99%  389.06ms
+  45234 requests in 10.00m, 118.33MB read
+Requests/sec:     75.39
+Transfer/sec:    201.94KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   192.85ms  131.45ms 619.69ms   59.50%
+    Req/Sec    77.27     69.45   650.00     89.48%
+  Latency Distribution
+     50%  254.68ms
+     75%  292.15ms
+     90%  323.79ms
+     99%  383.44ms
+  46142 requests in 10.00m, 120.70MB read
+Requests/sec:     76.89
+Transfer/sec:    205.97KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   189.53ms  132.19ms 570.26ms   57.43%
+    Req/Sec    78.81     70.74   620.00     89.45%
+  Latency Distribution
+     50%  252.01ms
+     75%  290.95ms
+     90%  323.45ms
+     99%  385.44ms
+  46986 requests in 10.00m, 122.91MB read
+Requests/sec:     78.30
+Transfer/sec:    209.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   189.55ms  132.05ms 593.35ms   57.56%
+    Req/Sec    78.74     69.56   646.00     88.64%
+  Latency Distribution
+     50%  252.29ms
+     75%  291.16ms
+     90%  323.25ms
+     99%  385.28ms
+  47003 requests in 10.00m, 122.95MB read
+Requests/sec:     78.33
+Transfer/sec:    209.81KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   181.82ms  134.77ms 594.99ms   53.61%
+    Req/Sec    82.13     73.01   616.00     87.77%
+  Latency Distribution
+     50%  247.21ms
+     75%  289.93ms
+     90%  322.23ms
+     99%  382.76ms
+  49061 requests in 10.00m, 128.34MB read
+Requests/sec:     81.76
+Transfer/sec:    219.01KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   185.73ms  134.41ms 641.04ms   55.51%
+    Req/Sec    80.37     74.29   650.00     89.27%
+  Latency Distribution
+     50%  250.58ms
+     75%  291.54ms
+     90%  323.74ms
+     99%  383.68ms
+  47997 requests in 10.00m, 125.55MB read
+Requests/sec:     79.99
+Transfer/sec:    214.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   191.51ms  131.99ms 535.86ms   58.76%
+    Req/Sec    77.86     70.19   666.00     89.54%
+  Latency Distribution
+     50%  253.51ms
+     75%  291.76ms
+     90%  324.30ms
+     99%  384.92ms
+  46512 requests in 10.00m, 121.67MB read
+Requests/sec:     77.51
+Transfer/sec:    207.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   184.51ms  133.38ms 568.36ms   55.02%
+    Req/Sec    80.92     74.22   828.00     88.83%
+  Latency Distribution
+     50%  248.76ms
+     75%  290.00ms
+     90%  322.08ms
+     99%  384.23ms
+  48363 requests in 10.00m, 126.51MB read
+Requests/sec:     80.60
+Transfer/sec:    215.91KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   189.89ms  133.22ms 546.75ms   57.16%
+    Req/Sec    78.63     69.43   740.00     89.03%
+  Latency Distribution
+     50%  253.79ms
+     75%  292.67ms
+     90%  325.06ms
+     99%  386.59ms
+  46962 requests in 10.00m, 122.85MB read
+Requests/sec:     78.27
+Transfer/sec:    209.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   176.60ms  135.26ms 569.95ms   51.54%
+    Req/Sec    84.72     82.16   848.00     88.02%
+  Latency Distribution
+     50%  242.37ms
+     75%  288.62ms
+     90%  321.34ms
+     99%  380.77ms
+  50605 requests in 10.00m, 132.38MB read
+Requests/sec:     84.34
+Transfer/sec:    225.92KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   188.77ms  133.34ms 569.92ms   56.74%
+    Req/Sec    79.06     71.16   640.00     89.02%
+  Latency Distribution
+     50%  252.90ms
+     75%  292.13ms
+     90%  324.50ms
+     99%  383.55ms
+  47239 requests in 10.00m, 123.57MB read
+Requests/sec:     78.73
+Transfer/sec:    210.88KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   189.30ms  132.39ms 619.32ms   56.98%
+    Req/Sec    78.84     68.77   770.00     86.75%
+  Latency Distribution
+     50%  252.50ms
+     75%  291.67ms
+     90%  323.82ms
+     99%  383.89ms
+  47105 requests in 10.00m, 123.22MB read
+Requests/sec:     78.51
+Transfer/sec:    210.30KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   193.86ms  131.32ms 560.63ms   59.37%
+    Req/Sec    76.95     66.08   610.00     87.89%
+  Latency Distribution
+     50%  254.94ms
+     75%  292.86ms
+     90%  324.83ms
+     99%  384.26ms
+  45979 requests in 10.00m, 120.28MB read
+Requests/sec:     76.63
+Transfer/sec:    205.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   197.69ms  131.03ms 594.16ms   61.02%
+    Req/Sec    75.50     66.55   570.00     90.16%
+  Latency Distribution
+     50%  258.27ms
+     75%  294.06ms
+     90%  326.42ms
+     99%  388.82ms
+  45091 requests in 10.00m, 117.95MB read
+Requests/sec:     75.15
+Transfer/sec:    201.29KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   182.59ms  133.13ms 669.01ms   54.79%
+    Req/Sec    81.81     71.45   490.00     86.99%
+  Latency Distribution
+     50%  246.93ms
+     75%  288.40ms
+     90%  321.00ms
+     99%  382.03ms
+  48889 requests in 10.00m, 127.89MB read
+Requests/sec:     81.47
+Transfer/sec:    218.23KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   187.97ms  132.24ms 593.60ms   56.69%
+    Req/Sec    79.42     70.21   717.00     88.29%
+  Latency Distribution
+     50%  250.68ms
+     75%  290.31ms
+     90%  322.38ms
+     99%  383.13ms
+  47453 requests in 10.00m, 124.13MB read
+Requests/sec:     79.08
+Transfer/sec:    211.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   198.17ms  130.79ms 556.94ms   60.89%
+    Req/Sec    75.25     67.86     0.91k    90.15%
+  Latency Distribution
+     50%  258.99ms
+     75%  295.22ms
+     90%  326.65ms
+     99%  387.80ms
+  44968 requests in 10.00m, 117.63MB read
+Requests/sec:     74.94
+Transfer/sec:    200.74KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   198.60ms  129.58ms 592.09ms   61.82%
+    Req/Sec    75.14     66.08   630.00     90.51%
+  Latency Distribution
+     50%  257.93ms
+     75%  293.78ms
+     90%  325.22ms
+     99%  386.45ms
+  44874 requests in 10.00m, 117.39MB read
+Requests/sec:     74.78
+Transfer/sec:    200.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   190.41ms  133.02ms 543.00ms   57.32%
+    Req/Sec    78.34     70.12     0.91k    89.02%
+  Latency Distribution
+     50%  254.08ms
+     75%  293.14ms
+     90%  325.45ms
+     99%  385.00ms
+  46823 requests in 10.00m, 122.48MB read
+Requests/sec:     78.04
+Transfer/sec:    209.04KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   193.16ms  129.47ms 559.72ms   59.69%
+    Req/Sec    77.29     67.36     0.90k    89.42%
+  Latency Distribution
+     50%  252.40ms
+     75%  289.80ms
+     90%  322.16ms
+     99%  383.33ms
+  46145 requests in 10.00m, 120.71MB read
+Requests/sec:     76.90
+Transfer/sec:    206.00KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   178.32ms  136.20ms 621.71ms   51.78%
+    Req/Sec    83.89    175.73     4.55k    95.22%
+  Latency Distribution
+     50%  244.67ms
+     75%  289.67ms
+     90%  322.22ms
+     99%  384.66ms
+  50155 requests in 10.00m, 131.20MB read
+Requests/sec:     83.58
+Transfer/sec:    223.89KB
++ (( j++ ))
++ (( j<100 ))
++ file=83
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=84
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=85
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=86
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=87
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=88
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=89
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=90
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=91
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=92
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=93
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=94
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=95
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=96
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=97
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=98
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=99
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ wait
++ for pod in 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
++ scs nginx-ingress-controller 2
+deployment.apps/nginx-ingress-controller scaled
++ cp -rf box ips
++ date
+Mon Jul 20 11:43:40 UTC 2020
++ dir=https.ingress.svc..2
++ ./2020-06-28-main.just.ingress.svc.sh https.ingress.svc..2
+Warning: Permanently added '10.1.0.89' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.34' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.67' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.56' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.39' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.22' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.24' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.33' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.31' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.27' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.38' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.30' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.32' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.78' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.28' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.25' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.35' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.45' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.23' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.29' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.26' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.111' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.36' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.40' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.42' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.37' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.44' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.53' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.48' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.41' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.46' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.57' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.54' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.43' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.58' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.50' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.63' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.49' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.47' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.52' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.55' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.51' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.65' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.66' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.60' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.73' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.62' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.61' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.59' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.72' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.64' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.68' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.74' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.75' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.71' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.77' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.81' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.70' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.76' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.80' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.84' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.87' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+Warning: Permanently added '10.1.0.85' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.79' (ECDSA) to the list of known hosts.
++ sleep 30
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.69' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.83' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.86' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.82' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.94' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.92' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.88' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.99' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.104' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.91' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.98' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.103' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.95' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.102' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.90' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.97' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.101' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.108' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.93' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.105' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.114' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.106' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.110' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.112' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.109' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.115' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.133' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.132' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.113' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.117' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+Warning: Permanently added '10.1.0.118' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.116' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.119' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.107' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+sh: 1: wrk: not found
++ (( j=0 ))
++ (( j<100 ))
++ file=0
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=1
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=2
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=3
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=4
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=5
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=6
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=7
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=8
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=9
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=10
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=11
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=12
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=13
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=14
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=15
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=16
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=17
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=18
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=19
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=20
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=21
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=22
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=23
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=24
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=25
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=26
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=27
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=28
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=29
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=30
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=31
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=32
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=33
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=34
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=35
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=36
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=37
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=38
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=39
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=40
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=41
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=42
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=43
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=44
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=45
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=46
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=47
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=48
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=49
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=50
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=51
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=52
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=53
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=54
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=55
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=56
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=57
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=58
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=59
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=60
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=61
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=62
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=63
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=64
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=65
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=66
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=67
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=68
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=69
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=70
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=71
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=72
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=73
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=74
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=75
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=76
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=77
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=78
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=79
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=80
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=81
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=82
++ ku top pod
++ ku top node
++ ks top pod
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   297.43ms  212.96ms   1.09s    49.14%
+    Req/Sec    51.09     34.01   373.00     81.09%
+  Latency Distribution
+     50%  301.00ms
+     75%  503.66ms
+     90%  573.91ms
+     99%  663.58ms
+  30251 requests in 10.00m, 79.13MB read
+Requests/sec:     50.42
+Transfer/sec:    135.05KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   286.89ms  213.46ms   1.06s    48.18%
+    Req/Sec    53.38     43.91     1.67k    91.09%
+  Latency Distribution
+     50%  295.31ms
+     75%  491.01ms
+     90%  569.72ms
+     99%  659.14ms
+  31585 requests in 10.00m, 82.62MB read
+Requests/sec:     52.63
+Transfer/sec:    140.99KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   288.33ms  210.63ms   1.27s    49.17%
+    Req/Sec    53.09     35.53   370.00     79.57%
+  Latency Distribution
+     50%  292.20ms
+     75%  492.91ms
+     90%  570.33ms
+     99%  660.35ms
+  31388 requests in 10.00m, 82.11MB read
+Requests/sec:     52.31
+Transfer/sec:    140.12KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   308.97ms  213.96ms   1.15s    52.25%
+    Req/Sec    49.09     32.56   340.00     82.40%
+  Latency Distribution
+     50%  309.29ms
+     75%  515.44ms
+     90%  579.03ms
+     99%  669.84ms
+  29015 requests in 10.00m, 75.90MB read
+Requests/sec:     48.36
+Transfer/sec:    129.54KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   285.02ms  210.78ms   1.13s    48.60%
+    Req/Sec    53.94     36.08   353.00     84.20%
+  Latency Distribution
+     50%  290.77ms
+     75%  486.76ms
+     90%  569.61ms
+     99%  660.93ms
+  31825 requests in 10.00m, 83.25MB read
+Requests/sec:     53.04
+Transfer/sec:    142.08KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   292.31ms  214.13ms   1.03s    48.47%
+    Req/Sec    52.49     38.42   414.00     82.56%
+  Latency Distribution
+     50%  298.34ms
+     75%  497.95ms
+     90%  571.82ms
+     99%  665.42ms
+  30900 requests in 10.00m, 80.83MB read
+Requests/sec:     51.49
+Transfer/sec:    137.93KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   297.79ms  214.04ms   1.13s    49.93%
+    Req/Sec    51.54     39.80   540.00     84.64%
+  Latency Distribution
+     50%  300.99ms
+     75%  504.40ms
+     90%  574.72ms
+     99%  670.56ms
+  30252 requests in 10.00m, 79.14MB read
+Requests/sec:     50.42
+Transfer/sec:    135.05KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   296.71ms  215.13ms   1.12s    49.46%
+    Req/Sec    51.61     39.73   484.00     85.09%
+  Latency Distribution
+     50%  300.75ms
+     75%  502.74ms
+     90%  575.26ms
+     99%  671.48ms
+  30360 requests in 10.00m, 79.42MB read
+Requests/sec:     50.60
+Transfer/sec:    135.53KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   304.87ms  216.26ms   1.34s    51.08%
+    Req/Sec    49.78     37.50   510.00     84.77%
+  Latency Distribution
+     50%  309.15ms
+     75%  512.00ms
+     90%  577.36ms
+     99%  668.50ms
+  29432 requests in 10.00m, 76.99MB read
+Requests/sec:     49.05
+Transfer/sec:    131.38KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   272.35ms  206.99ms   1.15s    49.14%
+    Req/Sec    57.30     43.17   545.00     84.29%
+  Latency Distribution
+     50%  279.31ms
+     75%  456.21ms
+     90%  562.32ms
+     99%  652.83ms
+  33817 requests in 10.00m, 88.46MB read
+Requests/sec:     56.35
+Transfer/sec:    150.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   285.68ms  211.99ms   1.14s    48.33%
+    Req/Sec    53.87     38.96   313.00     83.15%
+  Latency Distribution
+     50%  291.48ms
+     75%  488.61ms
+     90%  569.68ms
+     99%  654.93ms
+  31737 requests in 10.00m, 83.02MB read
+Requests/sec:     52.89
+Transfer/sec:    141.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   300.73ms  215.89ms   1.14s    49.17%
+    Req/Sec    51.20     36.99   474.00     79.20%
+  Latency Distribution
+     50%  307.12ms
+     75%  508.08ms
+     90%  577.16ms
+     99%  664.35ms
+  29884 requests in 10.00m, 78.17MB read
+Requests/sec:     49.80
+Transfer/sec:    133.40KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   294.02ms  215.26ms   1.14s    48.25%
+    Req/Sec    52.16     39.81   474.00     82.75%
+  Latency Distribution
+     50%  302.71ms
+     75%  500.41ms
+     90%  572.44ms
+     99%  665.24ms
+  30664 requests in 10.00m, 80.21MB read
+Requests/sec:     51.10
+Transfer/sec:    136.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   285.92ms  213.23ms   1.14s    48.25%
+    Req/Sec    53.78     38.15   440.00     84.66%
+  Latency Distribution
+     50%  293.99ms
+     75%  489.70ms
+     90%  569.93ms
+     99%  663.04ms
+  31716 requests in 10.00m, 82.97MB read
+Requests/sec:     52.86
+Transfer/sec:    141.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   284.94ms  208.30ms   1.13s    50.98%
+    Req/Sec    54.15     36.50   383.00     84.07%
+  Latency Distribution
+     50%  285.60ms
+     75%  487.12ms
+     90%  569.74ms
+     99%  661.95ms
+  31850 requests in 10.00m, 83.32MB read
+Requests/sec:     53.08
+Transfer/sec:    142.18KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   272.97ms  207.62ms   1.15s    49.48%
+    Req/Sec    57.30     43.94   505.00     86.86%
+  Latency Distribution
+     50%  279.07ms
+     75%  458.67ms
+     90%  563.72ms
+     99%  656.65ms
+  33709 requests in 10.00m, 88.18MB read
+Requests/sec:     56.18
+Transfer/sec:    150.48KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   282.95ms  211.28ms   1.14s    47.96%
+    Req/Sec    54.12     36.52   350.00     84.61%
+  Latency Distribution
+     50%  288.79ms
+     75%  483.38ms
+     90%  568.04ms
+     99%  657.51ms
+  32099 requests in 10.00m, 83.97MB read
+Requests/sec:     53.50
+Transfer/sec:    143.30KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   281.31ms  206.68ms   1.02s    50.68%
+    Req/Sec    55.18     38.07   380.00     83.44%
+  Latency Distribution
+     50%  280.05ms
+     75%  480.33ms
+     90%  567.55ms
+     99%  656.83ms
+  32341 requests in 10.00m, 84.60MB read
+Requests/sec:     53.90
+Transfer/sec:    144.38KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   300.30ms  213.69ms   1.11s    50.14%
+    Req/Sec    50.85     37.14   490.00     82.45%
+  Latency Distribution
+     50%  303.29ms
+     75%  508.10ms
+     90%  575.62ms
+     99%  665.48ms
+  29888 requests in 10.00m, 78.18MB read
+Requests/sec:     49.81
+Transfer/sec:    133.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   310.61ms  215.38ms   1.15s    51.33%
+    Req/Sec    48.91     32.95   525.00     83.91%
+  Latency Distribution
+     50%  317.41ms
+     75%  515.76ms
+     90%  579.49ms
+     99%  678.53ms
+  28861 requests in 10.00m, 75.50MB read
+Requests/sec:     48.10
+Transfer/sec:    128.83KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   285.32ms  209.09ms   1.02s    49.57%
+    Req/Sec    53.79     35.18   333.00     80.20%
+  Latency Distribution
+     50%  287.97ms
+     75%  486.14ms
+     90%  569.46ms
+     99%  659.51ms
+  31777 requests in 10.00m, 83.12MB read
+Requests/sec:     52.96
+Transfer/sec:    141.86KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   306.65ms  215.05ms   1.27s    50.24%
+    Req/Sec    49.60     33.25   330.00     82.66%
+  Latency Distribution
+     50%  311.08ms
+     75%  512.70ms
+     90%  578.57ms
+     99%  671.59ms
+  29235 requests in 10.00m, 76.48MB read
+Requests/sec:     48.72
+Transfer/sec:    130.50KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   286.66ms  211.28ms   1.13s    49.27%
+    Req/Sec    53.67     37.75   515.00     85.61%
+  Latency Distribution
+     50%  291.03ms
+     75%  490.37ms
+     90%  570.14ms
+     99%  661.89ms
+  31578 requests in 10.00m, 82.60MB read
+Requests/sec:     52.63
+Transfer/sec:    140.97KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   292.12ms  214.89ms   1.27s    48.62%
+    Req/Sec    52.91     37.95   484.00     82.39%
+  Latency Distribution
+     50%  298.34ms
+     75%  499.33ms
+     90%  573.47ms
+     99%  668.66ms
+  30910 requests in 10.00m, 80.86MB read
+Requests/sec:     51.51
+Transfer/sec:    137.97KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   326.06ms  211.16ms   1.02s    55.03%
+    Req/Sec    46.41     29.02   282.00     78.01%
+  Latency Distribution
+     50%  337.53ms
+     75%  523.73ms
+     90%  583.41ms
+     99%  668.45ms
+  27377 requests in 10.00m, 71.62MB read
+Requests/sec:     45.62
+Transfer/sec:    122.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   286.24ms  211.40ms   1.02s    48.14%
+    Req/Sec    53.66     36.01   340.00     79.32%
+  Latency Distribution
+     50%  292.64ms
+     75%  489.81ms
+     90%  569.26ms
+     99%  658.47ms
+  31627 requests in 10.00m, 82.73MB read
+Requests/sec:     52.71
+Transfer/sec:    141.19KB
++ sleep 6
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   302.80ms  213.05ms   1.01s    49.74%
+    Req/Sec    50.61     40.35   820.00     82.91%
+  Latency Distribution
+     50%  304.08ms
+     75%  509.83ms
+     90%  576.53ms
+     99%  658.54ms
+  29582 requests in 10.00m, 77.38MB read
+Requests/sec:     49.30
+Transfer/sec:    132.06KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   281.68ms  208.58ms   1.15s    49.07%
+    Req/Sec    54.51     37.17   410.00     85.90%
+  Latency Distribution
+     50%  285.38ms
+     75%  481.64ms
+     90%  568.16ms
+     99%  654.36ms
+  32230 requests in 10.00m, 84.31MB read
+Requests/sec:     53.72
+Transfer/sec:    143.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   289.90ms  211.88ms   1.15s    48.25%
+    Req/Sec    52.86     36.36   363.00     79.32%
+  Latency Distribution
+     50%  294.58ms
+     75%  495.16ms
+     90%  571.73ms
+     99%  657.90ms
+  31133 requests in 10.00m, 81.44MB read
+Requests/sec:     51.88
+Transfer/sec:    138.97KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   286.61ms  211.64ms   1.14s    49.30%
+    Req/Sec    53.55     37.20   340.00     82.84%
+  Latency Distribution
+     50%  292.41ms
+     75%  491.40ms
+     90%  569.76ms
+     99%  656.28ms
+  31572 requests in 10.00m, 82.59MB read
+Requests/sec:     52.61
+Transfer/sec:    140.93KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   281.95ms  207.21ms   1.14s    50.37%
+    Req/Sec    54.77     37.37   440.00     82.77%
+  Latency Distribution
+     50%  281.62ms
+     75%  482.15ms
+     90%  567.79ms
+     99%  658.07ms
+  32215 requests in 10.00m, 84.27MB read
+Requests/sec:     53.69
+Transfer/sec:    143.82KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   291.82ms  213.79ms   1.27s    48.31%
+    Req/Sec    52.32     36.35   424.00     79.73%
+  Latency Distribution
+     50%  298.45ms
+     75%  497.84ms
+     90%  572.48ms
+     99%  659.17ms
+  30851 requests in 10.00m, 80.70MB read
+Requests/sec:     51.41
+Transfer/sec:    137.72KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   280.97ms  209.16ms   1.15s    48.79%
+    Req/Sec    54.95     39.14   363.00     82.18%
+  Latency Distribution
+     50%  284.32ms
+     75%  480.45ms
+     90%  567.49ms
+     99%  654.79ms
+  32361 requests in 10.00m, 84.65MB read
+Requests/sec:     53.93
+Transfer/sec:    144.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   296.36ms  213.33ms   1.15s    48.88%
+    Req/Sec    51.63     33.36   330.00     80.81%
+  Latency Distribution
+     50%  302.28ms
+     75%  503.10ms
+     90%  574.06ms
+     99%  661.38ms
+  30315 requests in 10.00m, 79.30MB read
+Requests/sec:     50.52
+Transfer/sec:    135.33KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   277.40ms  206.66ms   1.27s    49.74%
+    Req/Sec    55.94     35.11   320.00     73.76%
+  Latency Distribution
+     50%  280.17ms
+     75%  468.55ms
+     90%  565.11ms
+     99%  654.74ms
+  32894 requests in 10.00m, 86.05MB read
+Requests/sec:     54.82
+Transfer/sec:    146.84KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   309.58ms  215.09ms   1.13s    51.87%
+    Req/Sec    49.00     33.18   450.00     83.24%
+  Latency Distribution
+     50%  313.84ms
+     75%  515.25ms
+     90%  579.30ms
+     99%  670.84ms
+  28901 requests in 10.00m, 75.60MB read
+Requests/sec:     48.16
+Transfer/sec:    129.01KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   300.67ms  214.33ms   1.15s    50.52%
+    Req/Sec    50.57     37.28   350.00     83.05%
+  Latency Distribution
+     50%  302.27ms
+     75%  507.73ms
+     90%  576.28ms
+     99%  667.85ms
+  29827 requests in 10.00m, 78.02MB read
+Requests/sec:     49.71
+Transfer/sec:    133.16KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   295.20ms  214.18ms   1.27s    49.39%
+    Req/Sec    52.20     41.95   494.00     83.61%
+  Latency Distribution
+     50%  301.48ms
+     75%  502.49ms
+     90%  573.88ms
+     99%  659.14ms
+  30455 requests in 10.00m, 79.67MB read
+Requests/sec:     50.75
+Transfer/sec:    135.95KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   291.95ms  214.72ms   1.02s    47.49%
+    Req/Sec    52.52     40.37   484.00     83.48%
+  Latency Distribution
+     50%  301.15ms
+     75%  498.84ms
+     90%  572.87ms
+     99%  658.88ms
+  30839 requests in 10.00m, 80.67MB read
+Requests/sec:     51.40
+Transfer/sec:    137.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   266.50ms  206.26ms   1.15s    48.46%
+    Req/Sec    59.05     46.06   676.00     84.37%
+  Latency Distribution
+     50%  275.59ms
+     75%  442.81ms
+     90%  559.11ms
+     99%  649.61ms
+  34795 requests in 10.00m, 91.02MB read
+Requests/sec:     57.99
+Transfer/sec:    155.34KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   293.83ms  210.86ms   1.14s    49.21%
+    Req/Sec    52.24     34.41   360.00     77.68%
+  Latency Distribution
+     50%  296.63ms
+     75%  499.37ms
+     90%  573.65ms
+     99%  658.59ms
+  30605 requests in 10.00m, 80.06MB read
+Requests/sec:     51.00
+Transfer/sec:    136.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   290.35ms  212.41ms   1.14s    49.36%
+    Req/Sec    52.96     39.02   390.00     83.84%
+  Latency Distribution
+     50%  292.67ms
+     75%  497.25ms
+     90%  571.91ms
+     99%  664.24ms
+  31066 requests in 10.00m, 81.26MB read
+Requests/sec:     51.77
+Transfer/sec:    138.68KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   285.40ms  211.98ms   1.14s    47.70%
+    Req/Sec    53.83     37.67   590.00     84.62%
+  Latency Distribution
+     50%  293.67ms
+     75%  487.42ms
+     90%  569.11ms
+     99%  656.02ms
+  31706 requests in 10.00m, 82.94MB read
+Requests/sec:     52.84
+Transfer/sec:    141.53KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   285.44ms  212.15ms   1.14s    47.81%
+    Req/Sec    54.04     47.97   656.00     92.20%
+  Latency Distribution
+     50%  291.33ms
+     75%  488.27ms
+     90%  569.02ms
+     99%  660.15ms
+  31703 requests in 10.00m, 82.93MB read
+Requests/sec:     52.83
+Transfer/sec:    141.52KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   297.94ms  213.85ms   1.27s    49.34%
+    Req/Sec    51.09     37.18   505.00     80.13%
+  Latency Distribution
+     50%  300.64ms
+     75%  505.02ms
+     90%  574.51ms
+     99%  665.88ms
+  30134 requests in 10.00m, 78.83MB read
+Requests/sec:     50.22
+Transfer/sec:    134.51KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   285.25ms  210.70ms   1.14s    48.63%
+    Req/Sec    54.05     34.99   390.00     78.80%
+  Latency Distribution
+     50%  289.03ms
+     75%  488.17ms
+     90%  569.63ms
+     99%  657.96ms
+  31692 requests in 10.00m, 82.90MB read
+Requests/sec:     52.81
+Transfer/sec:    141.47KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   283.86ms  210.36ms   1.13s    49.42%
+    Req/Sec    54.40     37.67   380.00     82.74%
+  Latency Distribution
+     50%  289.82ms
+     75%  484.76ms
+     90%  569.20ms
+     99%  655.86ms
+  31880 requests in 10.00m, 83.39MB read
+Requests/sec:     53.13
+Transfer/sec:    142.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   308.42ms  214.97ms   1.27s    52.31%
+    Req/Sec    49.31     35.81   360.00     81.90%
+  Latency Distribution
+     50%  310.05ms
+     75%  514.79ms
+     90%  578.90ms
+     99%  669.57ms
+  29011 requests in 10.00m, 75.89MB read
+Requests/sec:     48.35
+Transfer/sec:    129.52KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   301.92ms  213.59ms   1.15s    50.38%
+    Req/Sec    50.41     35.46   360.00     78.64%
+  Latency Distribution
+     50%  306.67ms
+     75%  507.86ms
+     90%  576.71ms
+     99%  661.20ms
+  29639 requests in 10.00m, 77.53MB read
+Requests/sec:     49.39
+Transfer/sec:    132.30KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   303.36ms  213.59ms   1.14s    51.14%
+    Req/Sec    49.94     34.69   330.00     80.57%
+  Latency Distribution
+     50%  306.58ms
+     75%  511.55ms
+     90%  577.02ms
+     99%  663.91ms
+  29498 requests in 10.00m, 77.16MB read
+Requests/sec:     49.16
+Transfer/sec:    131.68KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   291.33ms  212.16ms   1.15s    48.36%
+    Req/Sec    52.30     34.22   353.00     79.62%
+  Latency Distribution
+     50%  295.61ms
+     75%  496.43ms
+     90%  571.81ms
+     99%  659.67ms
+  30912 requests in 10.00m, 80.86MB read
+Requests/sec:     51.52
+Transfer/sec:    137.99KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   298.36ms  214.46ms   1.14s    50.14%
+    Req/Sec    51.10     37.02   373.00     82.54%
+  Latency Distribution
+     50%  300.26ms
+     75%  505.84ms
+     90%  575.23ms
+     99%  665.57ms
+  30081 requests in 10.00m, 78.69MB read
+Requests/sec:     50.13
+Transfer/sec:    134.27KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   265.13ms  204.60ms   1.27s    49.54%
+    Req/Sec    59.18     43.38   380.00     85.81%
+  Latency Distribution
+     50%  270.33ms
+     75%  439.51ms
+     90%  558.96ms
+     99%  651.48ms
+  35053 requests in 10.00m, 91.69MB read
+Requests/sec:     58.42
+Transfer/sec:    156.49KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   308.86ms  214.48ms   1.14s    51.64%
+    Req/Sec    49.62     33.23   420.00     81.59%
+  Latency Distribution
+     50%  313.28ms
+     75%  514.39ms
+     90%  578.37ms
+     99%  662.77ms
+  28950 requests in 10.00m, 75.73MB read
+Requests/sec:     48.25
+Transfer/sec:    129.24KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   293.68ms  212.91ms   1.27s    49.18%
+    Req/Sec    52.02     35.93   460.00     79.33%
+  Latency Distribution
+     50%  298.68ms
+     75%  500.44ms
+     90%  573.49ms
+     99%  661.85ms
+  30638 requests in 10.00m, 80.15MB read
+Requests/sec:     51.06
+Transfer/sec:    136.78KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   276.58ms  206.32ms   1.27s    50.17%
+    Req/Sec    56.46     46.35   676.00     85.96%
+  Latency Distribution
+     50%  279.46ms
+     75%  467.82ms
+     90%  565.99ms
+     99%  652.96ms
+  32987 requests in 10.00m, 86.29MB read
+Requests/sec:     54.97
+Transfer/sec:    147.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   293.84ms  212.73ms   1.27s    48.67%
+    Req/Sec    52.04     34.67   323.00     80.62%
+  Latency Distribution
+     50%  297.59ms
+     75%  500.61ms
+     90%  573.64ms
+     99%  662.57ms
+  30611 requests in 10.00m, 80.07MB read
+Requests/sec:     51.01
+Transfer/sec:    136.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   285.80ms  212.03ms   1.27s    49.90%
+    Req/Sec    54.36     43.84   404.00     81.27%
+  Latency Distribution
+     50%  292.24ms
+     75%  490.32ms
+     90%  569.51ms
+     99%  656.99ms
+  31668 requests in 10.00m, 82.84MB read
+Requests/sec:     52.78
+Transfer/sec:    141.37KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   287.56ms  207.29ms   1.27s    50.71%
+    Req/Sec    53.31     34.45   484.00     79.14%
+  Latency Distribution
+     50%  287.03ms
+     75%  489.74ms
+     90%  570.05ms
+     99%  657.47ms
+  31419 requests in 10.00m, 82.19MB read
+Requests/sec:     52.36
+Transfer/sec:    140.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   298.85ms  211.76ms   1.14s    50.72%
+    Req/Sec    51.59     39.44   560.00     84.52%
+  Latency Distribution
+     50%  301.13ms
+     75%  505.05ms
+     90%  575.24ms
+     99%  659.43ms
+  30022 requests in 10.00m, 78.53MB read
+Requests/sec:     50.03
+Transfer/sec:    134.02KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   310.13ms  215.22ms   1.13s    51.42%
+    Req/Sec    49.17     33.71   390.00     81.24%
+  Latency Distribution
+     50%  316.84ms
+     75%  515.43ms
+     90%  579.93ms
+     99%  666.83ms
+  28842 requests in 10.00m, 75.45MB read
+Requests/sec:     48.06
+Transfer/sec:    128.75KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   291.23ms  211.04ms   1.14s    49.14%
+    Req/Sec    52.53     34.08   340.00     80.97%
+  Latency Distribution
+     50%  296.31ms
+     75%  496.10ms
+     90%  572.04ms
+     99%  655.45ms
+  30935 requests in 10.00m, 80.92MB read
+Requests/sec:     51.55
+Transfer/sec:    138.10KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   284.07ms  209.89ms 991.43ms   48.91%
+    Req/Sec    54.41     40.04   600.00     83.11%
+  Latency Distribution
+     50%  288.59ms
+     75%  486.28ms
+     90%  568.40ms
+     99%  655.59ms
+  31890 requests in 10.00m, 83.42MB read
+Requests/sec:     53.15
+Transfer/sec:    142.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   285.33ms  209.84ms   1.13s    49.50%
+    Req/Sec    54.14     37.82   370.00     84.00%
+  Latency Distribution
+     50%  288.03ms
+     75%  488.05ms
+     90%  569.67ms
+     99%  660.11ms
+  31756 requests in 10.00m, 83.07MB read
+Requests/sec:     52.92
+Transfer/sec:    141.76KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   300.97ms  214.52ms 947.69ms   50.23%
+    Req/Sec    50.86     35.49   400.00     83.97%
+  Latency Distribution
+     50%  307.06ms
+     75%  508.28ms
+     90%  576.32ms
+     99%  660.74ms
+  29785 requests in 10.00m, 77.91MB read
+Requests/sec:     49.64
+Transfer/sec:    132.96KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   294.07ms  212.44ms   1.12s    49.47%
+    Req/Sec    52.11     39.68   616.00     83.30%
+  Latency Distribution
+     50%  298.09ms
+     75%  501.19ms
+     90%  573.59ms
+     99%  657.72ms
+  30575 requests in 10.00m, 79.98MB read
+Requests/sec:     50.95
+Transfer/sec:    136.48KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   279.93ms  207.77ms 990.21ms   49.43%
+    Req/Sec    55.15     39.02   360.00     82.95%
+  Latency Distribution
+     50%  283.27ms
+     75%  477.39ms
+     90%  566.15ms
+     99%  652.98ms
+  32423 requests in 10.00m, 84.81MB read
+Requests/sec:     54.03
+Transfer/sec:    144.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   278.47ms  207.45ms   1.14s    49.36%
+    Req/Sec    55.28     36.90   565.00     84.06%
+  Latency Distribution
+     50%  284.59ms
+     75%  470.57ms
+     90%  565.51ms
+     99%  653.65ms
+  32715 requests in 10.00m, 85.58MB read
+Requests/sec:     54.52
+Transfer/sec:    146.03KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   299.78ms  214.45ms   1.27s    49.14%
+    Req/Sec    51.19     39.17   540.00     85.33%
+  Latency Distribution
+     50%  304.42ms
+     75%  506.53ms
+     90%  575.87ms
+     99%  663.89ms
+  29892 requests in 10.00m, 78.19MB read
+Requests/sec:     49.81
+Transfer/sec:    133.43KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   289.38ms  211.46ms 986.25ms   49.36%
+    Req/Sec    52.73     34.51   333.00     80.39%
+  Latency Distribution
+     50%  295.61ms
+     75%  493.55ms
+     90%  571.19ms
+     99%  656.07ms
+  31191 requests in 10.00m, 81.59MB read
+Requests/sec:     51.98
+Transfer/sec:    139.24KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   278.74ms  204.99ms 990.11ms   50.05%
+    Req/Sec    55.46     35.57   450.00     81.93%
+  Latency Distribution
+     50%  281.10ms
+     75%  469.62ms
+     90%  564.89ms
+     99%  654.15ms
+  32673 requests in 10.00m, 85.47MB read
+Requests/sec:     54.45
+Transfer/sec:    145.86KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   273.49ms  208.39ms 957.97ms   47.55%
+    Req/Sec    56.82     41.11   383.00     82.25%
+  Latency Distribution
+     50%  283.57ms
+     75%  459.83ms
+     90%  562.64ms
+     99%  653.32ms
+  33547 requests in 10.00m, 87.75MB read
+Requests/sec:     55.91
+Transfer/sec:    149.76KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   284.23ms  209.61ms   1.12s    48.58%
+    Req/Sec    54.41     38.77   363.00     81.12%
+  Latency Distribution
+     50%  287.44ms
+     75%  485.44ms
+     90%  568.58ms
+     99%  655.90ms
+  31899 requests in 10.00m, 83.44MB read
+Requests/sec:     53.16
+Transfer/sec:    142.41KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   286.67ms  210.30ms   1.02s    49.49%
+    Req/Sec    53.70     39.65   400.00     82.85%
+  Latency Distribution
+     50%  290.70ms
+     75%  489.82ms
+     90%  569.81ms
+     99%  655.28ms
+  31528 requests in 10.00m, 82.47MB read
+Requests/sec:     52.54
+Transfer/sec:    140.74KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   295.34ms  214.05ms 988.81ms   49.59%
+    Req/Sec    51.53     38.05   430.00     80.08%
+  Latency Distribution
+     50%  300.91ms
+     75%  502.21ms
+     90%  573.57ms
+     99%  659.12ms
+  30442 requests in 10.00m, 79.63MB read
+Requests/sec:     50.74
+Transfer/sec:    135.91KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   294.78ms  212.90ms   1.13s    49.77%
+    Req/Sec    51.95     39.84   626.00     84.30%
+  Latency Distribution
+     50%  299.79ms
+     75%  501.40ms
+     90%  573.83ms
+     99%  659.20ms
+  30525 requests in 10.00m, 79.85MB read
+Requests/sec:     50.87
+Transfer/sec:    136.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   286.06ms  211.01ms   1.15s    49.49%
+    Req/Sec    53.81     43.84   630.00     90.96%
+  Latency Distribution
+     50%  291.47ms
+     75%  491.13ms
+     90%  569.56ms
+     99%  656.73ms
+  31630 requests in 10.00m, 82.74MB read
+Requests/sec:     52.71
+Transfer/sec:    141.20KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   280.54ms  213.33ms   1.02s    46.21%
+    Req/Sec    55.25     47.58   656.00     91.46%
+  Latency Distribution
+     50%  293.95ms
+     75%  479.56ms
+     90%  566.76ms
+     99%  653.22ms
+  32406 requests in 10.00m, 84.77MB read
+Requests/sec:     54.00
+Transfer/sec:    144.66KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   289.39ms  212.14ms   1.01s    49.20%
+    Req/Sec    53.04     38.89   383.00     82.28%
+  Latency Distribution
+     50%  294.88ms
+     75%  495.49ms
+     90%  570.77ms
+     99%  657.96ms
+  31195 requests in 10.00m, 81.60MB read
+Requests/sec:     51.98
+Transfer/sec:    139.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   308.25ms  210.57ms 954.90ms   52.85%
+    Req/Sec    49.28     32.40   383.00     82.93%
+  Latency Distribution
+     50%  306.65ms
+     75%  513.43ms
+     90%  579.06ms
+     99%  660.19ms
+  29002 requests in 10.00m, 75.87MB read
+Requests/sec:     48.33
+Transfer/sec:    129.47KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   293.97ms  210.67ms   1.03s    49.43%
+    Req/Sec    51.96     35.74   585.00     80.61%
+  Latency Distribution
+     50%  296.67ms
+     75%  499.68ms
+     90%  573.13ms
+     99%  660.12ms
+  30592 requests in 10.00m, 80.03MB read
+Requests/sec:     50.98
+Transfer/sec:    136.56KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   279.37ms  207.78ms   1.27s    48.89%
+    Req/Sec    55.04     34.84   313.00     71.35%
+  Latency Distribution
+     50%  285.86ms
+     75%  472.59ms
+     90%  566.60ms
+     99%  652.27ms
+  32563 requests in 10.00m, 85.18MB read
+Requests/sec:     54.27
+Transfer/sec:    145.37KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   295.88ms  212.17ms   1.14s    49.34%
+    Req/Sec    51.45     34.63   320.00     82.88%
+  Latency Distribution
+     50%  299.26ms
+     75%  503.15ms
+     90%  573.49ms
+     99%  657.70ms
+  30365 requests in 10.00m, 79.43MB read
+Requests/sec:     50.60
+Transfer/sec:    135.55KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   292.20ms  214.64ms 985.60ms   48.72%
+    Req/Sec    52.62     37.93   404.00     84.00%
+  Latency Distribution
+     50%  299.40ms
+     75%  499.30ms
+     90%  572.16ms
+     99%  658.01ms
+  30819 requests in 10.00m, 80.62MB read
+Requests/sec:     51.36
+Transfer/sec:    137.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   296.54ms  213.18ms   1.14s    49.00%
+    Req/Sec    51.37     38.48   646.00     82.79%
+  Latency Distribution
+     50%  301.55ms
+     75%  502.67ms
+     90%  574.03ms
+     99%  660.56ms
+  30313 requests in 10.00m, 79.30MB read
+Requests/sec:     50.52
+Transfer/sec:    135.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   277.77ms  208.31ms   1.04s    47.54%
+    Req/Sec    55.78     37.59   383.00     84.28%
+  Latency Distribution
+     50%  282.85ms
+     75%  471.20ms
+     90%  565.11ms
+     99%  654.03ms
+  32857 requests in 10.00m, 85.95MB read
+Requests/sec:     54.76
+Transfer/sec:    146.69KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   303.92ms  216.18ms   1.15s    50.18%
+    Req/Sec    50.26     37.51   434.00     81.55%
+  Latency Distribution
+     50%  310.85ms
+     75%  511.00ms
+     90%  576.94ms
+     99%  662.52ms
+  29483 requests in 10.00m, 77.12MB read
+Requests/sec:     49.14
+Transfer/sec:    131.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   299.57ms  211.34ms   1.02s    49.21%
+    Req/Sec    51.14     32.06   363.00     80.01%
+  Latency Distribution
+     50%  300.99ms
+     75%  504.44ms
+     90%  575.76ms
+     99%  664.73ms
+  29946 requests in 10.00m, 78.34MB read
+Requests/sec:     49.90
+Transfer/sec:    133.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   292.04ms  210.74ms   1.02s    49.92%
+    Req/Sec    52.78     37.03   414.00     79.93%
+  Latency Distribution
+     50%  294.73ms
+     75%  498.25ms
+     90%  572.75ms
+     99%  656.96ms
+  30828 requests in 10.00m, 80.64MB read
+Requests/sec:     51.38
+Transfer/sec:    137.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   289.32ms  212.19ms   1.15s    49.23%
+    Req/Sec    53.15     39.54   520.00     84.83%
+  Latency Distribution
+     50%  296.00ms
+     75%  493.38ms
+     90%  571.51ms
+     99%  659.31ms
+  31208 requests in 10.00m, 81.64MB read
+Requests/sec:     52.01
+Transfer/sec:    139.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   285.95ms  210.77ms   1.02s    48.73%
+    Req/Sec    53.95     40.20   575.00     82.86%
+  Latency Distribution
+     50%  290.43ms
+     75%  488.50ms
+     90%  569.64ms
+     99%  657.88ms
+  31649 requests in 10.00m, 82.79MB read
+Requests/sec:     52.75
+Transfer/sec:    141.29KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   290.81ms  215.03ms   1.04s    48.40%
+    Req/Sec    52.65     45.02   460.00     90.16%
+  Latency Distribution
+     50%  299.11ms
+     75%  498.09ms
+     90%  571.74ms
+     99%  660.09ms
+  31018 requests in 10.00m, 81.14MB read
+Requests/sec:     51.69
+Transfer/sec:    138.46KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   286.98ms  210.98ms   1.01s    48.61%
+    Req/Sec    53.72     34.72   363.00     79.75%
+  Latency Distribution
+     50%  291.81ms
+     75%  490.72ms
+     90%  569.78ms
+     99%  655.97ms
+  31509 requests in 10.00m, 82.42MB read
+Requests/sec:     52.51
+Transfer/sec:    140.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   290.53ms  212.73ms   1.02s    48.76%
+    Req/Sec    52.46     43.33   575.00     91.80%
+  Latency Distribution
+     50%  295.38ms
+     75%  496.70ms
+     90%  571.68ms
+     99%  660.77ms
+  31046 requests in 10.00m, 81.21MB read
+Requests/sec:     51.74
+Transfer/sec:    138.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   285.18ms  210.17ms   1.15s    48.50%
+    Req/Sec    54.42     38.20   580.00     81.44%
+  Latency Distribution
+     50%  288.61ms
+     75%  487.13ms
+     90%  569.47ms
+     99%  659.09ms
+  31777 requests in 10.00m, 83.12MB read
+Requests/sec:     52.95
+Transfer/sec:    141.85KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   285.89ms  211.78ms   1.01s    48.53%
+    Req/Sec    53.99     39.04   414.00     83.38%
+  Latency Distribution
+     50%  292.60ms
+     75%  489.54ms
+     90%  569.83ms
+     99%  658.34ms
+  31647 requests in 10.00m, 82.78MB read
+Requests/sec:     52.74
+Transfer/sec:    141.26KB
++ (( j++ ))
++ (( j<100 ))
++ file=83
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=84
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=85
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=86
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=87
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=88
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=89
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=90
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=91
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=92
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=93
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=94
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=95
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=96
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=97
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=98
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=99
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ wait
++ for pod in 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
++ scs nginx-ingress-controller 1
+deployment.apps/nginx-ingress-controller scaled
++ cp -rf box ips
++ date
+Mon Jul 20 11:55:45 UTC 2020
++ dir=https.ingress.svc..1
++ ./2020-06-28-main.just.ingress.svc.sh https.ingress.svc..1
+Warning: Permanently added '10.1.0.23' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.78' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.22' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.89' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.45' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.27' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.28' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.35' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.26' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.24' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.67' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.25' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.34' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.32' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.39' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.29' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.30' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.56' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.31' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.111' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.36' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.38' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.33' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.46' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.40' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.37' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.47' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.42' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.44' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.53' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.48' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.55' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.43' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.50' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.41' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.49' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.51' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.54' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.60' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.59' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.61' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.65' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.58' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.52' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.63' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.57' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.62' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.66' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.64' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.75' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.68' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.69' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.73' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.74' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.71' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.70' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.76' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.72' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.77' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.81' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.82' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.88' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.83' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.80' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.87' (ECDSA) to the list of known hosts.
++ sleep 30
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.79' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.86' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.85' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.94' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.95' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.92' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.93' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.99' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.84' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.97' (ECDSA) to the list of known hosts.
+sh: 1: wrk: not found
+Warning: Permanently added '10.1.0.103' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.101' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.106' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.107' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.105' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.104' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.91' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.98' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.102' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.116' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.115' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.108' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.117' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.109' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.110' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.119' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.114' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.112' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.118' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.1.0.113' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.133' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+Warning: Permanently added '10.1.0.132' (ECDSA) to the list of known hosts.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
+
+Authorized uses only. All activity may be monitored and reported.
+sh: 1: wrk: not found
++ (( j=0 ))
++ (( j<100 ))
++ file=0
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=1
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=2
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=3
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=4
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=5
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=6
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=7
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=8
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=9
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=10
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=11
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=12
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=13
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=14
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=15
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=16
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=17
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=18
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=19
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=20
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=21
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=22
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=23
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=24
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=25
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=26
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=27
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=28
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=29
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=30
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=31
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=32
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=33
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=34
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=35
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=36
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=37
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=38
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=39
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=40
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=41
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=42
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=43
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=44
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=45
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=46
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=47
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=48
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=49
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=50
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=51
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=52
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=53
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=54
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=55
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=56
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=57
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=58
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=59
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=60
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=61
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=62
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=63
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=64
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=65
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=66
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=67
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=68
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=69
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=70
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=71
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=72
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=73
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=74
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=75
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=76
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=77
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=78
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=79
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=80
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=81
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=82
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   539.25ms   75.50ms   1.22s    87.64%
+    Req/Sec    29.11     24.44     1.15k    88.73%
+  Latency Distribution
+     50%  539.10ms
+     75%  575.64ms
+     90%  604.06ms
+     99%  771.13ms
+  16552 requests in 10.00m, 43.30MB read
+Requests/sec:     27.58
+Transfer/sec:     73.89KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.43ms   58.81ms   1.16s    76.67%
+    Req/Sec    29.13     20.59   130.00     79.56%
+  Latency Distribution
+     50%  540.22ms
+     75%  575.99ms
+     90%  603.95ms
+     99%  772.76ms
+  16435 requests in 10.00m, 42.99MB read
+Requests/sec:     27.39
+Transfer/sec:     73.37KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   542.96ms   58.13ms   1.02s    76.67%
+    Req/Sec    28.93     17.29   141.00     60.57%
+  Latency Distribution
+     50%  540.04ms
+     75%  575.35ms
+     90%  603.52ms
+     99%  764.63ms
+  16436 requests in 10.00m, 42.99MB read
+Requests/sec:     27.39
+Transfer/sec:     73.38KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.25ms   58.14ms   1.21s    76.53%
+    Req/Sec    29.05     16.93   121.00     61.07%
+  Latency Distribution
+     50%  539.64ms
+     75%  575.27ms
+     90%  604.03ms
+     99%  760.70ms
+  16448 requests in 10.00m, 43.03MB read
+Requests/sec:     27.41
+Transfer/sec:     73.42KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.93ms   59.69ms   1.26s    78.05%
+    Req/Sec    28.39     16.95   120.00     59.85%
+  Latency Distribution
+     50%  539.99ms
+     75%  575.94ms
+     90%  604.23ms
+     99%  790.02ms
+  16410 requests in 10.00m, 42.93MB read
+Requests/sec:     27.35
+Transfer/sec:     73.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.30ms   57.66ms   1.26s    76.28%
+    Req/Sec    28.97     17.88   110.00     58.43%
+  Latency Distribution
+     50%  540.36ms
+     75%  575.66ms
+     90%  603.57ms
+     99%  746.34ms
+  16452 requests in 10.00m, 43.04MB read
+Requests/sec:     27.42
+Transfer/sec:     73.44KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.45ms   57.93ms   1.06s    76.41%
+    Req/Sec    28.83     16.04   110.00     64.28%
+  Latency Distribution
+     50%  539.79ms
+     75%  575.53ms
+     90%  603.49ms
+     99%  767.94ms
+  16428 requests in 10.00m, 42.97MB read
+Requests/sec:     27.38
+Transfer/sec:     73.34KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.49ms   59.31ms   1.26s    77.79%
+    Req/Sec    29.06     19.16   121.00     78.35%
+  Latency Distribution
+     50%  539.80ms
+     75%  575.72ms
+     90%  603.33ms
+     99%  784.35ms
+  16425 requests in 10.00m, 42.97MB read
+Requests/sec:     27.37
+Transfer/sec:     73.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.71ms   60.20ms   1.22s    78.16%
+    Req/Sec    28.78     16.28    90.00     63.73%
+  Latency Distribution
+     50%  539.97ms
+     75%  575.88ms
+     90%  604.66ms
+     99%  770.71ms
+  16440 requests in 10.00m, 43.01MB read
+Requests/sec:     27.40
+Transfer/sec:     73.39KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.81ms   58.80ms   1.06s    77.17%
+    Req/Sec    28.27     17.11   121.00     60.63%
+  Latency Distribution
+     50%  540.33ms
+     75%  575.84ms
+     90%  603.66ms
+     99%  785.12ms
+  16416 requests in 10.00m, 42.94MB read
+Requests/sec:     27.36
+Transfer/sec:     73.28KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.51ms   58.17ms   1.26s    77.03%
+    Req/Sec    28.86     17.41   141.00     61.58%
+  Latency Distribution
+     50%  540.31ms
+     75%  575.59ms
+     90%  603.63ms
+     99%  767.82ms
+  16424 requests in 10.00m, 42.96MB read
+Requests/sec:     27.37
+Transfer/sec:     73.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.13ms   58.66ms   1.27s    77.25%
+    Req/Sec    29.15     16.65   101.00     63.26%
+  Latency Distribution
+     50%  539.66ms
+     75%  575.21ms
+     90%  603.53ms
+     99%  751.59ms
+  16442 requests in 10.00m, 43.01MB read
+Requests/sec:     27.40
+Transfer/sec:     73.39KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.81ms   58.63ms   1.16s    77.11%
+    Req/Sec    28.34     15.32   111.00     67.86%
+  Latency Distribution
+     50%  540.38ms
+     75%  575.64ms
+     90%  604.11ms
+     99%  777.63ms
+  16422 requests in 10.00m, 42.96MB read
+Requests/sec:     27.37
+Transfer/sec:     73.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.80ms   59.82ms   1.17s    77.76%
+    Req/Sec    28.65     17.31   141.00     63.05%
+  Latency Distribution
+     50%  540.53ms
+     75%  575.34ms
+     90%  604.24ms
+     99%  782.42ms
+  16384 requests in 10.00m, 42.86MB read
+Requests/sec:     27.30
+Transfer/sec:     73.14KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.43ms   59.31ms   1.26s    78.17%
+    Req/Sec    28.29     14.89   111.00     67.27%
+  Latency Distribution
+     50%  539.46ms
+     75%  575.56ms
+     90%  603.43ms
+     99%  782.40ms
+  16424 requests in 10.00m, 42.96MB read
+Requests/sec:     27.37
+Transfer/sec:     73.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.72ms   60.39ms   1.27s    78.50%
+    Req/Sec    28.62     15.64   141.00     66.24%
+  Latency Distribution
+     50%  539.76ms
+     75%  575.10ms
+     90%  604.01ms
+     99%  772.54ms
+  16412 requests in 10.00m, 42.93MB read
+Requests/sec:     27.35
+Transfer/sec:     73.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.36ms   58.19ms   1.21s    76.73%
+    Req/Sec    28.86     19.51   121.00     77.52%
+  Latency Distribution
+     50%  539.98ms
+     75%  574.36ms
+     90%  603.86ms
+     99%  767.36ms
+  16412 requests in 10.00m, 42.93MB read
+Requests/sec:     27.35
+Transfer/sec:     73.27KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.45ms   59.61ms   1.26s    78.07%
+    Req/Sec    28.78     16.41   110.00     63.72%
+  Latency Distribution
+     50%  539.54ms
+     75%  575.65ms
+     90%  603.69ms
+     99%  760.88ms
+  16421 requests in 10.00m, 42.96MB read
+Requests/sec:     27.36
+Transfer/sec:     73.30KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.78ms   59.63ms   1.21s    78.44%
+    Req/Sec    29.08     19.35   101.00     77.38%
+  Latency Distribution
+     50%  539.98ms
+     75%  575.64ms
+     90%  603.15ms
+     99%  781.90ms
+  16399 requests in 10.00m, 42.90MB read
+Requests/sec:     27.33
+Transfer/sec:     73.21KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.57ms   60.50ms   1.26s    78.61%
+    Req/Sec    28.74     16.68   131.00     63.29%
+  Latency Distribution
+     50%  540.34ms
+     75%  575.00ms
+     90%  604.24ms
+     99%  767.63ms
+  16415 requests in 10.00m, 42.94MB read
+Requests/sec:     27.36
+Transfer/sec:     73.28KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.49ms   60.21ms   1.27s    78.53%
+    Req/Sec    28.59     17.10   130.00     59.62%
+  Latency Distribution
+     50%  539.58ms
+     75%  575.18ms
+     90%  604.05ms
+     99%  762.97ms
+  16413 requests in 10.00m, 42.93MB read
+Requests/sec:     27.35
+Transfer/sec:     73.27KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.13ms   58.23ms   1.17s    76.36%
+    Req/Sec    28.56     15.92   141.00     62.16%
+  Latency Distribution
+     50%  539.83ms
+     75%  575.24ms
+     90%  604.54ms
+     99%  740.64ms
+  16424 requests in 10.00m, 42.96MB read
+Requests/sec:     27.37
+Transfer/sec:     73.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.43ms   58.78ms   1.21s    76.89%
+    Req/Sec    28.59     15.75   100.00     66.00%
+  Latency Distribution
+     50%  540.07ms
+     75%  575.67ms
+     90%  604.39ms
+     99%  774.43ms
+  16401 requests in 10.00m, 42.90MB read
+Requests/sec:     27.33
+Transfer/sec:     73.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.01ms   58.06ms   1.21s    76.70%
+    Req/Sec    29.03     19.25   141.00     77.52%
+  Latency Distribution
+     50%  540.09ms
+     75%  574.87ms
+     90%  603.30ms
+     99%  760.87ms
+  16423 requests in 10.00m, 42.96MB read
+Requests/sec:     27.37
+Transfer/sec:     73.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.64ms   60.98ms   1.26s    79.19%
+    Req/Sec    28.54     15.86   140.00     66.22%
+  Latency Distribution
+     50%  539.70ms
+     75%  575.78ms
+     90%  604.05ms
+     99%  778.79ms
+  16410 requests in 10.00m, 42.93MB read
+Requests/sec:     27.35
+Transfer/sec:     73.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.47ms   59.10ms   1.22s    77.53%
+    Req/Sec    28.64     18.19   120.00     56.92%
+  Latency Distribution
+     50%  539.98ms
+     75%  575.78ms
+     90%  604.37ms
+     99%  767.29ms
+  16412 requests in 10.00m, 42.93MB read
+Requests/sec:     27.35
+Transfer/sec:     73.26KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.76ms   59.94ms   1.21s    78.40%
+    Req/Sec    28.28     15.89   110.00     63.74%
+  Latency Distribution
+     50%  539.79ms
+     75%  575.22ms
+     90%  603.22ms
+     99%  795.76ms
+  16403 requests in 10.00m, 42.91MB read
+Requests/sec:     27.33
+Transfer/sec:     73.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.75ms   59.37ms   1.26s    77.52%
+    Req/Sec    28.48     17.36   120.00     57.87%
+  Latency Distribution
+     50%  539.90ms
+     75%  575.41ms
+     90%  604.42ms
+     99%  783.13ms
+  16404 requests in 10.00m, 42.91MB read
+Requests/sec:     27.34
+Transfer/sec:     73.22KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.69ms   59.77ms   1.26s    78.13%
+    Req/Sec    28.41     17.78   101.00     58.09%
+  Latency Distribution
+     50%  539.74ms
+     75%  575.57ms
+     90%  603.43ms
+     99%  777.91ms
+  16399 requests in 10.00m, 42.90MB read
+Requests/sec:     27.33
+Transfer/sec:     73.20KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.36ms   58.50ms   1.16s    77.09%
+    Req/Sec    28.77     18.46   121.00     60.03%
+  Latency Distribution
+     50%  539.87ms
+     75%  575.14ms
+     90%  603.42ms
+     99%  767.22ms
+  16417 requests in 10.00m, 42.94MB read
+Requests/sec:     27.36
+Transfer/sec:     73.29KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.69ms   60.37ms   1.17s    78.51%
+    Req/Sec    28.73     16.31   140.00     64.05%
+  Latency Distribution
+     50%  539.48ms
+     75%  575.53ms
+     90%  604.61ms
+     99%  779.82ms
+  16408 requests in 10.00m, 42.92MB read
+Requests/sec:     27.35
+Transfer/sec:     73.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.37ms   58.32ms   1.16s    76.54%
+    Req/Sec    28.94     16.65   131.00     62.92%
+  Latency Distribution
+     50%  540.04ms
+     75%  574.96ms
+     90%  604.19ms
+     99%  772.70ms
+  16415 requests in 10.00m, 42.94MB read
+Requests/sec:     27.36
+Transfer/sec:     73.28KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   542.91ms   57.34ms   1.16s    76.23%
+    Req/Sec    28.80     17.65   120.00     59.66%
+  Latency Distribution
+     50%  539.80ms
+     75%  574.65ms
+     90%  603.17ms
+     99%  754.78ms
+  16431 requests in 10.00m, 42.98MB read
+Requests/sec:     27.38
+Transfer/sec:     73.35KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.01ms   54.40ms   1.01s    72.99%
+    Req/Sec    28.93     19.55   141.00     78.33%
+  Latency Distribution
+     50%  540.52ms
+     75%  575.93ms
+     90%  603.40ms
+     99%  713.83ms
+  16341 requests in 10.00m, 42.75MB read
+Requests/sec:     27.23
+Transfer/sec:     72.95KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.63ms   59.14ms   1.17s    77.34%
+    Req/Sec    28.33     17.03   111.00     62.47%
+  Latency Distribution
+     50%  539.57ms
+     75%  575.61ms
+     90%  604.16ms
+     99%  770.58ms
+  16409 requests in 10.00m, 42.92MB read
+Requests/sec:     27.35
+Transfer/sec:     73.25KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.46ms   58.46ms   1.17s    76.99%
+    Req/Sec    28.66     16.33   101.00     62.60%
+  Latency Distribution
+     50%  539.82ms
+     75%  575.21ms
+     90%  603.98ms
+     99%  765.58ms
+  16417 requests in 10.00m, 42.94MB read
+Requests/sec:     27.36
+Transfer/sec:     73.28KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   542.62ms   56.69ms   1.16s    74.96%
+    Req/Sec    28.53     16.55   101.00     62.69%
+  Latency Distribution
+     50%  539.82ms
+     75%  575.22ms
+     90%  603.20ms
+     99%  717.42ms
+  16443 requests in 10.00m, 43.01MB read
+Requests/sec:     27.40
+Transfer/sec:     73.40KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.48ms   59.47ms   1.17s    77.62%
+    Req/Sec    28.64     16.89   140.00     60.34%
+  Latency Distribution
+     50%  540.11ms
+     75%  575.33ms
+     90%  604.02ms
+     99%  757.07ms
+  16415 requests in 10.00m, 42.94MB read
+Requests/sec:     27.35
+Transfer/sec:     73.27KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.52ms   59.22ms   1.16s    77.53%
+    Req/Sec    28.41     16.62   121.00     63.02%
+  Latency Distribution
+     50%  540.26ms
+     75%  575.18ms
+     90%  604.13ms
+     99%  790.10ms
+  16416 requests in 10.00m, 42.94MB read
+Requests/sec:     27.36
+Transfer/sec:     73.28KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   542.89ms   57.60ms   1.07s    76.05%
+    Req/Sec    28.90     17.61   121.00     60.54%
+  Latency Distribution
+     50%  540.44ms
+     75%  575.08ms
+     90%  603.73ms
+     99%  753.85ms
+  16435 requests in 10.00m, 42.99MB read
+Requests/sec:     27.39
+Transfer/sec:     73.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   542.91ms   57.97ms   1.06s    76.52%
+    Req/Sec    28.33     16.58   120.00     60.45%
+  Latency Distribution
+     50%  539.81ms
+     75%  575.20ms
+     90%  604.11ms
+     99%  767.56ms
+  16434 requests in 10.00m, 42.99MB read
+Requests/sec:     27.39
+Transfer/sec:     73.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   542.93ms   57.93ms   1.16s    76.41%
+    Req/Sec    28.92     17.29   130.00     62.51%
+  Latency Distribution
+     50%  540.26ms
+     75%  574.93ms
+     90%  603.74ms
+     99%  768.27ms
+  16434 requests in 10.00m, 42.99MB read
+Requests/sec:     27.39
+Transfer/sec:     73.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.26ms   58.77ms   1.16s    76.89%
+    Req/Sec    28.47     16.31   121.00     63.49%
+  Latency Distribution
+     50%  540.18ms
+     75%  575.24ms
+     90%  604.34ms
+     99%  774.76ms
+  16427 requests in 10.00m, 42.97MB read
+Requests/sec:     27.38
+Transfer/sec:     73.34KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.41ms   59.23ms   1.16s    77.58%
+    Req/Sec    28.75     15.60   130.00     66.62%
+  Latency Distribution
+     50%  539.87ms
+     75%  575.39ms
+     90%  603.88ms
+     99%  782.29ms
+  16422 requests in 10.00m, 42.96MB read
+Requests/sec:     27.37
+Transfer/sec:     73.31KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.37ms   59.95ms   1.26s    78.03%
+    Req/Sec    28.80     18.18   120.00     57.02%
+  Latency Distribution
+     50%  539.55ms
+     75%  575.61ms
+     90%  604.12ms
+     99%  774.40ms
+  16423 requests in 10.00m, 42.96MB read
+Requests/sec:     27.37
+Transfer/sec:     73.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.25ms   58.87ms   1.06s    76.58%
+    Req/Sec    28.79     17.27   120.00     59.85%
+  Latency Distribution
+     50%  540.78ms
+     75%  575.84ms
+     90%  604.50ms
+     99%  771.70ms
+  16429 requests in 10.00m, 42.98MB read
+Requests/sec:     27.38
+Transfer/sec:     73.34KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.51ms   60.33ms   1.26s    78.43%
+    Req/Sec    29.10     17.86   110.00     60.35%
+  Latency Distribution
+     50%  540.04ms
+     75%  575.98ms
+     90%  603.67ms
+     99%  779.60ms
+  16423 requests in 10.00m, 42.96MB read
+Requests/sec:     27.37
+Transfer/sec:     73.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.14ms   59.07ms   1.26s    77.60%
+    Req/Sec    28.49     15.58   131.00     65.16%
+  Latency Distribution
+     50%  540.47ms
+     75%  576.11ms
+     90%  603.22ms
+     99%  762.80ms
+  16434 requests in 10.00m, 42.99MB read
+Requests/sec:     27.39
+Transfer/sec:     73.37KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.38ms   61.05ms   1.26s    79.28%
+    Req/Sec    29.75     20.70   131.00     81.97%
+  Latency Distribution
+     50%  539.55ms
+     75%  575.45ms
+     90%  603.35ms
+     99%  774.24ms
+  16416 requests in 10.00m, 42.94MB read
+Requests/sec:     27.36
+Transfer/sec:     73.29KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.03ms   59.11ms   1.06s    77.27%
+    Req/Sec    28.82     18.01   141.00     60.94%
+  Latency Distribution
+     50%  540.25ms
+     75%  575.65ms
+     90%  603.82ms
+     99%  782.74ms
+  16434 requests in 10.00m, 42.99MB read
+Requests/sec:     27.39
+Transfer/sec:     73.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.38ms   58.73ms   1.24s    77.18%
+    Req/Sec    29.06     18.05   141.00     59.99%
+  Latency Distribution
+     50%  540.27ms
+     75%  575.80ms
+     90%  603.75ms
+     99%  771.01ms
+  16423 requests in 10.00m, 42.96MB read
+Requests/sec:     27.37
+Transfer/sec:     73.32KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.14ms   58.83ms   1.26s    77.03%
+    Req/Sec    28.84     18.52   131.00     58.79%
+  Latency Distribution
+     50%  540.23ms
+     75%  575.48ms
+     90%  603.89ms
+     99%  770.65ms
+  16433 requests in 10.00m, 42.99MB read
+Requests/sec:     27.39
+Transfer/sec:     73.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.15ms   58.37ms   1.26s    76.74%
+    Req/Sec    29.58     19.33   140.00     59.16%
+  Latency Distribution
+     50%  540.34ms
+     75%  575.57ms
+     90%  603.28ms
+     99%  767.32ms
+  16430 requests in 10.00m, 42.98MB read
+Requests/sec:     27.38
+Transfer/sec:     73.35KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   542.96ms   59.36ms 966.68ms   77.60%
+    Req/Sec    28.55     17.33   131.00     60.38%
+  Latency Distribution
+     50%  539.97ms
+     75%  575.45ms
+     90%  603.69ms
+     99%  785.66ms
+  16435 requests in 10.00m, 42.99MB read
+Requests/sec:     27.39
+Transfer/sec:     73.36KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   542.92ms   59.25ms 939.20ms   77.13%
+    Req/Sec    28.74     17.08   141.00     64.45%
+  Latency Distribution
+     50%  540.30ms
+     75%  575.45ms
+     90%  604.06ms
+     99%  779.58ms
+  16439 requests in 10.00m, 43.00MB read
+Requests/sec:     27.39
+Transfer/sec:     73.38KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.01ms   59.82ms   1.26s    78.12%
+    Req/Sec    28.59     17.32   120.00     60.25%
+  Latency Distribution
+     50%  540.34ms
+     75%  575.88ms
+     90%  603.58ms
+     99%  719.14ms
+  16429 requests in 10.00m, 42.98MB read
+Requests/sec:     27.38
+Transfer/sec:     73.34KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   543.32ms   60.55ms   1.22s    78.44%
+    Req/Sec    29.36     18.56   120.00     55.00%
+  Latency Distribution
+     50%  539.69ms
+     75%  575.43ms
+     90%  604.60ms
+     99%  776.02ms
+  16429 requests in 10.00m, 42.98MB read
+Requests/sec:     27.38
+Transfer/sec:     73.35KB
++ (( j++ ))
++ (( j<100 ))
++ file=83
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   541.20ms   61.12ms 938.25ms   78.77%
+    Req/Sec    28.67     16.75   141.00     62.39%
+  Latency Distribution
+     50%  539.91ms
+     75%  575.11ms
+     90%  604.10ms
+     99%  740.84ms
+  16488 requests in 10.00m, 43.13MB read
+Requests/sec:     27.48
+Transfer/sec:     73.61KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   541.19ms   61.54ms   1.04s    79.04%
+    Req/Sec    28.60     17.72   131.00     57.18%
+  Latency Distribution
+     50%  539.86ms
+     75%  575.04ms
+     90%  604.30ms
+     99%  755.75ms
+  16492 requests in 10.00m, 43.14MB read
+Requests/sec:     27.49
+Transfer/sec:     73.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   541.14ms   61.66ms 939.62ms   79.37%
+    Req/Sec    29.20     18.83   141.00     63.32%
+  Latency Distribution
+     50%  540.04ms
+     75%  574.91ms
+     90%  603.98ms
+     99%  754.34ms
+  16490 requests in 10.00m, 43.14MB read
+Requests/sec:     27.48
+Transfer/sec:     73.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.84ms   60.69ms 938.25ms   78.65%
+    Req/Sec    28.94     16.15   141.00     65.92%
+  Latency Distribution
+     50%  539.51ms
+     75%  575.31ms
+     90%  603.20ms
+     99%  733.61ms
+  16498 requests in 10.00m, 43.16MB read
+Requests/sec:     27.49
+Transfer/sec:     73.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.84ms   61.12ms 938.31ms   78.93%
+    Req/Sec    28.90     17.53   141.00     59.89%
+  Latency Distribution
+     50%  539.52ms
+     75%  574.88ms
+     90%  604.17ms
+     99%  747.21ms
+  16499 requests in 10.00m, 43.16MB read
+Requests/sec:     27.49
+Transfer/sec:     73.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.98ms   61.44ms   1.03s    79.21%
+    Req/Sec    29.46     19.81   141.00     76.36%
+  Latency Distribution
+     50%  539.74ms
+     75%  574.99ms
+     90%  604.44ms
+     99%  737.38ms
+  16493 requests in 10.00m, 43.14MB read
+Requests/sec:     27.48
+Transfer/sec:     73.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   541.25ms   61.82ms 938.19ms   79.31%
+    Req/Sec    28.69     17.39   140.00     59.98%
+  Latency Distribution
+     50%  540.04ms
+     75%  574.79ms
+     90%  604.14ms
+     99%  751.37ms
+  16488 requests in 10.00m, 43.13MB read
+Requests/sec:     27.48
+Transfer/sec:     73.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.74ms   59.49ms 909.47ms   77.52%
+    Req/Sec    28.50     16.21   141.00     63.30%
+  Latency Distribution
+     50%  539.17ms
+     75%  575.65ms
+     90%  603.52ms
+     99%  719.59ms
+  16497 requests in 10.00m, 43.15MB read
+Requests/sec:     27.49
+Transfer/sec:     73.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   541.07ms   61.76ms 935.78ms   79.19%
+    Req/Sec    29.35     19.42   141.00     80.17%
+  Latency Distribution
+     50%  539.14ms
+     75%  575.26ms
+     90%  604.21ms
+     99%  758.71ms
+  16494 requests in 10.00m, 43.15MB read
+Requests/sec:     27.49
+Transfer/sec:     73.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.53ms   59.90ms 920.18ms   78.31%
+    Req/Sec    29.21     19.07   121.00     56.18%
+  Latency Distribution
+     50%  539.45ms
+     75%  575.49ms
+     90%  602.32ms
+     99%  719.39ms
+  16486 requests in 10.00m, 43.13MB read
+Requests/sec:     27.48
+Transfer/sec:     73.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.75ms   59.68ms 939.38ms   77.75%
+    Req/Sec    28.75     16.85   141.00     63.47%
+  Latency Distribution
+     50%  539.70ms
+     75%  575.02ms
+     90%  603.55ms
+     99%  712.65ms
+  16497 requests in 10.00m, 43.15MB read
+Requests/sec:     27.49
+Transfer/sec:     73.64KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.79ms   60.24ms 940.95ms   77.86%
+    Req/Sec    29.40     17.53   140.00     62.24%
+  Latency Distribution
+     50%  539.14ms
+     75%  575.72ms
+     90%  603.79ms
+     99%  732.51ms
+  16494 requests in 10.00m, 43.15MB read
+Requests/sec:     27.49
+Transfer/sec:     73.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.69ms   60.46ms 902.83ms   77.88%
+    Req/Sec    28.87     17.84   141.00     60.73%
+  Latency Distribution
+     50%  539.10ms
+     75%  575.11ms
+     90%  604.44ms
+     99%  727.78ms
+  16497 requests in 10.00m, 43.15MB read
+Requests/sec:     27.49
+Transfer/sec:     73.64KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.86ms   60.70ms 938.63ms   78.77%
+    Req/Sec    29.19     17.98   141.00     58.69%
+  Latency Distribution
+     50%  539.55ms
+     75%  575.25ms
+     90%  603.38ms
+     99%  748.26ms
+  16493 requests in 10.00m, 43.14MB read
+Requests/sec:     27.49
+Transfer/sec:     73.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.64ms   59.43ms 938.96ms   77.45%
+    Req/Sec    29.12     19.26   141.00     80.17%
+  Latency Distribution
+     50%  539.12ms
+     75%  575.22ms
+     90%  603.66ms
+     99%  714.68ms
+  16500 requests in 10.00m, 43.16MB read
+Requests/sec:     27.50
+Transfer/sec:     73.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.81ms   60.11ms   1.03s    78.19%
+    Req/Sec    29.47     17.58   141.00     61.34%
+  Latency Distribution
+     50%  539.72ms
+     75%  575.48ms
+     90%  603.64ms
+     99%  732.08ms
+  16496 requests in 10.00m, 43.15MB read
+Requests/sec:     27.49
+Transfer/sec:     73.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.85ms   60.54ms 935.26ms   78.44%
+    Req/Sec    29.17     17.83   141.00     59.03%
+  Latency Distribution
+     50%  539.55ms
+     75%  575.27ms
+     90%  603.56ms
+     99%  740.10ms
+  16495 requests in 10.00m, 43.15MB read
+Requests/sec:     27.49
+Transfer/sec:     73.63KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.47ms   60.15ms   1.04s    78.65%
+    Req/Sec    29.71     19.51   140.00     56.93%
+  Latency Distribution
+     50%  539.38ms
+     75%  575.54ms
+     90%  602.99ms
+     99%  732.34ms
+  16501 requests in 10.00m, 43.16MB read
+Requests/sec:     27.50
+Transfer/sec:     73.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.57ms   59.81ms 920.46ms   78.36%
+    Req/Sec    29.20     18.56   140.00     59.32%
+  Latency Distribution
+     50%  539.85ms
+     75%  574.69ms
+     90%  603.31ms
+     99%  732.94ms
+  16491 requests in 10.00m, 43.14MB read
+Requests/sec:     27.48
+Transfer/sec:     73.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.41ms   60.67ms   1.01s    78.57%
+    Req/Sec    28.78     18.38   131.00     58.51%
+  Latency Distribution
+     50%  539.20ms
+     75%  575.41ms
+     90%  602.97ms
+     99%  707.44ms
+  16502 requests in 10.00m, 43.17MB read
+Requests/sec:     27.50
+Transfer/sec:     73.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.55ms   60.78ms   1.01s    78.63%
+    Req/Sec    29.01     19.25   121.00     77.88%
+  Latency Distribution
+     50%  539.61ms
+     75%  575.70ms
+     90%  603.58ms
+     99%  719.50ms
+  16504 requests in 10.00m, 43.17MB read
+Requests/sec:     27.50
+Transfer/sec:     73.67KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.36ms   60.64ms 922.75ms   79.04%
+    Req/Sec    28.86     18.22   131.00     60.49%
+  Latency Distribution
+     50%  538.93ms
+     75%  574.83ms
+     90%  602.64ms
+     99%  717.99ms
+  16493 requests in 10.00m, 43.14MB read
+Requests/sec:     27.49
+Transfer/sec:     73.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.50ms   60.75ms   1.04s    78.75%
+    Req/Sec    29.23     18.97   140.00     59.25%
+  Latency Distribution
+     50%  539.35ms
+     75%  575.41ms
+     90%  603.75ms
+     99%  740.65ms
+  16501 requests in 10.00m, 43.16MB read
+Requests/sec:     27.50
+Transfer/sec:     73.66KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.59ms   60.67ms 898.17ms   78.73%
+    Req/Sec    29.21     17.60   141.00     62.67%
+  Latency Distribution
+     50%  539.48ms
+     75%  574.79ms
+     90%  604.01ms
+     99%  735.29ms
+  16490 requests in 10.00m, 43.14MB read
+Requests/sec:     27.48
+Transfer/sec:     73.61KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.51ms   60.88ms 940.86ms   78.78%
+    Req/Sec    29.96     19.76   121.00     58.20%
+  Latency Distribution
+     50%  539.62ms
+     75%  575.08ms
+     90%  603.65ms
+     99%  738.43ms
+  16497 requests in 10.00m, 43.15MB read
+Requests/sec:     27.49
+Transfer/sec:     73.64KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   540.44ms   61.39ms 954.21ms   79.53%
+    Req/Sec    29.19     18.51   111.00     60.16%
+  Latency Distribution
+     50%  539.52ms
+     75%  575.12ms
+     90%  602.58ms
+     99%  734.42ms
+  16499 requests in 10.00m, 43.16MB read
+Requests/sec:     27.49
+Transfer/sec:     73.65KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   520.62ms  109.40ms 939.68ms   91.36%
+    Req/Sec    30.48     23.97   260.00     87.20%
+  Latency Distribution
+     50%  536.62ms
+     75%  573.66ms
+     90%  602.85ms
+     99%  679.05ms
+  17149 requests in 10.00m, 44.86MB read
+Requests/sec:     28.58
+Transfer/sec:     76.55KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   520.75ms  110.24ms   1.79s    91.55%
+    Req/Sec    30.14     21.85   260.00     91.41%
+  Latency Distribution
+     50%  536.94ms
+     75%  574.01ms
+     90%  602.27ms
+     99%  689.86ms
+  17143 requests in 10.00m, 44.84MB read
+Requests/sec:     28.57
+Transfer/sec:     76.53KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   520.68ms  110.29ms   1.03s    91.48%
+    Req/Sec    30.24     21.51   260.00     90.54%
+  Latency Distribution
+     50%  536.91ms
+     75%  573.53ms
+     90%  602.40ms
+     99%  693.93ms
+  17152 requests in 10.00m, 44.87MB read
+Requests/sec:     28.58
+Transfer/sec:     76.56KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   520.18ms  110.14ms 899.40ms   91.32%
+    Req/Sec    30.47     23.03   280.00     89.00%
+  Latency Distribution
+     50%  536.62ms
+     75%  573.18ms
+     90%  602.08ms
+     99%  683.64ms
+  17161 requests in 10.00m, 44.89MB read
+Requests/sec:     28.60
+Transfer/sec:     76.61KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   520.38ms  110.14ms 903.80ms   91.51%
+    Req/Sec    30.60     24.47   262.00     85.98%
+  Latency Distribution
+     50%  536.57ms
+     75%  573.36ms
+     90%  602.28ms
+     99%  683.51ms
+  17153 requests in 10.00m, 44.87MB read
+Requests/sec:     28.59
+Transfer/sec:     76.58KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   520.09ms  110.41ms 957.60ms   91.65%
+    Req/Sec    30.31     22.59   272.00     89.38%
+  Latency Distribution
+     50%  536.43ms
+     75%  573.22ms
+     90%  602.16ms
+     99%  681.00ms
+  17164 requests in 10.00m, 44.90MB read
+Requests/sec:     28.60
+Transfer/sec:     76.62KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   520.26ms  110.85ms 897.54ms   91.31%
+    Req/Sec    30.92     23.24   277.00     86.89%
+  Latency Distribution
+     50%  536.67ms
+     75%  574.39ms
+     90%  602.12ms
+     99%  694.49ms
+  17159 requests in 10.00m, 44.89MB read
+Requests/sec:     28.60
+Transfer/sec:     76.60KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   519.77ms  111.54ms 918.78ms   91.33%
+    Req/Sec    30.95     24.61   282.00     85.93%
+  Latency Distribution
+     50%  536.41ms
+     75%  573.70ms
+     90%  603.16ms
+     99%  690.00ms
+  17176 requests in 10.00m, 44.93MB read
+Requests/sec:     28.63
+Transfer/sec:     76.68KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   519.33ms  111.20ms 926.29ms   91.44%
+    Req/Sec    30.23     23.47   272.00     86.86%
+  Latency Distribution
+     50%  536.87ms
+     75%  573.64ms
+     90%  601.47ms
+     99%  671.84ms
+  17189 requests in 10.00m, 44.96MB read
+Requests/sec:     28.64
+Transfer/sec:     76.73KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   519.12ms  112.89ms 937.32ms   91.33%
+    Req/Sec    30.15     23.36   350.00     87.78%
+  Latency Distribution
+     50%  536.31ms
+     75%  573.46ms
+     90%  602.53ms
+     99%  687.86ms
+  17200 requests in 10.00m, 44.99MB read
+Requests/sec:     28.66
+Transfer/sec:     76.78KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   518.32ms  115.82ms 922.58ms   91.27%
+    Req/Sec    31.40     27.57   525.00     86.39%
+  Latency Distribution
+     50%  536.83ms
+     75%  573.30ms
+     90%  601.99ms
+     99%  709.76ms
+  17221 requests in 10.00m, 45.05MB read
+Requests/sec:     28.70
+Transfer/sec:     76.88KB
++ (( j++ ))
++ (( j<100 ))
++ file=84
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=85
++ ku top pod
++ ku top node
++ ks top pod
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   321.79ms  261.99ms   1.04s    49.66%
+    Req/Sec    52.31    174.39     2.09k    98.11%
+  Latency Distribution
+     50%  487.89ms
+     75%  549.92ms
+     90%  587.83ms
+     99%  645.39ms
+  27814 requests in 10.00m, 72.76MB read
+Requests/sec:     46.35
+Transfer/sec:    124.16KB
+Running 10m test @ https://yoj-perf-test.test.asc-test.net
+  1 threads and 15 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   320.33ms  262.33ms   1.04s    49.14%
+    Req/Sec    51.60    173.76     2.01k    98.19%
+  Latency Distribution
+     50%  486.38ms
+     75%  549.39ms
+     90%  587.85ms
+     99%  653.15ms
+  27955 requests in 10.00m, 73.13MB read
+Requests/sec:     46.59
+Transfer/sec:    124.79KB
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=86
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=87
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=88
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=89
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=90
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=91
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=92
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=93
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=94
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=95
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=96
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=97
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=98
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ file=99
++ ku top pod
++ ku top node
++ ks top pod
++ sleep 6
++ (( j++ ))
++ (( j<100 ))
++ wait
++ set +o xtrace
