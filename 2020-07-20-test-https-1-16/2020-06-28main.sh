@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -o xtrace
-pre="2core.https"
+pre="1m.1core.https"
 
 
 # 实验目的：

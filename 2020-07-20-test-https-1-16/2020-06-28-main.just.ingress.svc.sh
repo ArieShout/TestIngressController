@@ -11,7 +11,7 @@ mkdir -p ${fold}
 for n in `cat ips`; do
 
 	nohup ssh azureuser@${n} \
-	"wrk -t 1 -c 15 -d 600s --latency https://yoj-perf-test.test.asc-test.net" | \
+	"wrk -t 1 -c 4 -d 600s --latency https://yoj-perf-test.test.asc-test.net/1M.file" | \
 	 tee ${fold}/log.${n}.t.1.c.300.log &
 
 done

@@ -1,16 +1,18 @@
 Warning: Permanently added '10.1.0.64' (ECDSA) to the list of known hosts.
 
 Authorized uses only. All activity may be monitored and reported.
-Running 10m test @ https://yoj-perf-test.test.asc-test.net
-  1 threads and 10 connections
+Running 10m test @ https://yoj-perf-test.test.asc-test.net/1M.file
+  1 threads and 4 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency    38.49ms   42.42ms 614.52ms   83.18%
-    Req/Sec   376.97    192.44     1.44k    66.17%
+    Latency   379.87ms  356.27ms   1.99s    86.69%
+    Req/Sec    10.00      6.77    70.00     75.19%
   Latency Distribution
-     50%   19.64ms
-     75%   62.45ms
-     90%  101.57ms
-     99%  169.23ms
-  225145 requests in 10.00m, 588.95MB read
-Requests/sec:    375.22
-Transfer/sec:      0.98MB
+     50%  269.01ms
+     75%  419.11ms
+     90%  902.69ms
+     99%    1.73s 
+  4889 requests in 10.00m, 4.73GB read
+  Socket errors: connect 0, read 0, write 0, timeout 294
+  Non-2xx or 3xx responses: 47
+Requests/sec:      8.15
+Transfer/sec:      8.07MB
