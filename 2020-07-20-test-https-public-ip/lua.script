@@ -1,0 +1,21 @@
+counter = 0
+
+ 
+has_print = 0
+response = function(status, headers, body)
+    if status == 200 then
+        counter = counter + 1
+    else
+	if has_print == 0 then
+	        print(status, body, header)
+		has_print = 1
+	end
+    end
+
+ 
+
+    return wrk.format(counter)
+
+ 
+
+end

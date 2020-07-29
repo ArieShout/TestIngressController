@@ -1,0 +1,15 @@
+Running 10m test @ https://yoj-perf-test.test.asc-test.net/1M.file
+  1 threads and 4 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   240.35ms  318.49ms   2.00s    87.80%
+    Req/Sec    23.86     14.74    90.00     69.20%
+  Latency Distribution
+     50%  103.56ms
+     75%  257.47ms
+     90%  660.89ms
+     99%    1.52s 
+  11736 requests in 10.00m, 11.35GB read
+  Socket errors: connect 0, read 1, write 0, timeout 158
+  Non-2xx or 3xx responses: 118
+Requests/sec:     19.56
+Transfer/sec:     19.37MB

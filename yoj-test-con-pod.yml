@@ -1,0 +1,20 @@
+--- # App
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: yoj-test-app
+spec:
+  selector:
+    matchLabels:
+      app: yoj-test-app
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: yoj-test-app
+    spec:
+      containers:
+      - name: yoj-test-app
+        image: nginx:1.8
+        ports:
+        - containerPort: 80
