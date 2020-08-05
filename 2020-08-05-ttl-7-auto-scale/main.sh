@@ -13,24 +13,22 @@ for((pod=50;pod>0;pod-=5)); do
 
     scu test-default-4 ${pod}
     date
+    
+    dir="${pre}.ingress.svc.${pod}"
+    sleep 30
+    ./2020-06-28-main.just.ingress.svc.sh ${dir}
+    sleep 30
 
-    for ((ig=18;ig>0;ig-=2)); do
-	    dir="${pre}.ingress.svc.${ig}.${pod}"
-	    scs nginx-ingress-controller $ig
-	    scu nginx-ingress-controller $ig
-	    sleep 30
-	    ./2020-06-28-main.just.ingress.svc.sh ${dir}
-	    sleep 30
-
-	    for ((j=0;j<100;j++)); do
-	       file=${j}
-	       ku top pod > ${dir}/${file}
-	       ku top node > ${dir}/${file}.node
-	       ks top pod > ${dir}/${file}.sys.pod
-	       sleep 6
-	    done
-	    wait
+    for ((j=0;j<100;j++)); do
+       file=${j}
+       ku top pod > ${dir}/${file}
+       ku top node > ${dir}/${file}.node
+       ks top pod > ${dir}/${file}.sys.pod
+       sleep 6
     done
+
+    sleep 400
+    wait
 done
 
 set +o xtrace
