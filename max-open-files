@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# change max file opened for ingress controller
+
+if [[ `cat /etc/security/limits.conf | grep 1000000 | wc -l` -eq 0 ]]; then
+    cat <<"EOF">>/etc/security/limits.conf
+* soft nofile 1000000
+* hard nofile 1000000
+EOF
+fi
+
+if [[ `cat /etc/sysctl.conf | grep 16777216 | wc -l` -eq 0 ]]; then
+
+cat <<"EOF">> /etc/sysctl.conf
+fs.file-max=50000000000
+fs.nr_open =1000000
+EOF
+sysctl -p
+fi

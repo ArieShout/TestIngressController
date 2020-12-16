@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# change max file opened for ingress controller
+
+
+if [[ `cat /etc/sysctl.conf | grep 16777216 | wc -l` -eq 0 ]]; then
+
+cat <<"EOF">> /etc/sysctl.conf
+net.core.rmem_max = 16777216
+net.core.wmem_max = 16777216
+net.ipv4.tcp_rmem = 40960 87380 16777216
+net.ipv4.tcp_wmem = 40960 87380 16777216
+net.ipv4.tcp_mem =  40960 87380 16777216
+net.core.netdev_max_backlog = 2500
+EOF
+sysctl -p
+fi

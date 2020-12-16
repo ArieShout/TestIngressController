@@ -1,0 +1,12 @@
+#!/bin/bash
+
+az aks get-credentials -n $1 -g $2 -f - > system.kubeconfig
+
+if [[ `cat ~/.bashrc | grep ks | grep kubectl | wc -l` -eq 0 ]]; then
+
+cat <<"EOF">> ~/.bashrc
+alias ks='kubectl --kubeconfig ~/system.kubeconfig'
+alias ku='kubectl --kubeconfig ~/user.kubeconfig'
+EOF
+
+fi
