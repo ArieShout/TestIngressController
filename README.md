@@ -1,8 +1,6 @@
 # 各脚本的作用
 
 - add_host: 如果我想绕过LB，直接把流量打到ingress，再通过ingress把流量打到用户的app，那么这个时候，就需要将ip与ingress rule里面的hostname直接写在/etc/hosts里面。
-
-- aks-ssh: 创建ssh pod到指定的结点上。现在ssh到aks node的方式已经变了，这条路已经走不通了，deprecated.
 - install-node-exporter.sh: 在aks node上安装node exporter可以采集aks node上的各种性能指标
 - del-files: 在大流量压测下，aks node会产生较多的日志文件，需要清理
 - disable: disable某个aks node
