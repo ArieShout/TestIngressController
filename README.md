@@ -21,4 +21,8 @@ scs/scu: 调整pod数量的脚本
 single_csv.py: 将一个目录下的所有的文件整理成csv文件。
 single_csv_ingress.py: 将一个目录下所有的性能统计整理成csv文件。只关心ingress pod。
 user-aks/sys-aks: k8s客户端setup脚本。
-yoj-test-con-pod.yml: nginx作为客户端测试流量 app
+yoj-test-con-pod.yml: nginx作为客户端测试流量app
+
+single_draw_ingress_graph.py: 利用拿到的node/pod的cpu/mem的消耗数据画曲线
+single_draw_user_app_graph.py：利用拿到的node/pod的cpu/mem数据画曲线。运行方式是： python single_draw_user_app_graph.py ./2020-06-28-default/2020-06-28-default.ingress.svc.180.400
+
